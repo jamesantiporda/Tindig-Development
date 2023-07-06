@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -7,11 +8,13 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5.0f;
     public float jumpForce = 5.0f;
     private float horizontalInput;
+    private float horizontalMagnitude;
 
     private bool isGrounded = true;
     private bool isCrouching = false;
 
     private Rigidbody playerRb;
+    public Animator anim;
 
     void Start()
     {
@@ -36,7 +39,12 @@ public class PlayerMovement : MonoBehaviour
         // Move the Player Horizontally
         if (!isCrouching)
         {
-            transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalInput);
+            horizontalMagnitude = speed * horizontalInput;
+            transform.Translate(Vector3.right * Time.deltaTime * horizontalMagnitude);
+        }
+        else
+        {
+            horizontalMagnitude = 0.0f;
         }
 
         // Jump Input
@@ -62,6 +70,10 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Not Crouching!");
         }
+
+        // Movement Animations
+        anim.SetFloat("Movement", horizontalMagnitude);
+        anim.SetBool("Crouching", isCrouching);
     }
 
     private void OnCollisionEnter(Collision collision)
