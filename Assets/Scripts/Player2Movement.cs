@@ -9,6 +9,7 @@ public class Player2Movement : MonoBehaviour
     public float jumpForce = 5.0f;
     private float horizontalInput;
     private float horizontalMagnitude;
+    private float distanceFromEnemy;
 
     private bool isGrounded = true;
     private bool isCrouching = false;
@@ -16,6 +17,7 @@ public class Player2Movement : MonoBehaviour
     private Rigidbody playerRb;
     public Animator anim;
 
+    public GameObject enemy;
 
     void Start()
     {
@@ -35,14 +37,30 @@ public class Player2Movement : MonoBehaviour
         }
 
 
+        distanceFromEnemy = transform.position.x - enemy.transform.position.x;
+
         // Get Player Horizontal Input
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            horizontalInput = 1;
+            if (distanceFromEnemy <= 6.3)
+            {
+                horizontalInput = 1;
+            }
+            else
+            {
+                horizontalInput = 0;
+            }
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
-            horizontalInput = -1;
+            if (distanceFromEnemy >= -7.2)
+            {
+                horizontalInput = -1;
+            }
+            else
+            {
+                horizontalInput = 0;
+            }
         }
         else
         {
