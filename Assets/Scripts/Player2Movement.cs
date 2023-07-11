@@ -1,10 +1,9 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player2Movement : MonoBehaviour
 {
     public float speed = 5.0f;
     public float jumpForce = 5.0f;
@@ -16,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody playerRb;
     public Animator anim;
+
 
     void Start()
     {
@@ -34,12 +34,13 @@ public class PlayerMovement : MonoBehaviour
             speed = 5.0f;
         }
 
+
         // Get Player Horizontal Input
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             horizontalInput = 1;
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             horizontalInput = -1;
         }
@@ -47,8 +48,6 @@ public class PlayerMovement : MonoBehaviour
         {
             horizontalInput = 0;
         }
-
-        // horizontalInput = Input.GetAxisRaw("Horizontal");
 
         // Move the Player Horizontally
         if (!isCrouching)
@@ -62,17 +61,17 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Jump Input
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded && !isCrouching)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded && !isCrouching)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isGrounded = false;
         }
 
         // Crouch Input
-        if(Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             isCrouching = true;
-            Debug.Log("Crouching!");
+            Debug.Log("P2 Crouching!");
         }
         else
         {
@@ -80,9 +79,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Debugging
-        if(!isCrouching)
+        if (!isCrouching)
         {
-            Debug.Log("Not Crouching!");
+            Debug.Log("P2 Not Crouching!");
         }
 
         // Movement Animations
