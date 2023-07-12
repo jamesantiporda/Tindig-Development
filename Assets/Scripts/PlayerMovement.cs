@@ -65,7 +65,14 @@ public class PlayerMovement : MonoBehaviour
         {
             if (distanceFromEnemy <= 7.2)
             {
-                horizontalInput = 1;
+                if(isFacingRight)
+                {
+                    horizontalInput = 1;
+                }
+                else
+                {
+                    horizontalInput = 0.5f;
+                }
             }
             else
             {
@@ -76,7 +83,14 @@ public class PlayerMovement : MonoBehaviour
         {
             if (distanceFromEnemy >= -6.3)
             {
-                horizontalInput = -1;
+                if(isFacingRight)
+                {
+                    horizontalInput = -0.5f;
+                }
+                else
+                {
+                    horizontalInput = -1;
+                }
             }
             else
             {
@@ -110,7 +124,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Crouch Input
-        if(Input.GetKey(KeyCode.S))
+        if(Input.GetKey(KeyCode.S) && isGrounded)
         {
             isCrouching = true;
             Debug.Log("Crouching!");
