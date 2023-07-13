@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Player2Movement : MonoBehaviour
@@ -13,11 +15,14 @@ public class Player2Movement : MonoBehaviour
 
     private bool isGrounded = true;
     private bool isCrouching = false;
+    private bool isFacingRight = true;
+    private bool canMove = true;
 
     private Rigidbody playerRb;
     public Animator anim;
 
     public GameObject enemy;
+    public GameObject sprite;
 
     void Start()
     {
@@ -36,15 +41,39 @@ public class Player2Movement : MonoBehaviour
             speed = 5.0f;
         }
 
-
         distanceFromEnemy = transform.position.x - enemy.transform.position.x;
+
+        if (distanceFromEnemy <= 0)
+        {
+            isFacingRight = true;
+        }
+        else
+        {
+            isFacingRight = false;
+        }
+
+        if (isFacingRight)
+        {
+            sprite.transform.localScale = new Vector3(3.3f, 3.3f, 3.3f);
+        }
+        else
+        {
+            sprite.transform.localScale = new Vector3(-3.3f, 3.3f, 3.3f);
+        }
 
         // Get Player Horizontal Input
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            if (distanceFromEnemy <= 6.3)
+            if (distanceFromEnemy <= 7.2)
             {
-                horizontalInput = 1;
+                if (isFacingRight)
+                {
+                    horizontalInput = 1;
+                }
+                else
+                {
+                    horizontalInput = 0.5f;
+                }
             }
             else
             {
@@ -53,9 +82,16 @@ public class Player2Movement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if (distanceFromEnemy >= -7.2)
+            if (distanceFromEnemy >= -6.3)
             {
-                horizontalInput = -1;
+                if (isFacingRight)
+                {
+                    horizontalInput = -0.5f;
+                }
+                else
+                {
+                    horizontalInput = -1;
+                }
             }
             else
             {
@@ -67,8 +103,11 @@ public class Player2Movement : MonoBehaviour
             horizontalInput = 0;
         }
 
+        // horizontalInput = Input.GetAxisRaw("Horizontal");
+
+
         // Move the Player Horizontally
-        if (!isCrouching)
+        if (!isCrouching && canMove)
         {
             horizontalMagnitude = speed * horizontalInput;
             transform.Translate(Vector3.right * Time.deltaTime * horizontalMagnitude);
@@ -86,10 +125,10 @@ public class Player2Movement : MonoBehaviour
         }
 
         // Crouch Input
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow) && isGrounded)
         {
             isCrouching = true;
-            Debug.Log("P2 Crouching!");
+            //Debug.Log("Crouching!");
         }
         else
         {
@@ -97,13 +136,20 @@ public class Player2Movement : MonoBehaviour
         }
 
         // Debugging
-        if (!isCrouching)
-        {
-            Debug.Log("P2 Not Crouching!");
-        }
+        //if (!isCrouching)
+        //{
+            //Debug.Log("Not Crouching!");
+        //}
 
         // Movement Animations
-        anim.SetFloat("Movement", horizontalMagnitude);
+        if (isFacingRight)
+        {
+            anim.SetFloat("Movement", horizontalMagnitude);
+        }
+        else
+        {
+            anim.SetFloat("Movement", -horizontalMagnitude);
+        }
         anim.SetBool("Crouching", isCrouching);
     }
 
@@ -113,5 +159,10 @@ public class Player2Movement : MonoBehaviour
         {
             isGrounded = true;
         }
+    }
+
+    public void changeMoveState(bool moveable)
+    {
+        canMove = moveable;
     }
 }

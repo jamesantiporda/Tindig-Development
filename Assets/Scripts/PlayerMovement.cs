@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded = true;
     private bool isCrouching = false;
     private bool isFacingRight = true;
+    private bool canMove = true;
 
     private Rigidbody playerRb;
     public Animator anim;
@@ -106,7 +107,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         // Move the Player Horizontally
-        if (!isCrouching)
+        if (!isCrouching && canMove)
         {
             horizontalMagnitude = speed * horizontalInput;
             transform.Translate(Vector3.right * Time.deltaTime * horizontalMagnitude);
@@ -127,7 +128,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKey(KeyCode.S) && isGrounded)
         {
             isCrouching = true;
-            Debug.Log("Crouching!");
+            //Debug.Log("Crouching!");
         }
         else
         {
@@ -135,10 +136,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Debugging
-        if(!isCrouching)
-        {
-            Debug.Log("Not Crouching!");
-        }
+        //if(!isCrouching)
+        //{
+            //Debug.Log("Not Crouching!");
+        //}
 
         // Movement Animations
         if (isFacingRight)
@@ -158,5 +159,10 @@ public class PlayerMovement : MonoBehaviour
         {
             isGrounded = true;
         }
+    }
+
+    public void changeMoveState(bool moveable)
+    {
+        canMove = moveable;
     }
 }
