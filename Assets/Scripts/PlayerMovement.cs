@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalMagnitude;
     private float distanceFromEnemy;
 
+    private int horizontalDirection = 5;
+
     private bool isGrounded = true;
     private bool isCrouching = false;
     private bool isFacingRight = true;
@@ -64,6 +66,8 @@ public class PlayerMovement : MonoBehaviour
         // Get Player Horizontal Input
         if (Input.GetKey(KeyCode.D))
         {
+            horizontalDirection = 6;
+
             if (distanceFromEnemy <= 7.2)
             {
                 if(isFacingRight)
@@ -82,6 +86,8 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.A))
         {
+            horizontalDirection = 4;
+
             if (distanceFromEnemy >= -6.3)
             {
                 if(isFacingRight)
@@ -100,6 +106,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            horizontalDirection = 5;
             horizontalInput = 0;
         }
 
@@ -151,6 +158,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("Movement", -horizontalMagnitude);
         }
         anim.SetBool("Crouching", isCrouching);
+        anim.SetInteger("Direction", horizontalDirection);
     }
 
     private void OnCollisionEnter(Collision collision)

@@ -26,4 +26,9 @@ public class SpriteToPlayer : MonoBehaviour
     {
         movement.changeMoveState(true);
     }
+
+    public void MakePlayerAble()
+    {
+        combat.SetCanAttack(true);
+    }
 }
