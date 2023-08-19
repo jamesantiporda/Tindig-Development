@@ -66,7 +66,14 @@ public class PlayerMovement : MonoBehaviour
         // Get Player Horizontal Input
         if (Input.GetKey(KeyCode.D))
         {
-            horizontalDirection = 6;
+            if (isFacingRight)
+            {
+                horizontalDirection = 6;
+            }
+            else
+            {
+                horizontalDirection = 4;
+            }
 
             if (distanceFromEnemy <= 7.2)
             {
@@ -86,7 +93,14 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            horizontalDirection = 4;
+            if (isFacingRight)
+            {
+                horizontalDirection = 4;
+            }
+            else
+            {
+                horizontalDirection = 6;
+            }
 
             if (distanceFromEnemy >= -6.3)
             {
