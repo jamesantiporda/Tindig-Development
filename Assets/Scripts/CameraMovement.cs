@@ -22,7 +22,7 @@ public class CameraMovement : MonoBehaviour
         centerOfFighters = (player2Xposition - player1Xposition) / 2;
 
         transform.position = new Vector3(centerOfFighters, 4.3f, -10f);
-        Debug.Log(centerOfFighters);
+        //Debug.Log(centerOfFighters);
     }
 
     // Update is called once per frame
@@ -32,6 +32,6 @@ public class CameraMovement : MonoBehaviour
         player2Xposition = player2.transform.position.x;
         centerOfFighters = (player2Xposition + player1Xposition) / 2;
         transform.position = new Vector3(centerOfFighters, 4.3f, -10f);
-        Debug.Log(centerOfFighters);
+        //Debug.Log(centerOfFighters);
     }
 }
