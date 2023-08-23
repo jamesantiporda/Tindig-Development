@@ -16,12 +16,18 @@ public class PlayerDamage : MonoBehaviour
         
     }
 
+    private void Damaged()
+    {
+
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player2Attack")
         {
             //If the GameObject's name matches the one you suggest, output this message in the console
             Debug.Log("P1 DAMAGED!");
+            Damaged();
         }
     }
 }

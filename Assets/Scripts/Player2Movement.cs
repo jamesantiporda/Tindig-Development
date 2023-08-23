@@ -13,6 +13,8 @@ public class Player2Movement : MonoBehaviour
     private float horizontalMagnitude;
     private float distanceFromEnemy;
 
+    private int horizontalDirection = 5;
+
     private bool isGrounded = true;
     private bool isCrouching = false;
     private bool isFacingRight = true;
@@ -64,6 +66,15 @@ public class Player2Movement : MonoBehaviour
         // Get Player Horizontal Input
         if (Input.GetKey(KeyCode.RightArrow))
         {
+            if (isFacingRight)
+            {
+                horizontalDirection = 6;
+            }
+            else
+            {
+                horizontalDirection = 4;
+            }
+
             if (distanceFromEnemy <= 7.2)
             {
                 if (isFacingRight)
@@ -82,6 +93,15 @@ public class Player2Movement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
+            if (isFacingRight)
+            {
+                horizontalDirection = 4;
+            }
+            else
+            {
+                horizontalDirection = 6;
+            }
+
             if (distanceFromEnemy >= -6.3)
             {
                 if (isFacingRight)
@@ -151,6 +171,7 @@ public class Player2Movement : MonoBehaviour
             anim.SetFloat("Movement", -horizontalMagnitude);
         }
         anim.SetBool("Crouching", isCrouching);
+        anim.SetInteger("Direction", horizontalDirection);
     }
 
     private void OnCollisionEnter(Collision collision)
