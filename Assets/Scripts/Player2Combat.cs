@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
+using UnityEngine.WSA;
 
 public class Player2Combat : MonoBehaviour
 {
@@ -8,6 +10,9 @@ public class Player2Combat : MonoBehaviour
     private Player2Movement movement;
 
     private bool canAttack = true;
+
+    private bool isLauncher = false, isSweep = false;
+    private int attackDamage = 50;
 
     void Start()
     {
@@ -69,5 +74,35 @@ public class Player2Combat : MonoBehaviour
     public void SetCanAttack(bool ready)
     {
         canAttack = ready;
+    }
+
+    public void SetAttackDamage(int damage)
+    {
+        attackDamage = damage;
+    }
+
+    public int ReturnAttackDamage()
+    {
+        return attackDamage;
+    }
+
+    public void SetIsLauncher(bool type)
+    {
+        isLauncher = type;
+    }
+
+    public void SetIsSweep(bool type)
+    {
+        isSweep = type;
+    }
+
+    public bool ReturnIsLauncher()
+    {
+        return isLauncher;
+    }
+
+    public bool ReturnIsSweep()
+    {
+        return isSweep;
     }
 }

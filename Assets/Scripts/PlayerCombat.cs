@@ -9,6 +9,9 @@ public class PlayerCombat : MonoBehaviour
 
     private bool canAttack = true;
 
+    private bool isLauncher = false, isSweep = false;
+    private int attackDamage = 50;
+
     void Start()
     {
         movement = GetComponent<PlayerMovement>();
@@ -69,5 +72,35 @@ public class PlayerCombat : MonoBehaviour
     public void SetCanAttack(bool ready)
     {
         canAttack = ready;
+    }
+
+    public void SetAttackDamage(int damage)
+    {
+        attackDamage = damage;
+    }
+
+    public int ReturnAttackDamage()
+    {
+        return attackDamage;
+    }
+
+    public void SetIsLauncher(bool type)
+    {
+        isLauncher = type;
+    }
+
+    public void SetIsSweep(bool type)
+    {
+        isSweep = type;
+    }
+
+    public bool ReturnIsLauncher()
+    {
+        return isLauncher;
+    }
+
+    public bool ReturnIsSweep()
+    {
+        return isSweep;
     }
 }

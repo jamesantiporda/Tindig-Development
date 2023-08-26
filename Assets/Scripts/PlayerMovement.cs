@@ -89,6 +89,7 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 horizontalInput = 0;
+                horizontalDirection = 5;
             }
         }
         else if (Input.GetKey(KeyCode.A))
@@ -116,6 +117,7 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 horizontalInput = 0;
+                horizontalDirection = 5;
             }
         }
         else
@@ -186,5 +188,17 @@ public class PlayerMovement : MonoBehaviour
     public void changeMoveState(bool moveable)
     {
         canMove = moveable;
+    }
+
+    public void Launch(float launchForce)
+    {
+        Debug.Log("Player hit with force: " + launchForce);
+        playerRb.AddForce(Vector3.up * launchForce, ForceMode.Impulse);
+        isGrounded = false;
+    }
+
+    public bool ReturnIsGrounded()
+    {
+        return isGrounded;
     }
 }

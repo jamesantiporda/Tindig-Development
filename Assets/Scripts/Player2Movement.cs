@@ -88,6 +88,7 @@ public class Player2Movement : MonoBehaviour
             }
             else
             {
+                horizontalDirection = 5;
                 horizontalInput = 0;
             }
         }
@@ -116,10 +117,12 @@ public class Player2Movement : MonoBehaviour
             else
             {
                 horizontalInput = 0;
+                horizontalDirection = 5;
             }
         }
         else
         {
+            horizontalDirection = 5;
             horizontalInput = 0;
         }
 
@@ -185,5 +188,17 @@ public class Player2Movement : MonoBehaviour
     public void changeMoveState(bool moveable)
     {
         canMove = moveable;
+    }
+
+    public void Launch(float launchForce)
+    {
+        Debug.Log("Player hit with force: " + launchForce);
+        playerRb.AddForce(Vector3.up * launchForce, ForceMode.Impulse);
+        isGrounded = false;
+    }
+
+    public bool ReturnIsGrounded()
+    {
+        return isGrounded;
     }
 }

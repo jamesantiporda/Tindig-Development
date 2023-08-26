@@ -6,9 +6,13 @@ public class SpriteToPlayer2 : MonoBehaviour
 {
     public GameObject player;
 
+    public PlayerCombat player1combat;
+
     private Player2Movement movement;
     private Player2Combat combat;
     private Animator anim;
+
+    private float launchForce = 7.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +25,14 @@ public class SpriteToPlayer2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (movement.ReturnIsGrounded())
+        {
+            anim.SetBool("Grounded", true);
+        }
+        else
+        {
+            anim.SetBool("Grounded", false);
+        }
     }
 
     public void MakePlayerMoveable()
@@ -44,9 +55,56 @@ public class SpriteToPlayer2 : MonoBehaviour
         combat.SetCanAttack(false);
     }
 
+    public void SetPlayerAttackDamage(int damage)
+    {
+        combat.SetAttackDamage(damage);
+    }
+
+    public void SetAttackIsLauncher(int type)
+    {
+        if (type == 0)
+        {
+            combat.SetIsLauncher(false);
+        }
+        else
+        {
+            combat.SetIsLauncher(true);
+        }
+    }
+
+    public void SetAttackIsSweep(int type)
+    {
+        if (type == 0)
+        {
+            combat.SetIsSweep(false);
+        }
+        else
+        {
+            combat.SetIsSweep(true);
+        }
+    }
+
+    public void SetLaunchForce(float force)
+    {
+        launchForce = force;
+    }
+
     private void Damaged()
     {
-        anim.SetTrigger("Hurt");
+        // Check if attack is a launching attack
+        if (player1combat.ReturnIsLauncher())
+        {
+            movement.Launch(launchForce);
+            anim.SetTrigger("Launched");
+        }
+        else if (player1combat.ReturnIsSweep())
+        {
+            anim.SetTrigger("Launched");
+        }
+        else
+        {
+            anim.SetTrigger("Hurt");
+        }
         MakePlayerUnmoveable();
         MakePlayerUnable();
     }
