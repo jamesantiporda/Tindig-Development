@@ -26,9 +26,14 @@ public class PlayerMovement : MonoBehaviour
     public GameObject enemy;
     public GameObject sprite;
 
+    private Vector3 originalScale;
+    private Vector3 flippedScale;
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        originalScale = sprite.transform.localScale;
+        flippedScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
     }
 
     // Update is called once per frame
@@ -56,11 +61,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (isFacingRight )
         {
-            sprite.transform.localScale = new Vector3(3.3f, 3.3f, 3.3f);
+            sprite.transform.localScale = originalScale;
         }
         else
         {
-            sprite.transform.localScale = new Vector3(-3.3f, 3.3f, 3.3f);
+            sprite.transform.localScale = flippedScale;
         }
 
         // Get Player Horizontal Input
@@ -83,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else
                 {
-                    horizontalInput = 0.5f;
+                    horizontalInput = 0.8f;
                 }
             }
             else
@@ -107,7 +112,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 if(isFacingRight)
                 {
-                    horizontalInput = -0.5f;
+                    horizontalInput = -0.8f;
                 }
                 else
                 {
@@ -200,5 +205,20 @@ public class PlayerMovement : MonoBehaviour
     public bool ReturnIsGrounded()
     {
         return isGrounded;
+    }
+
+    public int ReturnDirection()
+    {
+        return horizontalDirection;
+    }
+
+    public bool ReturnIsCrouching()
+    {
+        return isCrouching;
+    }
+
+    public void SetDirection(int newDirection)
+    {
+        horizontalDirection = newDirection;
     }
 }

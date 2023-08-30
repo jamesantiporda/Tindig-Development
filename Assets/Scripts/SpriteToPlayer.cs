@@ -7,12 +7,15 @@ public class SpriteToPlayer : MonoBehaviour
 {
     public GameObject player;
     public Player2Combat player2combat;
+    public Player2Movement player2movement;
 
     private PlayerMovement movement;
     private PlayerCombat combat;
     private Animator anim;
 
-    private float launchForce = 7.5f;
+    private float launchForce = 10f;
+
+    private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +35,22 @@ public class SpriteToPlayer : MonoBehaviour
         else
         {
             anim.SetBool("Grounded", false);
+        }
+
+        if(movement.ReturnIsCrouching() && movement.ReturnDirection() == 4 && combat.ReturnCanAttack())
+        {
+            isLowBlocking = true;
+            isBlocking = false;
+        }
+        else if (movement.ReturnDirection() == 4 && anim.GetFloat("Movement") != 0f)
+        {
+            isBlocking = true;
+            isLowBlocking = false;
+        }
+        else
+        {
+            isBlocking = false;
+            isLowBlocking = false;
         }
     }
 
@@ -89,6 +108,11 @@ public class SpriteToPlayer : MonoBehaviour
         launchForce = force;
     }
 
+    public void ResetAttackType()
+    {
+        combat.ResetAttackType();
+    }
+
     private void Damaged()
     {
         // Check if attack is a launching attack
@@ -103,8 +127,24 @@ public class SpriteToPlayer : MonoBehaviour
         }
         else
         {
-            anim.SetTrigger("Hurt");
+            if(movement.ReturnIsGrounded())
+            {
+                anim.SetTrigger("Hurt");
+            }
+            else
+            {
+                movement.Launch(6f);
+                anim.SetTrigger("Launched");
+            }
         }
+        MakePlayerUnmoveable();
+        MakePlayerUnable();
+    }
+
+    private void Blocked()
+    {
+        //Blocking code
+        anim.SetTrigger("Blocked");
         MakePlayerUnmoveable();
         MakePlayerUnable();
     }
@@ -113,9 +153,20 @@ public class SpriteToPlayer : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player2Attack")
         {
+            lowBlocked = isLowBlocking && player2combat.ReturnAttackType() != "Overhead";
+            blocked = !player2movement.ReturnIsCrouching() && isBlocking;
+
             //If the GameObject's name matches the one you suggest, output this message in the console
-            Debug.Log("P1 DAMAGED!");
-            Damaged();
+            if ((lowBlocked || blocked) && movement.ReturnIsGrounded())
+            {
+                Debug.Log("Blocked!");
+                Blocked();
+            }
+            else
+            {
+                //Debug.Log("P1 DAMAGED!");
+                Damaged();
+            }
         }
     }
 }

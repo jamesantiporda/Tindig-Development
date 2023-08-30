@@ -7,12 +7,15 @@ public class SpriteToPlayer2 : MonoBehaviour
     public GameObject player;
 
     public PlayerCombat player1combat;
+    public PlayerMovement player1movement;
 
     private Player2Movement movement;
     private Player2Combat combat;
     private Animator anim;
 
-    private float launchForce = 7.5f;
+    private float launchForce = 10f;
+
+    private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +35,22 @@ public class SpriteToPlayer2 : MonoBehaviour
         else
         {
             anim.SetBool("Grounded", false);
+        }
+
+        if (movement.ReturnIsCrouching() && movement.ReturnDirection() == 4 && combat.ReturnCanAttack())
+        {
+            isLowBlocking = true;
+            isBlocking = false;
+        }
+        else if (movement.ReturnDirection() == 4 && anim.GetFloat("Movement") != 0f)
+        {
+            isBlocking = true;
+            isLowBlocking = false;
+        }
+        else
+        {
+            isBlocking = false;
+            isLowBlocking = false;
         }
     }
 
@@ -89,8 +108,16 @@ public class SpriteToPlayer2 : MonoBehaviour
         launchForce = force;
     }
 
+    public void ResetAttackType()
+    {
+        combat.ResetAttackType();
+    }
+
     private void Damaged()
     {
+        MakePlayerUnmoveable();
+        MakePlayerUnable();
+
         // Check if attack is a launching attack
         if (player1combat.ReturnIsLauncher())
         {
@@ -103,19 +130,43 @@ public class SpriteToPlayer2 : MonoBehaviour
         }
         else
         {
-            anim.SetTrigger("Hurt");
+            if (movement.ReturnIsGrounded())
+            {
+                anim.SetTrigger("Hurt");
+            }
+            else
+            {
+                movement.Launch(6f);
+                anim.SetTrigger("Launched");
+            }
         }
+    }
+
+    private void Blocked()
+    {
+        //Blocking code
         MakePlayerUnmoveable();
         MakePlayerUnable();
+        anim.SetTrigger("Blocked");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player1Attack")
         {
+            lowBlocked = isLowBlocking && player1combat.ReturnAttackType() != "Overhead";
+            blocked = !player1movement.ReturnIsCrouching() && isBlocking;
+
             //If the GameObject's name matches the one you suggest, output this message in the console
-            Debug.Log("P2 DAMAGED!");
-            Damaged();
+            if (!((lowBlocked || blocked) && movement.ReturnIsGrounded()))
+            {
+                Damaged();
+            }
+            else
+            {
+                //Debug.Log("P1 DAMAGED!");
+                Blocked();
+            }
         }
     }
 }

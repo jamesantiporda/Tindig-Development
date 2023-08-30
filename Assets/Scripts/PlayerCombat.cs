@@ -12,6 +12,8 @@ public class PlayerCombat : MonoBehaviour
     private bool isLauncher = false, isSweep = false;
     private int attackDamage = 50;
 
+    private string attackType = "";
+
     void Start()
     {
         movement = GetComponent<PlayerMovement>();
@@ -43,6 +45,7 @@ public class PlayerCombat : MonoBehaviour
 
     void LightAttack()
     {
+        attackType = "Light";
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("LightAttack");
@@ -50,6 +53,7 @@ public class PlayerCombat : MonoBehaviour
 
     void MediumAttack()
     {
+        attackType = "Medium";
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("MediumAttack");
@@ -57,6 +61,7 @@ public class PlayerCombat : MonoBehaviour
 
     void HeavyAttack()
     {
+        attackType = "Heavy";
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("HeavyAttack");
@@ -64,6 +69,7 @@ public class PlayerCombat : MonoBehaviour
 
     void OverheadAttack()
     {
+        attackType = "Overhead";
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("OverheadAttack");
@@ -72,6 +78,11 @@ public class PlayerCombat : MonoBehaviour
     public void SetCanAttack(bool ready)
     {
         canAttack = ready;
+    }
+
+    public bool ReturnCanAttack()
+    {
+        return canAttack;
     }
 
     public void SetAttackDamage(int damage)
@@ -102,5 +113,15 @@ public class PlayerCombat : MonoBehaviour
     public bool ReturnIsSweep()
     {
         return isSweep;
+    }
+
+    public string ReturnAttackType()
+    {
+        return attackType;
+    }
+
+    public void ResetAttackType()
+    {
+        attackType = "";
     }
 }

@@ -26,8 +26,7 @@ public class Player2Damage : MonoBehaviour
         if (collision.gameObject.tag == "Player1Attack")
         {
             //If the GameObject's name matches the one you suggest, output this message in the console
-            Debug.Log("P2 DAMAGED!");
-            Damaged();
+            
         }
     }
 }
