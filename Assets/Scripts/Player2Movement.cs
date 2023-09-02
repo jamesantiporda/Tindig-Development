@@ -13,12 +13,18 @@ public class Player2Movement : MonoBehaviour
     private float horizontalMagnitude;
     private float distanceFromEnemy;
 
+    private float speedMultiplier = 1;
+
+    private float lastForwardInput = 0f, timeSinceLastForward;
+    private float lastBackwardInput = 0f, timeSinceLastBackward;
+
     private int horizontalDirection = 5;
 
     private bool isGrounded = true;
     private bool isCrouching = false;
     private bool isFacingRight = true;
     private bool canMove = true;
+    private bool isSprinting = false;
 
     private Rigidbody playerRb;
     public Animator anim;
@@ -28,6 +34,13 @@ public class Player2Movement : MonoBehaviour
 
     private Vector3 originalScale;
     private Vector3 flippedScale;
+
+    //dashing variables
+    private bool canDash = true;
+    private bool isDashing;
+    private float dashingPower = 7.5f;
+    private float dashingTime = 0.2f;
+    private float dashingCooldown = 0.5f;
 
     void Start()
     {
@@ -39,8 +52,14 @@ public class Player2Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDashing)
+        {
+            return;
+        }
+
         if (!isGrounded)
         {
+            canDash = false;
             speed = 3.5f;
         }
         else
@@ -69,25 +88,56 @@ public class Player2Movement : MonoBehaviour
         }
 
         // Get Player Horizontal Input
+        if (isFacingRight)
+        {
+            if (Input.GetKeyUp(KeyCode.RightArrow) && isSprinting)
+            {
+                isSprinting = false;
+                speedMultiplier = 1;
+            }
+        }
+        else
+        {
+            if (Input.GetKeyUp(KeyCode.LeftArrow) && isSprinting)
+            {
+                isSprinting = false;
+                speedMultiplier = 1;
+            }
+        }
+
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            if (isFacingRight)
-            {
-                horizontalDirection = 6;
-            }
-            else
-            {
-                horizontalDirection = 4;
-            }
-
             if (distanceFromEnemy <= 7.2)
             {
                 if (isFacingRight)
                 {
+                    if (Input.GetKeyDown(KeyCode.RightArrow))
+                    {
+                        timeSinceLastForward = Time.time - lastForwardInput;
+                        Debug.Log("Last Forward input: " + timeSinceLastForward);
+                        if (!isSprinting && timeSinceLastForward <= 0.2f)
+                        {
+                            isSprinting = true;
+                            speedMultiplier = 1.5f;
+                        }
+                        lastForwardInput = Time.time;
+                    }
+                    horizontalDirection = 6;
                     horizontalInput = 1;
                 }
                 else
                 {
+                    if (Input.GetKeyDown(KeyCode.RightArrow))
+                    {
+                        timeSinceLastBackward = Time.time - lastBackwardInput;
+                        Debug.Log("Last Backward input: " + timeSinceLastBackward);
+                        if (timeSinceLastBackward <= 0.2f && canDash)
+                        {
+                            StartCoroutine(BackDash());
+                        }
+                        lastBackwardInput = Time.time;
+                    }
+                    horizontalDirection = 4;
                     horizontalInput = 0.8f;
                 }
             }
@@ -99,23 +149,37 @@ public class Player2Movement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if (isFacingRight)
-            {
-                horizontalDirection = 4;
-            }
-            else
-            {
-                horizontalDirection = 6;
-            }
-
             if (distanceFromEnemy >= -6.3)
             {
                 if (isFacingRight)
                 {
+                    if (Input.GetKeyDown(KeyCode.LeftArrow))
+                    {
+                        timeSinceLastBackward = Time.time - lastBackwardInput;
+                        Debug.Log("Last Backward input: " + timeSinceLastBackward);
+                        if (timeSinceLastBackward <= 0.2f && canDash)
+                        {
+                            StartCoroutine(BackDash());
+                        }
+                        lastBackwardInput = Time.time;
+                    }
+                    horizontalDirection = 4;
                     horizontalInput = -0.8f;
                 }
                 else
                 {
+                    if (Input.GetKeyDown(KeyCode.LeftArrow))
+                    {
+                        timeSinceLastForward = Time.time - lastForwardInput;
+                        Debug.Log("Last Forward input: " + timeSinceLastForward);
+                        if (!isSprinting && timeSinceLastForward <= 0.2f)
+                        {
+                            isSprinting = true;
+                            speedMultiplier = 1.5f;
+                        }
+                        lastForwardInput = Time.time;
+                    }
+                    horizontalDirection = 6;
                     horizontalInput = -1;
                 }
             }
@@ -137,7 +201,7 @@ public class Player2Movement : MonoBehaviour
         // Move the Player Horizontally
         if (!isCrouching && canMove)
         {
-            horizontalMagnitude = speed * horizontalInput;
+            horizontalMagnitude = speed * speedMultiplier * horizontalInput;
             transform.Translate(Vector3.right * Time.deltaTime * horizontalMagnitude);
         }
         else
@@ -156,11 +220,13 @@ public class Player2Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow) && isGrounded)
         {
             isCrouching = true;
+            canDash = false;
             //Debug.Log("Crouching!");
         }
         else
         {
             isCrouching = false;
+            canDash = true;
         }
 
         // Debugging
@@ -220,5 +286,23 @@ public class Player2Movement : MonoBehaviour
     public void SetDirection(int newDirection)
     {
         horizontalDirection = newDirection;
+    }
+
+    private IEnumerator BackDash()
+    {
+        canDash = false;
+        isDashing = true;
+        if (isFacingRight)
+        {
+            playerRb.velocity = new Vector2(-1f * dashingPower, 0f);
+        }
+        else
+        {
+            playerRb.velocity = new Vector2(1f * dashingPower, 0f);
+        }
+        yield return new WaitForSeconds(dashingTime);
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
 }
