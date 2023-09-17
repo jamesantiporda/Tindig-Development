@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 originalScale;
     private Vector3 flippedScale;
+    private Vector3 startPosition = new Vector3(-2, 1, 0.0f);
 
     //dashing variables
     private bool canDash = true;
@@ -42,8 +43,13 @@ public class PlayerMovement : MonoBehaviour
     private float dashingTime = 0.2f;
     private float dashingCooldown = 0.5f;
 
+    // Accept Input
+    private bool acceptInput;
+
+
     void Start()
     {
+        acceptInput = false;
         playerRb = GetComponent<Rigidbody>();
         originalScale = sprite.transform.localScale;
         flippedScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
@@ -105,7 +111,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && acceptInput)
         {
             if (distanceFromEnemy <= 7.2)
             {
@@ -147,7 +153,7 @@ public class PlayerMovement : MonoBehaviour
                 horizontalDirection = 5;
             }
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) && acceptInput)
         {
             if (distanceFromEnemy >= -6.3)
             {
@@ -286,6 +292,23 @@ public class PlayerMovement : MonoBehaviour
     public void SetDirection(int newDirection)
     {
         horizontalDirection = newDirection;
+    }
+
+    public void ResetPosition()
+    {
+        //afterStart = false;
+        //startTimer = 0.0f;
+        playerRb.position = startPosition;
+    }
+
+    public void AcceptInput()
+    {
+        acceptInput = true;
+    }
+
+    public void DenyInput()
+    {
+        acceptInput = false;
     }
 
     private IEnumerator BackDash()

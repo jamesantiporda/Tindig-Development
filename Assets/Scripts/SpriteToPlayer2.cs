@@ -11,6 +11,7 @@ public class SpriteToPlayer2 : MonoBehaviour
 
     private Player2Movement movement;
     private Player2Combat combat;
+    private PlayerHealth playerHealth;
     private Animator anim;
 
     private float launchForce = 10f;
@@ -22,6 +23,7 @@ public class SpriteToPlayer2 : MonoBehaviour
     {
         movement = player.GetComponent<Player2Movement>();
         combat = player.GetComponent<Player2Combat>();
+        playerHealth = player.GetComponent<PlayerHealth>();
         anim = gameObject.GetComponent<Animator>();
     }
 
@@ -115,6 +117,7 @@ public class SpriteToPlayer2 : MonoBehaviour
 
     private void Damaged()
     {
+        playerHealth.TakeDamage(player1combat.ReturnAttackDamage());
         MakePlayerUnmoveable();
         MakePlayerUnable();
 

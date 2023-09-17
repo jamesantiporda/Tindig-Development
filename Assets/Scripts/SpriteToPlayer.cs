@@ -11,6 +11,7 @@ public class SpriteToPlayer : MonoBehaviour
 
     private PlayerMovement movement;
     private PlayerCombat combat;
+    private PlayerHealth playerHealth;
     private Animator anim;
 
     private float launchForce = 10f;
@@ -22,6 +23,7 @@ public class SpriteToPlayer : MonoBehaviour
     {
         movement = player.GetComponent<PlayerMovement>();
         combat = player.GetComponent<PlayerCombat>();
+        playerHealth = player.GetComponent<PlayerHealth>();
         anim = gameObject.GetComponent<Animator>();
     }
 
@@ -115,8 +117,12 @@ public class SpriteToPlayer : MonoBehaviour
 
     private void Damaged()
     {
+        playerHealth.TakeDamage(player2combat.ReturnAttackDamage());
+        MakePlayerUnmoveable();
+        MakePlayerUnable();
+
         // Check if attack is a launching attack
-        if(player2combat.ReturnIsLauncher())
+        if (player2combat.ReturnIsLauncher())
         {
             movement.Launch(launchForce);
             anim.SetTrigger("Launched");
@@ -137,8 +143,6 @@ public class SpriteToPlayer : MonoBehaviour
                 anim.SetTrigger("Launched");
             }
         }
-        MakePlayerUnmoveable();
-        MakePlayerUnable();
     }
 
     private void Blocked()
