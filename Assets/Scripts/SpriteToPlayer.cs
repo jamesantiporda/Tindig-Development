@@ -161,7 +161,7 @@ public class SpriteToPlayer : MonoBehaviour
             blocked = !player2movement.ReturnIsCrouching() && isBlocking;
 
             //If the GameObject's name matches the one you suggest, output this message in the console
-            if ((lowBlocked || blocked) && movement.ReturnIsGrounded())
+            if ((lowBlocked || blocked))
             {
                 Debug.Log("Blocked!");
                 Blocked();
