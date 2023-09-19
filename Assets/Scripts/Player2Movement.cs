@@ -214,14 +214,14 @@ public class Player2Movement : MonoBehaviour
         }
 
         // Jump Input
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded && !isCrouching)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded && !isCrouching && acceptInput && canMove)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isGrounded = false;
         }
 
         // Crouch Input
-        if (Input.GetKey(KeyCode.DownArrow) && isGrounded)
+        if (Input.GetKey(KeyCode.DownArrow) && isGrounded && acceptInput && canMove)
         {
             isCrouching = true;
             canDash = false;
