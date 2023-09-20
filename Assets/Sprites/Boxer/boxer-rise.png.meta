@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,458 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boxer-rise_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1914
+        width: 126
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e178bb10924cbda45b81067a4dae69d0
+      internalID: 2051522826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1915
+        width: 120
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11da36c7f9d308147bf2ef08c878234f
+      internalID: 827385221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1910
+        width: 103
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e007b2568ab6340a1c15698aaad680
+      internalID: 2067846911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1911
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdfff446daab474ab7168eba9053a0b
+      internalID: -1811815285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_4
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1916
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fbab03f26ab5249936a4f72b2a9aef
+      internalID: -1000230887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_5
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1916
+        width: 71
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e44cd64b6b9204fb2a6409bb3b7c77
+      internalID: -1028949529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_6
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1912
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8402c037e424cd4ab2dfe5c5cf24c47
+      internalID: 284225690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_7
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1912
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6cebaa0895d7d4aa1a341c8257f226
+      internalID: -817024803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1662
+        width: 84
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcf46bb23a17fe4c8c2907b64a06574
+      internalID: 315672371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1664
+        width: 96
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f597cd8b378a262499ab05e9a0107a69
+      internalID: -612379025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_10
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1663
+        width: 99
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa2b68c199ceb84ca954346ebda1068
+      internalID: 1183944392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_11
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1660
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b30eaff7044ad4d9193670b6bd9808
+      internalID: -1147239743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_12
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1657
+        width: 96
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca71163dac09bd4fac191afaa005736
+      internalID: 366227447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_13
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1658
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240d564672368764db8090ed7a1a9362
+      internalID: 334236851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_14
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1661
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb92d11313a8db4a86dab07da0fa998
+      internalID: 359963286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_15
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1661
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bd110e7e5a4004e84a4ba87dcd25e7
+      internalID: 1215946317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1405
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b018a6bc47030d42ae2f251493c225d
+      internalID: 761866234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1405
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729f5212c8d64b34aa6ca3e8367c4a3a
+      internalID: 1434219982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_18
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1405
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c1ec5d9f8dfcc41a1e315916d356d0
+      internalID: -1900425432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-rise_19
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1405
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0d900e292f72045822acdc03597e0d
+      internalID: -596648888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6d440df3739d8d74294befc9e9c57d5f
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boxer-rise_0: 2051522826
+      boxer-rise_1: 827385221
+      boxer-rise_10: 1183944392
+      boxer-rise_11: -1147239743
+      boxer-rise_12: 366227447
+      boxer-rise_13: 334236851
+      boxer-rise_14: 359963286
+      boxer-rise_15: 1215946317
+      boxer-rise_16: 761866234
+      boxer-rise_17: 1434219982
+      boxer-rise_18: -1900425432
+      boxer-rise_19: -596648888
+      boxer-rise_2: 2067846911
+      boxer-rise_3: -1811815285
+      boxer-rise_4: -1000230887
+      boxer-rise_5: -1028949529
+      boxer-rise_6: 284225690
+      boxer-rise_7: -817024803
+      boxer-rise_8: 315672371
+      boxer-rise_9: -612379025
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

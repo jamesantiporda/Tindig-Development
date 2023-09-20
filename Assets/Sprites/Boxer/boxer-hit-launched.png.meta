@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,546 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boxer-hit-launched_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1917
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6060070242b85ee40927465542239b9b
+      internalID: 774144878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1900
+        width: 67
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b2a76bc5546204cb53cc420da41b2a
+      internalID: 1717482365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1883
+        width: 72
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d439581bd5ff5e41a304db3d276b8ae
+      internalID: -889192554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1867
+        width: 74
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd09c986e6bf6084099d47fc2afc9ecc
+      internalID: 1214916203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_4
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1963
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615cb51cdc34d604b804bc0f6ac18b20
+      internalID: 1429553706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_5
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1947
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4bdadb978ac5d4d9ad18c84bd01ae2
+      internalID: -1398428249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_6
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1949
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87025e2cd29bad4f96409ccc8ba15e0
+      internalID: 2088224644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_7
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1951
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eeea3caffcd6a428c2a69d148f1d3b
+      internalID: -370361106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_8
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1861
+        width: 74
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc3cb8a249268f47ac739ba56df6bb8
+      internalID: -1337458786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_9
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1852
+        width: 74
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7750bddd2aeb0141b4658df1f398f03
+      internalID: 1706178071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_10
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1855
+        width: 74
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f1825db1a614b4d9092df714d342bc
+      internalID: -1694913575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_11
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1858
+        width: 74
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190517da8e950eb42bb1f7bf761432da
+      internalID: -1803135424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1607
+        width: 74
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78917ecb41d3621458245d5d9b4b3347
+      internalID: -1110979337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1610
+        width: 74
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ff266cfb6ce9b4093c3cb518d93d45
+      internalID: 1074175296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_14
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1603
+        width: 87
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377c392d42c90a14a8fca65e662480d3
+      internalID: -41216801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_15
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1598
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3469b747331fae40bb1a7c7c59d8e2a
+      internalID: -1137689387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_16
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1593
+        width: 107
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c5a933633b1744f98cce27b48f8667
+      internalID: -100619598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_17
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1590
+        width: 114
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2292b6fd589ade043ba1237182b083f2
+      internalID: -616885208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_18
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1587
+        width: 118
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa22d4331b12f441bf8bad627e5bfe7
+      internalID: -1924047757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_19
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1586
+        width: 121
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85837077e705c954a802e0f238b31bf2
+      internalID: -2041573513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1330
+        width: 124
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c82f8f73494c6429142982f1c9ac86
+      internalID: 523638959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_21
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1330
+        width: 126
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cddc0894b979d54fa7bb7d31227a441
+      internalID: -1152561722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_22
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1332
+        width: 126
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5199213a56a854b41a111566cc68dc9e
+      internalID: -283423923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-hit-launched_23
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1323
+        width: 126
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a5b5984318a81459a99073eb853889
+      internalID: 1616866026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: acecde52108ba904f9571c52fd83eab5
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boxer-hit-launched_0: 774144878
+      boxer-hit-launched_1: 1717482365
+      boxer-hit-launched_10: -1694913575
+      boxer-hit-launched_11: -1803135424
+      boxer-hit-launched_12: -1110979337
+      boxer-hit-launched_13: 1074175296
+      boxer-hit-launched_14: -41216801
+      boxer-hit-launched_15: -1137689387
+      boxer-hit-launched_16: -100619598
+      boxer-hit-launched_17: -616885208
+      boxer-hit-launched_18: -1924047757
+      boxer-hit-launched_19: -2041573513
+      boxer-hit-launched_2: -889192554
+      boxer-hit-launched_20: 523638959
+      boxer-hit-launched_21: -1152561722
+      boxer-hit-launched_22: -283423923
+      boxer-hit-launched_23: 1616866026
+      boxer-hit-launched_3: 1214916203
+      boxer-hit-launched_4: 1429553706
+      boxer-hit-launched_5: -1398428249
+      boxer-hit-launched_6: 2088224644
+      boxer-hit-launched_7: -370361106
+      boxer-hit-launched_8: -1337458786
+      boxer-hit-launched_9: 1706178071
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
