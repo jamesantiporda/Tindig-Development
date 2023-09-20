@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,832 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boxer-launcher_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1899
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8375276ef597f4eacddda1d4763664
+      internalID: -307544438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1899
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decbaec61d2782948b8a3cdd496e4395
+      internalID: 686627924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1900
+        width: 81
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba598f6016f8ab4793ef6e06da238f9
+      internalID: -2030709204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1900
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3cab52aad593241ae7b3f01ceb8100
+      internalID: 341641264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_4
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1900
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711adff14c6d8d44f9f68dce3236b8eb
+      internalID: -1131128913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_5
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1900
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea9cf61774c795409dbcacc1fb0ad12
+      internalID: 1411250357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_6
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1900
+        width: 83
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e636a6acc62fa4e9ecee9c8b8975b3
+      internalID: -763924818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_7
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1964
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c3e32c19b16e245a11bb1aaa9697ac
+      internalID: 62579363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_8
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1900
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3841874b9206a047903b75b9b83e88a
+      internalID: 333417744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1644
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc431b774e7a624d948bf38f8c80b6f
+      internalID: 959560170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_10
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1644
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffab60cc76ba2864a9c13f487d46da92
+      internalID: 626853585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_11
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1644
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954f09a02b439384286a24f10e72c547
+      internalID: -1115936811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_12
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1644
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ad44703fb7ce44b890ebf032e6845a
+      internalID: 774897827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_13
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1644
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18a1f06c2121a4596ff298502cfc5d
+      internalID: 922771090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_14
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1642
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79777f07f6ffc554d816bf2407f8c43d
+      internalID: -2100393131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_15
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1641
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4ea38330cb60f4bbc88712c32406ff
+      internalID: -513096115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_16
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1640
+        width: 93
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79443faddc6b02f42864e53575a3fefb
+      internalID: 1952685163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1383
+        width: 90
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1415ced7b593b4e823b1fb32f08a4d
+      internalID: -2104326129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_18
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1382
+        width: 85
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fca697e80adb443b954a69d9d2b320
+      internalID: -229149629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_19
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1382
+        width: 75
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4ce63248080dc4687651ec47b4ea8c
+      internalID: -1591200993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_20
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1383
+        width: 65
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c787b277b4ca91b4298ebdf2fdec71e8
+      internalID: 1400271338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_21
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1383
+        width: 63
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518f034bdddcb8b43b6c6de15eccf2a5
+      internalID: -29130554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_22
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1382
+        width: 62
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0079b2ac332a5242a873eff456459d8
+      internalID: -1937210764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_23
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1382
+        width: 62
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86182545beba104439feb375b05ad612
+      internalID: 931006799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_24
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1382
+        width: 61
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fa02efc6a5afd44bad3a116fb20d89
+      internalID: 963810312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1125
+        width: 62
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd2b25c725ee0d4ba6073eac4648eba
+      internalID: -530146526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_26
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1125
+        width: 64
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cd6301c461dfd48ae8e07b8508f30f
+      internalID: 1819161165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_27
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1125
+        width: 67
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8effd2f2cfb83db4d9acc934be9e1d05
+      internalID: -478791026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_28
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1125
+        width: 67
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b910957bf6d2ff46b32900c0afeecba
+      internalID: 482605547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_29
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1125
+        width: 65
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae01cf9c6865864c96e21272ce89bff
+      internalID: -811669984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_30
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1126
+        width: 64
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b112f4ab60a088b41a7d9a739176b287
+      internalID: -544898611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_31
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1126
+        width: 61
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c966e1b8ca0815047b2c2814de9ed1ff
+      internalID: -656946458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_32
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1127
+        width: 65
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5368abbe8436cf74885b8bee4e4b1e93
+      internalID: 1602241581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_33
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 871
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11b04558d9bb5c4686210ffb7182889
+      internalID: -1766235697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_34
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 872
+        width: 68
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f1a913aa47c844c8028c13b1ccee26
+      internalID: -1639347464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_35
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 873
+        width: 67
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095c8308853f07b4e899b52e3e30647c
+      internalID: -1541458611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-launcher_36
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 874
+        width: 65
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469b8d3aa9eead74daede0d2279d38e8
+      internalID: -128027347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f91ccdc07c9c86f468679778dc9a9069
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boxer-launcher_0: -307544438
+      boxer-launcher_1: 686627924
+      boxer-launcher_10: 626853585
+      boxer-launcher_11: -1115936811
+      boxer-launcher_12: 774897827
+      boxer-launcher_13: 922771090
+      boxer-launcher_14: -2100393131
+      boxer-launcher_15: -513096115
+      boxer-launcher_16: 1952685163
+      boxer-launcher_17: -2104326129
+      boxer-launcher_18: -229149629
+      boxer-launcher_19: -1591200993
+      boxer-launcher_2: -2030709204
+      boxer-launcher_20: 1400271338
+      boxer-launcher_21: -29130554
+      boxer-launcher_22: -1937210764
+      boxer-launcher_23: 931006799
+      boxer-launcher_24: 963810312
+      boxer-launcher_25: -530146526
+      boxer-launcher_26: 1819161165
+      boxer-launcher_27: -478791026
+      boxer-launcher_28: 482605547
+      boxer-launcher_29: -811669984
+      boxer-launcher_3: 341641264
+      boxer-launcher_30: -544898611
+      boxer-launcher_31: -656946458
+      boxer-launcher_32: 1602241581
+      boxer-launcher_33: -1766235697
+      boxer-launcher_34: -1639347464
+      boxer-launcher_35: -1541458611
+      boxer-launcher_36: -128027347
+      boxer-launcher_4: -1131128913
+      boxer-launcher_5: 1411250357
+      boxer-launcher_6: -763924818
+      boxer-launcher_7: 62579363
+      boxer-launcher_8: 333417744
+      boxer-launcher_9: 959560170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

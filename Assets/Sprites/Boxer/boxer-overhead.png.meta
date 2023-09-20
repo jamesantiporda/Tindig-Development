@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,678 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boxer-overhead_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1917
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87714b2a1e402849a10e864230cc9ad
+      internalID: 2029209609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1917
+        width: 65
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d96fa649cf93904a9d8607859cd01c8
+      internalID: 735919663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1917
+        width: 68
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7627616152d7f8e4b88f2466a0e3daf9
+      internalID: -2141824605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_3
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1916
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6c1a26f61ba06418d1a3e12bd9c2d3
+      internalID: -1250923289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_4
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1916
+        width: 71
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f9caa976e450b47a33ef85dc3e610d
+      internalID: 758608945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_5
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1917
+        width: 75
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae96deb26fd5644bae53e227535688d
+      internalID: 1026778078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_6
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1914
+        width: 76
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6261ff222f4ff28479ad12ec94172668
+      internalID: -1023709322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_7
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1912
+        width: 77
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df3d8f7d4e76404d979611e5c516ce3
+      internalID: -151003733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1655
+        width: 80
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9c1b22a540cc34498e8a30333177fa
+      internalID: -1648038792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1653
+        width: 82
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14efc51683fc6134195c326023c0cd9a
+      internalID: 356791762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_10
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1656
+        width: 79
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c4c646144aa1a4f856f9f9d26ee9ae
+      internalID: 249502617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_11
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1659
+        width: 73
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aeccbb9063b4dd46bcbd78854c921b8
+      internalID: -1490234836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_12
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1664
+        width: 79
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca31db5e2141227448a97a2fa298b1b9
+      internalID: -1643595264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_13
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1670
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a581afcc809eaa468b499bb1adae28b
+      internalID: 1414469652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_14
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1677
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6970b23d471e4d445b7a870672543f4e
+      internalID: -1172510516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_15
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1675
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6459b3fa04a87546b5d40cf84700604
+      internalID: 109973781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1417
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbc64c7815b4fb4e8e4e7c1da3f91ef
+      internalID: 2145269809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1415
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188496a3d84469140bc44196b6f38741
+      internalID: -127989989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_18
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1413
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f69497368dfd5640bf9449dff6d2d79
+      internalID: -298695552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1412
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f63c2cb7231494a994ccc5d2fe37e7
+      internalID: -1705887651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_20
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1410
+        width: 66
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a67ae36f0293845b5a9e7148ad928d
+      internalID: -246077309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_21
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1409
+        width: 69
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb18580df6b32746ae4a2a24b7abb96
+      internalID: -213786820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_22
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1408
+        width: 71
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4b2b98eb9362b4f8ae3a2afee3c163
+      internalID: 1316904557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_23
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1407
+        width: 73
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d2aec666c79cd4ca20e81b5aea548e
+      internalID: -2106205034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1151
+        width: 74
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6a055b7e6460342852b79b10fd90f4
+      internalID: -635232272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1150
+        width: 73
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaa89feefc50274badada8074a54caf
+      internalID: -1507689795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_26
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1150
+        width: 72
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac094cd03125e37459bf03c69c0dda23
+      internalID: 572102561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_27
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1149
+        width: 70
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd2418e2f9fafc4cb6e857dc82d4c99
+      internalID: 1623167540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_28
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1149
+        width: 68
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e193b1af10d9a4c4a84b738f463c5651
+      internalID: -1322411911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-overhead_29
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1149
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353fd7e3f08a7174490f02dbb4ef33fe
+      internalID: -1863523817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3c5b0dd9a1992d541a1e2946719c7388
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boxer-overhead_0: 2029209609
+      boxer-overhead_1: 735919663
+      boxer-overhead_10: 249502617
+      boxer-overhead_11: -1490234836
+      boxer-overhead_12: -1643595264
+      boxer-overhead_13: 1414469652
+      boxer-overhead_14: -1172510516
+      boxer-overhead_15: 109973781
+      boxer-overhead_16: 2145269809
+      boxer-overhead_17: -127989989
+      boxer-overhead_18: -298695552
+      boxer-overhead_19: -1705887651
+      boxer-overhead_2: -2141824605
+      boxer-overhead_20: -246077309
+      boxer-overhead_21: -213786820
+      boxer-overhead_22: 1316904557
+      boxer-overhead_23: -2106205034
+      boxer-overhead_24: -635232272
+      boxer-overhead_25: -1507689795
+      boxer-overhead_26: 572102561
+      boxer-overhead_27: 1623167540
+      boxer-overhead_28: -1322411911
+      boxer-overhead_29: -1863523817
+      boxer-overhead_3: -1250923289
+      boxer-overhead_4: 758608945
+      boxer-overhead_5: 1026778078
+      boxer-overhead_6: -1023709322
+      boxer-overhead_7: -151003733
+      boxer-overhead_8: -1648038792
+      boxer-overhead_9: 356791762
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

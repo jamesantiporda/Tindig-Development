@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,458 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boxer-crouch-light_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1919
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecd0fbbddfe9ed49807e3dd0d8936fd
+      internalID: 944668442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1919
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b05940b73d5c448b77d7b3d69d1817
+      internalID: -198529842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1919
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae5dc7b72a0dd64e8a849b1a70a6814
+      internalID: 1453170644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_3
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1919
+        width: 110
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81d53931ee25594c8c61ec9a2989e99
+      internalID: -330288776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_4
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1919
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552e8beec89cc434fbfba4d886cefbd8
+      internalID: -2118995290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_5
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1919
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dd6830add03dc4aad5a26adab46d97
+      internalID: 1372161813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_6
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1919
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cf04ee0c91a9244954f26f0dd91f17
+      internalID: -954820581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_7
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1919
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382b168ac17160e468f07a0fdbe7d3b2
+      internalID: -150795624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1663
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660ce4664770eae4fa9a0ce3ac28409e
+      internalID: -849591981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1663
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3024acd291f02a4893ee4252d4b0bea
+      internalID: 1793720825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_10
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1663
+        width: 116
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75552d8dba9727940a3478a1d2ab96ce
+      internalID: -1342130355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_11
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1663
+        width: 113
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17417e1001db2d04fae66889d3702bc2
+      internalID: 1343531027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_12
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1663
+        width: 110
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799ebb5297213094ba359c96d0452747
+      internalID: 1592128256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_13
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1663
+        width: 105
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbbeea214ada0b4a962cd8c0e7fc04a
+      internalID: -1789252311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_14
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1663
+        width: 100
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e8bb01d3896324bbb4f48c2bf02783
+      internalID: -1608942758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_15
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1663
+        width: 98
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e047bdb30bbf2c44283bbeecdfe0881c
+      internalID: -743406943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1407
+        width: 94
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2ba192360709843be3ef99fdb7d65c
+      internalID: 2087918854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1407
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42a6e05937af0742a82da370a0d1b50
+      internalID: -527498617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_18
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1407
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce21518410fde2c448856ea4b35b227c
+      internalID: -697570430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-light_19
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1407
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4d90c55bfc53642838afc514d7d496
+      internalID: -1051054910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 00628cef649bd5448a29e0bd8a816fad
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boxer-crouch-light_0: 944668442
+      boxer-crouch-light_1: -198529842
+      boxer-crouch-light_10: -1342130355
+      boxer-crouch-light_11: 1343531027
+      boxer-crouch-light_12: 1592128256
+      boxer-crouch-light_13: -1789252311
+      boxer-crouch-light_14: -1608942758
+      boxer-crouch-light_15: -743406943
+      boxer-crouch-light_16: 2087918854
+      boxer-crouch-light_17: -527498617
+      boxer-crouch-light_18: -697570430
+      boxer-crouch-light_19: -1051054910
+      boxer-crouch-light_2: 1453170644
+      boxer-crouch-light_3: -330288776
+      boxer-crouch-light_4: -2118995290
+      boxer-crouch-light_5: 1372161813
+      boxer-crouch-light_6: -954820581
+      boxer-crouch-light_7: -150795624
+      boxer-crouch-light_8: -849591981
+      boxer-crouch-light_9: 1793720825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

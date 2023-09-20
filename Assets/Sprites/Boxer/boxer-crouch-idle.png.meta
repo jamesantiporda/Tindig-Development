@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d495d0c64618b5b4d9e44f3d61a78fe8
+guid: fd59d23ff97b4b0498d459ac40e9fcd2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,13 +95,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boxer-heavy_0
+      name: boxer-crouch-idle_0
       rect:
         serializedVersion: 2
-        x: 93
-        y: 1917
-        width: 65
-        height: 116
+        x: 78
+        y: 1919
+        width: 81
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,314 +109,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15466d2849e602f4eb5e3bb8a1619ab6
-      internalID: -1907555499
+      spriteID: fef18505df16d6f4691c6ad773f8d4e6
+      internalID: 215981863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_1
+      name: boxer-crouch-idle_1
       rect:
         serializedVersion: 2
-        x: 347
-        y: 1917
-        width: 68
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3965a249e6ca434ba73153366de1cfc
-      internalID: 2018831204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_2
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 1916
-        width: 72
-        height: 117
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b243e9bc3fbb6334cb61a0591534c50a
-      internalID: -13994367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_3
-      rect:
-        serializedVersion: 2
-        x: 856
-        y: 1915
-        width: 74
-        height: 117
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65efdf2b51b987d4689b558fcddb1687
-      internalID: -1432515223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_4
-      rect:
-        serializedVersion: 2
-        x: 1112
-        y: 1916
-        width: 74
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6eae08dc3c73a5a4b909bbb4f4c803e8
-      internalID: 1864723493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_5
-      rect:
-        serializedVersion: 2
-        x: 1368
-        y: 1916
-        width: 75
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a015663c3c64594285389daad1594c9
-      internalID: -308470702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_6
-      rect:
-        serializedVersion: 2
-        x: 1624
-        y: 1917
-        width: 75
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6974d67178d0ac746a484b5cd89ed318
-      internalID: 2122709002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_7
-      rect:
-        serializedVersion: 2
-        x: 1880
-        y: 1917
-        width: 75
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21b4df7f792583c48a63aa94074a795b
-      internalID: 404600397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_8
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 1661
-        width: 75
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac38145445fd593499b1421a7e2d3531
-      internalID: -1081469508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_9
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 1661
-        width: 73
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28445bbbd9d8a3a4daca207dbdc6c089
-      internalID: 1328904229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_10
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 1661
-        width: 73
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ed442eb50ff76143a003a6aeb6fbf56
-      internalID: -869017896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_11
-      rect:
-        serializedVersion: 2
-        x: 858
-        y: 1661
-        width: 71
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d60cbcccef88cb4b98c15825a059a08
-      internalID: 2089778382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_12
-      rect:
-        serializedVersion: 2
-        x: 1115
-        y: 1661
-        width: 68
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bddb36b51d672a84a83d7bf084065a6a
-      internalID: 1391912196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_13
-      rect:
-        serializedVersion: 2
-        x: 1372
-        y: 1661
-        width: 66
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 561277673ef7cb9449c3142fde7789a9
-      internalID: 1841660059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_14
-      rect:
-        serializedVersion: 2
-        x: 1629
-        y: 1661
-        width: 64
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d733bfc0a4abe244ea091634ec267eba
-      internalID: -920940085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_15
-      rect:
-        serializedVersion: 2
-        x: 1885
-        y: 1661
+        x: 334
+        y: 1919
         width: 82
-        height: 112
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c25580841b1b55f498780825a9ff53e6
-      internalID: 1445968186
+      spriteID: 84fe20210bdb7cd489f5dcdd1f9bb3a1
+      internalID: 2105662161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_16
+      name: boxer-crouch-idle_2
       rect:
         serializedVersion: 2
-        x: 94
-        y: 1405
-        width: 97
-        height: 112
+        x: 590
+        y: 1919
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc3eee83df67dbc478bac92d6c146321
-      internalID: 546278315
+      spriteID: 48ca181a57523464694e771ab9175d0f
+      internalID: 271241732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_17
+      name: boxer-crouch-idle_3
       rect:
         serializedVersion: 2
-        x: 351
-        y: 1405
-        width: 107
-        height: 112
+        x: 847
+        y: 1919
+        width: 81
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e810d2c7adb45f4283fa4671a1011c3
-      internalID: -922286199
+      spriteID: df19347a925bca245939037a23050c72
+      internalID: 1964138323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_18
+      name: boxer-crouch-idle_4
       rect:
         serializedVersion: 2
-        x: 608
-        y: 1405
-        width: 110
-        height: 112
+        x: 1103
+        y: 1919
+        width: 81
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7d74710373b2344ba1f6e40108ef9b1
-      internalID: -740129782
+      spriteID: 50135fce3a7831b41b514da3622e1284
+      internalID: 1440432489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_19
+      name: boxer-crouch-idle_5
       rect:
         serializedVersion: 2
-        x: 865
-        y: 1405
-        width: 106
-        height: 112
+        x: 1359
+        y: 1919
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c34c6fb72e8c342a67563c73116e47
-      internalID: -1568405162
+      spriteID: 8b4a5fc6707852143bf180f8c9684d52
+      internalID: 1114019836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_20
+      name: boxer-crouch-idle_6
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 1405
-        width: 104
-        height: 112
+        x: 1615
+        y: 1919
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ccbe39d88cdda84c89ea42795a5332b
-      internalID: 1602798339
+      spriteID: abe5c588f663a674488c46db7ecf111a
+      internalID: -197174978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_21
+      name: boxer-crouch-idle_7
       rect:
         serializedVersion: 2
-        x: 1378
-        y: 1405
-        width: 100
-        height: 112
+        x: 1871
+        y: 1919
+        width: 82
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,104 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4709851982fd4842a6c2e76737c1fa6
-      internalID: -157344834
+      spriteID: 8e6197d482ac6114bb873973b4db6bd1
+      internalID: -342197036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_22
+      name: boxer-crouch-idle_8
       rect:
         serializedVersion: 2
-        x: 1634
-        y: 1405
-        width: 98
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f677ed85b459ef43b5c1d8284cfbce3
-      internalID: -1717695622
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_23
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 1405
-        width: 94
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72891a159a5039042acc00f4880bcac1
-      internalID: 1201746656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_24
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 1149
-        width: 90
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 975443b373ce2b144b2fb98dcd83952d
-      internalID: -168927078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_25
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 1149
-        width: 87
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dda746c37546e144933a96518ebe5d7
-      internalID: -317527844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxer-heavy_26
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 1149
+        x: 79
+        y: 1662
         width: 83
-        height: 112
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 625255a51f9bf9f4ab0b6d8b55376784
-      internalID: 1626729280
+      spriteID: 7b9d129fe047fe649ac1875c1197bb7f
+      internalID: -191567335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_27
+      name: boxer-crouch-idle_9
       rect:
         serializedVersion: 2
-        x: 868
-        y: 1149
-        width: 78
-        height: 112
+        x: 336
+        y: 1662
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf81974dab9826b4ca48fb43d04dc8cf
-      internalID: -1289874393
+      spriteID: 01890901d2dca8649bc87ffc0107b3b2
+      internalID: -889523088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_28
+      name: boxer-crouch-idle_10
       rect:
         serializedVersion: 2
-        x: 1124
-        y: 1149
-        width: 74
-        height: 112
+        x: 591
+        y: 1662
+        width: 83
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abeb72070c235d444a4fe7df0737a1c2
-      internalID: 1760058022
+      spriteID: fb9e6b9dd72c5ae4d8c486d824945aef
+      internalID: 963555581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_29
+      name: boxer-crouch-idle_11
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 1149
-        width: 70
-        height: 112
+        x: 847
+        y: 1663
+        width: 83
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -718,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c5c8d84af0cb9e48906b550c8d0ba7a
-      internalID: -1580210860
+      spriteID: 4c7bd99e876c29d479dcb04af28b002f
+      internalID: 1549100960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_30
+      name: boxer-crouch-idle_12
       rect:
         serializedVersion: 2
-        x: 1634
-        y: 1149
-        width: 69
-        height: 113
+        x: 1103
+        y: 1663
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -739,20 +361,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 011a84da4eebad94083c81caaa95a74e
-      internalID: 1645267582
+      spriteID: 7038f55eff3162d418e81d037adaeaf7
+      internalID: 1439751030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_31
+      name: boxer-crouch-idle_13
       rect:
         serializedVersion: 2
-        x: 1888
-        y: 1149
-        width: 68
-        height: 113
+        x: 1359
+        y: 1663
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,20 +382,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0d213e97af505049874267bad3a13e5
-      internalID: -1902921641
+      spriteID: dd1459ef60c6c114681dc4939e0a0bde
+      internalID: -1759712680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_32
+      name: boxer-crouch-idle_14
       rect:
         serializedVersion: 2
-        x: 94
-        y: 893
-        width: 67
-        height: 114
+        x: 1615
+        y: 1663
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -781,20 +403,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaa80e134c0b03a4bb05d6d44f033845
-      internalID: 1950757737
+      spriteID: 12d11018532b7ef4dbb78002387d1db7
+      internalID: -625276478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_33
+      name: boxer-crouch-idle_15
       rect:
         serializedVersion: 2
-        x: 349
-        y: 893
-        width: 68
-        height: 114
+        x: 1871
+        y: 1663
+        width: 81
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -802,20 +424,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecab6030f16afcc42a1de07c7180a44f
-      internalID: -436294500
+      spriteID: 3ba341a73cd283a4dbcae250a5b88edd
+      internalID: -648060545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_34
+      name: boxer-crouch-idle_16
       rect:
         serializedVersion: 2
-        x: 604
-        y: 893
-        width: 71
-        height: 114
+        x: 78
+        y: 1407
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -823,20 +445,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 145e59cf5e5abf34ea521b0b68aeca0b
-      internalID: 1412147944
+      spriteID: 5163920c546e0fe439b2d8a47d4b286b
+      internalID: 1132994876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_35
+      name: boxer-crouch-idle_17
       rect:
         serializedVersion: 2
-        x: 860
-        y: 893
-        width: 71
-        height: 115
+        x: 334
+        y: 1407
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,20 +466,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a9daee912c11804490cba88b13218ac
-      internalID: 1346449365
+      spriteID: 36fbc842d7607d6498c758e883728f34
+      internalID: 482043719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_36
+      name: boxer-crouch-idle_18
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 893
-        width: 72
-        height: 115
+        x: 590
+        y: 1407
+        width: 81
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -865,20 +487,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1de2d758ebfa9c64492053f0d1947165
-      internalID: 596126378
+      spriteID: b052d095782b6e74a934261c50a2193c
+      internalID: -1925060657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_37
+      name: boxer-crouch-idle_19
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 893
-        width: 71
-        height: 115
+        x: 846
+        y: 1407
+        width: 81
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,20 +508,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95fecff57763cc44680de6afe7a3150e
-      internalID: -890768734
+      spriteID: 445e7985b3671104c8b7c4a5bcaf302d
+      internalID: -188790136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_38
+      name: boxer-crouch-idle_20
       rect:
         serializedVersion: 2
-        x: 1628
-        y: 893
-        width: 68
-        height: 115
+        x: 1102
+        y: 1407
+        width: 81
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,20 +529,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfa11a84856b12e419ab68c03dc8afd8
-      internalID: 51704817
+      spriteID: ddc4fad3172566f43a65be30778fb980
+      internalID: -326963208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxer-heavy_39
+      name: boxer-crouch-idle_21
       rect:
         serializedVersion: 2
-        x: 1885
-        y: 893
-        width: 65
-        height: 116
+        x: 1357
+        y: 1407
+        width: 82
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,8 +550,386 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4834065a38c7156498fb676bd7baa335
-      internalID: 1445842087
+      spriteID: f215d753b34c0ca4ba32b987b3a6eed0
+      internalID: 794006156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1407
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9e6028b1fc22d4883b1d264578e00f
+      internalID: -426661837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1407
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82bf7825539d0846839ee9869ffeba8
+      internalID: -1221238625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_24
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1151
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8827f2f05fe7d40be2b723c47feb22
+      internalID: -1535616028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1151
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365097751fca9f8448b5b6d14879d216
+      internalID: -605259850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_26
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1151
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66e2ac1cf04cc741a992b778713c6aa
+      internalID: 817275267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_27
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1151
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377b439639d12a64da7f92af6af8ba44
+      internalID: -20075101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1151
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de7d27aa51dcf24880c170ca9ac778c
+      internalID: -1301371283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_29
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1150
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4c985587d942e42ae51ab8db92164e
+      internalID: -337756379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_30
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1151
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d780859614b7014b832e79384bc4571
+      internalID: -513091068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_31
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1151
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc26d9b7a78b49b47b60e6bc8a1a9d8a
+      internalID: 1601317293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 895
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a18bf4aff21ea549813f6dd746970df
+      internalID: 1194975785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_33
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 895
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590d562694ab8cc4692f34c1ed8a4b42
+      internalID: -712691512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_34
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 895
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bfdd6e7401b19408134755d24ad474
+      internalID: -1256886696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_35
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 895
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2613ff66a60a2b74a9621d9207d88a74
+      internalID: 110663474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_36
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 895
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4492a43f4e4b3b346ab3b34d2b34ed0d
+      internalID: -157283124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_37
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 895
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a3f93ae392480489926f71176c716f
+      internalID: 1346486999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_38
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 895
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03637c85e54b41e4ead731de8ac919e8
+      internalID: -1210201552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-idle_39
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 895
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07a2d4274de05e4d9440d76f5cfbf24
+      internalID: 44594798
       vertices: []
       indices: 
       edges: []
@@ -937,7 +937,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4b89d357fc9278b4ca76183103261a69
+    spriteID: 6ae8cfdf1813ea24899341f8a8796e4c
     internalID: 0
     vertices: []
     indices: 
@@ -945,46 +945,46 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      boxer-heavy_0: -1907555499
-      boxer-heavy_1: 2018831204
-      boxer-heavy_10: -869017896
-      boxer-heavy_11: 2089778382
-      boxer-heavy_12: 1391912196
-      boxer-heavy_13: 1841660059
-      boxer-heavy_14: -920940085
-      boxer-heavy_15: 1445968186
-      boxer-heavy_16: 546278315
-      boxer-heavy_17: -922286199
-      boxer-heavy_18: -740129782
-      boxer-heavy_19: -1568405162
-      boxer-heavy_2: -13994367
-      boxer-heavy_20: 1602798339
-      boxer-heavy_21: -157344834
-      boxer-heavy_22: -1717695622
-      boxer-heavy_23: 1201746656
-      boxer-heavy_24: -168927078
-      boxer-heavy_25: -317527844
-      boxer-heavy_26: 1626729280
-      boxer-heavy_27: -1289874393
-      boxer-heavy_28: 1760058022
-      boxer-heavy_29: -1580210860
-      boxer-heavy_3: -1432515223
-      boxer-heavy_30: 1645267582
-      boxer-heavy_31: -1902921641
-      boxer-heavy_32: 1950757737
-      boxer-heavy_33: -436294500
-      boxer-heavy_34: 1412147944
-      boxer-heavy_35: 1346449365
-      boxer-heavy_36: 596126378
-      boxer-heavy_37: -890768734
-      boxer-heavy_38: 51704817
-      boxer-heavy_39: 1445842087
-      boxer-heavy_4: 1864723493
-      boxer-heavy_5: -308470702
-      boxer-heavy_6: 2122709002
-      boxer-heavy_7: 404600397
-      boxer-heavy_8: -1081469508
-      boxer-heavy_9: 1328904229
+      boxer-crouch-idle_0: 215981863
+      boxer-crouch-idle_1: 2105662161
+      boxer-crouch-idle_10: 963555581
+      boxer-crouch-idle_11: 1549100960
+      boxer-crouch-idle_12: 1439751030
+      boxer-crouch-idle_13: -1759712680
+      boxer-crouch-idle_14: -625276478
+      boxer-crouch-idle_15: -648060545
+      boxer-crouch-idle_16: 1132994876
+      boxer-crouch-idle_17: 482043719
+      boxer-crouch-idle_18: -1925060657
+      boxer-crouch-idle_19: -188790136
+      boxer-crouch-idle_2: 271241732
+      boxer-crouch-idle_20: -326963208
+      boxer-crouch-idle_21: 794006156
+      boxer-crouch-idle_22: -426661837
+      boxer-crouch-idle_23: -1221238625
+      boxer-crouch-idle_24: -1535616028
+      boxer-crouch-idle_25: -605259850
+      boxer-crouch-idle_26: 817275267
+      boxer-crouch-idle_27: -20075101
+      boxer-crouch-idle_28: -1301371283
+      boxer-crouch-idle_29: -337756379
+      boxer-crouch-idle_3: 1964138323
+      boxer-crouch-idle_30: -513091068
+      boxer-crouch-idle_31: 1601317293
+      boxer-crouch-idle_32: 1194975785
+      boxer-crouch-idle_33: -712691512
+      boxer-crouch-idle_34: -1256886696
+      boxer-crouch-idle_35: 110663474
+      boxer-crouch-idle_36: -157283124
+      boxer-crouch-idle_37: 1346486999
+      boxer-crouch-idle_38: -1210201552
+      boxer-crouch-idle_39: 44594798
+      boxer-crouch-idle_4: 1440432489
+      boxer-crouch-idle_5: 1114019836
+      boxer-crouch-idle_6: -197174978
+      boxer-crouch-idle_7: -342197036
+      boxer-crouch-idle_8: -191567335
+      boxer-crouch-idle_9: -889523088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

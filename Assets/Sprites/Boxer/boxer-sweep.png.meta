@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,612 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boxer-sweep_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1919
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c87ff0061ab2a14d8ff0ba9254d478d
+      internalID: -1799708872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1917
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485a96724fce6664fb51e937d3ddbaab
+      internalID: -996200114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1915
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e4bdf441f1ad64f998158307eccb6b
+      internalID: 1229599070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1914
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f0e141bc6d2ba45bc2c374f54741ff
+      internalID: -284098179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_4
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1913
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff72ecaf776b3d49850cf9217ee5455
+      internalID: -857084685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_5
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1913
+        width: 92
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3c8cf1ca5d3594d9e4278b30e0d835
+      internalID: -915123984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_6
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1913
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a9356073bef5d4e8c251526b95d1a3
+      internalID: -217356070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_7
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1913
+        width: 105
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0251ed33519f64b8b3a7bbcf226b27
+      internalID: -1920731706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1659
+        width: 117
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95d47ba0f4b9d04c8a002f5f3d155d2
+      internalID: -792182945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1660
+        width: 89
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0636012bd9c9b2d40b81aa9ffb5850a3
+      internalID: 1446138730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_10
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1659
+        width: 116
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d9088f6f288024ba85550f80a8cc40
+      internalID: 921901971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_11
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1658
+        width: 111
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de37803c2eb406b4697310d8c15e99c6
+      internalID: 142771641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_12
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1657
+        width: 107
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f024c540bfafd694aaa8ad42f7f7fb24
+      internalID: 1663441461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_13
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1656
+        width: 103
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e063f55726a6a8429e55b0879e907cf
+      internalID: 839493804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_14
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1720
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024fefdf15af4ba4cabe98be34385c00
+      internalID: -443551202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_15
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1655
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcb7a93fe53b744aa44c648cc03a517
+      internalID: 1142091359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_16
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1655
+        width: 94
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b7f540d80009f46a28b5ca53f6d043
+      internalID: -972301584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1675
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beafca8fd55fc9d4489a89351e3699ba
+      internalID: -1600076457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_18
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1399
+        width: 89
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d769147888c934bb74448fb2036981
+      internalID: -2138848610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1399
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c67d4ebe1d68e549b3b8552e868e40e
+      internalID: 84831254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_20
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1399
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccee4c39ec7faa1448d34d9a136b6b61
+      internalID: -976887513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_21
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1400
+        width: 87
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e46cfe46b976459b169eb3adb4628
+      internalID: 1667064303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_22
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1401
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f360d55e57a026a418fb9101d7f21917
+      internalID: -84728898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_23
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1402
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a504620993f0b33478377703be32f4e6
+      internalID: -760145565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_24
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1404
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0ca47f79d599748ac059c033eeef80
+      internalID: 1428043356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_25
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1406
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1348606a17af3c4c9048a0bd5ccfedd
+      internalID: -489759065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-sweep_26
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1151
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a4e1ea22564aa4ea648d26b53fbf7d
+      internalID: 554947438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 06b9c1ad387227347a8a258d259371d7
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boxer-sweep_0: -1799708872
+      boxer-sweep_1: -996200114
+      boxer-sweep_10: 921901971
+      boxer-sweep_11: 142771641
+      boxer-sweep_12: 1663441461
+      boxer-sweep_13: 839493804
+      boxer-sweep_14: -443551202
+      boxer-sweep_15: 1142091359
+      boxer-sweep_16: -972301584
+      boxer-sweep_17: -1600076457
+      boxer-sweep_18: -2138848610
+      boxer-sweep_19: 84831254
+      boxer-sweep_2: 1229599070
+      boxer-sweep_20: -976887513
+      boxer-sweep_21: 1667064303
+      boxer-sweep_22: -84728898
+      boxer-sweep_23: -760145565
+      boxer-sweep_24: 1428043356
+      boxer-sweep_25: -489759065
+      boxer-sweep_26: 554947438
+      boxer-sweep_3: -284098179
+      boxer-sweep_4: -857084685
+      boxer-sweep_5: -915123984
+      boxer-sweep_6: -217356070
+      boxer-sweep_7: -1920731706
+      boxer-sweep_8: -792182945
+      boxer-sweep_9: 1446138730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

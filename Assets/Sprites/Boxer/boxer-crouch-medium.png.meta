@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boxer-crouch-medium_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1919
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2f4a0f50ef707468d8d1794140edc3
+      internalID: 2029666182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1919
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc58b991b34a9545a403a58f42622b2
+      internalID: 1342456056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1919
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0734d7d4fe47ccb4f9e14bc9f41fd750
+      internalID: -1222822893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_3
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1918
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5f0cd3b0f466248902d2526dec56a6
+      internalID: -1392196357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_4
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1918
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f52a91155393142907a36dcd03895b
+      internalID: 1743508837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_5
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1918
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30f2f0e73a7dbb4eaa228395dc4f39c
+      internalID: 1576299720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_6
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1918
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa11a8003ee653418a57a87d46f0c45
+      internalID: 417298206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_7
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1918
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b07f48e866b0d44d8605f36f2db40d1
+      internalID: -661926236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1663
+        width: 103
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a566e4961cbbf440bffd02249a5a607
+      internalID: 819216810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1662
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26766a3aff8ba894b840ef77f37c57b1
+      internalID: -625328899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_10
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1662
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2baaccc114e30a4bb1fd6935a77920c
+      internalID: -54742247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_11
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1662
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee6a01908719cd408295dfa90ddb2a6
+      internalID: 107909179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_12
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1662
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c325d9f2c6d1fee4e8c4026709b2138f
+      internalID: 981657350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_13
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1662
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a25f8e5b4b4d314585979434ac13227
+      internalID: 2068997345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_14
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1662
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f80c289a2129bb4d8fc9fee5b7054d8
+      internalID: -1023958565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_15
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1663
+        width: 107
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40da12b855aa194b9ff630d2105e71f
+      internalID: -986915033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1406
+        width: 105
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e32f9a25da7e146be69eccfd3bd1fa
+      internalID: 2104639409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1406
+        width: 103
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22323884a3a896946a9abd42dd302394
+      internalID: 1119641395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_18
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1406
+        width: 99
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae92cf0071065a4ea2793bbaba6d16c
+      internalID: -1137179526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_19
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1406
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475523a5da928f54589a4cc17b975d0b
+      internalID: -792592825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_20
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1406
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85fa9e0d8651ad42b4029f5f674bd08
+      internalID: -1547670522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_21
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1406
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1265612d4764fbc4e9b52dfe7de87806
+      internalID: -310753144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_22
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1407
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056f38e525fb0e54db270b05c3052064
+      internalID: 642164487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_23
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1407
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982c043115deddf468763d226164a40f
+      internalID: 1392599612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-crouch-medium_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1151
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea520041cb6e8a4290c7c50e3e00625
+      internalID: 1514085664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5ce3d6bfb1019004bb5070bb5bcc03da
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boxer-crouch-medium_0: 2029666182
+      boxer-crouch-medium_1: 1342456056
+      boxer-crouch-medium_10: -54742247
+      boxer-crouch-medium_11: 107909179
+      boxer-crouch-medium_12: 981657350
+      boxer-crouch-medium_13: 2068997345
+      boxer-crouch-medium_14: -1023958565
+      boxer-crouch-medium_15: -986915033
+      boxer-crouch-medium_16: 2104639409
+      boxer-crouch-medium_17: 1119641395
+      boxer-crouch-medium_18: -1137179526
+      boxer-crouch-medium_19: -792592825
+      boxer-crouch-medium_2: -1222822893
+      boxer-crouch-medium_20: -1547670522
+      boxer-crouch-medium_21: -310753144
+      boxer-crouch-medium_22: 642164487
+      boxer-crouch-medium_23: 1392599612
+      boxer-crouch-medium_24: 1514085664
+      boxer-crouch-medium_3: -1392196357
+      boxer-crouch-medium_4: 1743508837
+      boxer-crouch-medium_5: 1576299720
+      boxer-crouch-medium_6: 417298206
+      boxer-crouch-medium_7: -661926236
+      boxer-crouch-medium_8: 819216810
+      boxer-crouch-medium_9: -625328899
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
