@@ -135,7 +135,14 @@ public class SpriteToPlayer2 : MonoBehaviour
         {
             if (movement.ReturnIsGrounded())
             {
-                anim.SetTrigger("Hurt");
+                if (movement.ReturnIsCrouching())
+                {
+                    anim.SetTrigger("CrouchHurt");
+                }
+                else
+                {
+                    anim.SetTrigger("Hurt");
+                }
             }
             else
             {
@@ -153,6 +160,14 @@ public class SpriteToPlayer2 : MonoBehaviour
         anim.SetTrigger("Blocked");
     }
 
+    private void LowBlocked()
+    {
+        //Blocking code
+        anim.SetTrigger("LowBlocked");
+        MakePlayerUnmoveable();
+        MakePlayerUnable();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player1Attack")
@@ -161,14 +176,20 @@ public class SpriteToPlayer2 : MonoBehaviour
             blocked = !player1movement.ReturnIsCrouching() && isBlocking;
 
             //If the GameObject's name matches the one you suggest, output this message in the console
-            if (!(lowBlocked || blocked))
+            if (blocked)
             {
-                Damaged();
+                Debug.Log("Blocked!");
+                Blocked();
+            }
+            else if (lowBlocked)
+            {
+                Debug.Log("LowBlocked!");
+                LowBlocked();
             }
             else
             {
                 //Debug.Log("P1 DAMAGED!");
-                Blocked();
+                Damaged();
             }
         }
     }
