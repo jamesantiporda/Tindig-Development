@@ -3022,7 +3022,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494834635}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ca8766eadd796534e9b871368382dbad, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3035,9 +3035,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.27
-  m_Height: 2
+  m_Height: 1.69
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.14, z: 0}
 --- !u!23 &1494834637
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4402,7 +4402,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049316868}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ca8766eadd796534e9b871368382dbad, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4415,9 +4415,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.27
-  m_Height: 2
+  m_Height: 1.69
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.14, z: 0}
 --- !u!23 &2049316871
 MeshRenderer:
   m_ObjectHideFlags: 0

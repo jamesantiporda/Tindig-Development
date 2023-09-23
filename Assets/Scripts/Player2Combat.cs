@@ -43,6 +43,11 @@ public class Player2Combat : MonoBehaviour
         {
             OverheadAttack();
         }
+
+        if (Input.GetKeyDown(KeyCode.Keypad2) && canAttack)
+        {
+            Special();
+        }
     }
 
     void LightAttack()
@@ -75,6 +80,14 @@ public class Player2Combat : MonoBehaviour
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("OverheadAttack");
+    }
+
+    void Special()
+    {
+        attackType = "Special";
+        movement.changeMoveState(false);
+        canAttack = false;
+        animator.SetTrigger("Special");
     }
 
     public void SetCanAttack(bool ready)

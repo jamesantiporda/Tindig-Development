@@ -14,7 +14,7 @@ public class SpriteToPlayer : MonoBehaviour
     private PlayerHealth playerHealth;
     private Animator anim;
 
-    private float launchForce = 10f;
+    private float launchForce = 12.5f;
 
     private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked;
 
@@ -115,6 +115,11 @@ public class SpriteToPlayer : MonoBehaviour
         combat.ResetAttackType();
     }
 
+    public void Lunge()
+    {
+        movement.LungeMovement();
+    }
+
     private void Damaged()
     {
         playerHealth.TakeDamage(player2combat.ReturnAttackDamage());
@@ -124,7 +129,7 @@ public class SpriteToPlayer : MonoBehaviour
         // Check if attack is a launching attack
         if (player2combat.ReturnIsLauncher())
         {
-            movement.Launch(launchForce);
+            movement.Launch(launchForce, 0.20f);
             anim.SetTrigger("Launched");
         }
         else if(player2combat.ReturnIsSweep())
@@ -146,7 +151,7 @@ public class SpriteToPlayer : MonoBehaviour
             }
             else
             {
-                movement.Launch(6f);
+                movement.Launch(6f, 0.20f);
                 anim.SetTrigger("Launched");
             }
         }

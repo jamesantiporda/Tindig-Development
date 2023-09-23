@@ -35,6 +35,7 @@ public class Player2Movement : MonoBehaviour
     private Vector3 originalScale;
     private Vector3 flippedScale;
     private Vector3 startPosition = new Vector3(2, 1, 0.0f);
+    private Vector3 behind;
 
     //dashing variables
     private bool canDash = true;
@@ -64,7 +65,7 @@ public class Player2Movement : MonoBehaviour
         if (!isGrounded)
         {
             canDash = false;
-            speed = 3.5f;
+            speed = 4.0f;
         }
         else
         {
@@ -85,10 +86,12 @@ public class Player2Movement : MonoBehaviour
         if (isFacingRight)
         {
             sprite.transform.localScale = originalScale;
+            behind = Vector3.left;
         }
         else
         {
             sprite.transform.localScale = flippedScale;
+            behind = Vector3.right;
         }
 
         // Get Player Horizontal Input
@@ -118,7 +121,7 @@ public class Player2Movement : MonoBehaviour
                     if (Input.GetKeyDown(KeyCode.RightArrow))
                     {
                         timeSinceLastForward = Time.time - lastForwardInput;
-                        Debug.Log("Last Forward input: " + timeSinceLastForward);
+                        //Debug.Log("Last Forward input: " + timeSinceLastForward);
                         if (!isSprinting && timeSinceLastForward <= 0.2f)
                         {
                             isSprinting = true;
@@ -134,7 +137,7 @@ public class Player2Movement : MonoBehaviour
                     if (Input.GetKeyDown(KeyCode.RightArrow))
                     {
                         timeSinceLastBackward = Time.time - lastBackwardInput;
-                        Debug.Log("Last Backward input: " + timeSinceLastBackward);
+                        //Debug.Log("Last Backward input: " + timeSinceLastBackward);
                         if (timeSinceLastBackward <= 0.2f && canDash)
                         {
                             StartCoroutine(BackDash());
@@ -160,7 +163,7 @@ public class Player2Movement : MonoBehaviour
                     if (Input.GetKeyDown(KeyCode.LeftArrow))
                     {
                         timeSinceLastBackward = Time.time - lastBackwardInput;
-                        Debug.Log("Last Backward input: " + timeSinceLastBackward);
+                        //Debug.Log("Last Backward input: " + timeSinceLastBackward);
                         if (timeSinceLastBackward <= 0.2f && canDash)
                         {
                             StartCoroutine(BackDash());
@@ -175,7 +178,7 @@ public class Player2Movement : MonoBehaviour
                     if (Input.GetKeyDown(KeyCode.LeftArrow))
                     {
                         timeSinceLastForward = Time.time - lastForwardInput;
-                        Debug.Log("Last Forward input: " + timeSinceLastForward);
+                        //Debug.Log("Last Forward input: " + timeSinceLastForward);
                         if (!isSprinting && timeSinceLastForward <= 0.2f)
                         {
                             isSprinting = true;
@@ -251,6 +254,7 @@ public class Player2Movement : MonoBehaviour
         }
         anim.SetBool("Crouching", isCrouching);
         anim.SetInteger("Direction", horizontalDirection);
+        anim.SetBool("Sprinting", isSprinting);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -266,10 +270,9 @@ public class Player2Movement : MonoBehaviour
         canMove = moveable;
     }
 
-    public void Launch(float launchForce)
+    public void Launch(float launchForceUp, float launchForceBehind)
     {
-        Debug.Log("Player hit with force: " + launchForce);
-        playerRb.AddForce(Vector3.up * launchForce, ForceMode.Impulse);
+        playerRb.AddForce(Vector3.Normalize(Vector3.up + launchForceBehind * behind) * launchForceUp, ForceMode.Impulse);
         isGrounded = false;
     }
 
@@ -309,11 +312,17 @@ public class Player2Movement : MonoBehaviour
         acceptInput = false;
     }
 
+    public void LungeMovement()
+    {
+        playerRb.velocity = new Vector2(-behind.x * dashingPower, 0.0f);
+    }
+
 
     private IEnumerator BackDash()
     {
         canDash = false;
         isDashing = true;
+        anim.SetTrigger("Backdash");
         if (isFacingRight)
         {
             playerRb.velocity = new Vector2(-1f * dashingPower, 0f);

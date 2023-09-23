@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,590 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boxer-special-right_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1917
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636416d8f1e06b445b16286fad00dcbe
+      internalID: 423722722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1917
+        width: 61
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbcdf6c9d08c1f4bb9d8e3104a1e86c
+      internalID: -1920615763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1917
+        width: 58
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e933af447533042b4ee7b61df92ef3
+      internalID: 1720213421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_3
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1917
+        width: 58
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8cb8d30e815764096ab1ab99d1e57d
+      internalID: -276468611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_4
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1917
+        width: 59
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2d37e9c0b71f94abb11103c1e94118
+      internalID: 1344002606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_5
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1917
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4d7341ea6eada419b40a3ea833123b
+      internalID: 1165116767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_6
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1917
+        width: 59
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9b93cfd53a2cd43bf630c9dadce10b
+      internalID: -1139797976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_7
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1917
+        width: 58
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd09e91307c968d4ca9c328a5d4adbff
+      internalID: -1980516458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1661
+        width: 58
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea79c2af99147444a2feb270f7f8ef5
+      internalID: 1083180585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_9
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1661
+        width: 61
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d6281b0c0f97c42addfb0df6e7858a
+      internalID: 1194324547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1661
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf10e0a512f35db4285217fcbb368c16
+      internalID: -335272780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1662
+        width: 69
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3000c0f0e7e13499e0525e762fbd30
+      internalID: 2033897105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_12
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1662
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6680ca57ac48b98488322439be1d244c
+      internalID: 416281223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_13
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1662
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f7db9baa85f8e4091e94e151094243
+      internalID: 654149407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_14
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1662
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0db6568422039247a1a26f126df56f3
+      internalID: -1886550518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1661
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cdd7ca2ad6f4943b503e6a6f8e1c0b
+      internalID: 414760222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1405
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f6b059fbf032f4bb80530039d875d2
+      internalID: -346073651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1405
+        width: 73
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998b8df618eea6a4e9bdb6e4b308fe98
+      internalID: 780690777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_18
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1405
+        width: 72
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b5bcd292516f348a03e8a081c0a23a
+      internalID: -1389130931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_19
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1405
+        width: 71
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0244142455f50cb408c6fd4f1fe874bd
+      internalID: -606670132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_20
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1405
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b419b12bcfc96e459afc867e2dd9b16
+      internalID: -1572565687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_21
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1405
+        width: 68
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0ad0263e7b32e4f8cfc0ba1f755882
+      internalID: 1718732692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_22
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1405
+        width: 68
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72df281b513bd0245b6a93d3bf80b646
+      internalID: -558869316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_23
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1405
+        width: 67
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33059ca4f5b7a264897a8dcc8a6144fa
+      internalID: -618608424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_24
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1149
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adba283eba0e0c4d89ec75494a45736
+      internalID: 1717388795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-special-right_25
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1149
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523391df1eafb654b8c97d565e97b06e
+      internalID: 1790774506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aeba1b2d336fb2c48b87f036fc76929f
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boxer-special-right_0: 423722722
+      boxer-special-right_1: -1920615763
+      boxer-special-right_10: -335272780
+      boxer-special-right_11: 2033897105
+      boxer-special-right_12: 416281223
+      boxer-special-right_13: 654149407
+      boxer-special-right_14: -1886550518
+      boxer-special-right_15: 414760222
+      boxer-special-right_16: -346073651
+      boxer-special-right_17: 780690777
+      boxer-special-right_18: -1389130931
+      boxer-special-right_19: -606670132
+      boxer-special-right_2: 1720213421
+      boxer-special-right_20: -1572565687
+      boxer-special-right_21: 1718732692
+      boxer-special-right_22: -558869316
+      boxer-special-right_23: -618608424
+      boxer-special-right_24: 1717388795
+      boxer-special-right_25: 1790774506
+      boxer-special-right_3: -276468611
+      boxer-special-right_4: 1344002606
+      boxer-special-right_5: 1165116767
+      boxer-special-right_6: -1139797976
+      boxer-special-right_7: -1980516458
+      boxer-special-right_8: 1083180585
+      boxer-special-right_9: 1194324547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

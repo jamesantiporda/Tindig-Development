@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
@@ -41,6 +42,11 @@ public class PlayerCombat : MonoBehaviour
         {
             OverheadAttack();
         }
+
+        if (Input.GetKeyDown(KeyCode.M) && canAttack)
+        {
+            Special();
+        }
     }
 
     void LightAttack()
@@ -73,6 +79,14 @@ public class PlayerCombat : MonoBehaviour
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("OverheadAttack");
+    }
+
+    void Special()
+    {
+        attackType = "Special";
+        movement.changeMoveState(false);
+        canAttack = false;
+        animator.SetTrigger("Special");
     }
 
     public void SetCanAttack(bool ready)

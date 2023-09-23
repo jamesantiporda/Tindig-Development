@@ -163,14 +163,21 @@ public class MatchManager : MonoBehaviour
     {
         if(player == 1)
         {
-            player2Animator.SetTrigger("Die");
-            player2Animator.SetBool("Dead", true);
+            if(!player2Animator.GetBool("Dead"))
+            {
+                Debug.Log("Kill1");
+                player2Animator.SetTrigger("Die");
+                player2Animator.SetBool("Dead", true);
+            }
             player1RoundsWon += 1;
         }
         else if(player == 2)
         {
-            player1Animator.SetTrigger("Die");
-            player1Animator.SetBool("Dead", true);
+            if(!player1Animator.GetBool("Dead"))
+            {
+                player1Animator.SetTrigger("Die");
+                player1Animator.SetBool("Dead", true);
+            }
             player2RoundsWon += 1;
         }
         else if(player == 0)
