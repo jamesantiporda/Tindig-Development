@@ -8,7 +8,7 @@ using UnityEngine;
 public class Player2Movement : MonoBehaviour
 {
     public float speed = 5.0f;
-    public float jumpForce = 5.0f;
+    public float jumpForce = 2.5f;
     private float horizontalInput;
     private float horizontalMagnitude;
     private float distanceFromEnemy;
@@ -217,6 +217,7 @@ public class Player2Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded && !isCrouching && acceptInput && canMove)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            anim.SetTrigger("Jump");
             isGrounded = false;
         }
 

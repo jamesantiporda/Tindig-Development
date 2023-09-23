@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,920 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boxer-jump-heavy_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1906
+        width: 60
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6a1809d4f018e449d6f6217391fb0f
+      internalID: 856481540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_1
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1906
+        width: 62
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bf00dc844b39f47abdfc74397c548f
+      internalID: 1967333260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1959
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a67c1a1a6ed1e041a0ca6d4c5debeba
+      internalID: -1931521203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_3
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1906
+        width: 63
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba13488fa3b42a143bda58081ec22eb3
+      internalID: -2066406309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_4
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1906
+        width: 65
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2ea21695d103a478d5518a4da7cc86
+      internalID: -970163382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1906
+        width: 67
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b253e32271759f4fbc654dde43615e9
+      internalID: -1081100087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_6
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1905
+        width: 67
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbbc4ccd1c2ccb498b02154177b5660
+      internalID: 906092545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_7
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1905
+        width: 67
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaed5d121701957428ec896fa76fc766
+      internalID: 1933885663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_8
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1905
+        width: 65
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee993a9cc9614f42a09bd4aa1b0e68d
+      internalID: 79307766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1649
+        width: 67
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237f53334b7044049a189acb45d348ba
+      internalID: -1718592873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1649
+        width: 71
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aa7b929fbbb6e41b769c81e0a7e954
+      internalID: 230563784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_11
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1650
+        width: 72
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9fc62b5de05ae4e81bbd4e1931c5fe
+      internalID: 371117628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_12
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1650
+        width: 66
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0514654a345487b47be8b7c0bc7b2f21
+      internalID: 826662347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_13
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1652
+        width: 58
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f445f48a223d94b8295f9d96a35a7c
+      internalID: 1359971948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_14
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1653
+        width: 52
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e5347a058462b479882e9e13074831
+      internalID: -538974533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_15
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1654
+        width: 43
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbc7f0263a30fd4db07543af0a35c13
+      internalID: -1577544805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_16
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1655
+        width: 45
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b212998906593f48a10de6803768118
+      internalID: 157645798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1400
+        width: 53
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca377913d37289e47b1ec3321e5946cc
+      internalID: -1546420589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_18
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1401
+        width: 65
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35f6916d648a524cb8ba9b3a017ead8
+      internalID: 388417720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_19
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1403
+        width: 71
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65c26bfdc9f3b24a82fa6a5486a8c09
+      internalID: 1403566289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_20
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1404
+        width: 74
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c9924a3d8463c4ab07f66d33276942
+      internalID: 1054302511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_21
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1404
+        width: 74
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c822d75fcb62841983fba7cbd1e891
+      internalID: 1920109271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_22
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1404
+        width: 74
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd815d46414987741baa1dbfb26f7f22
+      internalID: 1217552905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_23
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1404
+        width: 74
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013ceed5a40e18044894b0d5ef362928
+      internalID: -48247136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_24
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1404
+        width: 74
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b53466848b67ea419b83ab632f97a89
+      internalID: -933770237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1148
+        width: 74
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de7818dfa59fb8458b2ba0bc5350214
+      internalID: -871762428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_26
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1147
+        width: 72
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3325dca209be0ce44b05750a2287ac8d
+      internalID: 1148787073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_27
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1146
+        width: 70
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9c7cbb529257d418ee58c088d199a7
+      internalID: -740388008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_28
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1145
+        width: 65
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6be3b6f39b5d848aebd3f946e47b0f
+      internalID: -1799665601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_29
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1144
+        width: 61
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948fb17e909ed434da7a8aa435b651fb
+      internalID: -330292994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_30
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1144
+        width: 55
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3616e4b37dee9ae4da177d55a2135a01
+      internalID: 912746291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_31
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1143
+        width: 51
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9a918beebd6a345aab0b26ef001480
+      internalID: 1998839699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_32
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1142
+        width: 48
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eedaf1e7075f845b45bf8365f2baca
+      internalID: 1447166158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_33
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 886
+        width: 45
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4442cdb3cfbd941a01936e9d59bdaa
+      internalID: -1322108189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_34
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 885
+        width: 49
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a35f1102aa2b947ace4df683977ba1
+      internalID: -1789429135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_35
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 885
+        width: 52
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fff4430a4c8cc45b2622522d375690
+      internalID: 1874295371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_36
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 884
+        width: 55
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebebbc23709252c48b31f946fdb1c489
+      internalID: 319688270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_37
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 884
+        width: 58
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fdb6bbfd683224d988c0a1566aa891
+      internalID: 1960332631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_38
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 883
+        width: 59
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45f6b520b283384ab0533a7b1d91eaa
+      internalID: 1197490879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_39
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 883
+        width: 60
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e27afe7b3164d4e8bc8caa18496a02
+      internalID: -661758006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxer-jump-heavy_40
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 882
+        width: 60
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a00d3265bbe7246bdfc93381d37271
+      internalID: 1058684628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8d1bc45f5d90b444ea9091fcacd646ff
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boxer-jump-heavy_0: 856481540
+      boxer-jump-heavy_1: 1967333260
+      boxer-jump-heavy_10: 230563784
+      boxer-jump-heavy_11: 371117628
+      boxer-jump-heavy_12: 826662347
+      boxer-jump-heavy_13: 1359971948
+      boxer-jump-heavy_14: -538974533
+      boxer-jump-heavy_15: -1577544805
+      boxer-jump-heavy_16: 157645798
+      boxer-jump-heavy_17: -1546420589
+      boxer-jump-heavy_18: 388417720
+      boxer-jump-heavy_19: 1403566289
+      boxer-jump-heavy_2: -1931521203
+      boxer-jump-heavy_20: 1054302511
+      boxer-jump-heavy_21: 1920109271
+      boxer-jump-heavy_22: 1217552905
+      boxer-jump-heavy_23: -48247136
+      boxer-jump-heavy_24: -933770237
+      boxer-jump-heavy_25: -871762428
+      boxer-jump-heavy_26: 1148787073
+      boxer-jump-heavy_27: -740388008
+      boxer-jump-heavy_28: -1799665601
+      boxer-jump-heavy_29: -330292994
+      boxer-jump-heavy_3: -2066406309
+      boxer-jump-heavy_30: 912746291
+      boxer-jump-heavy_31: 1998839699
+      boxer-jump-heavy_32: 1447166158
+      boxer-jump-heavy_33: -1322108189
+      boxer-jump-heavy_34: -1789429135
+      boxer-jump-heavy_35: 1874295371
+      boxer-jump-heavy_36: 319688270
+      boxer-jump-heavy_37: 1960332631
+      boxer-jump-heavy_38: 1197490879
+      boxer-jump-heavy_39: -661758006
+      boxer-jump-heavy_4: -970163382
+      boxer-jump-heavy_40: 1058684628
+      boxer-jump-heavy_5: -1081100087
+      boxer-jump-heavy_6: 906092545
+      boxer-jump-heavy_7: 1933885663
+      boxer-jump-heavy_8: 79307766
+      boxer-jump-heavy_9: -1718592873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
