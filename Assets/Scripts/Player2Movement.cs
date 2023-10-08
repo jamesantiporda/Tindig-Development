@@ -47,6 +47,9 @@ public class Player2Movement : MonoBehaviour
     // Accept Movement Input
     private bool acceptInput = false;
 
+    // Sliding
+    private bool sliding = false;
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
@@ -69,6 +72,7 @@ public class Player2Movement : MonoBehaviour
         }
         else
         {
+            sliding = false;
             speed = 5.0f;
         }
 
@@ -112,7 +116,7 @@ public class Player2Movement : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.RightArrow) && acceptInput)
+        if (Input.GetKey(KeyCode.RightArrow) && acceptInput && !sliding)
         {
             if (distanceFromEnemy <= 7.2)
             {
@@ -154,7 +158,7 @@ public class Player2Movement : MonoBehaviour
                 horizontalInput = 0;
             }
         }
-        else if (Input.GetKey(KeyCode.LeftArrow) && acceptInput)
+        else if (Input.GetKey(KeyCode.LeftArrow) && acceptInput && !sliding)
         {
             if (distanceFromEnemy >= -6.3)
             {
@@ -343,6 +347,7 @@ public class Player2Movement : MonoBehaviour
         {
             Rigidbody collisionRb = collision.gameObject.transform.parent.GetComponent<Rigidbody>();
             Debug.Log("Standing on Head!~");
+            sliding = true;
             if (isFacingRight)
             {
                 playerRb.velocity = new Vector2(-3, playerRb.velocity.y);
