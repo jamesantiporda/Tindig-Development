@@ -97,7 +97,7 @@ public class Player2Movement : MonoBehaviour
         // Get Player Horizontal Input
         if (isFacingRight)
         {
-            if (Input.GetKeyUp(KeyCode.RightArrow) && isSprinting)
+            if (!Input.GetKey(KeyCode.RightArrow) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;
@@ -105,7 +105,7 @@ public class Player2Movement : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyUp(KeyCode.LeftArrow) && isSprinting)
+            if (!Input.GetKey(KeyCode.LeftArrow) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;

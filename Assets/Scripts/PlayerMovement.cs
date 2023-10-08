@@ -99,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
         // Get Player Horizontal Input
         if(isFacingRight)
         {
-            if(Input.GetKeyUp(KeyCode.D) && isSprinting)
+            if(!Input.GetKey(KeyCode.D) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;
@@ -107,7 +107,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyUp(KeyCode.A) && isSprinting)
+            if (!Input.GetKey(KeyCode.A) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;

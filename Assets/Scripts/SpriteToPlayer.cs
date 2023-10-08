@@ -131,10 +131,12 @@ public class SpriteToPlayer : MonoBehaviour
         {
             movement.Launch(launchForce, 0.20f);
             anim.SetTrigger("Launched");
+            FindObjectOfType<HitStop>().Stop(0.3f);
         }
         else if(player2combat.ReturnIsSweep())
         {
             anim.SetTrigger("Launched");
+            FindObjectOfType<HitStop>().Stop(0.3f);
         }
         else
         {
@@ -154,6 +156,7 @@ public class SpriteToPlayer : MonoBehaviour
                 movement.Launch(6f, 0.20f);
                 anim.SetTrigger("Launched");
             }
+            FindObjectOfType<HitStop>().Stop(0.1f);
         }
     }
 
