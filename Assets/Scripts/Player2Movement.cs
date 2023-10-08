@@ -336,4 +336,23 @@ public class Player2Movement : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
+
+    private void OnTriggerStay(Collider collision)
+    {
+        if (collision.gameObject.tag == "PlayerHitBox")
+        {
+            Rigidbody collisionRb = collision.gameObject.transform.parent.GetComponent<Rigidbody>();
+            Debug.Log("Standing on Head!~");
+            if (isFacingRight)
+            {
+                playerRb.velocity = new Vector2(-3, playerRb.velocity.y);
+                collisionRb.velocity = new Vector2(3, collisionRb.velocity.y);
+            }
+            else
+            {
+                playerRb.velocity = new Vector2(3, playerRb.velocity.y);
+                collisionRb.velocity = new Vector2(-3, collisionRb.velocity.y);
+            }
+        }
+    }
 }
