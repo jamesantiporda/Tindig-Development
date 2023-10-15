@@ -2260,6 +2260,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &542725156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542725157}
+  m_Layer: 0
+  m_Name: HitPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &542725157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542725156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 715322569}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &557193511
 GameObject:
   m_ObjectHideFlags: 0
@@ -7656,6 +7687,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1494834635}
     - target: {fileID: 6918744849387214495, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      propertyPath: hitPoint
+      value: 
+      objectReference: {fileID: 542725156}
+    - target: {fileID: 6918744849387214495, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
+    - target: {fileID: 6918744849387214495, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: player1combat
       value: 
       objectReference: {fileID: 2049316877}
@@ -7704,9 +7743,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2049316868}
     - target: {fileID: 592075041844573436, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
+      propertyPath: hitPoint
+      value: 
+      objectReference: {fileID: 2049316868}
+    - target: {fileID: 592075041844573436, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
+    - target: {fileID: 592075041844573436, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
+      propertyPath: lowHitPoint
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 592075041844573436, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
       propertyPath: player2combat
       value: 
       objectReference: {fileID: 1494834643}
+    - target: {fileID: 592075041844573436, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
+      propertyPath: middleHitPoint
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 592075041844573436, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
       propertyPath: player2movement
       value: 
@@ -7815,5 +7870,8 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2256288999268460523, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1563093393}
+    - targetCorrespondingSourceObject: {fileID: 2256288999268460523, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 542725157}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}

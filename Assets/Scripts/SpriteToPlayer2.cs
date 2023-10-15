@@ -13,6 +13,8 @@ public class SpriteToPlayer2 : MonoBehaviour
     private Player2Combat combat;
     private PlayerHealth playerHealth;
     private Animator anim;
+    public GameObject hitEffect;
+    public GameObject hitPoint;
 
     private float launchForce = 12.5f;
 
@@ -30,6 +32,7 @@ public class SpriteToPlayer2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("hitpoint: " + hitPoint.transform.position.x + ", " + hitPoint.transform.position.y);
         if (movement.ReturnIsGrounded())
         {
             anim.SetBool("Grounded", true);
@@ -123,6 +126,7 @@ public class SpriteToPlayer2 : MonoBehaviour
     private void Damaged()
     {
         playerHealth.TakeDamage(player1combat.ReturnAttackDamage());
+        Instantiate(hitEffect, player.transform.position, Quaternion.identity);
         MakePlayerUnmoveable();
         MakePlayerUnable();
 

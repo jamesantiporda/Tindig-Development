@@ -13,6 +13,8 @@ public class SpriteToPlayer : MonoBehaviour
     private PlayerCombat combat;
     private PlayerHealth playerHealth;
     private Animator anim;
+    public GameObject hitEffect;
+    public GameObject hitPoint;
 
     private float launchForce = 12.5f;
 
@@ -123,6 +125,7 @@ public class SpriteToPlayer : MonoBehaviour
     private void Damaged()
     {
         playerHealth.TakeDamage(player2combat.ReturnAttackDamage());
+        Instantiate(hitEffect, hitPoint.transform.position, Quaternion.identity);
         MakePlayerUnmoveable();
         MakePlayerUnable();
 
