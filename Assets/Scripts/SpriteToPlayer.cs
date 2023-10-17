@@ -124,6 +124,8 @@ public class SpriteToPlayer : MonoBehaviour
 
     private void Damaged()
     {
+        player2movement.changeMoveState(true);
+        player2combat.SetCanAttack(true);
         playerHealth.TakeDamage(player2combat.ReturnAttackDamage());
         Instantiate(hitEffect, new Vector3(hitPoint.transform.position.x, player.transform.position.y + hitPoint.transform.localPosition.y, player.transform.position.z), Quaternion.identity);
         MakePlayerUnmoveable();

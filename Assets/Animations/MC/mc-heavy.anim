@@ -1476,6 +1476,13 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
+    functionName: SetPlayerAttackDamage
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 90
+    messageOptions: 0
+  - time: 0
     functionName: SetAttackIsSweep
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -1489,13 +1496,6 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0
-    functionName: SetPlayerAttackDamage
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 90
-    messageOptions: 0
   - time: 0.41666666
     functionName: ResetAttackType
     data: 
@@ -1503,15 +1503,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5833333
-    functionName: MakePlayerAble
+  - time: 1.3333334
+    functionName: MakePlayerMoveable
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.6666667
-    functionName: MakePlayerMoveable
+  - time: 1.3333334
+    functionName: MakePlayerAble
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

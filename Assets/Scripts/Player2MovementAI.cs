@@ -5,10 +5,9 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using UnityEngine;
 
-public class Player2Movement : MonoBehaviour
+public class Player2MovementAI : MonoBehaviour
 {
-    public float originalSpeed = 5.0f;
-    private float speed = 5.0f;
+    public float speed = 5.0f;
     public float jumpForce = 2.5f;
     private float horizontalInput;
     private float horizontalMagnitude;
@@ -51,40 +50,23 @@ public class Player2Movement : MonoBehaviour
     // Sliding
     private bool sliding = false;
 
-    // Inputs
+    // AI Inputs
+    private bool right = false;
+    private bool left = false;
+    private bool crouch = false;
+    private bool jump = false;
 
-    public bool isCPU = false;
-
-    // Movement AI
-    private bool aiRight = false;
-    private bool aiLeft = false;
-    private bool aiCrouch = false;
-    private bool aiJump = false;
-    private bool aiSprint = false;
-    private bool aiBackdash = false;
-
-    // AI Behavior
-    private bool isApproaching;
-    private bool react = false;
-    private int randomInt = 0;
-    private float randomFloat = 0.0f;
-
-    private bool isWandering;
 
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
         originalScale = sprite.transform.localScale;
         flippedScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
-
- 
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Setup per frame
         if (isDashing)
         {
             return;
@@ -93,12 +75,12 @@ public class Player2Movement : MonoBehaviour
         if (!isGrounded)
         {
             canDash = false;
-            speed = originalSpeed * 0.80f;
+            speed = 4.0f;
         }
         else
         {
             sliding = false;
-            speed = originalSpeed;
+            speed = 5.0f;
         }
 
         distanceFromEnemy = transform.position.x - enemy.transform.position.x;
@@ -123,34 +105,10 @@ public class Player2Movement : MonoBehaviour
             behind = Vector3.right;
         }
 
-
-        // CPU AI Calculations and Behavior
-        if(isWandering == false)
-        {
-            StartCoroutine(Wander());
-        }
-
-        if (isApproaching)
-        {
-            if(isFacingRight)
-            {
-                aiRight = true;
-            }
-            else
-            {
-                aiLeft = true;
-            }
-        }
-        else
-        {
-            aiRight = false;
-            aiLeft = false;
-        }
-
         // Get Player Horizontal Input
         if (isFacingRight)
         {
-            if (((!Input.GetKey(KeyCode.RightArrow) && !isCPU) || (aiRight && isCPU)) && isSprinting)
+            if (!Input.GetKey(KeyCode.RightArrow) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;
@@ -158,14 +116,14 @@ public class Player2Movement : MonoBehaviour
         }
         else
         {
-            if (((!Input.GetKey(KeyCode.LeftArrow) && !isCPU) || (aiLeft && isCPU)) && isSprinting)
+            if (!Input.GetKey(KeyCode.LeftArrow) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;
             }
         }
 
-        if (((Input.GetKey(KeyCode.RightArrow) && !isCPU) || (aiRight && isCPU)) && acceptInput && !sliding)
+        if (Input.GetKey(KeyCode.RightArrow) && acceptInput && !sliding)
         {
             if (distanceFromEnemy <= 7.2)
             {
@@ -207,7 +165,7 @@ public class Player2Movement : MonoBehaviour
                 horizontalInput = 0;
             }
         }
-        else if (((Input.GetKey(KeyCode.LeftArrow) && !isCPU) || (aiLeft && isCPU)) && acceptInput && !sliding)
+        else if (Input.GetKey(KeyCode.LeftArrow) && acceptInput && !sliding)
         {
             if (distanceFromEnemy >= -6.3)
             {
@@ -270,7 +228,7 @@ public class Player2Movement : MonoBehaviour
         }
 
         // Jump Input
-        if (((Input.GetKeyDown(KeyCode.UpArrow) && !isCPU) || (aiJump && isCPU)) && isGrounded && !isCrouching && acceptInput && canMove)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded && !isCrouching && acceptInput && canMove)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             anim.SetTrigger("Jump");
@@ -278,7 +236,7 @@ public class Player2Movement : MonoBehaviour
         }
 
         // Crouch Input
-        if (((Input.GetKey(KeyCode.DownArrow) && !isCPU) || (aiCrouch && isCPU)) && isGrounded && acceptInput && canMove)
+        if (Input.GetKey(KeyCode.DownArrow) && isGrounded && acceptInput && canMove)
         {
             isCrouching = true;
             canDash = false;
@@ -293,7 +251,7 @@ public class Player2Movement : MonoBehaviour
         // Debugging
         //if (!isCrouching)
         //{
-            //Debug.Log("Not Crouching!");
+        //Debug.Log("Not Crouching!");
         //}
 
         // Movement Animations
@@ -388,39 +346,6 @@ public class Player2Movement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
-    }
-
-    private IEnumerator ReturnRandomFloat(float min, float max)
-    {
-        yield return new WaitForSeconds(1f);
-        randomFloat = UnityEngine.Random.Range(min, max);
-    }
-
-    private IEnumerator ReturnRandomInt(int min, int max)
-    {
-        while(true)
-        {
-            yield return new WaitForSeconds(1f);
-            randomInt = UnityEngine.Random.Range(min, max);
-        }
-    }
-
-    IEnumerator Wander()
-    {
-        int approachWait = UnityEngine.Random.Range(1, 3);
-        int approachTime = UnityEngine.Random.Range(1, 3);
-
-        isWandering = true;
-
-        yield return new WaitForSeconds(approachWait);
-
-        isApproaching = true;
-
-        yield return new WaitForSeconds(approachTime);
-
-        isApproaching = false;
-
-        isWandering = false;
     }
 
     private void OnTriggerStay(Collider collision)
