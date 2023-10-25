@@ -19,6 +19,9 @@ public class MatchManager : MonoBehaviour
     public PlayerMovement player1Movement;
     public Player2Movement player2Movement;
 
+    public PlayerCombat player1Combat;
+    public Player2Combat player2Combat;
+
     public BoxCollider2D player1HurtBox, player2HurtBox;
 
     private int player1RoundsWon, player2RoundsWon;
@@ -27,7 +30,7 @@ public class MatchManager : MonoBehaviour
 
     private int roundNumber;
 
-    public GameObject handa, laban, winner;
+    public GameObject handa, laban, winner, ko, timeup;
     public TMP_Text winnerText;
 
     // Round Start Timer
@@ -60,6 +63,9 @@ public class MatchManager : MonoBehaviour
         player1Movement.DenyInput();
         player2Movement.DenyInput();
 
+        player1Combat.DenyInput();
+        player2Combat.DenyInput();
+
         timeElapsed = 0.0f;
         timer = 90;
 
@@ -81,6 +87,8 @@ public class MatchManager : MonoBehaviour
             roundOngoing = true;
             player1Movement.AcceptInput();
             player2Movement.AcceptInput();
+            player1Combat.AcceptInput();
+            player2Combat.AcceptInput();
             laban.SetActive(true);
         }
         else
@@ -139,6 +147,7 @@ public class MatchManager : MonoBehaviour
     {
         laban.SetActive(false);
         handa.SetActive(false);
+        ko.SetActive(false);
         roundNumber += 1;
         if (roundNumber != 1)
         {
@@ -190,6 +199,8 @@ public class MatchManager : MonoBehaviour
             {
                 player2RoundsWon += 1;
             }
+
+            timeup.SetActive(true);
         }
 
         if(player1RoundsWon >= 1)
@@ -215,6 +226,11 @@ public class MatchManager : MonoBehaviour
             winnerName = player2Name;
             MatchEnd();
         }
+
+        if(player1RoundsWon < 2 && player2RoundsWon < 2)
+        {
+            ko.SetActive(true);
+        }
     }
 
     private void RoundEnd()
@@ -226,6 +242,10 @@ public class MatchManager : MonoBehaviour
         player2HurtBox.enabled = false;
         player1Movement.DenyInput();
         player2Movement.DenyInput();
+        player1Combat.DenyInput();
+        player2Combat.DenyInput();
+        player1Combat.SetCanAttack(false);
+        player2Combat.SetCanAttack(false);
     }
 
     private void MatchEnd()

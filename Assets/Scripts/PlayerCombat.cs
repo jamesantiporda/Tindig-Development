@@ -10,10 +10,13 @@ public class PlayerCombat : MonoBehaviour
 
     private bool canAttack = true;
 
-    private bool isLauncher = false, isSweep = false;
+    private bool isLauncher = false, isSweep = false, isCrouchAttack = false;
     private int attackDamage = 50;
 
     private string attackType = "";
+
+    // Accept Input
+    private bool acceptInput;
 
     void Start()
     {
@@ -23,29 +26,32 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J) && canAttack)
+        if (acceptInput)
         {
-            LightAttack();
-        }
+            if (Input.GetKeyDown(KeyCode.J) && canAttack)
+            {
+                LightAttack();
+            }
 
-        if(Input.GetKeyDown(KeyCode.K) && canAttack)
-        {
-            MediumAttack();
-        }
+            if (Input.GetKeyDown(KeyCode.K) && canAttack)
+            {
+                MediumAttack();
+            }
 
-        if (Input.GetKeyDown(KeyCode.L) && canAttack)
-        {
-            HeavyAttack();
-        }
+            if (Input.GetKeyDown(KeyCode.L) && canAttack)
+            {
+                HeavyAttack();
+            }
 
-        if (Input.GetKeyDown(KeyCode.I) && canAttack)
-        {
-            OverheadAttack();
-        }
+            if (Input.GetKeyDown(KeyCode.I) && canAttack)
+            {
+                OverheadAttack();
+            }
 
-        if (Input.GetKeyDown(KeyCode.M) && canAttack)
-        {
-            Special();
+            if (Input.GetKeyDown(KeyCode.M) && canAttack)
+            {
+                Special();
+            }
         }
     }
 
@@ -119,6 +125,11 @@ public class PlayerCombat : MonoBehaviour
         isSweep = type;
     }
 
+    public void SetIsCrouchAttack(bool type)
+    {
+        isCrouchAttack = type;
+    }
+
     public bool ReturnIsLauncher()
     {
         return isLauncher;
@@ -129,6 +140,11 @@ public class PlayerCombat : MonoBehaviour
         return isSweep;
     }
 
+    public bool ReturnIsCrouchAttack()
+    {
+        return isCrouchAttack;
+    }
+
     public string ReturnAttackType()
     {
         return attackType;
@@ -137,5 +153,14 @@ public class PlayerCombat : MonoBehaviour
     public void ResetAttackType()
     {
         attackType = "";
+    }
+    public void AcceptInput()
+    {
+        acceptInput = true;
+    }
+
+    public void DenyInput()
+    {
+        acceptInput = false;
     }
 }

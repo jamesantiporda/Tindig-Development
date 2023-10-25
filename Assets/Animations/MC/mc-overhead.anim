@@ -1594,8 +1594,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 60
     messageOptions: 0
-  - time: 0.6666667
-    functionName: MakePlayerAble
+  - time: 0
+    functionName: SetAttackIsCrouchAttack
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -1603,6 +1603,13 @@ AnimationClip:
     messageOptions: 0
   - time: 0.6666667
     functionName: MakePlayerMoveable
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: MakePlayerAble
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

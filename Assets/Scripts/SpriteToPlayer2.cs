@@ -32,7 +32,6 @@ public class SpriteToPlayer2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("hitpoint: " + hitPoint.transform.position.x + ", " + hitPoint.transform.position.y);
         if (movement.ReturnIsGrounded())
         {
             anim.SetBool("Grounded", true);
@@ -47,7 +46,7 @@ public class SpriteToPlayer2 : MonoBehaviour
             isLowBlocking = true;
             isBlocking = false;
         }
-        else if (movement.ReturnDirection() == 4 && anim.GetFloat("Movement") != 0f)
+        else if (!movement.ReturnIsCrouching() && movement.ReturnDirection() == 4 && anim.GetFloat("Movement") != 0f)
         {
             isBlocking = true;
             isLowBlocking = false;
@@ -108,6 +107,18 @@ public class SpriteToPlayer2 : MonoBehaviour
         }
     }
 
+    public void SetAttackIsCrouchAttack(int type)
+    {
+        if (type == 0)
+        {
+            combat.SetIsCrouchAttack(false);
+        }
+        else
+        {
+            combat.SetIsCrouchAttack(true);
+        }
+    }
+
     public void SetLaunchForce(float force)
     {
         launchForce = force;
@@ -137,12 +148,12 @@ public class SpriteToPlayer2 : MonoBehaviour
         {
             movement.Launch(launchForce, 0.20f);
             anim.SetTrigger("Launched");
-            FindObjectOfType<HitStop>().Stop(0.3f);
+            FindObjectOfType<HitStop>().Stop(0.1f);
         }
         else if (player1combat.ReturnIsSweep())
         {
             anim.SetTrigger("Launched");
-            FindObjectOfType<HitStop>().Stop(0.3f);
+            FindObjectOfType<HitStop>().Stop(0.1f);
         }
         else
         {
@@ -162,7 +173,6 @@ public class SpriteToPlayer2 : MonoBehaviour
                 movement.Launch(6f, 0.20f);
                 anim.SetTrigger("Launched");
             }
-            FindObjectOfType<HitStop>().Stop(0.1f);
         }
     }
 
@@ -187,7 +197,7 @@ public class SpriteToPlayer2 : MonoBehaviour
         if (collision.gameObject.tag == "Player1Attack")
         {
             lowBlocked = isLowBlocking && player1combat.ReturnAttackType() != "Overhead";
-            blocked = !player1movement.ReturnIsCrouching() && isBlocking;
+            blocked = !player1combat.ReturnIsCrouchAttack() && isBlocking && !isLowBlocking;
 
             //If the GameObject's name matches the one you suggest, output this message in the console
             if (blocked)

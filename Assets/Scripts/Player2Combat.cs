@@ -11,10 +11,13 @@ public class Player2Combat : MonoBehaviour
 
     private bool canAttack = true;
 
-    private bool isLauncher = false, isSweep = false;
+    private bool isLauncher = false, isSweep = false, isCrouchAttack = false;
     private int attackDamage = 50;
 
     private string attackType = "";
+
+    // Accept Input
+    private bool acceptInput;
 
     void Start()
     {
@@ -24,29 +27,32 @@ public class Player2Combat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad4) && canAttack)
+        if (acceptInput)
         {
-            LightAttack();
-        }
+            if (Input.GetKeyDown(KeyCode.Keypad4) && canAttack)
+            {
+                LightAttack();
+            }
 
-        if (Input.GetKeyDown(KeyCode.Keypad5) && canAttack)
-        {
-            MediumAttack();
-        }
+            if (Input.GetKeyDown(KeyCode.Keypad5) && canAttack)
+            {
+                MediumAttack();
+            }
 
-        if (Input.GetKeyDown(KeyCode.Keypad6) && canAttack)
-        {
-            HeavyAttack();
-        }
+            if (Input.GetKeyDown(KeyCode.Keypad6) && canAttack)
+            {
+                HeavyAttack();
+            }
 
-        if (Input.GetKeyDown(KeyCode.Keypad8) && canAttack)
-        {
-            OverheadAttack();
-        }
+            if (Input.GetKeyDown(KeyCode.Keypad8) && canAttack)
+            {
+                OverheadAttack();
+            }
 
-        if (Input.GetKeyDown(KeyCode.Keypad2) && canAttack)
-        {
-            Special();
+            if (Input.GetKeyDown(KeyCode.Keypad2) && canAttack)
+            {
+                Special();
+            }
         }
     }
 
@@ -120,6 +126,11 @@ public class Player2Combat : MonoBehaviour
         isSweep = type;
     }
 
+    public void SetIsCrouchAttack(bool type)
+    {
+        isCrouchAttack = type;
+    }
+
     public bool ReturnIsLauncher()
     {
         return isLauncher;
@@ -130,6 +141,11 @@ public class Player2Combat : MonoBehaviour
         return isSweep;
     }
 
+    public bool ReturnIsCrouchAttack()
+    {
+        return isCrouchAttack;
+    }
+
     public string ReturnAttackType()
     {
         return attackType;
@@ -138,5 +154,15 @@ public class Player2Combat : MonoBehaviour
     public void ResetAttackType()
     {
         attackType = "";
+    }
+
+    public void AcceptInput()
+    {
+        acceptInput = true;
+    }
+
+    public void DenyInput()
+    {
+        acceptInput = false;
     }
 }
