@@ -17,10 +17,10 @@ public class MatchManager : MonoBehaviour
     public GameObject player1round1, player1round2, player2round1, player2round2;
 
     public PlayerMovement player1Movement;
-    public Player2Movement player2Movement;
+    public PlayerMovement player2Movement;
 
     public PlayerCombat player1Combat;
-    public Player2Combat player2Combat;
+    public PlayerCombat player2Combat;
 
     public BoxCollider2D player1HurtBox, player2HurtBox;
 

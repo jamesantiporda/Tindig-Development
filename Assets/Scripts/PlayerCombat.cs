@@ -5,6 +5,12 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
+    public KeyCode lightInput = KeyCode.J;
+    public KeyCode mediumInput = KeyCode.K;
+    public KeyCode heavyInput = KeyCode.L;
+    public KeyCode overheadInput = KeyCode.I;
+    public KeyCode specialInput = KeyCode.M;
+
     public Animator animator;
     private PlayerMovement movement;
 
@@ -28,27 +34,27 @@ public class PlayerCombat : MonoBehaviour
     {
         if (acceptInput)
         {
-            if (Input.GetKeyDown(KeyCode.J) && canAttack)
+            if (Input.GetKeyDown(lightInput) && canAttack)
             {
                 LightAttack();
             }
 
-            if (Input.GetKeyDown(KeyCode.K) && canAttack)
+            if (Input.GetKeyDown(mediumInput) && canAttack)
             {
                 MediumAttack();
             }
 
-            if (Input.GetKeyDown(KeyCode.L) && canAttack)
+            if (Input.GetKeyDown(heavyInput) && canAttack)
             {
                 HeavyAttack();
             }
 
-            if (Input.GetKeyDown(KeyCode.I) && canAttack)
+            if (Input.GetKeyDown(overheadInput) && canAttack)
             {
                 OverheadAttack();
             }
 
-            if (Input.GetKeyDown(KeyCode.M) && canAttack)
+            if (Input.GetKeyDown(specialInput) && canAttack)
             {
                 Special();
             }

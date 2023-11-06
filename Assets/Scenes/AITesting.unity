@@ -5952,9 +5952,9 @@ MonoBehaviour:
   player2round1: {fileID: 790027354}
   player2round2: {fileID: 1217914451}
   player1Movement: {fileID: 2049316874}
-  player2Movement: {fileID: 1494834641}
+  player2Movement: {fileID: 1494834645}
   player1Combat: {fileID: 2049316877}
-  player2Combat: {fileID: 1494834643}
+  player2Combat: {fileID: 1494834646}
   player1HurtBox: {fileID: 715322574}
   player2HurtBox: {fileID: 1510789795}
   handa: {fileID: 557193511}
@@ -5993,13 +5993,13 @@ GameObject:
   - component: {fileID: 1494834637}
   - component: {fileID: 1494834636}
   - component: {fileID: 1494834640}
-  - component: {fileID: 1494834641}
-  - component: {fileID: 1494834643}
+  - component: {fileID: 1494834645}
+  - component: {fileID: 1494834646}
   - component: {fileID: 1494834642}
   - component: {fileID: 1494834644}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Player2
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6121,24 +6121,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
---- !u!114 &1494834641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494834635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f97f797cfd2369f41adb851279c2e3b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  originalSpeed: 5
-  jumpForce: 11
-  anim: {fileID: 1510789789}
-  enemy: {fileID: 2049316868}
-  sprite: {fileID: 1510789788}
-  isCPU: 0
 --- !u!95 &1494834642
 Animator:
   serializedVersion: 7
@@ -6161,19 +6143,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1494834643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494834635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36691271a7b04a34184529bc5781eafc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1510789789}
 --- !u!114 &1494834644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6187,6 +6156,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 140463442}
+--- !u!114 &1494834645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494834635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ee1e9bb7334994fa58b006a6839161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forwardInput: 273
+  backwardInput: 274
+  leftInput: 276
+  rightInput: 275
+  originalSpeed: 5
+  jumpForce: 11
+  anim: {fileID: 1510789789}
+  enemy: {fileID: 2049316868}
+  sprite: {fileID: 1510789788}
+  startPosition: {x: 2, y: 1, z: 0}
+  isCPU: 0
+--- !u!114 &1494834646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494834635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d9b130f7a551c48ac5aa7906fe7b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightInput: 260
+  mediumInput: 261
+  heavyInput: 262
+  overheadInput: 264
+  specialInput: 258
+  animator: {fileID: 1510789789}
 --- !u!1 &1508375263
 GameObject:
   m_ObjectHideFlags: 0
@@ -6255,6 +6265,24 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 4818801243835224332, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
   m_PrefabInstance: {fileID: 3166973331242691797}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1510789799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510789788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c651b648398a1458d7347dd8d918c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNumber: 2
+  player: {fileID: 1494834635}
+  player2combat: {fileID: 2049316877}
+  player2movement: {fileID: 2049316874}
+  hitEffect: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
+  hitPoint: {fileID: 1950111773}
 --- !u!1 &1563093392
 GameObject:
   m_ObjectHideFlags: 0
@@ -7937,11 +7965,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ee1e9bb7334994fa58b006a6839161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  forwardInput: 119
+  backwardInput: 115
+  leftInput: 97
+  rightInput: 100
+  originalSpeed: 5
   jumpForce: 11
   anim: {fileID: 715322570}
   enemy: {fileID: 1494834635}
   sprite: {fileID: 715322568}
+  startPosition: {x: -2, y: 1, z: 0}
+  isCPU: 0
 --- !u!114 &2049316875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7967,6 +8001,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29d9b130f7a551c48ac5aa7906fe7b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lightInput: 106
+  mediumInput: 107
+  heavyInput: 108
+  overheadInput: 105
+  specialInput: 109
   animator: {fileID: 715322570}
 --- !u!114 &2049316878
 MonoBehaviour:
@@ -8174,6 +8213,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7347712579504768447, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -8195,7 +8238,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4247505351848270916, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1950111774}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7347712579504768447, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1510789799}
   m_SourcePrefab: {fileID: 100100000, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
 --- !u!1001 &6068167399432967258
 PrefabInstance:
@@ -8224,7 +8270,7 @@ PrefabInstance:
     - target: {fileID: 592075041844573436, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
       propertyPath: player2combat
       value: 
-      objectReference: {fileID: 1494834643}
+      objectReference: {fileID: 1494834646}
     - target: {fileID: 592075041844573436, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
       propertyPath: middleHitPoint
       value: 
@@ -8232,7 +8278,7 @@ PrefabInstance:
     - target: {fileID: 592075041844573436, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
       propertyPath: player2movement
       value: 
-      objectReference: {fileID: 1494834641}
+      objectReference: {fileID: 1494834645}
     - target: {fileID: 1986077183491060350, guid: 0fc886fb3d40e7a4e86a72d9e4c79d2e, type: 3}
       propertyPath: m_Sprite
       value: 

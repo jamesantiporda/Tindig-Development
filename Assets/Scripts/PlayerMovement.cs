@@ -7,7 +7,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5.0f;
+    public KeyCode forwardInput = KeyCode.W;
+    public KeyCode backwardInput = KeyCode.S;
+    public KeyCode leftInput = KeyCode.A;
+    public KeyCode rightInput = KeyCode.D;
+
+    public float originalSpeed = 5.0f;
+    private float speed = 5.0f;
     public float jumpForce = 2.5f;
     private float horizontalInput;
     private float horizontalMagnitude;
@@ -34,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 originalScale;
     private Vector3 flippedScale;
-    private Vector3 startPosition = new Vector3(-2, 1, 0.0f);
+    public Vector3 startPosition = new Vector3(2, 1, 0.0f);
     private Vector3 behind;
 
     //dashing variables
@@ -44,24 +50,47 @@ public class PlayerMovement : MonoBehaviour
     private float dashingTime = 0.2f;
     private float dashingCooldown = 0.5f;
 
-    // Accept Input
-    private bool acceptInput;
+    // Accept Movement Input
+    private bool acceptInput = false;
 
     // Sliding
     private bool sliding = false;
 
+    // Inputs
+
+    public bool isCPU = false;
+
+    // Movement AI
+    private bool aiRight = false;
+    private bool aiLeft = false;
+    private bool aiCrouch = false;
+    private bool aiJump = false;
+    private bool aiSprint = false;
+    private bool aiBackdash = false;
+
+    // AI Behavior
+    private bool isApproaching;
+    private bool react = false;
+    private int randomInt = 0;
+    private float randomFloat = 0.0f;
+
+    private bool isWandering;
+
     void Start()
     {
-        acceptInput = false;
         playerRb = GetComponent<Rigidbody>();
         originalScale = sprite.transform.localScale;
         flippedScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
+
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isDashing)
+        // Setup per frame
+        if (isDashing)
         {
             return;
         }
@@ -69,17 +98,17 @@ public class PlayerMovement : MonoBehaviour
         if (!isGrounded)
         {
             canDash = false;
-            speed = 4.0f;
+            speed = originalSpeed * 0.80f;
         }
         else
         {
             sliding = false;
-            speed = 5.0f;
+            speed = originalSpeed;
         }
 
         distanceFromEnemy = transform.position.x - enemy.transform.position.x;
 
-        if (distanceFromEnemy <= 0) 
+        if (distanceFromEnemy <= 0)
         {
             isFacingRight = true;
         }
@@ -88,7 +117,7 @@ public class PlayerMovement : MonoBehaviour
             isFacingRight = false;
         }
 
-        if (isFacingRight )
+        if (isFacingRight)
         {
             sprite.transform.localScale = originalScale;
             behind = Vector3.left;
@@ -99,10 +128,34 @@ public class PlayerMovement : MonoBehaviour
             behind = Vector3.right;
         }
 
-        // Get Player Horizontal Input
-        if(isFacingRight)
+
+        // CPU AI Calculations and Behavior
+        if (isWandering == false)
         {
-            if(!Input.GetKey(KeyCode.D) && isSprinting)
+            StartCoroutine(Wander());
+        }
+
+        if (isApproaching)
+        {
+            if (isFacingRight)
+            {
+                aiRight = true;
+            }
+            else
+            {
+                aiLeft = true;
+            }
+        }
+        else
+        {
+            aiRight = false;
+            aiLeft = false;
+        }
+
+        // Get Player Horizontal Input
+        if (isFacingRight)
+        {
+            if (((!Input.GetKey(rightInput) && !isCPU) || (aiRight && isCPU)) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;
@@ -110,20 +163,20 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (!Input.GetKey(KeyCode.A) && isSprinting)
+            if (((!Input.GetKey(leftInput) && !isCPU) || (aiLeft && isCPU)) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;
             }
         }
 
-        if (Input.GetKey(KeyCode.D) && acceptInput && !sliding)
+        if (((Input.GetKey(rightInput) && !isCPU) || (aiRight && isCPU)) && acceptInput && !sliding)
         {
             if (distanceFromEnemy <= 7.2)
             {
-                if(isFacingRight)
+                if (isFacingRight)
                 {
-                    if (Input.GetKeyDown(KeyCode.D))
+                    if (Input.GetKeyDown(rightInput))
                     {
                         timeSinceLastForward = Time.time - lastForwardInput;
                         //Debug.Log("Last Forward input: " + timeSinceLastForward);
@@ -139,7 +192,7 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else
                 {
-                    if (Input.GetKeyDown(KeyCode.D))
+                    if (Input.GetKeyDown(rightInput))
                     {
                         timeSinceLastBackward = Time.time - lastBackwardInput;
                         //Debug.Log("Last Backward input: " + timeSinceLastBackward);
@@ -155,17 +208,17 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-                horizontalInput = 0;
                 horizontalDirection = 5;
+                horizontalInput = 0;
             }
         }
-        else if (Input.GetKey(KeyCode.A) && acceptInput && !sliding)
+        else if (((Input.GetKey(leftInput) && !isCPU) || (aiLeft && isCPU)) && acceptInput && !sliding)
         {
             if (distanceFromEnemy >= -6.3)
             {
-                if(isFacingRight)
+                if (isFacingRight)
                 {
-                    if (Input.GetKeyDown(KeyCode.A))
+                    if (Input.GetKeyDown(leftInput))
                     {
                         timeSinceLastBackward = Time.time - lastBackwardInput;
                         //Debug.Log("Last Backward input: " + timeSinceLastBackward);
@@ -180,7 +233,7 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else
                 {
-                    if(Input.GetKeyDown(KeyCode.A))
+                    if (Input.GetKeyDown(leftInput))
                     {
                         timeSinceLastForward = Time.time - lastForwardInput;
                         //Debug.Log("Last Forward input: " + timeSinceLastForward);
@@ -222,7 +275,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Jump Input
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded && !isCrouching && acceptInput && canMove)
+        if (((Input.GetKeyDown(forwardInput) && !isCPU) || (aiJump && isCPU)) && isGrounded && !isCrouching && acceptInput && canMove)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             anim.SetTrigger("Jump");
@@ -230,7 +283,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Crouch Input
-        if(Input.GetKey(KeyCode.S) && isGrounded && acceptInput && canMove)
+        if (((Input.GetKey(backwardInput) && !isCPU) || (aiCrouch && isCPU)) && isGrounded && acceptInput)
         {
             isCrouching = true;
             canDash = false;
@@ -243,9 +296,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Debugging
-        //if(!isCrouching)
+        //if (!isCrouching)
         //{
-            //Debug.Log("Not Crouching!");
+        //Debug.Log("Not Crouching!");
         //}
 
         // Movement Animations
@@ -257,7 +310,10 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetFloat("Movement", -horizontalMagnitude);
         }
-        anim.SetBool("Crouching", isCrouching);
+        if(canMove)
+        {
+            anim.SetBool("Crouching", isCrouching);
+        }
         anim.SetInteger("Direction", horizontalDirection);
         anim.SetBool("Sprinting", isSprinting);
     }
@@ -307,7 +363,6 @@ public class PlayerMovement : MonoBehaviour
         //startTimer = 0.0f;
         playerRb.position = startPosition;
     }
-
     public void AcceptInput()
     {
         acceptInput = true;
@@ -323,12 +378,13 @@ public class PlayerMovement : MonoBehaviour
         playerRb.velocity = new Vector2(-behind.x * dashingPower, 0.0f);
     }
 
+
     private IEnumerator BackDash()
     {
         canDash = false;
         isDashing = true;
         anim.SetTrigger("Backdash");
-        if(isFacingRight)
+        if (isFacingRight)
         {
             playerRb.velocity = new Vector2(-1f * dashingPower, 0f);
         }
@@ -340,6 +396,39 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+
+    private IEnumerator ReturnRandomFloat(float min, float max)
+    {
+        yield return new WaitForSeconds(1f);
+        randomFloat = UnityEngine.Random.Range(min, max);
+    }
+
+    private IEnumerator ReturnRandomInt(int min, int max)
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            randomInt = UnityEngine.Random.Range(min, max);
+        }
+    }
+
+    IEnumerator Wander()
+    {
+        int approachWait = UnityEngine.Random.Range(1, 3);
+        int approachTime = UnityEngine.Random.Range(1, 3);
+
+        isWandering = true;
+
+        yield return new WaitForSeconds(approachWait);
+
+        isApproaching = true;
+
+        yield return new WaitForSeconds(approachTime);
+
+        isApproaching = false;
+
+        isWandering = false;
     }
 
     private void OnTriggerStay(Collider collision)

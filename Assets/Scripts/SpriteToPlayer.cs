@@ -5,9 +5,11 @@ using UnityEngine.WSA;
 
 public class SpriteToPlayer : MonoBehaviour
 {
+    public int playerNumber = 1;
+
     public GameObject player;
-    public Player2Combat player2combat;
-    public Player2Movement player2movement;
+    public PlayerCombat player2combat;
+    public PlayerMovement player2movement;
 
     private PlayerMovement movement;
     private PlayerCombat combat;
@@ -18,7 +20,7 @@ public class SpriteToPlayer : MonoBehaviour
 
     private float launchForce = 12.5f;
 
-    private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked;
+    private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked, hit;
 
     // Start is called before the first frame update
     void Start()
@@ -194,7 +196,7 @@ public class SpriteToPlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player2Attack")
+        if ((playerNumber == 1 && collision.gameObject.tag == "Player2Attack") || (playerNumber == 2 && collision.gameObject.tag == "Player1Attack"))
         {
             lowBlocked = isLowBlocking && player2combat.ReturnAttackType() != "Overhead";
             blocked = !player2combat.ReturnIsCrouchAttack() && isBlocking && !isLowBlocking;
