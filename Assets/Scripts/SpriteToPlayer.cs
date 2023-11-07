@@ -22,6 +22,12 @@ public class SpriteToPlayer : MonoBehaviour
 
     private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked, hit;
 
+    /// CPU AI /
+    public bool isCPU = false;
+    private int randomInt;
+
+    ////////////
+
     // Start is called before the first frame update
     void Start()
     {
@@ -194,6 +200,11 @@ public class SpriteToPlayer : MonoBehaviour
         MakePlayerUnable();
     }
 
+    private int ReturnRandomInt(int min, int max)
+    {
+        return UnityEngine.Random.Range(min, max);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if ((playerNumber == 1 && collision.gameObject.tag == "Player2Attack") || (playerNumber == 2 && collision.gameObject.tag == "Player1Attack"))
@@ -215,6 +226,16 @@ public class SpriteToPlayer : MonoBehaviour
             else
             {
                 //Debug.Log("P1 DAMAGED!");
+                if (isCPU)
+                {
+                    randomInt = ReturnRandomInt(0, 2);
+                    if (randomInt <= 2 && combat.ReturnCanAttack())
+                    {
+                        Blocked();
+                        anim.SetTrigger("Counter");
+                        return;
+                    }
+                }
                 Damaged();
             }
         }

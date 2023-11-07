@@ -6178,7 +6178,7 @@ MonoBehaviour:
   enemy: {fileID: 2049316868}
   sprite: {fileID: 1510789788}
   startPosition: {x: 2, y: 1, z: 0}
-  isCPU: 0
+  isCPU: 1
 --- !u!114 &1494834646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6197,6 +6197,7 @@ MonoBehaviour:
   overheadInput: 264
   specialInput: 258
   animator: {fileID: 1510789789}
+  isCPU: 1
 --- !u!1 &1508375263
 GameObject:
   m_ObjectHideFlags: 0
@@ -6283,6 +6284,7 @@ MonoBehaviour:
   player2movement: {fileID: 2049316874}
   hitEffect: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
   hitPoint: {fileID: 1950111773}
+  isCPU: 1
 --- !u!1 &1563093392
 GameObject:
   m_ObjectHideFlags: 0
@@ -8007,6 +8009,7 @@ MonoBehaviour:
   overheadInput: 105
   specialInput: 109
   animator: {fileID: 715322570}
+  isCPU: 0
 --- !u!114 &2049316878
 MonoBehaviour:
   m_ObjectHideFlags: 0

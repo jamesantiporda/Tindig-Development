@@ -24,6 +24,11 @@ public class PlayerCombat : MonoBehaviour
     // Accept Input
     private bool acceptInput;
 
+    // CPU AI
+    public bool isCPU = false;
+    private int randomInt;
+    //
+
     void Start()
     {
         movement = GetComponent<PlayerMovement>();
@@ -57,6 +62,11 @@ public class PlayerCombat : MonoBehaviour
             if (Input.GetKeyDown(specialInput) && canAttack)
             {
                 Special();
+            }
+
+            if (isCPU && movement.ReturnWithinAttackRange())
+            {
+                StartCoroutine(AttackPick());
             }
         }
     }
@@ -168,5 +178,36 @@ public class PlayerCombat : MonoBehaviour
     public void DenyInput()
     {
         acceptInput = false;
+    }
+
+    private int ReturnRandomInt(int min, int max)
+    {
+        return UnityEngine.Random.Range(min, max);
+    }
+
+    IEnumerator AttackPick()
+    {
+        int attackWait = UnityEngine.Random.Range(1, 2);
+
+        randomInt = ReturnRandomInt(0, 3);
+
+        if (randomInt == 0)
+        {
+            LightAttack();
+        }
+        else if (randomInt == 1)
+        {
+            MediumAttack();
+        }
+        else if (randomInt == 2)
+        {
+            HeavyAttack();
+        }
+        else if (randomInt == 3)
+        {
+            OverheadAttack();
+        }
+
+        yield return new WaitForSeconds(attackWait);
     }
 }

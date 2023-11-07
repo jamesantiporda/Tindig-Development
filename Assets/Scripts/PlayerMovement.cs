@@ -75,15 +75,13 @@ public class PlayerMovement : MonoBehaviour
     private float randomFloat = 0.0f;
 
     private bool isWandering;
+    private bool attackRange = false;
 
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
         originalScale = sprite.transform.localScale;
         flippedScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
-
-
-
     }
 
     // Update is called once per frame
@@ -129,10 +127,46 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        // CPU AI Calculations and Behavior
+        // CPU AI Calculations and Behavior///////////////////////////
         if (isWandering == false)
         {
-            StartCoroutine(Wander());
+            if (isFacingRight)
+            {
+                if (distanceFromEnemy < -1f)
+                {
+                    attackRange = false;
+                    StartCoroutine(Wander());
+                }
+            }
+            else
+            {
+                if (distanceFromEnemy > 1f)
+                {
+                    attackRange = false;
+                    StartCoroutine(Wander());
+                }
+            }
+        }
+        else
+        {
+            if (isFacingRight)
+            {
+                if (distanceFromEnemy >= -1f)
+                {
+                    isWandering = false;
+                    isApproaching = false;
+                    attackRange = true;
+                }
+            }
+            else
+            {
+                if (distanceFromEnemy <= 1f)
+                {
+                    isWandering = false;
+                    isApproaching = false;
+                    attackRange = true;
+                }
+            }
         }
 
         if (isApproaching)
@@ -151,6 +185,10 @@ public class PlayerMovement : MonoBehaviour
             aiRight = false;
             aiLeft = false;
         }
+
+
+        //////////////////////////////////////
+
 
         // Get Player Horizontal Input
         if (isFacingRight)
@@ -350,6 +388,11 @@ public class PlayerMovement : MonoBehaviour
     public bool ReturnIsCrouching()
     {
         return isCrouching;
+    }
+
+    public bool ReturnWithinAttackRange()
+    {
+        return attackRange;
     }
 
     public void SetDirection(int newDirection)
