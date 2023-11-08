@@ -27,6 +27,8 @@ public class PlayerCombat : MonoBehaviour
     // CPU AI
     public bool isCPU = false;
     private int randomInt;
+    private bool isAttacking = false;
+    private bool punishLowBlock = false;
     //
 
     void Start()
@@ -64,7 +66,14 @@ public class PlayerCombat : MonoBehaviour
                 Special();
             }
 
-            if (isCPU && movement.ReturnWithinAttackRange())
+            // AI Behavior
+            if (punishLowBlock)
+            {
+                OverheadAttack();
+                punishLowBlock = false;
+            }
+
+            if (isCPU && movement.ReturnWithinAttackRange() && !isAttacking)
             {
                 StartCoroutine(AttackPick());
             }
@@ -185,11 +194,18 @@ public class PlayerCombat : MonoBehaviour
         return UnityEngine.Random.Range(min, max);
     }
 
+    public void PunishLowBlock()
+    {
+        punishLowBlock = true;
+    }
+
     IEnumerator AttackPick()
     {
+        isAttacking = true;
+
         int attackWait = UnityEngine.Random.Range(1, 2);
 
-        randomInt = ReturnRandomInt(0, 3);
+        randomInt = ReturnRandomInt(0, 4);
 
         if (randomInt == 0)
         {
@@ -209,5 +225,7 @@ public class PlayerCombat : MonoBehaviour
         }
 
         yield return new WaitForSeconds(attackWait);
+
+        isAttacking = false;
     }
 }

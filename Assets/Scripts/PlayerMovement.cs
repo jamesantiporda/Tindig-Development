@@ -128,14 +128,17 @@ public class PlayerMovement : MonoBehaviour
 
 
         // CPU AI Calculations and Behavior///////////////////////////
+
+        // Approaching AI
         if (isWandering == false)
         {
+            // If Enemy is far enough, start approaching
             if (isFacingRight)
             {
                 if (distanceFromEnemy < -1f)
                 {
                     attackRange = false;
-                    StartCoroutine(Wander());
+                    StartCoroutine(Approach());
                 }
             }
             else
@@ -143,12 +146,13 @@ public class PlayerMovement : MonoBehaviour
                 if (distanceFromEnemy > 1f)
                 {
                     attackRange = false;
-                    StartCoroutine(Wander());
+                    StartCoroutine(Approach());
                 }
             }
         }
         else
         {
+            // If Enemy is close enough, stop approaching and start attacking
             if (isFacingRight)
             {
                 if (distanceFromEnemy >= -1f)
@@ -167,6 +171,9 @@ public class PlayerMovement : MonoBehaviour
                     attackRange = true;
                 }
             }
+
+            // If enemy is defending backwards for a while start crouching
+            
         }
 
         if (isApproaching)
@@ -400,6 +407,11 @@ public class PlayerMovement : MonoBehaviour
         horizontalDirection = newDirection;
     }
 
+    public bool ReturnIsCPU()
+    {
+        return isCPU;
+    }
+
     public void ResetPosition()
     {
         //afterStart = false;
@@ -456,7 +468,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    IEnumerator Wander()
+    IEnumerator Approach()
     {
         int approachWait = UnityEngine.Random.Range(1, 3);
         int approachTime = UnityEngine.Random.Range(1, 3);
@@ -474,12 +486,23 @@ public class PlayerMovement : MonoBehaviour
         isWandering = false;
     }
 
+    public void StartCrouching()
+    {
+        Debug.Log("CROCUH");
+        aiCrouch = true;
+    }
+
+    public void StopCrouching()
+    {
+        aiCrouch = false;
+    }
+
     private void OnTriggerStay(Collider collision)
     {
         if (collision.gameObject.tag == "PlayerHitBox")
         {
             Rigidbody collisionRb = collision.gameObject.transform.parent.GetComponent<Rigidbody>();
-            Debug.Log("Standing on Head!~");
+            //Debug.Log("Standing on Head!~");
             sliding = true;
             if (isFacingRight)
             {

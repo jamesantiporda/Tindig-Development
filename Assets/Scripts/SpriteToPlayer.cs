@@ -21,6 +21,7 @@ public class SpriteToPlayer : MonoBehaviour
     private float launchForce = 12.5f;
 
     private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked, hit;
+    private float blockingTime = 0f, lowBlockingTime = 0f;
 
     /// CPU AI /
     public bool isCPU = false;
@@ -64,6 +65,53 @@ public class SpriteToPlayer : MonoBehaviour
             isBlocking = false;
             isLowBlocking = false;
         }
+
+
+        // Timer to see how long the player has been blocking
+        if(anim.GetInteger("Direction") == 4 && !anim.GetBool("Crouching"))
+        {
+            blockingTime += Time.deltaTime;
+        }
+        else
+        {
+            blockingTime = 0f;
+        }
+
+        if(anim.GetInteger("Direction") == 4 && anim.GetBool("Crouching"))
+        {
+            lowBlockingTime += Time.deltaTime;
+        }
+        else
+        {
+            lowBlockingTime = 0f;
+        }
+
+        // AI BEHAVIOR
+        if(player2movement.ReturnIsCPU() && player2movement.ReturnWithinAttackRange())
+        {
+            // If normal block for too long, start crouching
+            if (blockingTime >= 1.5f)
+            {
+                player2movement.StartCrouching();
+            }
+            else
+            {
+                player2movement.StopCrouching();
+            }
+
+            // If low block for too long, punish with overhead
+            if(lowBlockingTime >= 1.5f)
+            {
+                player2combat.PunishLowBlock();
+                lowBlockingTime = 0f;
+            }
+        }
+        else
+        {
+            player2movement.StopCrouching();
+        }
+
+        //Debug.Log("Blocking time: " + blockingTime);
     }
 
     public void MakePlayerMoveable()
@@ -215,12 +263,12 @@ public class SpriteToPlayer : MonoBehaviour
             //If the GameObject's name matches the one you suggest, output this message in the console
             if (blocked)
             {
-                Debug.Log("Blocked!");
+                //Debug.Log("Blocked!");
                 Blocked();
             }
             else if(lowBlocked)
             {
-                Debug.Log("LowBlocked!");
+                //Debug.Log("LowBlocked!");
                 LowBlocked();
             }
             else
@@ -232,7 +280,11 @@ public class SpriteToPlayer : MonoBehaviour
                     if (randomInt <= 2 && combat.ReturnCanAttack())
                     {
                         Blocked();
-                        anim.SetTrigger("Counter");
+                        randomInt = ReturnRandomInt(0, 3);
+                        if(randomInt == 1)
+                        {
+                            anim.SetTrigger("Counter");
+                        }
                         return;
                     }
                 }
