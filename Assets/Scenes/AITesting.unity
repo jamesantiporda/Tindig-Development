@@ -6173,7 +6173,7 @@ MonoBehaviour:
   leftInput: 276
   rightInput: 275
   originalSpeed: 5
-  jumpForce: 12
+  jumpForce: 14
   anim: {fileID: 1510789789}
   enemy: {fileID: 2049316868}
   sprite: {fileID: 1510789788}
@@ -6199,9 +6199,9 @@ MonoBehaviour:
   animator: {fileID: 1510789789}
   isCPU: 1
   easy: 0
-  medium: 1
+  medium: 0
   hard: 0
-  mahoraga: 0
+  mahoraga: 1
 --- !u!1 &1508375263
 GameObject:
   m_ObjectHideFlags: 0
@@ -6290,9 +6290,9 @@ MonoBehaviour:
   hitPoint: {fileID: 1950111773}
   isCPU: 1
   easy: 0
-  medium: 1
+  medium: 0
   hard: 0
-  mahoraga: 0
+  mahoraga: 1
 --- !u!1 &1563093392
 GameObject:
   m_ObjectHideFlags: 0
@@ -7980,7 +7980,7 @@ MonoBehaviour:
   leftInput: 97
   rightInput: 100
   originalSpeed: 5
-  jumpForce: 12
+  jumpForce: 14
   anim: {fileID: 715322570}
   enemy: {fileID: 1494834635}
   sprite: {fileID: 715322568}
