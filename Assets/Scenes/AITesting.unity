@@ -6168,7 +6168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ee1e9bb7334994fa58b006a6839161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyMovement: {fileID: 2049316874}
   forwardInput: 273
   backwardInput: 274
   leftInput: 276
@@ -6199,6 +6198,10 @@ MonoBehaviour:
   specialInput: 258
   animator: {fileID: 1510789789}
   isCPU: 1
+  easy: 0
+  medium: 1
+  hard: 0
+  mahoraga: 0
 --- !u!1 &1508375263
 GameObject:
   m_ObjectHideFlags: 0
@@ -6286,6 +6289,10 @@ MonoBehaviour:
   hitEffect: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
   hitPoint: {fileID: 1950111773}
   isCPU: 1
+  easy: 0
+  medium: 1
+  hard: 0
+  mahoraga: 0
 --- !u!1 &1563093392
 GameObject:
   m_ObjectHideFlags: 0
@@ -7968,7 +7975,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ee1e9bb7334994fa58b006a6839161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyMovement: {fileID: 1494834645}
   forwardInput: 119
   backwardInput: 115
   leftInput: 97
@@ -8012,6 +8018,10 @@ MonoBehaviour:
   specialInput: 109
   animator: {fileID: 715322570}
   isCPU: 0
+  easy: 0
+  medium: 0
+  hard: 0
+  mahoraga: 1
 --- !u!114 &2049316878
 MonoBehaviour:
   m_ObjectHideFlags: 0

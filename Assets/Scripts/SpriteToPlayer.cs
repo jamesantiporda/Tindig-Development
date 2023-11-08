@@ -25,7 +25,13 @@ public class SpriteToPlayer : MonoBehaviour
 
     /// CPU AI /
     public bool isCPU = false;
+    public bool easy = false, medium = true, hard = false, mahoraga = false;
     private int randomInt;
+
+    private float crouchReactionTime;
+    private int maxRandom, numberToPunish;
+
+    private int timesDamaged = 0;
 
     ////////////
 
@@ -36,6 +42,31 @@ public class SpriteToPlayer : MonoBehaviour
         combat = player.GetComponent<PlayerCombat>();
         playerHealth = player.GetComponent<PlayerHealth>();
         anim = gameObject.GetComponent<Animator>();
+
+        if(easy)
+        {
+            crouchReactionTime = 5.0f;
+            maxRandom = 15;
+            numberToPunish = 10;
+        }
+        else if(medium)
+        {
+            crouchReactionTime = 3.0f;
+            maxRandom = 7;
+            numberToPunish = 5;
+        }
+        else if(hard)
+        {
+            crouchReactionTime = 2f;
+            maxRandom = 5;
+            numberToPunish = 3;
+        }
+        else if(mahoraga)
+        {
+            crouchReactionTime = 1f;
+            maxRandom = 3;
+            numberToPunish = 2;
+        }
     }
 
     // Update is called once per frame
@@ -90,7 +121,7 @@ public class SpriteToPlayer : MonoBehaviour
         if(player2movement.ReturnIsCPU() && player2movement.ReturnWithinAttackRange())
         {
             // If normal block for too long, start crouching
-            if (blockingTime >= 1.5f)
+            if (blockingTime >= crouchReactionTime)
             {
                 player2movement.StartCrouching();
             }
@@ -100,7 +131,7 @@ public class SpriteToPlayer : MonoBehaviour
             }
 
             // If low block for too long, punish with overhead
-            if(lowBlockingTime >= 1.5f)
+            if(lowBlockingTime >= crouchReactionTime)
             {
                 player2combat.PunishLowBlock();
                 lowBlockingTime = 0f;
@@ -111,6 +142,11 @@ public class SpriteToPlayer : MonoBehaviour
             player2movement.StopCrouching();
         }
 
+        //if(!movement.ReturnIsRetreating() && timesDamaged >= 5)
+        //{
+         //   timesDamaged = 0;
+        //    StartCoroutine(movement.Retreat());
+        //}
         //Debug.Log("Blocking time: " + blockingTime);
     }
 
@@ -274,21 +310,65 @@ public class SpriteToPlayer : MonoBehaviour
             else
             {
                 //Debug.Log("P1 DAMAGED!");
+
+                // AI BLOCKING
                 if (isCPU)
                 {
-                    randomInt = ReturnRandomInt(0, 2);
-                    if (randomInt <= 2 && combat.ReturnCanAttack())
+                    randomInt = ReturnRandomInt(0, maxRandom);
+                    if (randomInt <= 1 && combat.ReturnCanAttack())
                     {
-                        Blocked();
                         randomInt = ReturnRandomInt(0, 3);
-                        if(randomInt == 1)
+                        if (randomInt == 1)
                         {
                             anim.SetTrigger("Counter");
+                            anim.SetTrigger("CounterHit");
                         }
+                        else
+                        {
+                            if (player2movement.ReturnIsCrouching())
+                            {
+                                LowBlocked();
+                            }
+                            else
+                            {
+                                Blocked();
+                            }
+
+                            randomInt = ReturnRandomInt(0, 3);
+                            if (randomInt <= 1)
+                            {
+                                anim.SetTrigger("Counter2");
+                            }
+                        }
+         
+                        return;
+                    }
+
+                    if (player2combat.ReturnSameAttackCounter() >= numberToPunish)
+                    {
+                        randomInt = ReturnRandomInt(0, 3);
+                        if (randomInt == 1)
+                        {
+                            anim.SetTrigger("Counter");
+                            anim.SetTrigger("CounterHit");
+                        }
+                        else
+                        {
+                            if (player2movement.ReturnIsCrouching())
+                            {
+                                LowBlocked();
+                            }
+                            else
+                            {
+                                Blocked();
+                            }
+                        }
+
                         return;
                     }
                 }
                 Damaged();
+                timesDamaged += 1;
             }
         }
     }

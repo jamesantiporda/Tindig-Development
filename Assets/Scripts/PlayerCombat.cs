@@ -20,6 +20,8 @@ public class PlayerCombat : MonoBehaviour
     private int attackDamage = 50;
 
     private string attackType = "";
+    private string previousAttack = "";
+    private int sameAttackCounter = 0;
 
     // Accept Input
     private bool acceptInput;
@@ -29,11 +31,36 @@ public class PlayerCombat : MonoBehaviour
     private int randomInt;
     private bool isAttacking = false;
     private bool punishLowBlock = false;
+
+    private float waitMin, waitMax;
+
+    public bool easy = false, medium = true, hard = false, mahoraga = false;
     //
 
     void Start()
     {
         movement = GetComponent<PlayerMovement>();
+
+        if (easy)
+        {
+            waitMin = 3;
+            waitMax = 5;
+        }
+        else if (medium)
+        {
+            waitMin = 2;
+            waitMax = 4;
+        }
+        else if (hard)
+        {
+            waitMin = 1;
+            waitMax = 2;
+        }
+        else if (mahoraga)
+        {
+            waitMin = 0;
+            waitMax = 1.25f;
+        }
     }
 
     // Update is called once per frame
@@ -82,7 +109,18 @@ public class PlayerCombat : MonoBehaviour
 
     void LightAttack()
     {
+        previousAttack = attackType;
         attackType = "Light";
+
+        if(previousAttack == attackType)
+        {
+            sameAttackCounter += 1;
+        }
+        else
+        {
+            sameAttackCounter = 0;
+        }
+
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("LightAttack");
@@ -90,7 +128,18 @@ public class PlayerCombat : MonoBehaviour
 
     void MediumAttack()
     {
+        previousAttack = attackType;
         attackType = "Medium";
+
+        if (previousAttack == attackType)
+        {
+            sameAttackCounter += 1;
+        }
+        else
+        {
+            sameAttackCounter = 0;
+        }
+
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("MediumAttack");
@@ -98,7 +147,18 @@ public class PlayerCombat : MonoBehaviour
 
     void HeavyAttack()
     {
+        previousAttack = attackType;
         attackType = "Heavy";
+
+        if (previousAttack == attackType)
+        {
+            sameAttackCounter += 1;
+        }
+        else
+        {
+            sameAttackCounter = 0;
+        }
+
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("HeavyAttack");
@@ -106,7 +166,18 @@ public class PlayerCombat : MonoBehaviour
 
     void OverheadAttack()
     {
+        previousAttack = attackType;
         attackType = "Overhead";
+
+        if (previousAttack == attackType)
+        {
+            sameAttackCounter += 1;
+        }
+        else
+        {
+            sameAttackCounter = 0;
+        }
+
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("OverheadAttack");
@@ -114,7 +185,18 @@ public class PlayerCombat : MonoBehaviour
 
     void Special()
     {
+        previousAttack = attackType;
         attackType = "Special";
+
+        if (previousAttack == attackType)
+        {
+            sameAttackCounter += 1;
+        }
+        else
+        {
+            sameAttackCounter = 0;
+        }
+
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("Special");
@@ -175,9 +257,14 @@ public class PlayerCombat : MonoBehaviour
         return attackType;
     }
 
+    public int ReturnSameAttackCounter()
+    {
+        return sameAttackCounter;
+    }
+
     public void ResetAttackType()
     {
-        attackType = "";
+        attackType = attackType;
     }
     public void AcceptInput()
     {
@@ -194,6 +281,11 @@ public class PlayerCombat : MonoBehaviour
         return UnityEngine.Random.Range(min, max);
     }
 
+    private float ReturnRandomFloat(int min, int max)
+    {
+        return UnityEngine.Random.Range(min, max);
+    }
+
     public void PunishLowBlock()
     {
         punishLowBlock = true;
@@ -203,7 +295,7 @@ public class PlayerCombat : MonoBehaviour
     {
         isAttacking = true;
 
-        int attackWait = UnityEngine.Random.Range(1, 2);
+        float attackWait = UnityEngine.Random.Range(waitMin, waitMax);
 
         randomInt = ReturnRandomInt(0, 4);
 

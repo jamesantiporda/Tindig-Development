@@ -70,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
     // AI Behavior
     private bool isApproaching;
+    private bool isRetreating = false;
     private bool react = false;
     private int randomInt = 0;
     private float randomFloat = 0.0f;
@@ -412,6 +413,11 @@ public class PlayerMovement : MonoBehaviour
         return isCPU;
     }
 
+    public bool ReturnIsRetreating()
+    {
+        return isRetreating;
+    }
+
     public void ResetPosition()
     {
         //afterStart = false;
@@ -484,6 +490,17 @@ public class PlayerMovement : MonoBehaviour
         isApproaching = false;
 
         isWandering = false;
+    }
+
+    public IEnumerator Retreat()
+    {
+        int retreatTime = UnityEngine.Random.Range(1, 3);
+
+        isRetreating = true;
+
+        yield return new WaitForSeconds(retreatTime);
+
+        isRetreating = false;
     }
 
     public void StartCrouching()
