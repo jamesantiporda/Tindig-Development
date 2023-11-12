@@ -48,12 +48,12 @@ public class PlayerCombat : MonoBehaviour
         }
         else if (medium)
         {
-            waitMin = 2;
+            waitMin = 1;
             waitMax = 4;
         }
         else if (hard)
         {
-            waitMin = 1;
+            waitMin = 0;
             waitMax = 2;
         }
         else if (mahoraga)

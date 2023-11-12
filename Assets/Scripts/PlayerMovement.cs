@@ -78,11 +78,36 @@ public class PlayerMovement : MonoBehaviour
     private bool isWandering;
     private bool attackRange = false;
 
+    public bool easy = false, medium = true, hard = false, mahoraga = false;
+
+    private float min, max;
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
         originalScale = sprite.transform.localScale;
         flippedScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
+
+        if (easy)
+        {
+            min = 3;
+            max = 5;
+        }
+        else if (medium)
+        {
+            min = 1;
+            max = 4;
+        }
+        else if (hard)
+        {
+            min = 0;
+            max = 3;
+        }
+        else if (mahoraga)
+        {
+            min = 0;
+            max = 1.25f;
+        }
     }
 
     // Update is called once per frame
@@ -476,8 +501,8 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator Approach()
     {
-        int approachWait = UnityEngine.Random.Range(1, 3);
-        int approachTime = UnityEngine.Random.Range(1, 3);
+        float approachWait = UnityEngine.Random.Range(min, max);
+        float approachTime = UnityEngine.Random.Range(min, max);
 
         isWandering = true;
 
