@@ -141,12 +141,12 @@ public class PlayerMovement : MonoBehaviour
             isFacingRight = false;
         }
 
-        if (isFacingRight)
+        if (isFacingRight && canMove)
         {
             sprite.transform.localScale = originalScale;
             behind = Vector3.left;
         }
-        else
+        else if (!isFacingRight && canMove)
         {
             sprite.transform.localScale = flippedScale;
             behind = Vector3.right;

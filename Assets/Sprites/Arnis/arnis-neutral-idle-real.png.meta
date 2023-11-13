@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: ede093c2cee57fe4cb169e42247b59c7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 895
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d20e454a6b864db7927f48a4c83fa
+      internalID: -1062675632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 894
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a3dea96051da44eaeb00390d5ef487
+      internalID: -803184379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 894
+        width: 46
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250c2a991f1baab4991331d0b948b462
+      internalID: 1092019669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_3
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 894
+        width: 47
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c694fe3778251a4ca131a768ae1625b
+      internalID: -29544311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 894
+        width: 48
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08387b922db693a488a343b44a421338
+      internalID: -1129995618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 894
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204825080e0ad5444a6e277d18f78691
+      internalID: 374093215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_6
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 894
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1d60bd74467de4ab0790ddb4575747
+      internalID: -465166337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_7
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 894
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77f5723574527846903e12591f65662
+      internalID: -427848227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 638
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fb7a575b46b3348b5553e28ec8eb4d
+      internalID: 1820379835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 638
+        width: 51
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57aa1af22a52064798a384d786ed96b
+      internalID: -982202080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_10
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 638
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469cf424c9d390343b3be7603796f2ff
+      internalID: -1650082708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_11
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 638
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67d33d067ff6f3499f53f4c2efd75b3
+      internalID: 1590724558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_12
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 638
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77fb49788de184498e0c852f0808a9b
+      internalID: 1274239409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_13
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 638
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c560724663b96b14aa2051d01b8a2d98
+      internalID: -522231383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_14
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 638
+        width: 49
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c9e3ccd42eb374c9b0a99182215cef
+      internalID: -1743133992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_15
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 638
+        width: 48
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac8dca90cc19644f80885e4eed5b8da
+      internalID: 85972392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 382
+        width: 47
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff5a37f155024e4a81e2a4435a946a6
+      internalID: 1304238764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 382
+        width: 46
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bfe4dd9f84d3d449ed5f3bdeb899e9
+      internalID: -216309020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_18
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 382
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56f9f3abc174754cb6a92262f5083a5
+      internalID: -1281665257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_19
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 383
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827905d995a4d4f4488c915ace0cefc7
+      internalID: -1464597975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_20
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 383
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2bda85c3737db48950f4bb964572e2
+      internalID: -1323515785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_21
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 383
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3145bb2e350e642b31b9fc7258c109
+      internalID: 1890012912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_22
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 383
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d4eaf0c8038e341999e18a3c6369f9
+      internalID: 733545364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_23
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 383
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962f28e85d7b7994a80f7451d63a1b48
+      internalID: -1318135185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 127
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1246f37711523fc4a9577f80668e5b0d
+      internalID: -1367979272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_25
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 127
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35b8cb53ae6bba49b986b8d6c1593e4
+      internalID: -541743913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_26
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 127
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4288c6011aa90f848bde5d23172a5a73
+      internalID: 1078637764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_27
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 127
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f684218af2f384fb78e5846b15f654
+      internalID: 1150600838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_28
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 127
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2e2074a18e5a64295d7f498eff8af3
+      internalID: -742684017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-neutral-idle-real_29
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 127
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe10ee45100777469b96d3fd9904381
+      internalID: 1095175504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0869569c83d1de14fbea590a9e70dd50
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      arnis-neutral-idle-real_0: -1062675632
+      arnis-neutral-idle-real_1: -803184379
+      arnis-neutral-idle-real_10: -1650082708
+      arnis-neutral-idle-real_11: 1590724558
+      arnis-neutral-idle-real_12: 1274239409
+      arnis-neutral-idle-real_13: -522231383
+      arnis-neutral-idle-real_14: -1743133992
+      arnis-neutral-idle-real_15: 85972392
+      arnis-neutral-idle-real_16: 1304238764
+      arnis-neutral-idle-real_17: -216309020
+      arnis-neutral-idle-real_18: -1281665257
+      arnis-neutral-idle-real_19: -1464597975
+      arnis-neutral-idle-real_2: 1092019669
+      arnis-neutral-idle-real_20: -1323515785
+      arnis-neutral-idle-real_21: 1890012912
+      arnis-neutral-idle-real_22: 733545364
+      arnis-neutral-idle-real_23: -1318135185
+      arnis-neutral-idle-real_24: -1367979272
+      arnis-neutral-idle-real_25: -541743913
+      arnis-neutral-idle-real_26: 1078637764
+      arnis-neutral-idle-real_27: 1150600838
+      arnis-neutral-idle-real_28: -742684017
+      arnis-neutral-idle-real_29: 1095175504
+      arnis-neutral-idle-real_3: -29544311
+      arnis-neutral-idle-real_4: -1129995618
+      arnis-neutral-idle-real_5: 374093215
+      arnis-neutral-idle-real_6: -465166337
+      arnis-neutral-idle-real_7: -427848227
+      arnis-neutral-idle-real_8: 1820379835
+      arnis-neutral-idle-real_9: -982202080
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

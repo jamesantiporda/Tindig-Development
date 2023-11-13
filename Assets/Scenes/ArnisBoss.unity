@@ -7982,7 +7982,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.52, y: 1.02}
+    oldSize: {x: 0.46, y: 1.05}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8027,6 +8027,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1494834635}
+    - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
+      propertyPath: hitPoint
+      value: 
+      objectReference: {fileID: 5383837883307673729}
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: player2combat
       value: 
