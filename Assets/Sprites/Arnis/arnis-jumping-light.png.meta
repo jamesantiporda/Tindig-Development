@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,590 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: arnis-jumping-light_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1872
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdcd8da1406178439fb45b3f9eef30d
+      internalID: -1761076543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1881
+        width: 83
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca29194c07cf564d8cb255e5bb64cfc
+      internalID: -1282707959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1893
+        width: 91
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc4abd74a93073488be71ecfa0eea94
+      internalID: 1606026944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_3
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1906
+        width: 127
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80877496ed8d9de46a1971e41bdaba4a
+      internalID: 217504521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_4
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1920
+        width: 156
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeef21e08195b5489c3a3e475719ec9
+      internalID: -1893145724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_5
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1920
+        width: 123
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b5054b475b1b24dbc6847fce908c9c
+      internalID: 945873813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_6
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1920
+        width: 77
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0988a2147421dc34f87f2e4b5c47ca35
+      internalID: -936957423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_7
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1920
+        width: 58
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f963a503ea88374e8a11bf216af273d
+      internalID: -1027359007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1664
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4102175a75742a244a6b8126c923f189
+      internalID: -342769173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1663
+        width: 52
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e993942ef459441ad37703756ce9f0
+      internalID: 115372552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_10
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1663
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a912ff3c93826049bf5c937bb9b127e
+      internalID: -491271798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_11
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1663
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e36fedb8a48e341960d56129e50a28
+      internalID: 214891008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_12
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1663
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95816165b3c410f4d84e6aa12fce5915
+      internalID: -1047248931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_13
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1663
+        width: 79
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35314eb5400eb9418b6376005b50c4d
+      internalID: 2097294226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_14
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1663
+        width: 142
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a023d181b18814aaf7f957cf2708d2
+      internalID: 128443656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_15
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1652
+        width: 154
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c26b3a9b5db9d4380b91906a032d9e
+      internalID: 415793397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1386
+        width: 96
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f241c596544e532498289e5923ea4c6b
+      internalID: 199809801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_17
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1376
+        width: 66
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d753db9f0032574ca530485838c3629
+      internalID: 355882478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_18
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1367
+        width: 72
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73b9a60dbab320499ad9c795366e50f
+      internalID: -479825646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_19
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1360
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd3171ffc842094c8b53f4a82552835
+      internalID: 562570235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_20
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1360
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e05434c705c0a4b90d0b1f321ccfa5
+      internalID: 396005331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_21
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1360
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8cef0c8dd855a42a1b62343a0b1a50
+      internalID: 1896865267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_22
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1360
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9401783469bd574180d62727cbe7ea2
+      internalID: -1955605742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_23
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1360
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af58d3d138d1034784064fff0792242
+      internalID: 948721592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1104
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec68219964c9dc46931d8e4be60b382
+      internalID: -1491847879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jumping-light_25
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1104
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3832c82351cb4e74dafe3284c27bcbb3
+      internalID: -414044329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 47fb30bd00685df42bfde96ac20be870
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arnis-jumping-light_0: -1761076543
+      arnis-jumping-light_1: -1282707959
+      arnis-jumping-light_10: -491271798
+      arnis-jumping-light_11: 214891008
+      arnis-jumping-light_12: -1047248931
+      arnis-jumping-light_13: 2097294226
+      arnis-jumping-light_14: 128443656
+      arnis-jumping-light_15: 415793397
+      arnis-jumping-light_16: 199809801
+      arnis-jumping-light_17: 355882478
+      arnis-jumping-light_18: -479825646
+      arnis-jumping-light_19: 562570235
+      arnis-jumping-light_2: 1606026944
+      arnis-jumping-light_20: 396005331
+      arnis-jumping-light_21: 1896865267
+      arnis-jumping-light_22: -1955605742
+      arnis-jumping-light_23: 948721592
+      arnis-jumping-light_24: -1491847879
+      arnis-jumping-light_25: -414044329
+      arnis-jumping-light_3: 217504521
+      arnis-jumping-light_4: -1893145724
+      arnis-jumping-light_5: 945873813
+      arnis-jumping-light_6: -936957423
+      arnis-jumping-light_7: -1027359007
+      arnis-jumping-light_8: -342769173
+      arnis-jumping-light_9: 115372552
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

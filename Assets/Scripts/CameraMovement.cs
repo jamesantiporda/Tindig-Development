@@ -21,7 +21,7 @@ public class CameraMovement : MonoBehaviour
 
         centerOfFightersY = (player2.transform.position.y + player1.transform.position.y) / 2;
 
-        transform.position = new Vector3(centerOfFighters, 4.3f + centerOfFightersY/5, -10f);
+        transform.position = new Vector3(centerOfFighters, 3.0f + centerOfFightersY, -10f);
         //Debug.Log(centerOfFighters);
     }
 
@@ -32,7 +32,7 @@ public class CameraMovement : MonoBehaviour
         player2Xposition = player2.transform.position.x;
         centerOfFighters = (player2Xposition + player1Xposition) / 2;
         centerOfFightersY = (player2.transform.position.y + player1.transform.position.y) / 2;
-        transform.position = new Vector3(centerOfFighters, 4.3f + centerOfFightersY/5, -10f);
+        transform.position = new Vector3(centerOfFighters, 3.0f + centerOfFightersY, -10f);
         //Debug.Log(centerOfFighters);
     }
 }

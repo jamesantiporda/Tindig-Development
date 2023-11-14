@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,788 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: arnis-low-light_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1918
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486725a5eddc77a4ca607af61d6bae3b
+      internalID: -308784473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1916
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50583809a2dfde45ac4fd41750aa316
+      internalID: 9723459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_2
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1913
+        width: 83
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e2bb90823ec0d43a9d08ef8c6771cb
+      internalID: -1560829014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_3
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1914
+        width: 130
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303d3620dd368f643a0bb32cb5ddc7f4
+      internalID: 577240198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_4
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1918
+        width: 160
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129e78040b5e81f4882a04384d370421
+      internalID: 48515177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_5
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1918
+        width: 123
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc449fe067b90c4eb08b2cc6c830044
+      internalID: 698646713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_6
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1918
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e86594497094b45a223c908b4d94cd
+      internalID: 1749905882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_7
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1918
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e840478c7029b44ae9134d91b9a4d1
+      internalID: -1670873355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1662
+        width: 75
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5273a698cfb7b8c4b861369d1e9a70d5
+      internalID: 1592364715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1661
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf92f3d695f2ab4f968217309200574
+      internalID: 1670345576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_10
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1661
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac2a502ee3ccce469e87c582392b685
+      internalID: -260210748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_11
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1661
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c244f004d67599240abcd63760b6e3a4
+      internalID: 773826207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_12
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1653
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249957fbed4340e43b9bea6c68e5626b
+      internalID: -1124473251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_13
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1648
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41980a863042f694191e13ca90341906
+      internalID: 861999819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_14
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1662
+        width: 143
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a52b9812d4f3f4b8982113b98ba1a7
+      internalID: 1891168458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_15
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1656
+        width: 86
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01ae7a12a22954449b90fc3bf0f57dc
+      internalID: -1258345150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1401
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31a894837ec28143a82a5cd7a9394ba
+      internalID: -1277626953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1398
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b998053c2055fd46998ffcbbf9a06fe
+      internalID: 894380632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_18
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1400
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc39513eb1a450a40aedb03669c1923c
+      internalID: 1600001641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_19
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1403
+        width: 155
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c69267857084ac43a93ab0cbf6454f2
+      internalID: -1658294688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_20
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1403
+        width: 145
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dea244f07a8fe24cabc0046b0d92ed8
+      internalID: 254242175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_21
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1404
+        width: 112
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9338d465e4a354eaba91aaf899eece
+      internalID: -1171652580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_22
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1404
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc37d75af25f10d46a5419d3e77f60c1
+      internalID: -1260805693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_23
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1404
+        width: 87
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7de25b5db737440a6251102d3dce8a
+      internalID: 1043810976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_24
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1149
+        width: 104
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e598330f84a424e44af0888b0ee909bd
+      internalID: 327168906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_25
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1149
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f25cde387fe3cd4ea1433c797d92a14
+      internalID: 1561474723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_26
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1149
+        width: 79
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a52d5b54d709f488be182f11544a6b
+      internalID: -1603611402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_27
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1149
+        width: 101
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd757bbe5b576214f8d391a9aab61e61
+      internalID: 515312647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_28
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1150
+        width: 138
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd64e39ad2c9fd74183d0d3748207794
+      internalID: 1302040344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_29
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1150
+        width: 150
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a93e7f8dce958246b3d3f01acf73549
+      internalID: -1916946953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_30
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1148
+        width: 154
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd0f77b05937b44496323c2360c6ac9
+      internalID: 922867622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_31
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1146
+        width: 154
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5a81d573219584eace580bca4d3261
+      internalID: -35303118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_32
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 891
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd54275177f3cd40800551ae9205ff1
+      internalID: -894376908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_33
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 893
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7613e9ec09ec6ec489c38857c51336c4
+      internalID: 843600919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-low-light_34
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 894
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0016d275ac3c68b42baba4bbf6832d50
+      internalID: 884088159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e80bd220276718a49a2cdefc851c11f1
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arnis-low-light_0: -308784473
+      arnis-low-light_1: 9723459
+      arnis-low-light_10: -260210748
+      arnis-low-light_11: 773826207
+      arnis-low-light_12: -1124473251
+      arnis-low-light_13: 861999819
+      arnis-low-light_14: 1891168458
+      arnis-low-light_15: -1258345150
+      arnis-low-light_16: -1277626953
+      arnis-low-light_17: 894380632
+      arnis-low-light_18: 1600001641
+      arnis-low-light_19: -1658294688
+      arnis-low-light_2: -1560829014
+      arnis-low-light_20: 254242175
+      arnis-low-light_21: -1171652580
+      arnis-low-light_22: -1260805693
+      arnis-low-light_23: 1043810976
+      arnis-low-light_24: 327168906
+      arnis-low-light_25: 1561474723
+      arnis-low-light_26: -1603611402
+      arnis-low-light_27: 515312647
+      arnis-low-light_28: 1302040344
+      arnis-low-light_29: -1916946953
+      arnis-low-light_3: 577240198
+      arnis-low-light_30: 922867622
+      arnis-low-light_31: -35303118
+      arnis-low-light_32: -894376908
+      arnis-low-light_33: 843600919
+      arnis-low-light_34: 884088159
+      arnis-low-light_4: 48515177
+      arnis-low-light_5: 698646713
+      arnis-low-light_6: 1749905882
+      arnis-low-light_7: -1670873355
+      arnis-low-light_8: 1592364715
+      arnis-low-light_9: 1670345576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
