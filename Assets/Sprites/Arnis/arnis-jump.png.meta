@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,700 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: arnis-jump_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1883
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1728566e263273f4099b60dda7fc464c
+      internalID: -810433251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1882
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb67e9d0c8804543bf5e931a1d33e60
+      internalID: 1846794553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1881
+        width: 65
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554f32367bf271e49970f9e343f1ef48
+      internalID: 994408447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_3
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1883
+        width: 68
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f5dcb3df1d10e47b81bb55ef0ef888
+      internalID: -1139791419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_4
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1886
+        width: 79
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e113c8b7328eb440877420c91bcb1d1
+      internalID: -2140551730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_5
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1888
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecef9b732b779ea41a0eb87bc608a65c
+      internalID: 109045949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_6
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1891
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc6b02bb969f144fa8549174563c70b
+      internalID: -1902576260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_7
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1894
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383a928859fd96f4eb039ca8a6d4a812
+      internalID: 609537358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1641
+        width: 63
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c4473640735974d847cfaca79a4a87
+      internalID: 209938300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_9
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1644
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f83190b7e27c2a4eac43434b1cae791
+      internalID: 96176919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_10
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1647
+        width: 66
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e54a514e3cc8b94aa3a20f975360f93
+      internalID: -2130127432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_11
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1651
+        width: 63
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fd9c77776c3bc40b105283e7c8eb5f
+      internalID: 670317619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_12
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1655
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e1e13066cf2aa439ded67ec96620f1
+      internalID: 632606535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_13
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1659
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ec51531da85eb499b13705f1085506
+      internalID: 484290097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_14
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1663
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de2e8267f63ea44f90edba01b2c5909
+      internalID: -1074459288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_15
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1663
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc67dddf889c7b47b82e40e2f7ac303
+      internalID: -1265932202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1407
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077d82b2e152c3745a22b25f97e8ad44
+      internalID: 58058798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_17
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1407
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8b3bf5b5fa5a7429a91b51a88e986c
+      internalID: -1629343734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_18
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1407
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0ff79e9ac6d3b4fa29d0cc1394f1a7
+      internalID: -1513345891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_19
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1407
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08589c9d7e9c80e4fb182210b20f8533
+      internalID: -2028766689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_20
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1407
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec43fd47d66259e499e7bb0bfdbac801
+      internalID: 1750506321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_21
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1407
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8432f99418d810a42a550da7427e14c4
+      internalID: 1264722799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_22
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1407
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654aee80e1512024a9460ace7c74269b
+      internalID: 1768208085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_23
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1407
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e75517392e2ba349910eeabdfac8c9f
+      internalID: 1703690154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1151
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1395c8cd1814b49a9f70888d5aa57d
+      internalID: -1966124909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1151
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa95769827d58684988f42744d38fe14
+      internalID: 1317216785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_26
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1151
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a6ef213c5a88647b168b9f20c8dbd0
+      internalID: 555266629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_27
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1151
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de09883322821274baad27200c59306e
+      internalID: 771258228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_28
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1151
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c8f93b38947494aa624a54f22c73d7
+      internalID: 758645210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_29
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1151
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2327c77adb70ed439b2233a511ac45d
+      internalID: -584830836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-jump_30
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1151
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e40b1c954a6c7248b98e670b31560c4
+      internalID: 987198682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5bdb8ed8259a0dc45a6985f2829c1634
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arnis-jump_0: -810433251
+      arnis-jump_1: 1846794553
+      arnis-jump_10: -2130127432
+      arnis-jump_11: 670317619
+      arnis-jump_12: 632606535
+      arnis-jump_13: 484290097
+      arnis-jump_14: -1074459288
+      arnis-jump_15: -1265932202
+      arnis-jump_16: 58058798
+      arnis-jump_17: -1629343734
+      arnis-jump_18: -1513345891
+      arnis-jump_19: -2028766689
+      arnis-jump_2: 994408447
+      arnis-jump_20: 1750506321
+      arnis-jump_21: 1264722799
+      arnis-jump_22: 1768208085
+      arnis-jump_23: 1703690154
+      arnis-jump_24: -1966124909
+      arnis-jump_25: 1317216785
+      arnis-jump_26: 555266629
+      arnis-jump_27: 771258228
+      arnis-jump_28: 758645210
+      arnis-jump_29: -584830836
+      arnis-jump_3: -1139791419
+      arnis-jump_30: 987198682
+      arnis-jump_4: -2140551730
+      arnis-jump_5: 109045949
+      arnis-jump_6: -1902576260
+      arnis-jump_7: 609537358
+      arnis-jump_8: 209938300
+      arnis-jump_9: 96176919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
