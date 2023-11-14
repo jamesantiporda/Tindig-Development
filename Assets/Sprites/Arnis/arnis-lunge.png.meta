@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,788 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: arnis-lunge_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1867
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfff0cd3ef333044875889c2a8e8693
+      internalID: -777567774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1868
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca0b2ea97d0e974c9587b62a61e914d
+      internalID: -757254471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1868
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57edd4980355b84d941ce006be458c7
+      internalID: -1664368888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1869
+        width: 47
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce95eba567f4ca24294180a09ebdc239
+      internalID: -2006760007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1870
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81664c9b6a3351844902c766db8f04fb
+      internalID: -371708969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_5
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1863
+        width: 45
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e3c2d4accb0404aa34625bb135ea72
+      internalID: -1168200447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_6
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1862
+        width: 46
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6999e3da019c5ad47a873f97bf1647f6
+      internalID: -532862682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_7
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1866
+        width: 65
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b4b170c443d7844897fe88c7661334
+      internalID: -1579668885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1614
+        width: 91
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4de0363d82bd349b1c7727b957385d
+      internalID: 2069728949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1614
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd91d3923013791489eb02afdc23848e
+      internalID: -541474446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_10
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1614
+        width: 120
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a98db541251e747bab3f193f35b9a5
+      internalID: -1454316244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_11
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1614
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e3f967d4ed3e149b10ff62ac4102b2
+      internalID: -1541950257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_12
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1614
+        width: 69
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491de80fb9094d7448b89481ddfa01cb
+      internalID: -391649034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_13
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1613
+        width: 73
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102e6c80de36d0340a56d6db379ebd11
+      internalID: 1101173043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_14
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1613
+        width: 71
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db4193450cd99b45b1434c81afd799b
+      internalID: 1652342403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_15
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1613
+        width: 118
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f8f55c0c9c1f64a9a32fb9ec4ea2c9
+      internalID: -1735223882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1357
+        width: 157
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aace87d60da3e4eafb46b8de73f6b9
+      internalID: -1705887833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_17
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1357
+        width: 192
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9434f917a323d41a4ff1a0e4e10470
+      internalID: -1817504055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_18
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1356
+        width: 177
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092c1e0a99e09ff4c991c42696b59406
+      internalID: -851753476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_19
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1356
+        width: 154
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c9db7090eb4084194bdc2cae405b67
+      internalID: 23516350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_20
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1360
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86cc8a1ec2e9ec44b04f8da5fd038e5
+      internalID: 59224435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_21
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1360
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ce384d8a2b94046b65f22f66807f6c
+      internalID: -872244891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_22
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1360
+        width: 94
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c79096f7851fb4680ccd630c19c00f
+      internalID: 416873896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_23
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1360
+        width: 100
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554d423f05dab1c41a7b26404d39b67b
+      internalID: -358182808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_24
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1104
+        width: 128
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a32e1060155df549aee390b04867aaf
+      internalID: 1600166222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_25
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1104
+        width: 129
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0455afce8c6f07409cbefdc61336b5d
+      internalID: -198778001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_26
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1104
+        width: 124
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25540e497d165f74f8dedcc425a8d34c
+      internalID: -2027976308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_27
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1104
+        width: 125
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226be38ef2be6b340b6b226939fb7036
+      internalID: 350385214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_28
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1104
+        width: 125
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f33b9d29e75624ab0715ab3733fa8b
+      internalID: 543132692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_29
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1104
+        width: 124
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3aab4f593d5410418d51c3d0295309e
+      internalID: -1554288310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_30
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1101
+        width: 105
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cedf5231353c6d4fbd09b0da0860c1c
+      internalID: 111931379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_31
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1098
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2f9d3168f912848a0af0490c0eec95
+      internalID: 1154548816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 840
+        width: 89
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a01038c0534baf4cb39c421dcdb3fb1
+      internalID: -1633236911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 840
+        width: 67
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a9f102390cbb6409c2c706c9879f3e
+      internalID: 393698783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arnis-lunge_34
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 843
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3057ccb639ae3a74daa49d223aab083c
+      internalID: -66348970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e68c6f0c5c67c9a48b57bb38808cc5e8
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arnis-lunge_0: -777567774
+      arnis-lunge_1: -757254471
+      arnis-lunge_10: -1454316244
+      arnis-lunge_11: -1541950257
+      arnis-lunge_12: -391649034
+      arnis-lunge_13: 1101173043
+      arnis-lunge_14: 1652342403
+      arnis-lunge_15: -1735223882
+      arnis-lunge_16: -1705887833
+      arnis-lunge_17: -1817504055
+      arnis-lunge_18: -851753476
+      arnis-lunge_19: 23516350
+      arnis-lunge_2: -1664368888
+      arnis-lunge_20: 59224435
+      arnis-lunge_21: -872244891
+      arnis-lunge_22: 416873896
+      arnis-lunge_23: -358182808
+      arnis-lunge_24: 1600166222
+      arnis-lunge_25: -198778001
+      arnis-lunge_26: -2027976308
+      arnis-lunge_27: 350385214
+      arnis-lunge_28: 543132692
+      arnis-lunge_29: -1554288310
+      arnis-lunge_3: -2006760007
+      arnis-lunge_30: 111931379
+      arnis-lunge_31: 1154548816
+      arnis-lunge_32: -1633236911
+      arnis-lunge_33: 393698783
+      arnis-lunge_34: -66348970
+      arnis-lunge_4: -371708969
+      arnis-lunge_5: -1168200447
+      arnis-lunge_6: -532862682
+      arnis-lunge_7: -1579668885
+      arnis-lunge_8: 2069728949
+      arnis-lunge_9: -541474446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
