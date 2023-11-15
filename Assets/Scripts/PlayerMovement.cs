@@ -461,6 +461,11 @@ public class PlayerMovement : MonoBehaviour
         return isRetreating;
     }
 
+    public bool ReturnIsMoveable()
+    {
+        return canMove;
+    }
+
     public void ResetPosition()
     {
         //afterStart = false;

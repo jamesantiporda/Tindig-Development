@@ -6071,8 +6071,8 @@ MonoBehaviour:
   isCPU: 1
   easy: 0
   medium: 0
-  hard: 1
-  mahoraga: 0
+  hard: 0
+  mahoraga: 1
 --- !u!114 &1494834646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6094,8 +6094,8 @@ MonoBehaviour:
   isCPU: 1
   easy: 0
   medium: 0
-  hard: 1
-  mahoraga: 0
+  hard: 0
+  mahoraga: 1
 --- !u!1 &1508375263
 GameObject:
   m_ObjectHideFlags: 0
@@ -7851,7 +7851,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: hard
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: isCPU
@@ -7871,7 +7871,7 @@ PrefabInstance:
       objectReference: {fileID: 1893673961}
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: mahoraga
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: player2combat

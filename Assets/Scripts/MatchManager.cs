@@ -148,6 +148,7 @@ public class MatchManager : MonoBehaviour
         laban.SetActive(false);
         handa.SetActive(false);
         ko.SetActive(false);
+        timeup.SetActive(false);
         roundNumber += 1;
         if (roundNumber != 1)
         {
@@ -179,6 +180,11 @@ public class MatchManager : MonoBehaviour
                 player2Animator.SetBool("Dead", true);
             }
             player1RoundsWon += 1;
+
+            if (player1RoundsWon < 2 && player2RoundsWon < 2)
+            {
+                ko.SetActive(true);
+            }
         }
         else if(player == 2)
         {
@@ -188,6 +194,11 @@ public class MatchManager : MonoBehaviour
                 player1Animator.SetBool("Dead", true);
             }
             player2RoundsWon += 1;
+
+            if (player1RoundsWon < 2 && player2RoundsWon < 2)
+            {
+                ko.SetActive(true);
+            }
         }
         else if(player == 0)
         {
@@ -225,11 +236,6 @@ public class MatchManager : MonoBehaviour
             player2round2.SetActive(true);
             winnerName = player2Name;
             MatchEnd();
-        }
-
-        if(player1RoundsWon < 2 && player2RoundsWon < 2)
-        {
-            ko.SetActive(true);
         }
     }
 

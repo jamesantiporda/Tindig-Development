@@ -353,7 +353,7 @@ public class SpriteToPlayer : MonoBehaviour
                 if (isCPU)
                 {
                     randomInt = ReturnRandomInt(0, maxRandom);
-                    if (randomInt <= 1 && combat.ReturnCanAttack())
+                    if (randomInt <= 1 && combat.ReturnCanAttack() && movement.ReturnIsMoveable())
                     {
                         randomInt = ReturnRandomInt(0, 3);
                         if (randomInt == 1 && isBoxer)
@@ -382,7 +382,7 @@ public class SpriteToPlayer : MonoBehaviour
                         return;
                     }
 
-                    if (player2combat.ReturnSameAttackCounter() >= numberToPunish)
+                    if (player2combat.ReturnSameAttackCounter() >= numberToPunish && combat.ReturnCanAttack() && movement.ReturnIsMoveable())
                     {
                         randomInt = ReturnRandomInt(0, 3);
                         if (randomInt == 1 && isBoxer)
