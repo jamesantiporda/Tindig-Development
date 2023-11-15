@@ -6063,7 +6063,7 @@ MonoBehaviour:
   leftInput: 276
   rightInput: 275
   originalSpeed: 5
-  jumpForce: 14
+  jumpForce: 13
   anim: {fileID: 2071538130901148575}
   enemy: {fileID: 2049316868}
   sprite: {fileID: 5623598310902606186}
@@ -7662,7 +7662,7 @@ MonoBehaviour:
   leftInput: 97
   rightInput: 100
   originalSpeed: 5
-  jumpForce: 14
+  jumpForce: 13
   anim: {fileID: 1580685101}
   enemy: {fileID: 1494834635}
   sprite: {fileID: 1580685100}
@@ -7858,6 +7858,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
+      propertyPath: medium
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1494834635}
@@ -7949,6 +7953,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1062675632, guid: ede093c2cee57fe4cb169e42247b59c7, type: 3}
+    - target: {fileID: 7016978898183211827, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016978898183211827, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.05
+      objectReference: {fileID: 0}
     - target: {fileID: 7374911961728909003, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Controller
       value: 

@@ -20,13 +20,14 @@ public class SpriteToPlayer : MonoBehaviour
 
     private float launchForce = 12.5f;
 
-    private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked, hit;
+    private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked, iFrame;
     private float blockingTime = 0f, lowBlockingTime = 0f;
 
     /// CPU AI /
-    public bool isCPU = false;
+    public bool isCPU = false, isBoxer = false;
     public bool easy = false, medium = true, hard = false, mahoraga = false;
     private int randomInt;
+    private bool jumpDeciding;
 
     private float crouchReactionTime;
     private int maxRandom, numberToPunish;
@@ -45,21 +46,21 @@ public class SpriteToPlayer : MonoBehaviour
 
         if(easy)
         {
-            crouchReactionTime = 5.0f;
-            maxRandom = 15;
-            numberToPunish = 10;
+            crouchReactionTime = 4.0f;
+            maxRandom = 10;
+            numberToPunish = 5;
         }
         else if(medium)
         {
             crouchReactionTime = 3.0f;
             maxRandom = 7;
-            numberToPunish = 5;
+            numberToPunish = 3;
         }
         else if(hard)
         {
-            crouchReactionTime = 2f;
+            crouchReactionTime = 1.5f;
             maxRandom = 5;
-            numberToPunish = 3;
+            numberToPunish = 2;
         }
         else if(mahoraga)
         {
@@ -67,11 +68,18 @@ public class SpriteToPlayer : MonoBehaviour
             maxRandom = 3;
             numberToPunish = 2;
         }
+
+        anim.SetBool("isCPU", isCPU);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(!player2movement.ReturnIsGrounded() && !jumpDeciding)
+        {
+            StartCoroutine(JumpDeciding());
+        }
+
         if (movement.ReturnIsGrounded())
         {
             anim.SetBool("Grounded", true);
@@ -226,6 +234,16 @@ public class SpriteToPlayer : MonoBehaviour
         movement.LungeMovement();
     }
 
+    public void SetIFrameOn()
+    {
+        iFrame = true;
+    }
+
+    public void SetIFrameOff()
+    {
+        iFrame = false;
+    }
+
     private void Damaged()
     {
         player2movement.changeMoveState(true);
@@ -271,6 +289,7 @@ public class SpriteToPlayer : MonoBehaviour
     private void Blocked()
     {
         //Blocking code
+        SetIFrameOn();
         anim.SetTrigger("Blocked");
         MakePlayerUnmoveable();
         MakePlayerUnable();
@@ -279,6 +298,7 @@ public class SpriteToPlayer : MonoBehaviour
     private void LowBlocked()
     {
         //Blocking code
+        SetIFrameOn();
         anim.SetTrigger("LowBlocked");
         MakePlayerUnmoveable();
         MakePlayerUnable();
@@ -288,10 +308,28 @@ public class SpriteToPlayer : MonoBehaviour
     {
         return UnityEngine.Random.Range(min, max);
     }
+    private IEnumerator JumpDeciding()
+    {
+        jumpDeciding = true;
+        float decideTime = UnityEngine.Random.Range(0.0f, 0.1f);
+
+        yield return new WaitForSeconds(decideTime);
+
+        int willJump = UnityEngine.Random.Range(0, maxRandom);
+
+        if (willJump <= 1)
+        {
+            StartCoroutine(movement.Jump());
+        }
+
+        yield return new WaitForSeconds(1.0f);
+
+        jumpDeciding = false;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((playerNumber == 1 && collision.gameObject.tag == "Player2Attack") || (playerNumber == 2 && collision.gameObject.tag == "Player1Attack"))
+        if ((playerNumber == 1 && collision.gameObject.tag == "Player2Attack") && !iFrame || (playerNumber == 2 && collision.gameObject.tag == "Player1Attack") && !iFrame)
         {
             lowBlocked = isLowBlocking && player2combat.ReturnAttackType() != "Overhead";
             blocked = !player2combat.ReturnIsCrouchAttack() && isBlocking && !isLowBlocking;
@@ -318,7 +356,7 @@ public class SpriteToPlayer : MonoBehaviour
                     if (randomInt <= 1 && combat.ReturnCanAttack())
                     {
                         randomInt = ReturnRandomInt(0, 3);
-                        if (randomInt == 1)
+                        if (randomInt == 1 && isBoxer)
                         {
                             anim.SetTrigger("Counter");
                             anim.SetTrigger("CounterHit");
@@ -335,7 +373,7 @@ public class SpriteToPlayer : MonoBehaviour
                             }
 
                             randomInt = ReturnRandomInt(0, 3);
-                            if (randomInt <= 1)
+                            if (randomInt <= 1 && isBoxer)
                             {
                                 anim.SetTrigger("Counter2");
                             }
@@ -347,7 +385,7 @@ public class SpriteToPlayer : MonoBehaviour
                     if (player2combat.ReturnSameAttackCounter() >= numberToPunish)
                     {
                         randomInt = ReturnRandomInt(0, 3);
-                        if (randomInt == 1)
+                        if (randomInt == 1 && isBoxer)
                         {
                             anim.SetTrigger("Counter");
                             anim.SetTrigger("CounterHit");

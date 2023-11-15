@@ -94,13 +94,13 @@ public class PlayerCombat : MonoBehaviour
             }
 
             // AI Behavior
-            if (punishLowBlock)
+            if (isCPU && punishLowBlock && canAttack)
             {
                 OverheadAttack();
                 punishLowBlock = false;
             }
 
-            if (isCPU && movement.ReturnWithinAttackRange() && !isAttacking)
+            if (isCPU && movement.ReturnWithinAttackRange() && !isAttacking && canAttack)
             {
                 StartCoroutine(AttackPick());
             }

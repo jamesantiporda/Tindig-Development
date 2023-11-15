@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
     // AI Behavior
     private bool isApproaching;
-    private bool isRetreating = false;
+    private bool isRetreating = false, retreatDeciding = false;
     private bool react = false;
     private int randomInt = 0;
     private float randomFloat = 0.0f;
@@ -156,7 +156,7 @@ public class PlayerMovement : MonoBehaviour
         // CPU AI Calculations and Behavior///////////////////////////
 
         // Approaching AI
-        if (isWandering == false)
+        if (isWandering == false && !isRetreating)
         {
             // If Enemy is far enough, start approaching
             if (isFacingRight)
@@ -202,6 +202,7 @@ public class PlayerMovement : MonoBehaviour
             
         }
 
+        // Set Approaching and Retreating Input
         if (isApproaching)
         {
             if (isFacingRight)
@@ -213,10 +214,27 @@ public class PlayerMovement : MonoBehaviour
                 aiLeft = true;
             }
         }
+        else if (isRetreating)
+        {
+            if (isFacingRight)
+            {
+                aiLeft = true;
+            }
+            else
+            {
+                aiRight = true;
+            }
+        }
         else
         {
             aiRight = false;
             aiLeft = false;
+        }
+
+        // Start Deciding whether to retreat
+        if (attackRange && !retreatDeciding)
+        {
+            StartCoroutine(RetreatDeciding());
         }
 
 
@@ -526,6 +544,31 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(retreatTime);
 
         isRetreating = false;
+    }
+
+    public IEnumerator RetreatDeciding()
+    {
+        int retreatTime = UnityEngine.Random.Range(1, 3);
+
+        retreatDeciding = true;
+
+        yield return new WaitForSeconds(retreatTime);
+
+        int willRetreat = UnityEngine.Random.Range(0, 4);
+
+        if(willRetreat <= 1 && !isRetreating)
+        {
+            StartCoroutine(Retreat());
+        }
+
+        retreatDeciding = false;
+    }
+
+    public IEnumerator Jump()
+    {
+        aiJump = true;
+        yield return new WaitForSeconds(0.2f);
+        aiJump = false;
     }
 
     public void StartCrouching()
