@@ -6294,7 +6294,7 @@ MonoBehaviour:
   enemy: {fileID: 2049316868}
   sprite: {fileID: 5623598310902606186}
   startPosition: {x: 2, y: 1, z: 0}
-  isCPU: 0
+  isCPU: 1
   easy: 0
   medium: 0
   hard: 0
@@ -6317,7 +6317,7 @@ MonoBehaviour:
   overheadInput: 264
   specialInput: 258
   animator: {fileID: 2071538130901148575}
-  isCPU: 0
+  isCPU: 1
   easy: 0
   medium: 0
   hard: 0
@@ -8078,7 +8078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: isCPU
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: medium
