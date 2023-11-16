@@ -154,10 +154,8 @@ public class MatchManager : MonoBehaviour
         {
             player1Movement.ResetPosition();
             player2Movement.ResetPosition();
-            player1Animator.SetBool("Dead", false);
-            player2Animator.SetBool("Dead", false);
-            player1Animator.SetTrigger("Reset");
-            player2Animator.SetTrigger("Reset");
+            player1Combat.Reset();
+            player2Combat.Reset();
             player1HurtBox.enabled = true;
             player2HurtBox.enabled = true;
         }
@@ -176,8 +174,7 @@ public class MatchManager : MonoBehaviour
             if(!player2Animator.GetBool("Dead"))
             {
                 Debug.Log("Kill1");
-                player2Animator.SetTrigger("Die");
-                player2Animator.SetBool("Dead", true);
+                player2Combat.Die();
             }
             player1RoundsWon += 1;
 
@@ -190,8 +187,7 @@ public class MatchManager : MonoBehaviour
         {
             if(!player1Animator.GetBool("Dead"))
             {
-                player1Animator.SetTrigger("Die");
-                player1Animator.SetBool("Dead", true);
+                player1Combat.Die();
             }
             player2RoundsWon += 1;
 
@@ -261,6 +257,4 @@ public class MatchManager : MonoBehaviour
         winnerText.text = winnerName + " WINS!";
         winner.SetActive(true);
     }
-
-
 }

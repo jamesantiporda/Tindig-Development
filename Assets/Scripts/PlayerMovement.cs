@@ -11,6 +11,10 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode backwardInput = KeyCode.S;
     public KeyCode leftInput = KeyCode.A;
     public KeyCode rightInput = KeyCode.D;
+    public KeyCode shiftStyleInput = KeyCode.LeftShift;
+
+    public bool isMC = false;
+    private bool shiftStyle;
 
     public float originalSpeed = 5.0f;
     private float speed = 5.0f;
@@ -113,6 +117,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        shiftStyle = Input.GetKey(shiftStyleInput) && isMC;
+
         // Setup per frame
         if (isDashing)
         {
@@ -244,7 +250,7 @@ public class PlayerMovement : MonoBehaviour
         // Get Player Horizontal Input
         if (isFacingRight)
         {
-            if (((!Input.GetKey(rightInput) && !isCPU) || (aiRight && isCPU)) && isSprinting)
+            if (((!Input.GetKey(rightInput) && !isCPU && !shiftStyle) || (aiRight && isCPU)) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;
@@ -252,14 +258,14 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (((!Input.GetKey(leftInput) && !isCPU) || (aiLeft && isCPU)) && isSprinting)
+            if (((!Input.GetKey(leftInput) && !isCPU && !shiftStyle) || (aiLeft && isCPU)) && isSprinting)
             {
                 isSprinting = false;
                 speedMultiplier = 1;
             }
         }
 
-        if (((Input.GetKey(rightInput) && !isCPU) || (aiRight && isCPU)) && acceptInput && !sliding)
+        if (((Input.GetKey(rightInput) && !isCPU && !shiftStyle) || (aiRight && isCPU)) && acceptInput && !sliding)
         {
             if (distanceFromEnemy <= 7.2)
             {
@@ -301,7 +307,7 @@ public class PlayerMovement : MonoBehaviour
                 horizontalInput = 0;
             }
         }
-        else if (((Input.GetKey(leftInput) && !isCPU) || (aiLeft && isCPU)) && acceptInput && !sliding)
+        else if (((Input.GetKey(leftInput) && !isCPU && !shiftStyle) || (aiLeft && isCPU)) && acceptInput && !sliding)
         {
             if (distanceFromEnemy >= -6.3)
             {
@@ -364,15 +370,18 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Jump Input
-        if (((Input.GetKeyDown(forwardInput) && !isCPU) || (aiJump && isCPU)) && isGrounded && !isCrouching && acceptInput && canMove)
+        if (!Input.GetKey(shiftStyleInput))
         {
-            playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            anim.SetTrigger("Jump");
-            isGrounded = false;
+            if (((Input.GetKeyDown(forwardInput) && !isCPU) || (aiJump && isCPU)) && isGrounded && !isCrouching && acceptInput && canMove)
+            {
+                playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                anim.SetTrigger("Jump");
+                isGrounded = false;
+            }
         }
 
         // Crouch Input
-        if (((Input.GetKey(backwardInput) && !isCPU) || (aiCrouch && isCPU)) && isGrounded && acceptInput)
+        if (((Input.GetKey(backwardInput) && !isCPU && !shiftStyle) || (aiCrouch && isCPU)) && isGrounded && acceptInput)
         {
             isCrouching = true;
             canDash = false;
@@ -585,6 +594,13 @@ public class PlayerMovement : MonoBehaviour
     public void StopCrouching()
     {
         aiCrouch = false;
+    }
+
+    // Changes sprite to current style
+    public void ChangeStyle(GameObject style)
+    {
+        sprite = style;
+        anim = sprite.GetComponent<Animator>();
     }
 
     private void OnTriggerStay(Collider collision)

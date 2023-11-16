@@ -5,13 +5,32 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
+    public int playerNumber;
+
     public KeyCode lightInput = KeyCode.J;
     public KeyCode mediumInput = KeyCode.K;
     public KeyCode heavyInput = KeyCode.L;
     public KeyCode overheadInput = KeyCode.I;
     public KeyCode specialInput = KeyCode.M;
 
+    public bool isMC = false;
+
+    // Style Switching Input
+    public KeyCode mcInput = KeyCode.W;
+    public KeyCode boxingInput = KeyCode.D;
+    public KeyCode sikaranInput = KeyCode.S;
+    public KeyCode arnisInput = KeyCode.A;
+    public KeyCode shiftStyleInput = KeyCode.LeftShift;
+
+    // Styles
+    public GameObject mcSprite, boxingSprite, sikaranSprite, arnisSprite;
+    public GameObject mcHitPoint, boxingHitPoint, sikaranHitPoint, arnisHitPoint;
+    private SpriteRenderer mcRenderer, boxingRenderer, sikaranRenderer, arnisRenderer;
+    private GameObject currentSprite;
+    private Vector3 mcSpriteSize, boxingSpriteSize, sikaranSpriteSize, arnisSpriteSize;
+
     public Animator animator;
+    public PlayerCombat player2Combat;
     private PlayerMovement movement;
 
     private bool canAttack = true;
@@ -40,6 +59,31 @@ public class PlayerCombat : MonoBehaviour
     void Start()
     {
         movement = GetComponent<PlayerMovement>();
+
+        mcRenderer = mcSprite.GetComponent<SpriteRenderer>();
+        currentSprite = mcSprite;
+        boxingRenderer = boxingSprite.GetComponent<SpriteRenderer>();
+        sikaranRenderer = sikaranSprite.GetComponent<SpriteRenderer>();
+        arnisRenderer = arnisSprite.GetComponent<SpriteRenderer>();
+
+        mcSpriteSize = mcSprite.transform.localScale;
+        boxingSpriteSize = boxingSprite.transform.localScale;
+        sikaranSpriteSize = sikaranSprite.transform.localScale;
+        arnisSpriteSize = arnisSprite.transform.localScale;
+
+        if (isMC)
+        {
+            mcRenderer.enabled = true;
+            boxingRenderer.enabled = false;
+            sikaranRenderer.enabled = false;
+            arnisRenderer.enabled = false;
+
+            mcSprite.GetComponent<BoxCollider2D>().enabled = true;
+            boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
+            boxingSprite.GetComponent<BoxCollider2D>().enabled = false;
+            sikaranSprite.GetComponent<BoxCollider2D>().enabled = false;
+            arnisSprite.GetComponent<BoxCollider2D>().enabled = false;
+        }
 
         if (easy)
         {
@@ -91,6 +135,72 @@ public class PlayerCombat : MonoBehaviour
             if (Input.GetKeyDown(specialInput) && canAttack)
             {
                 Special();
+            }
+
+            if(Input.GetKey(shiftStyleInput) && isMC)
+            {
+                if(Input.GetKeyDown(mcInput))
+                {
+                    //shift into mc
+                    Debug.Log("MC");
+                    boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
+                    currentSprite.GetComponent<SpriteRenderer>().enabled = false;
+                    currentSprite.GetComponent<BoxCollider2D>().enabled = false;
+                    currentSprite = mcSprite;
+                    currentSprite.GetComponent<SpriteRenderer>().enabled = true;
+                    currentSprite.GetComponent<BoxCollider2D>().enabled = true;
+                    currentSprite.transform.localScale = mcSpriteSize;
+                    animator = currentSprite.GetComponent<Animator>();
+                    movement.ChangeStyle(currentSprite);
+                    player2Combat.ChangeHitPoint(mcHitPoint);
+                }
+
+                if(Input.GetKeyDown(boxingInput))
+                {
+                    //shift into boxer
+                    Debug.Log("Boxer");
+                    currentSprite.GetComponent<SpriteRenderer>().enabled = false;
+                    currentSprite.GetComponent<BoxCollider2D>().enabled = false;
+                    currentSprite = boxingSprite;
+                    boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOff();
+                    currentSprite.GetComponent<SpriteRenderer>().enabled = true;
+                    currentSprite.transform.localScale = boxingSpriteSize;
+                    animator = currentSprite.GetComponent<Animator>();
+                    movement.ChangeStyle(currentSprite);
+                    player2Combat.ChangeHitPoint(boxingHitPoint);
+                }
+
+                if(Input.GetKeyDown(sikaranInput))
+                {
+                    //shift into sikaran
+                    Debug.Log("Sikaran");
+                    boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
+                    currentSprite.GetComponent<SpriteRenderer>().enabled = false;
+                    currentSprite.GetComponent<BoxCollider2D>().enabled = false;
+                    currentSprite = sikaranSprite;
+                    currentSprite.GetComponent<SpriteRenderer>().enabled = true;
+                    currentSprite.GetComponent<BoxCollider2D>().enabled = true;
+                    currentSprite.transform.localScale = sikaranSpriteSize;
+                    animator = currentSprite.GetComponent<Animator>();
+                    movement.ChangeStyle(currentSprite);
+                    player2Combat.ChangeHitPoint(sikaranHitPoint);
+                }
+
+                if(Input.GetKeyDown(arnisInput))
+                {
+                    //shift into arnis
+                    Debug.Log("Arnis");
+                    boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
+                    currentSprite.GetComponent<SpriteRenderer>().enabled = false;
+                    currentSprite.GetComponent<BoxCollider2D>().enabled = false;
+                    currentSprite = arnisSprite;
+                    currentSprite.GetComponent<SpriteRenderer>().enabled = true;
+                    currentSprite.GetComponent<BoxCollider2D>().enabled = true;
+                    arnisSprite.transform.localScale = new Vector3(1.84f, 1.84f, 1.84f);
+                    animator = currentSprite.GetComponent<Animator>();
+                    movement.ChangeStyle(currentSprite);
+                    player2Combat.ChangeHitPoint(arnisHitPoint);
+                }
             }
 
             // AI Behavior
@@ -289,6 +399,24 @@ public class PlayerCombat : MonoBehaviour
     public void PunishLowBlock()
     {
         punishLowBlock = true;
+    }
+
+    public void ChangeHitPoint(GameObject hitPoint)
+    {
+        currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(hitPoint);
+    }
+
+    public void Die()
+    {
+        currentSprite.GetComponent<Animator>().SetTrigger("Die");
+        currentSprite.GetComponent<Animator>().SetBool("Dead", true);
+    }
+
+    public void Reset()
+    {
+        currentSprite.GetComponent<Animator>().SetBool("Dead", false);
+        currentSprite.GetComponent<Animator>().SetTrigger("Reset");
+
     }
 
     IEnumerator AttackPick()
