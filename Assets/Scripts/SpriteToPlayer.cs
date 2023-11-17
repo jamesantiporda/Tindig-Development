@@ -107,7 +107,7 @@ public class SpriteToPlayer : MonoBehaviour
 
 
         // Timer to see how long the player has been blocking
-        if(anim.GetInteger("Direction") == 4 && !anim.GetBool("Crouching"))
+        if(!movement.ReturnIsCrouching() && movement.ReturnDirection() == 4)
         {
             blockingTime += Time.deltaTime;
         }
@@ -116,7 +116,7 @@ public class SpriteToPlayer : MonoBehaviour
             blockingTime = 0f;
         }
 
-        if(anim.GetInteger("Direction") == 4 && anim.GetBool("Crouching"))
+        if(movement.ReturnIsCrouching() && movement.ReturnDirection() == 4)
         {
             lowBlockingTime += Time.deltaTime;
         }

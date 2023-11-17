@@ -6114,7 +6114,7 @@ MonoBehaviour:
   enemy: {fileID: 733206921}
   sprite: {fileID: 1510789788}
   startPosition: {x: 2, y: 1, z: 0}
-  isCPU: 1
+  isCPU: 0
   easy: 0
   medium: 0
   hard: 0
@@ -6153,7 +6153,7 @@ MonoBehaviour:
   arnisHitPoint: {fileID: 1950111773}
   animator: {fileID: 1510789789}
   player2Combat: {fileID: 733206917}
-  isCPU: 1
+  isCPU: 0
   easy: 0
   medium: 0
   hard: 0
@@ -6244,8 +6244,8 @@ MonoBehaviour:
   player2movement: {fileID: 733206918}
   hitEffect: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
   hitPoint: {fileID: 733206915}
-  isCPU: 1
-  isBoxer: 1
+  isCPU: 0
+  isBoxer: 0
   easy: 0
   medium: 0
   hard: 0
@@ -7808,10 +7808,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1494834639}
     m_Modifications:
+    - target: {fileID: 3189556887263911104, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.072727
+      objectReference: {fileID: 0}
     - target: {fileID: 3984785734900977482, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 2307f1cb0f5de9f408a2662f71ff4540, type: 2}
+      objectReference: {fileID: 9100000, guid: 0fc335ad1cf2b7240a56a8f9d9f60b6f, type: 2}
     - target: {fileID: 4247505351848270916, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -7892,6 +7896,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -661489462, guid: 4e09571c483837642839180de015bac5, type: 3}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Color.b
       value: 1
