@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,1118 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: jump_light_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1919
+        width: 73
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2b7cb749f051b4186c9aa36905460a
+      internalID: -1637292617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1919
+        width: 72
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac614de339ecdd44eab98b2796f49149
+      internalID: -1433554690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1919
+        width: 72
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202c394470a1be44ea9397a19a7ae93b
+      internalID: -277492926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1919
+        width: 71
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f5668542b05864c886429f9341794f
+      internalID: 671469810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_4
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1919
+        width: 70
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6266f9f8dd6a487478bdbda56a3a4dca
+      internalID: -435501322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_5
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1919
+        width: 69
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4adc9e2f0986b24ab42e00d520b6a9a
+      internalID: -237785162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_6
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1919
+        width: 69
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9981fa80214f7cc4f8d73771cb280e80
+      internalID: -2140314712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_7
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1919
+        width: 68
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e88960bafdffd347aa7e4c82720985d
+      internalID: 1394385781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1663
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fd5bbc2c7e3ae4a96c1eb85616c294
+      internalID: -1474103021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1663
+        width: 66
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20eab9115c4fdb469c96d070572ec72
+      internalID: -538050275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_10
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1663
+        width: 59
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02ff47ab7b78984d81e2ba0d2522753
+      internalID: 917741052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_11
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1663
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992ebca776876c148b13a83c015c9954
+      internalID: 1662567434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_12
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1663
+        width: 51
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2366126689fdef647962c64e8ee9b6ef
+      internalID: 1949526065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_13
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1663
+        width: 49
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef547abf806a0d84f9478bc1ecc4e36b
+      internalID: 703010235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_14
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1663
+        width: 49
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a43f335b61f3994b98ff963f069ea12
+      internalID: -1845552780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_15
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1663
+        width: 41
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff18bb620e71ee47a411d33a07323d0
+      internalID: -1500377414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1407
+        width: 38
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace7a4f5914db2e41aa5fa22ca5da3b2
+      internalID: -780132086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1407
+        width: 39
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ce0831b14b1c24690b35b5e3937f92
+      internalID: 197357277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1407
+        width: 55
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a409c8fd2b8d93f4c982791fda55a52f
+      internalID: -1694172527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_19
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1407
+        width: 61
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a88b881ff9d7084d8072c59683019bc
+      internalID: -1410191707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_20
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1411
+        width: 68
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117200476f96dbc42ab13aace02cae44
+      internalID: -245263705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_21
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1419
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1726099d444e3d04fa3b78bf2395f350
+      internalID: 2007327664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_22
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1429
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ccfde1c68d6404bbaefa24c107cef7
+      internalID: 1648287497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_23
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1428
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7b02165e746f14992a46fd87cc2d50
+      internalID: -2054676426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_24
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1170
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825b579a3c0d80b4583ef3226f2c7b04
+      internalID: -1634604492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_25
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1170
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3883ffe92383c848b7265983895a9dc
+      internalID: 1362364205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_26
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1170
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dac94692bff9f14d8ca7ae472f7b9bf
+      internalID: 1513373296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_27
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1170
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72235682f1bb0f545bcf0c8e1a301e3c
+      internalID: -195370484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_28
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1170
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36703c90106b0564f8ac6ca071cdf368
+      internalID: -637978662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_29
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1170
+        width: 95
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d14b904ac31e174d89338f452578bbf
+      internalID: -1261645002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_30
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1171
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0f4a0aabc30394cb142ea0ce8cfe7a
+      internalID: -195383547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_31
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1167
+        width: 63
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2472f75862dd81245be3a6b6a16e128b
+      internalID: -797758913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_32
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 910
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3da3e47af4cc443b5d4430f967f1f2
+      internalID: 1225595954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_33
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 910
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d029351b820d49a4a95759dccb76a13c
+      internalID: -1562887657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_34
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 910
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcbd1e76e034a7488334f49685057f2
+      internalID: 947305168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_35
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 907
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a39871bfca36346b269ed5c4096547
+      internalID: -543296972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_36
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 903
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8615a959b35c44f82c5999f2fd27a6
+      internalID: -997135495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_37
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 899
+        width: 49
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143ac41c0a45e5348a13ae03e790290b
+      internalID: -2065871917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_38
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 896
+        width: 47
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee700f467e533b1478abaab3aae558eb
+      internalID: 1956587352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_39
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 896
+        width: 45
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f4db787b1b5a745bf3ace3dca6209e
+      internalID: 241748143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_40
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 639
+        width: 49
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3751e32caed2f364a854959caea9e763
+      internalID: -987606243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_41
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 638
+        width: 53
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c547f8e681178b04d80f7f0890605dd4
+      internalID: 1631189532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_42
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 637
+        width: 59
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b63291e167057241a0bfd60f5759aa2
+      internalID: -1388705032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_43
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 636
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33942cb8f22f40c41a3bd399e9203342
+      internalID: -1301089221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_44
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 636
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2efb97917b66a43809486ecaf81ac7
+      internalID: -119465668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_45
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 636
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4a35beec6968f45a2cee18a0401784
+      internalID: 661682807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_46
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 636
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de69207000c08824f897bdd772a49107
+      internalID: 1690235285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_47
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 636
+        width: 77
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b28145ce128474ab6817432c193550
+      internalID: 2093470583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 381
+        width: 75
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811c3f042af1a07468302c9df71ffae4
+      internalID: 891164475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_light_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 383
+        width: 73
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b35e9e5d0e942049a8adde7391ad373
+      internalID: 1733376415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 034c3cd0aba72794d901ac75b4634b8c
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jump_light_0: -1637292617
+      jump_light_1: -1433554690
+      jump_light_10: 917741052
+      jump_light_11: 1662567434
+      jump_light_12: 1949526065
+      jump_light_13: 703010235
+      jump_light_14: -1845552780
+      jump_light_15: -1500377414
+      jump_light_16: -780132086
+      jump_light_17: 197357277
+      jump_light_18: -1694172527
+      jump_light_19: -1410191707
+      jump_light_2: -277492926
+      jump_light_20: -245263705
+      jump_light_21: 2007327664
+      jump_light_22: 1648287497
+      jump_light_23: -2054676426
+      jump_light_24: -1634604492
+      jump_light_25: 1362364205
+      jump_light_26: 1513373296
+      jump_light_27: -195370484
+      jump_light_28: -637978662
+      jump_light_29: -1261645002
+      jump_light_3: 671469810
+      jump_light_30: -195383547
+      jump_light_31: -797758913
+      jump_light_32: 1225595954
+      jump_light_33: -1562887657
+      jump_light_34: 947305168
+      jump_light_35: -543296972
+      jump_light_36: -997135495
+      jump_light_37: -2065871917
+      jump_light_38: 1956587352
+      jump_light_39: 241748143
+      jump_light_4: -435501322
+      jump_light_40: -987606243
+      jump_light_41: 1631189532
+      jump_light_42: -1388705032
+      jump_light_43: -1301089221
+      jump_light_44: -119465668
+      jump_light_45: 661682807
+      jump_light_46: 1690235285
+      jump_light_47: 2093470583
+      jump_light_48: 891164475
+      jump_light_49: 1733376415
+      jump_light_5: -237785162
+      jump_light_6: -2140314712
+      jump_light_7: 1394385781
+      jump_light_8: -1474103021
+      jump_light_9: -538050275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

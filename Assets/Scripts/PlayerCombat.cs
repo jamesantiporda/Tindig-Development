@@ -144,12 +144,9 @@ public class PlayerCombat : MonoBehaviour
                     //shift into mc
                     Debug.Log("MC");
                     boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
-                    currentSprite.GetComponent<SpriteRenderer>().enabled = false;
-                    currentSprite.GetComponent<BoxCollider2D>().enabled = false;
+                    DisableSprite(currentSprite);
                     currentSprite = mcSprite;
-                    currentSprite.GetComponent<SpriteRenderer>().enabled = true;
-                    currentSprite.GetComponent<BoxCollider2D>().enabled = true;
-                    currentSprite.transform.localScale = mcSpriteSize;
+                    EnableSprite(currentSprite);
                     animator = currentSprite.GetComponent<Animator>();
                     movement.ChangeStyle(currentSprite);
                     player2Combat.ChangeHitPoint(mcHitPoint);
@@ -159,12 +156,9 @@ public class PlayerCombat : MonoBehaviour
                 {
                     //shift into boxer
                     Debug.Log("Boxer");
-                    currentSprite.GetComponent<SpriteRenderer>().enabled = false;
-                    currentSprite.GetComponent<BoxCollider2D>().enabled = false;
+                    DisableSprite(currentSprite);
                     currentSprite = boxingSprite;
-                    boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOff();
-                    currentSprite.GetComponent<SpriteRenderer>().enabled = true;
-                    currentSprite.transform.localScale = boxingSpriteSize;
+                    EnableSprite(currentSprite);
                     animator = currentSprite.GetComponent<Animator>();
                     movement.ChangeStyle(currentSprite);
                     player2Combat.ChangeHitPoint(boxingHitPoint);
@@ -175,12 +169,9 @@ public class PlayerCombat : MonoBehaviour
                     //shift into sikaran
                     Debug.Log("Sikaran");
                     boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
-                    currentSprite.GetComponent<SpriteRenderer>().enabled = false;
-                    currentSprite.GetComponent<BoxCollider2D>().enabled = false;
+                    DisableSprite(currentSprite);
                     currentSprite = sikaranSprite;
-                    currentSprite.GetComponent<SpriteRenderer>().enabled = true;
-                    currentSprite.GetComponent<BoxCollider2D>().enabled = true;
-                    currentSprite.transform.localScale = sikaranSpriteSize;
+                    EnableSprite(currentSprite);
                     animator = currentSprite.GetComponent<Animator>();
                     movement.ChangeStyle(currentSprite);
                     player2Combat.ChangeHitPoint(sikaranHitPoint);
@@ -191,12 +182,9 @@ public class PlayerCombat : MonoBehaviour
                     //shift into arnis
                     Debug.Log("Arnis");
                     boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
-                    currentSprite.GetComponent<SpriteRenderer>().enabled = false;
-                    currentSprite.GetComponent<BoxCollider2D>().enabled = false;
+                    DisableSprite(currentSprite);
                     currentSprite = arnisSprite;
-                    currentSprite.GetComponent<SpriteRenderer>().enabled = true;
-                    currentSprite.GetComponent<BoxCollider2D>().enabled = true;
-                    arnisSprite.transform.localScale = new Vector3(1.84f, 1.84f, 1.84f);
+                    EnableSprite(currentSprite);
                     animator = currentSprite.GetComponent<Animator>();
                     movement.ChangeStyle(currentSprite);
                     player2Combat.ChangeHitPoint(arnisHitPoint);
@@ -417,6 +405,20 @@ public class PlayerCombat : MonoBehaviour
         currentSprite.GetComponent<Animator>().SetBool("Dead", false);
         currentSprite.GetComponent<Animator>().SetTrigger("Reset");
 
+    }
+
+    private void DisableSprite(GameObject spriteDisabled)
+    {
+        spriteDisabled.GetComponent<SpriteToPlayer>().SetIFrameOn();
+        spriteDisabled.GetComponent<SpriteRenderer>().enabled = false;
+        spriteDisabled.GetComponent<Animator>().enabled = false;
+    }
+
+    private void EnableSprite(GameObject spriteEnabled)
+    {
+        spriteEnabled.GetComponent<SpriteToPlayer>().SetIFrameOff();
+        spriteEnabled.GetComponent<SpriteRenderer>().enabled = true;
+        spriteEnabled.GetComponent<Animator>().enabled = true;
     }
 
     IEnumerator AttackPick()

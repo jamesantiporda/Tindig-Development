@@ -86,6 +86,9 @@ public class PlayerMovement : MonoBehaviour
 
     private float min, max;
 
+    // Used to decide Retreat (higher = less likely to retreat)
+    private int maxRandom;
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
@@ -96,21 +99,25 @@ public class PlayerMovement : MonoBehaviour
         {
             min = 3;
             max = 5;
+            maxRandom = 3;
         }
         else if (medium)
         {
             min = 1;
             max = 4;
+            maxRandom = 5;
         }
         else if (hard)
         {
             min = 0;
             max = 3;
+            maxRandom = 8;
         }
         else if (mahoraga)
         {
             min = 0;
             max = 1.25f;
+            maxRandom = 10;
         }
     }
 
@@ -283,7 +290,11 @@ public class PlayerMovement : MonoBehaviour
                         lastForwardInput = Time.time;
                     }
                     horizontalDirection = 6;
-                    horizontalInput = 1;
+
+                    if (canMove)
+                        horizontalInput = 1;
+                    else
+                        horizontalInput = 0;
                 }
                 else
                 {
@@ -298,7 +309,11 @@ public class PlayerMovement : MonoBehaviour
                         lastBackwardInput = Time.time;
                     }
                     horizontalDirection = 4;
-                    horizontalInput = 0.8f;
+
+                    if (canMove)
+                        horizontalInput = 0.8f;
+                    else
+                        horizontalInput = 0;
                 }
             }
             else
@@ -324,7 +339,11 @@ public class PlayerMovement : MonoBehaviour
                         lastBackwardInput = Time.time;
                     }
                     horizontalDirection = 4;
-                    horizontalInput = -0.8f;
+
+                    if (canMove)
+                        horizontalInput = -0.8f;
+                    else
+                        horizontalInput = 0;
                 }
                 else
                 {
@@ -340,7 +359,11 @@ public class PlayerMovement : MonoBehaviour
                         lastForwardInput = Time.time;
                     }
                     horizontalDirection = 6;
-                    horizontalInput = -1;
+
+                    if (canMove)
+                        horizontalInput = -1;
+                    else
+                        horizontalInput = 0;
                 }
             }
             else
@@ -562,13 +585,13 @@ public class PlayerMovement : MonoBehaviour
 
     public IEnumerator RetreatDeciding()
     {
-        int retreatTime = UnityEngine.Random.Range(1, 3);
+        int retreatTime = UnityEngine.Random.Range(3, 5);
 
         retreatDeciding = true;
 
         yield return new WaitForSeconds(retreatTime);
 
-        int willRetreat = UnityEngine.Random.Range(0, 4);
+        int willRetreat = UnityEngine.Random.Range(0, maxRandom);
 
         if(willRetreat <= 1 && !isRetreating)
         {
