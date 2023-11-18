@@ -28,6 +28,7 @@ public class PlayerCombat : MonoBehaviour
     private SpriteRenderer mcRenderer, boxingRenderer, sikaranRenderer, arnisRenderer;
     private GameObject currentSprite;
     private Vector3 mcSpriteSize, boxingSpriteSize, sikaranSpriteSize, arnisSpriteSize;
+    private bool canSwitch = true, boxingUnlocked, sikaranUnlocked, arnisUnlocked;
 
     public Animator animator;
     public PlayerCombat player2Combat;
@@ -78,11 +79,10 @@ public class PlayerCombat : MonoBehaviour
             sikaranRenderer.enabled = false;
             arnisRenderer.enabled = false;
 
-            mcSprite.GetComponent<BoxCollider2D>().enabled = true;
-            boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
-            boxingSprite.GetComponent<BoxCollider2D>().enabled = false;
-            sikaranSprite.GetComponent<BoxCollider2D>().enabled = false;
-            arnisSprite.GetComponent<BoxCollider2D>().enabled = false;
+            EnableSprite(mcSprite);
+            DisableSprite(boxingSprite);
+            DisableSprite(sikaranSprite);
+            DisableSprite(arnisSprite);
         }
 
         if (easy)
@@ -137,10 +137,12 @@ public class PlayerCombat : MonoBehaviour
                 Special();
             }
 
-            if(Input.GetKey(shiftStyleInput) && isMC)
+            if(Input.GetKey(shiftStyleInput) && isMC && canAttack && canSwitch)
             {
-                if(Input.GetKeyDown(mcInput))
+                if(Input.GetKeyDown(mcInput) && currentSprite != mcSprite)
                 {
+                    StartCoroutine(StyleSwitchCooldown());
+
                     //shift into mc
                     Debug.Log("MC");
                     boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
@@ -152,8 +154,10 @@ public class PlayerCombat : MonoBehaviour
                     player2Combat.ChangeHitPoint(mcHitPoint);
                 }
 
-                if(Input.GetKeyDown(boxingInput))
+                if(Input.GetKeyDown(boxingInput) && currentSprite != boxingSprite)
                 {
+                    StartCoroutine(StyleSwitchCooldown());
+
                     //shift into boxer
                     Debug.Log("Boxer");
                     DisableSprite(currentSprite);
@@ -164,8 +168,10 @@ public class PlayerCombat : MonoBehaviour
                     player2Combat.ChangeHitPoint(boxingHitPoint);
                 }
 
-                if(Input.GetKeyDown(sikaranInput))
+                if(Input.GetKeyDown(sikaranInput) && currentSprite != sikaranSprite)
                 {
+                    StartCoroutine(StyleSwitchCooldown());
+
                     //shift into sikaran
                     Debug.Log("Sikaran");
                     boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
@@ -177,8 +183,10 @@ public class PlayerCombat : MonoBehaviour
                     player2Combat.ChangeHitPoint(sikaranHitPoint);
                 }
 
-                if(Input.GetKeyDown(arnisInput))
+                if(Input.GetKeyDown(arnisInput) && currentSprite != arnisSprite)
                 {
+                    StartCoroutine(StyleSwitchCooldown());
+
                     //shift into arnis
                     Debug.Log("Arnis");
                     boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
@@ -449,5 +457,16 @@ public class PlayerCombat : MonoBehaviour
         yield return new WaitForSeconds(attackWait);
 
         isAttacking = false;
+    }
+
+    private IEnumerator StyleSwitchCooldown()
+    {
+        canSwitch = false;
+
+        //FindObjectOfType<HitStop>().Stop(0.5f);
+
+        yield return new WaitForSeconds(0.5f);
+
+        canSwitch = true;
     }
 }

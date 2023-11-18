@@ -38,11 +38,11 @@ Transform:
   m_Children:
   - {fileID: 3511446517049988858}
   - {fileID: 2848981533775408206}
-  - {fileID: 5691899254732964561}
-  - {fileID: 2406801106530092313}
+  - {fileID: 4023725834502587006}
   - {fileID: 551698666134347306}
+  - {fileID: 2406801106530092313}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5053105168052172158
 MeshFilter:
@@ -213,11 +213,11 @@ MonoBehaviour:
   mcSprite: {fileID: 5354747448908874181}
   boxingSprite: {fileID: 4508704591925369681}
   sikaranSprite: {fileID: 2212314632663099701}
-  arnisSprite: {fileID: 9123758088093777495}
+  arnisSprite: {fileID: 555223413720923896}
   mcHitPoint: {fileID: 7589100209078877571}
   boxingHitPoint: {fileID: 2156666404530165652}
   sikaranHitPoint: {fileID: 4453952506168354288}
-  arnisHitPoint: {fileID: 4623860575152271137}
+  arnisHitPoint: {fileID: 4107799446352293774}
   animator: {fileID: 8446320551633434379}
   player2Combat: {fileID: 0}
   isCPU: 0
@@ -392,19 +392,19 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
---- !u!1 &4623860575152271137 stripped
+--- !u!1 &555223413720923896 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3803392097645265964, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
+  m_CorrespondingSourceObject: {fileID: 755766789146924378, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
   m_PrefabInstance: {fileID: 993475977066802082}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5691899254732964561 stripped
+--- !u!4 &4023725834502587006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4187974304277047772, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
   m_PrefabInstance: {fileID: 993475977066802082}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &9123758088093777495 stripped
+--- !u!1 &4107799446352293774 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 755766789146924378, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3803392097645265964, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
   m_PrefabInstance: {fileID: 993475977066802082}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1132933544985548845
