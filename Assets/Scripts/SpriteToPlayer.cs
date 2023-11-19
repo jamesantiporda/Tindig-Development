@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.WSA;
 
 public class SpriteToPlayer : MonoBehaviour
 {
@@ -18,7 +17,7 @@ public class SpriteToPlayer : MonoBehaviour
     public GameObject hitEffect;
     public GameObject hitPoint;
 
-    private float launchForce = 12.5f;
+    private float launchForce = 15.0f;
 
     private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked, iFrame;
     private float blockingTime = 0f, lowBlockingTime = 0f;

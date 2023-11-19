@@ -464,6 +464,9 @@ public class PlayerCombat : MonoBehaviour
         canSwitch = false;
 
         //FindObjectOfType<HitStop>().Stop(0.5f);
+        Time.timeScale = 0.2f;
+        yield return new WaitForSecondsRealtime(0.25f);
+        Time.timeScale = 1.0f;
 
         yield return new WaitForSeconds(0.5f);
 

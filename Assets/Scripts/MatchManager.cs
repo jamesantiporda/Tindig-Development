@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Xml.Serialization;
 using System.Security.Cryptography;
+using UnityEngine.SceneManagement;
 
 public class MatchManager : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class MatchManager : MonoBehaviour
 
     private int roundNumber;
 
-    public GameObject handa, laban, winner, ko, timeup;
+    public GameObject handa, laban, winner, ko, timeup, pauseScreen;
     public TMP_Text winnerText;
 
     // Round Start Timer
@@ -46,6 +47,8 @@ public class MatchManager : MonoBehaviour
     public GameObject Player1, Player2;
 
     public bool isTraining = false;
+
+    private bool isPaused = false;
 
 
     // Start is called before the first frame update
@@ -90,6 +93,14 @@ public class MatchManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isPaused)
+                MatchResume();
+            else
+                MatchPause();
+        }
+
         if(!isTraining)
         {
             // Start Timer
@@ -278,5 +289,25 @@ public class MatchManager : MonoBehaviour
         matchEnded = true;
         winnerText.text = winnerName + " WINS!";
         winner.SetActive(true);
+    }
+
+    public void MatchPause()
+    {
+        Time.timeScale = 0f;
+        isPaused = true;
+        pauseScreen.SetActive(true);
+    }
+
+    public void MatchResume()
+    {
+        isPaused = false;
+        pauseScreen.SetActive(false);
+        Time.timeScale = 1.0f;
+    }
+
+    public void ReturnToMainMenu()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("TitleScreen");
     }
 }

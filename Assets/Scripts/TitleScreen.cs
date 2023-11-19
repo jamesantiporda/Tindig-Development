@@ -31,6 +31,11 @@ public class TitleScreen : MonoBehaviour
         SceneManager.LoadScene("StageSelect");
     }
 
+    public void Training()
+    {
+        SceneManager.LoadSceneAsync("Training");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
