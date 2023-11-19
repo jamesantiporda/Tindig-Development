@@ -12,7 +12,10 @@ public class TitleScreen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(!PlayerPrefs.HasKey("Difficulty"))
+        {
+            PlayerPrefs.SetInt("Difficulty", 1);
+        }
     }
 
     // Update is called once per frame
@@ -34,6 +37,11 @@ public class TitleScreen : MonoBehaviour
     public void Training()
     {
         SceneManager.LoadSceneAsync("Training");
+    }
+
+    public void SetDifficulty(int diff)
+    {
+        PlayerPrefs.SetInt("Difficulty", diff);
     }
 
     public void QuitGame()

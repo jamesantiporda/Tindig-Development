@@ -33,6 +33,8 @@ public class SpriteToPlayer : MonoBehaviour
 
     private int timesDamaged = 0;
 
+    private int difficulty;
+
     ////////////
 
     // Start is called before the first frame update
@@ -43,25 +45,27 @@ public class SpriteToPlayer : MonoBehaviour
         playerHealth = player.GetComponent<PlayerHealth>();
         anim = gameObject.GetComponent<Animator>();
 
-        if(easy)
+        difficulty = PlayerPrefs.GetInt("Difficulty");
+
+        if (difficulty == 0)
         {
             crouchReactionTime = 4.0f;
             maxRandom = 10;
             numberToPunish = 5;
         }
-        else if(medium)
+        else if(difficulty == 1)
         {
             crouchReactionTime = 3.0f;
             maxRandom = 7;
             numberToPunish = 3;
         }
-        else if(hard)
+        else if(difficulty == 2)
         {
             crouchReactionTime = 1.5f;
             maxRandom = 5;
             numberToPunish = 2;
         }
-        else if(mahoraga)
+        else if(difficulty == 3)
         {
             crouchReactionTime = 1f;
             maxRandom = 3;
@@ -241,6 +245,11 @@ public class SpriteToPlayer : MonoBehaviour
     public void SetIFrameOff()
     {
         iFrame = false;
+    }
+
+    public void SetIsCPU(bool makeCPU)
+    {
+        isCPU = makeCPU;
     }
 
     private void Damaged()

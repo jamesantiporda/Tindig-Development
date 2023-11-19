@@ -28,7 +28,8 @@ public class PlayerCombat : MonoBehaviour
     private SpriteRenderer mcRenderer, boxingRenderer, sikaranRenderer, arnisRenderer;
     private GameObject currentSprite;
     private Vector3 mcSpriteSize, boxingSpriteSize, sikaranSpriteSize, arnisSpriteSize;
-    private bool canSwitch = true, boxingUnlocked, sikaranUnlocked, arnisUnlocked;
+    private bool canSwitch = true;
+    private bool boxingUnlocked = false, sikaranUnlocked = false, arnisUnlocked = false;
 
     public Animator animator;
     public PlayerCombat player2Combat;
@@ -51,10 +52,14 @@ public class PlayerCombat : MonoBehaviour
     private int randomInt;
     private bool isAttacking = false;
     private bool punishLowBlock = false;
+    public bool isTutorial = false;
 
     private float waitMin, waitMax;
 
     public bool easy = false, medium = true, hard = false, mahoraga = false;
+
+    private int difficulty;
+
     //
 
     void Start()
@@ -85,26 +90,57 @@ public class PlayerCombat : MonoBehaviour
             DisableSprite(arnisSprite);
         }
 
-        if (easy)
+        difficulty = PlayerPrefs.GetInt("Difficulty");
+
+        if (difficulty == 0)
         {
             waitMin = 3;
             waitMax = 5;
         }
-        else if (medium)
+        else if (difficulty == 1)
         {
             waitMin = 1;
             waitMax = 4;
         }
-        else if (hard)
+        else if (difficulty == 2)
         {
             waitMin = 0;
             waitMax = 2;
         }
-        else if (mahoraga)
+        else if (difficulty == 3)
         {
             waitMin = 0;
             waitMax = 1.25f;
         }
+
+        if(PlayerPrefs.HasKey("Boxing"))
+        {
+            boxingUnlocked = true;
+        }
+        else
+        {
+            boxingUnlocked = false;
+        }
+        
+        if(PlayerPrefs.HasKey("Sikaran"))
+        {
+            sikaranUnlocked = true;
+        }
+        else
+        {
+            sikaranUnlocked = false;
+        }
+
+        if (PlayerPrefs.HasKey("Arnis"))
+        {
+            arnisUnlocked = true;
+        }
+        else
+        {
+            arnisUnlocked = false;
+        }
+
+
     }
 
     // Update is called once per frame
@@ -154,7 +190,7 @@ public class PlayerCombat : MonoBehaviour
                     player2Combat.ChangeHitPoint(mcHitPoint);
                 }
 
-                if(Input.GetKeyDown(boxingInput) && currentSprite != boxingSprite)
+                if(Input.GetKeyDown(boxingInput) && currentSprite != boxingSprite && boxingUnlocked)
                 {
                     StartCoroutine(StyleSwitchCooldown());
 
@@ -168,7 +204,7 @@ public class PlayerCombat : MonoBehaviour
                     player2Combat.ChangeHitPoint(boxingHitPoint);
                 }
 
-                if(Input.GetKeyDown(sikaranInput) && currentSprite != sikaranSprite)
+                if(Input.GetKeyDown(sikaranInput) && currentSprite != sikaranSprite && sikaranUnlocked)
                 {
                     StartCoroutine(StyleSwitchCooldown());
 
@@ -183,7 +219,7 @@ public class PlayerCombat : MonoBehaviour
                     player2Combat.ChangeHitPoint(sikaranHitPoint);
                 }
 
-                if(Input.GetKeyDown(arnisInput) && currentSprite != arnisSprite)
+                if(Input.GetKeyDown(arnisInput) && currentSprite != arnisSprite && arnisUnlocked)
                 {
                     StartCoroutine(StyleSwitchCooldown());
 
@@ -200,7 +236,7 @@ public class PlayerCombat : MonoBehaviour
             }
 
             // AI Behavior
-            if (isCPU && punishLowBlock && canAttack)
+            if (isCPU && punishLowBlock && canAttack && !isTutorial)
             {
                 OverheadAttack();
                 punishLowBlock = false;
@@ -427,6 +463,16 @@ public class PlayerCombat : MonoBehaviour
         spriteEnabled.GetComponent<SpriteToPlayer>().SetIFrameOff();
         spriteEnabled.GetComponent<SpriteRenderer>().enabled = true;
         spriteEnabled.GetComponent<Animator>().enabled = true;
+    }
+
+    public GameObject ReturnCurrentSprite()
+    {
+        return currentSprite;
+    }
+
+    public void SetIsCPU(bool makeCPU)
+    {
+        isCPU = makeCPU;
     }
 
     IEnumerator AttackPick()

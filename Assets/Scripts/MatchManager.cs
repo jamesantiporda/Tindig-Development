@@ -31,7 +31,7 @@ public class MatchManager : MonoBehaviour
 
     private int roundNumber;
 
-    public GameObject handa, laban, winner, ko, timeup, pauseScreen;
+    public GameObject handa, laban, winner, ko, timeup, pauseScreen, winScreen;
     public TMP_Text winnerText;
 
     // Round Start Timer
@@ -50,10 +50,14 @@ public class MatchManager : MonoBehaviour
 
     private bool isPaused = false;
 
+    public bool isBoxingBoss, isSikaranBoss, isArnisBoss;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        winScreen.SetActive(false);
+
         roundNumber = 0;
 
         player1round1.SetActive(false);
@@ -252,6 +256,20 @@ public class MatchManager : MonoBehaviour
         {
             player1round2.SetActive(true);
             winnerName = player1Name;
+
+            if(isBoxingBoss)
+            {
+                PlayerPrefs.SetString("Boxing", "unlocked");
+            }
+            else if(isSikaranBoss)
+            {
+                PlayerPrefs.SetString("Sikaran", "unlocked");
+            }
+            else if(isArnisBoss)
+            {
+                PlayerPrefs.SetString("Arnis", "unlocked");
+            }
+
             MatchEnd();
         }
 
@@ -289,6 +307,7 @@ public class MatchManager : MonoBehaviour
         matchEnded = true;
         winnerText.text = winnerName + " WINS!";
         winner.SetActive(true);
+        StartCoroutine(ShowWinScreen());
     }
 
     public void MatchPause()
@@ -309,5 +328,24 @@ public class MatchManager : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         SceneManager.LoadScene("TitleScreen");
+    }
+
+    public void ReturnToStageSelect()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("StageSelect");
+    }
+
+    public void RestartMatch()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    private IEnumerator ShowWinScreen()
+    {
+        yield return new WaitForSecondsRealtime(5.0f);
+
+        winScreen.SetActive(true);
     }
 }

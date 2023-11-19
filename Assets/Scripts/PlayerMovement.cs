@@ -88,6 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Used to decide Retreat (higher = less likely to retreat)
     private int maxRandom;
+    private int difficulty;
 
     void Start()
     {
@@ -95,25 +96,27 @@ public class PlayerMovement : MonoBehaviour
         originalScale = sprite.transform.localScale;
         flippedScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
 
-        if (easy)
+        difficulty = PlayerPrefs.GetInt("Difficulty");
+
+        if (difficulty == 0)
         {
             min = 3;
             max = 5;
             maxRandom = 3;
         }
-        else if (medium)
+        else if (difficulty == 1)
         {
             min = 1;
             max = 4;
             maxRandom = 5;
         }
-        else if (hard)
+        else if (difficulty == 2)
         {
             min = 0;
             max = 3;
             maxRandom = 8;
         }
-        else if (mahoraga)
+        else if (difficulty == 3)
         {
             min = 0;
             max = 1.25f;
@@ -478,6 +481,11 @@ public class PlayerMovement : MonoBehaviour
         return attackRange;
     }
 
+    public void SetWithinAttackRange(bool range)
+    {
+        attackRange = range;
+    }
+
     public void SetDirection(int newDirection)
     {
         horizontalDirection = newDirection;
@@ -517,6 +525,16 @@ public class PlayerMovement : MonoBehaviour
     public void LungeMovement()
     {
         playerRb.velocity = new Vector2(-behind.x * dashingPower, 0.0f);
+    }
+
+    public bool ReturnIsDashing()
+    {
+        return isDashing;
+    }
+
+    public bool ReturnIsSprinting()
+    {
+        return isSprinting;
     }
 
 
@@ -624,6 +642,11 @@ public class PlayerMovement : MonoBehaviour
     {
         sprite = style;
         anim = sprite.GetComponent<Animator>();
+    }
+
+    public void SetIsCPU(bool makeCPU)
+    {
+        isCPU = makeCPU;
     }
 
     private void OnTriggerStay(Collider collision)
