@@ -45,6 +45,8 @@ public class MatchManager : MonoBehaviour
 
     public GameObject Player1, Player2;
 
+    public bool isTraining = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -74,14 +76,85 @@ public class MatchManager : MonoBehaviour
         player1Name = Player1.name;
         player2Name = Player2.name;
 
-        RoundStart();
+        if (!isTraining)
+        {
+            RoundStart();
+        }
+        else
+        {
+            player1Health.RegenHealth();
+            player2Health.RegenHealth();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Start Timer
-        if(startTimer >= 5.0f && roundStarting)
+        if(!isTraining)
+        {
+            // Start Timer
+            if (startTimer >= 3.5f && roundStarting)
+            {
+                roundStarting = false;
+                roundOngoing = true;
+                player1Movement.AcceptInput();
+                player2Movement.AcceptInput();
+                player1Combat.AcceptInput();
+                player2Combat.AcceptInput();
+                laban.SetActive(true);
+            }
+            else
+            {
+                startTimer += Time.deltaTime;
+
+                if (startTimer >= 2.0f && !handa.activeSelf)
+                {
+                    handa.SetActive(true);
+                }
+            }
+
+            // End Timer (ends into the Start Timer)
+            if (endTimer >= 5.0f && roundEnding)
+            {
+                roundEnding = false;
+                if (!matchEnded)
+                {
+                    RoundStart();
+                }
+            }
+            else
+            {
+                endTimer += Time.deltaTime;
+            }
+
+
+            if (roundOngoing)
+            {
+                timer -= Time.deltaTime;
+            }
+
+            timerText.text = "" + Mathf.Floor(timer);
+
+
+            if (player1Health.ReturnHealth() <= 0 && roundOngoing)
+            {
+                RoundEnd();
+                UpdateRounds(2);
+            }
+
+            if (player2Health.ReturnHealth() <= 0 && roundOngoing)
+            {
+                RoundEnd();
+                UpdateRounds(1);
+            }
+
+            if (timer < 1.0f && roundOngoing)
+            {
+                RoundEnd();
+                UpdateRounds(0);
+            }
+        }
+        else
         {
             roundStarting = false;
             roundOngoing = true;
@@ -89,57 +162,6 @@ public class MatchManager : MonoBehaviour
             player2Movement.AcceptInput();
             player1Combat.AcceptInput();
             player2Combat.AcceptInput();
-            laban.SetActive(true);
-        }
-        else
-        {
-            startTimer += Time.deltaTime;
-
-            if(startTimer >= 2.0f && !handa.activeSelf)
-            {
-                handa.SetActive(true);
-            }
-        }
-
-        // End Timer (ends into the Start Timer)
-        if(endTimer >= 5.0f && roundEnding)
-        {
-            roundEnding = false;
-            if (!matchEnded)
-            {
-                RoundStart();
-            }
-        }
-        else
-        {
-            endTimer += Time.deltaTime;
-        }
-
-
-        if (roundOngoing)
-        {
-            timer -= Time.deltaTime;
-        }
-
-        timerText.text = "" + Mathf.Floor(timer);
-
-
-        if(player1Health.ReturnHealth() <= 0 && roundOngoing)
-        {
-            RoundEnd();
-            UpdateRounds(2);
-        }
-        
-        if(player2Health.ReturnHealth() <= 0 && roundOngoing)
-        {
-            RoundEnd();
-            UpdateRounds(1);
-        }
-
-        if(timer < 1.0f && roundOngoing)
-        {
-            RoundEnd();
-            UpdateRounds(0);
         }
     }
 

@@ -6,12 +6,21 @@ public class PlayerHealth : MonoBehaviour
 {
     public HealthBarScript healthBar;
     private int health;
+    private bool RCT = false;
 
     // Start is called before the first frame update
     void Start()
     {
         health = 1000;
         healthBar.SetMaxHealth(health);
+    }
+
+    private void Update()
+    {
+        if(RCT)
+        {
+            health += 1;
+        }
     }
 
     public void TakeDamage(int damage)
@@ -29,5 +38,11 @@ public class PlayerHealth : MonoBehaviour
     {
         health = 1000;
         healthBar.SetHealth(health);
+    }
+
+    public void RegenHealth()
+    {
+        RCT = true;
+        healthBar.SetHealthRegen(true);
     }
 }

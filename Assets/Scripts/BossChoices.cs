@@ -8,7 +8,7 @@ public class BossChoices : MonoBehaviour
 {
     private Animator bossChoicesAnim;
 
-    public GameObject selection;
+    public GameObject selection, fadeToBlack;
 
     private int stageNumber = 1;
 
@@ -16,6 +16,7 @@ public class BossChoices : MonoBehaviour
     void Start()
     {
         bossChoicesAnim = gameObject.GetComponent<Animator>();
+        fadeToBlack.SetActive(false);
     }
 
     // Update is called once per frame
@@ -65,6 +66,11 @@ public class BossChoices : MonoBehaviour
                 SceneManager.LoadScene("ArnisBoss");
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            StartCoroutine(ExitToTitle());
+        }
     }
 
     public void EnableSelection()
@@ -75,5 +81,12 @@ public class BossChoices : MonoBehaviour
     private void DisableSelection()
     {
         selection.SetActive(false);
+    }
+
+    private IEnumerator ExitToTitle()
+    {
+        fadeToBlack.SetActive(true);
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("TitleScreen");
     }
 }

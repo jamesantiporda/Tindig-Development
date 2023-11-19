@@ -10,6 +10,8 @@ public class HealthBarScript : MonoBehaviour
 
     private float damageTimer = 0.0f, redSliderCooldown = 0.5f;
 
+    private bool regenHealth = false;
+
     public void SetMaxHealth(int health)
     {
         slider.maxValue = health;
@@ -36,5 +38,15 @@ public class HealthBarScript : MonoBehaviour
         {
             redSlider.value = slider.value;
         }
+
+        if(regenHealth && damageTimer >= redSliderCooldown && slider.value < slider.maxValue)
+        {
+            slider.value += 1;
+        }
+    }
+
+    public void SetHealthRegen(bool regen)
+    {
+        regenHealth = regen;
     }
 }
