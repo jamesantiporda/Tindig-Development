@@ -527,6 +527,11 @@ public class PlayerMovement : MonoBehaviour
         playerRb.velocity = new Vector2(-behind.x * dashingPower, 0.0f);
     }
 
+    public void BackLungeMovement()
+    {
+        playerRb.velocity = new Vector2(behind.x * dashingPower, 0.0f);
+    }
+
     public bool ReturnIsDashing()
     {
         return isDashing;

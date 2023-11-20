@@ -237,6 +237,11 @@ public class SpriteToPlayer : MonoBehaviour
         movement.LungeMovement();
     }
 
+    public void BackLunge()
+    {
+        movement.BackLungeMovement();
+    }
+
     public void SetIFrameOn()
     {
         iFrame = true;
