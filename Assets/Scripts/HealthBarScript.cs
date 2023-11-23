@@ -32,7 +32,7 @@ public class HealthBarScript : MonoBehaviour
 
         if(redSlider.value > slider.value && damageTimer >= redSliderCooldown)
         {
-            redSlider.value -= 1;
+            redSlider.value -= 2;
         }
         else if(slider.value > redSlider.value)
         {

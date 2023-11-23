@@ -56,6 +56,8 @@ public class MatchManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Application.targetFrameRate = 60;
+
         winScreen.SetActive(false);
 
         roundNumber = 0;
