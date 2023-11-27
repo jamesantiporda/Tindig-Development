@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: f6943a5ec7022924792da75a974c3aef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1917
+        width: 67
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a8fdd969d679448a683fd9d05064b1
+      internalID: 810444101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1917
+        width: 68
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f67022cf376c947883a0bf80570f35
+      internalID: -621465250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1917
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7d0b9d3ed2f964295702e2a27bb9fe
+      internalID: 2098376406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_3
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1917
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bde44671246864889ac77f546a3c30
+      internalID: -1395518232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_4
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1917
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c912ae00564f2b74ab27927cf748466a
+      internalID: 330019196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_5
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1916
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a2b4a88aeb5e347824ab115e49bdbf
+      internalID: -1404630315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_6
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1915
+        width: 76
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0977863252b25429c94b200f09aee3
+      internalID: -55661990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_7
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1915
+        width: 93
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8cdc5fc0947e14c989c6eeb540e6f9
+      internalID: 1318642531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1658
+        width: 107
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c62419dad7f1414f9d1bfb8c85f5359
+      internalID: 1163465949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1658
+        width: 123
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3749c8e5c22b74d9039c8f808bbe75
+      internalID: -1526603520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_10
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1741
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e707ef558c2ed0941b2546bd2c8d5173
+      internalID: 962735993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_11
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1658
+        width: 121
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a69dfba53c91b4a8e557d991fe2c72
+      internalID: -1327800712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_12
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1741
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf99b754bff1e44ea8aa1b3cdf36a98
+      internalID: 361984332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_13
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1658
+        width: 129
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e578d2f4da6284a9904d1af67c453c
+      internalID: -1393251644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_14
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1741
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441ddcea2206a884285f777823c84881
+      internalID: -1906577634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_15
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1658
+        width: 126
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8908aae7fa546364781b2a38f9e732b6
+      internalID: -80932189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_16
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1741
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a452b87bb2edf0f41b51c1b67ff8f380
+      internalID: -508480669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_17
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1658
+        width: 123
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeedaf2282eb750449e02c1af5051d6c
+      internalID: -1669897387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_18
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1741
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec456eba694401c46b6fee0667a713f0
+      internalID: -1171508824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_19
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1658
+        width: 128
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a743f76f0a38c4d9a1f15e0e539cf3
+      internalID: -1789413565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_20
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1741
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305f596381d7c294f8b5cbff00f5f8e1
+      internalID: -1701696116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_21
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1658
+        width: 123
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14103aeff175e704587ef77ecea905fb
+      internalID: -748349937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_22
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1739
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224158bcbf2a7754f8cf514851822710
+      internalID: -1752268721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1402
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06549b2b34e50e545b86fd94bca87a20
+      internalID: 348585217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_24
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1403
+        width: 108
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de5325e7da9d7c4d89b304d226b2963
+      internalID: 1026689753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_25
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1403
+        width: 94
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a6e3ffbfdd00e4b87f4d7b016d9c67
+      internalID: -1621004564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_26
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1403
+        width: 89
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7537cad0c6f2e9a448b2e2a1b06c5427
+      internalID: 1868304344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_27
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1403
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fb5b4ef70db514c965b4a2f190b39f
+      internalID: 732541367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_28
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1403
+        width: 76
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b133e9fbebc39674facfb600714da85d
+      internalID: 1453352653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_29
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1404
+        width: 74
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cafbeba4b30464582cbb5400f718f8
+      internalID: -1851839210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_30
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1405
+        width: 70
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e363b99acb012429fe2eb7f6be72ff
+      internalID: -1158567622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-medium_31
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1149
+        width: 67
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112f7e3b223c6694db04a7a90f6fd84f
+      internalID: -1473700602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 47595754c1863814c89aa51d046dc4ff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      finalboss-boxing-neutral-medium_0: 810444101
+      finalboss-boxing-neutral-medium_1: -621465250
+      finalboss-boxing-neutral-medium_10: 962735993
+      finalboss-boxing-neutral-medium_11: -1327800712
+      finalboss-boxing-neutral-medium_12: 361984332
+      finalboss-boxing-neutral-medium_13: -1393251644
+      finalboss-boxing-neutral-medium_14: -1906577634
+      finalboss-boxing-neutral-medium_15: -80932189
+      finalboss-boxing-neutral-medium_16: -508480669
+      finalboss-boxing-neutral-medium_17: -1669897387
+      finalboss-boxing-neutral-medium_18: -1171508824
+      finalboss-boxing-neutral-medium_19: -1789413565
+      finalboss-boxing-neutral-medium_2: 2098376406
+      finalboss-boxing-neutral-medium_20: -1701696116
+      finalboss-boxing-neutral-medium_21: -748349937
+      finalboss-boxing-neutral-medium_22: -1752268721
+      finalboss-boxing-neutral-medium_23: 348585217
+      finalboss-boxing-neutral-medium_24: 1026689753
+      finalboss-boxing-neutral-medium_25: -1621004564
+      finalboss-boxing-neutral-medium_26: 1868304344
+      finalboss-boxing-neutral-medium_27: 732541367
+      finalboss-boxing-neutral-medium_28: 1453352653
+      finalboss-boxing-neutral-medium_29: -1851839210
+      finalboss-boxing-neutral-medium_3: -1395518232
+      finalboss-boxing-neutral-medium_30: -1158567622
+      finalboss-boxing-neutral-medium_31: -1473700602
+      finalboss-boxing-neutral-medium_4: 330019196
+      finalboss-boxing-neutral-medium_5: -1404630315
+      finalboss-boxing-neutral-medium_6: -55661990
+      finalboss-boxing-neutral-medium_7: 1318642531
+      finalboss-boxing-neutral-medium_8: 1163465949
+      finalboss-boxing-neutral-medium_9: -1526603520
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
