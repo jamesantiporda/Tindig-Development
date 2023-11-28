@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,700 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1917
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0dd20ffc8afe04d8e572e5c55cb647
+      internalID: -1909388911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1917
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53407884acd59b94faf0eca89f81354a
+      internalID: 691639977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1916
+        width: 82
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82dd684f1926354997c59192072e027
+      internalID: -1393015326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1915
+        width: 85
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c1485409e2d644f8cb001b552e2f13
+      internalID: 1884467166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_4
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1914
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205a744fe4ae454478f8473b0a8e04a6
+      internalID: 208933319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_5
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1913
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71dd6b74d710c6429d0efae70c16f7a
+      internalID: -1049132789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_6
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1913
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39634241ee87c0b44afde82cb04735b9
+      internalID: -855306650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_7
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1913
+        width: 104
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8c77109873baa48b4ede6443c40555
+      internalID: -1309508614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1656
+        width: 118
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c53c3bad607a554fa8e50098532d464
+      internalID: -695562001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1679
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83520c810d6039c46b605f4a1946b51e
+      internalID: -340295721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1655
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf9d2eb849e1fd4682bbbd403cb0e61
+      internalID: 1268267685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1678
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e21e9455969c2043853d68a5b722adf
+      internalID: -388231602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_12
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1655
+        width: 118
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a71413344f1d214cb5692d0490b05ed
+      internalID: 1572589259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_13
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1681
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5587682eb29569c418980e3fb81c9f36
+      internalID: -629878116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_14
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1678
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbb178836318044e80f05f6f3250fe7
+      internalID: 615935767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_15
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1655
+        width: 111
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0511594a292a545a995d69e7230b98
+      internalID: -208215398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_16
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1656
+        width: 106
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f0d39f594c4c744952d617c7a4b347
+      internalID: -637623312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_17
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1656
+        width: 106
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350876aea9d93dc478518d320ccdf1ef
+      internalID: 632191798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_18
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 1690
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fa39474f3818348a4cc8360b651cf6
+      internalID: 865339118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_19
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1655
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4694b065984dc4086cbcdf00007f08
+      internalID: -1493809622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_20
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1655
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486fc2caf4948484db47c93ee38319c4
+      internalID: -210470492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1675
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda87af03f0928f40b49eb7dc9f6c53c
+      internalID: -1561196202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1399
+        width: 90
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edee86df9a997de439a3a46f8dcc4089
+      internalID: -271472216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_23
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1400
+        width: 90
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd093337330762544a07e32a8da820d8
+      internalID: 536016172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_24
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1400
+        width: 89
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef5ecfd3c375304d8402f67f7f737e9
+      internalID: -697081484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_25
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1401
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84c97101c9e19947a6a38c4b49f1b24
+      internalID: -317055512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_26
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1402
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0478b3ee2f61c9f4b98d4e4316401699
+      internalID: -775270212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_27
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1403
+        width: 84
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c37e090dcf74f4e9ffab85ac1caffe
+      internalID: -524122848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_28
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1404
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecea7a8649acbcf439435e1646fc418d
+      internalID: 1499915569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_29
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1404
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727446252dc38ee4fa9073eb7b47e70c
+      internalID: -1522231099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-sweep_30
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1149
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0affe1abc0022734a85774b8127ed62e
+      internalID: -240046305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bab538bae7def714d89c6e760012c902
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-boxing-sweep_0: -1909388911
+      finalboss-boxing-sweep_1: 691639977
+      finalboss-boxing-sweep_10: 1268267685
+      finalboss-boxing-sweep_11: -388231602
+      finalboss-boxing-sweep_12: 1572589259
+      finalboss-boxing-sweep_13: -629878116
+      finalboss-boxing-sweep_14: 615935767
+      finalboss-boxing-sweep_15: -208215398
+      finalboss-boxing-sweep_16: -637623312
+      finalboss-boxing-sweep_17: 632191798
+      finalboss-boxing-sweep_18: 865339118
+      finalboss-boxing-sweep_19: -1493809622
+      finalboss-boxing-sweep_2: -1393015326
+      finalboss-boxing-sweep_20: -210470492
+      finalboss-boxing-sweep_21: -1561196202
+      finalboss-boxing-sweep_22: -271472216
+      finalboss-boxing-sweep_23: 536016172
+      finalboss-boxing-sweep_24: -697081484
+      finalboss-boxing-sweep_25: -317055512
+      finalboss-boxing-sweep_26: -775270212
+      finalboss-boxing-sweep_27: -524122848
+      finalboss-boxing-sweep_28: 1499915569
+      finalboss-boxing-sweep_29: -1522231099
+      finalboss-boxing-sweep_3: 1884467166
+      finalboss-boxing-sweep_30: -240046305
+      finalboss-boxing-sweep_4: 208933319
+      finalboss-boxing-sweep_5: -1049132789
+      finalboss-boxing-sweep_6: -855306650
+      finalboss-boxing-sweep_7: -1309508614
+      finalboss-boxing-sweep_8: -695562001
+      finalboss-boxing-sweep_9: -340295721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

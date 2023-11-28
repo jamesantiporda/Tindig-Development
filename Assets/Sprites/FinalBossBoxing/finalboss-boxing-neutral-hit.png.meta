@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1917
+        width: 67
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b84ffa047239ac40921aae6a5f06ebd
+      internalID: 374790707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1917
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccbaba0b3e580d46b9e41ba6518aeca
+      internalID: 41755810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1917
+        width: 71
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9651f5caa755d2a4ead70209c511cb9e
+      internalID: -2052821835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_3
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1917
+        width: 72
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07444421e0f2fb544b591f0bcd8661ce
+      internalID: 153958454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_4
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1917
+        width: 72
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0680063d42a09d14fa79fe07b8a7f5ae
+      internalID: 784663956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_5
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1917
+        width: 72
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c97a514db063c244941ba4ccef98b37
+      internalID: -181029086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_6
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1917
+        width: 71
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e60e88fbb18d404a94fef37a4fd2673
+      internalID: -1855402270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_7
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1917
+        width: 70
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe84ba1d637566f44b513af1b0802873
+      internalID: -749795094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1661
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c833b2a6e05b14e4aac98821badb3960
+      internalID: 1551326955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-neutral-hit_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1661
+        width: 67
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71927847e795baa4c96d07e0fe00f679
+      internalID: 761408006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b763e43a8ab265541aa130ba32c66265
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-boxing-neutral-hit_0: 374790707
+      finalboss-boxing-neutral-hit_1: 41755810
+      finalboss-boxing-neutral-hit_2: -2052821835
+      finalboss-boxing-neutral-hit_3: 153958454
+      finalboss-boxing-neutral-hit_4: 784663956
+      finalboss-boxing-neutral-hit_5: -181029086
+      finalboss-boxing-neutral-hit_6: -1855402270
+      finalboss-boxing-neutral-hit_7: -749795094
+      finalboss-boxing-neutral-hit_8: 1551326955
+      finalboss-boxing-neutral-hit_9: 761408006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

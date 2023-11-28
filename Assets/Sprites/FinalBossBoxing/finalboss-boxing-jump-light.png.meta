@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,722 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_0
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1885
+        width: 66
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9312dbddff3906b40be559e1e0b6b380
+      internalID: -2131055884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_1
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 2024
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d7d1a1a5a1cb64597507103524e4cc
+      internalID: 1351647363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_2
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 2020
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f7d944f7958c6478f8dc7609f4b037
+      internalID: -2016852029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_3
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 2013
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a1f0a338b4bc4ab0a43ac08419330
+      internalID: 1499032936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1885
+        width: 64
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c318f25bf93ba284ca78b4dc1b88ff57
+      internalID: -570705746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1885
+        width: 71
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07ff5ad597745b4ca90e6e4b85153d0
+      internalID: 193683940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1885
+        width: 73
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ff44278367d8a42b747edfb53348b1
+      internalID: -1364431180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_7
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1885
+        width: 52
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472e0006cfac983409fd692d3266d16b
+      internalID: -1580314197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_8
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1885
+        width: 64
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a858b931a28bc7b4198e839d18d27fb6
+      internalID: -335015996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_9
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1885
+        width: 77
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193953edbf9c53b40b8b2767d1c138af
+      internalID: -1748650533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_10
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1885
+        width: 85
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fd47531a0f9f04b9a13fdec383339f
+      internalID: -97372833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_11
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 2003
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec646c1a81250a54c9ccd9676dffdd42
+      internalID: -581356716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1629
+        width: 92
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b395660f2b1cad640b2dddc5620aa012
+      internalID: 1256636963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1735
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b5431367aee5e4ebfaa7bb00f6306d
+      internalID: 1462674496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_14
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1630
+        width: 95
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d77eb05234af4b43803469fd582259e
+      internalID: -128624968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_15
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1723
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a0219194374a94eba2ee8eadc3a29c
+      internalID: -1332981375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_16
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1630
+        width: 95
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f705cd88e5dee648b407fee535cd65b
+      internalID: -183564998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_17
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1723
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b558f65086054e94480913463327f4f4
+      internalID: -1235411088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_18
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1630
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24313d217d79a6b40b0e8791d03c382c
+      internalID: 774812104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_19
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1723
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca85f60d703f5b945915419707bf532a
+      internalID: 565255186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_20
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1630
+        width: 97
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41713a0df6e01e4a8adee806f7c71c2
+      internalID: 880446477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_21
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1723
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef8de7d9f7080c4b9403400f8b0857f
+      internalID: -631790052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_22
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1630
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8ddef540b12c848bc806c0628b3656
+      internalID: -1450938759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_23
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1723
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6619fbd1f0c3f440b68d60eb9cea8ff
+      internalID: 470345253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_24
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1630
+        width: 95
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6d1b9f11368cc4aa56a584864191b6
+      internalID: -952412886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_25
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1723
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13072667afff514d96023edbce97f59
+      internalID: -441524511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_26
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1629
+        width: 94
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d4457bd52134141963e9bebb5f8af7
+      internalID: 1597201995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_27
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1721
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c972b53574b8264489eabf44d6febe99
+      internalID: -2138959194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_28
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1373
+        width: 85
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f69f9dc5ad8633418afd259a18df953
+      internalID: -1977959083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_29
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1373
+        width: 79
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd8608fcbf416444b5172d3ebbbafb2
+      internalID: 1160503627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_30
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1373
+        width: 71
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc86bee096eb6c4b9c2a96d5e707d73
+      internalID: -560620586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-jump-light_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1373
+        width: 64
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f161b728d0b0a543bd345d1072eb486
+      internalID: -673466214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9515aaec8fcd3b14c8020dd6d0df72be
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-boxing-jump-light_0: -2131055884
+      finalboss-boxing-jump-light_1: 1351647363
+      finalboss-boxing-jump-light_10: -97372833
+      finalboss-boxing-jump-light_11: -581356716
+      finalboss-boxing-jump-light_12: 1256636963
+      finalboss-boxing-jump-light_13: 1462674496
+      finalboss-boxing-jump-light_14: -128624968
+      finalboss-boxing-jump-light_15: -1332981375
+      finalboss-boxing-jump-light_16: -183564998
+      finalboss-boxing-jump-light_17: -1235411088
+      finalboss-boxing-jump-light_18: 774812104
+      finalboss-boxing-jump-light_19: 565255186
+      finalboss-boxing-jump-light_2: -2016852029
+      finalboss-boxing-jump-light_20: 880446477
+      finalboss-boxing-jump-light_21: -631790052
+      finalboss-boxing-jump-light_22: -1450938759
+      finalboss-boxing-jump-light_23: 470345253
+      finalboss-boxing-jump-light_24: -952412886
+      finalboss-boxing-jump-light_25: -441524511
+      finalboss-boxing-jump-light_26: 1597201995
+      finalboss-boxing-jump-light_27: -2138959194
+      finalboss-boxing-jump-light_28: -1977959083
+      finalboss-boxing-jump-light_29: 1160503627
+      finalboss-boxing-jump-light_3: 1499032936
+      finalboss-boxing-jump-light_30: -560620586
+      finalboss-boxing-jump-light_31: -673466214
+      finalboss-boxing-jump-light_4: -570705746
+      finalboss-boxing-jump-light_5: 193683940
+      finalboss-boxing-jump-light_6: -1364431180
+      finalboss-boxing-jump-light_7: -1580314197
+      finalboss-boxing-jump-light_8: -335015996
+      finalboss-boxing-jump-light_9: -1748650533
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

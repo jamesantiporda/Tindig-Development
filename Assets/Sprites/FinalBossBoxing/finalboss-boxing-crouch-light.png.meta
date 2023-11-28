@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,458 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1919
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974de729805b7c64cabc737a4abdc017
+      internalID: -208896123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1916
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59762a46d37260543bf927b634044330
+      internalID: 472215424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_2
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1916
+        width: 113
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4e55ee8ddd37441bdbd6e4408123d7
+      internalID: 705570288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_3
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1916
+        width: 127
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f178f92e42b2d664ba98640fec43fb14
+      internalID: 1577587630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_4
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1916
+        width: 144
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc6a4f43292df44998adc4a0d898d01
+      internalID: 163348240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_5
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1916
+        width: 140
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efa87e8cfad8ef4cbe9b5ac61d2b710
+      internalID: -570272509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_6
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1916
+        width: 140
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8bab641e19f6346addad297adba0d0
+      internalID: -762446963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_7
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1916
+        width: 142
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1ce9e0031bdf34abd4a3a96e72f349
+      internalID: -2016359592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1660
+        width: 139
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5445100d9e8b94b479857ef8a4235c77
+      internalID: -1619892455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1660
+        width: 142
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c39fe97c9d8c424fa20fd9591c41274
+      internalID: -547852727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1660
+        width: 143
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fb581b33e6b4440b7cfe98681e289b
+      internalID: 92372642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_11
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1660
+        width: 134
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fbf491cc67cf948a7878ec5dcecf16
+      internalID: -237147580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_12
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1660
+        width: 132
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b179ae928b244c42b3616a54c7c851e
+      internalID: -668124190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_13
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1660
+        width: 122
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b89890915474843b76c5f6dc1f9e62
+      internalID: 1508869503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_14
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1660
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f139abef585868a4598adbdab09cee57
+      internalID: -1405232636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_15
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1660
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c708e8df7f2957a49bdb5aa8d8a496f1
+      internalID: 1580146691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1404
+        width: 95
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa7d90804ad3034dbb7458fef0aaa2f
+      internalID: -712714878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1404
+        width: 89
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e3e3516e1c2c146adc5c8a72636751
+      internalID: 50970094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_18
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1404
+        width: 84
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d05658e6df04fe4f9d496f3e4c6dc27
+      internalID: 1728517189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-crouch-light_19
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1405
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af81117d26ff454db26cc5516f0db1d
+      internalID: 1407645669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b20b889f778dace47ac0d2a1c76d93de
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-boxing-crouch-light_0: -208896123
+      finalboss-boxing-crouch-light_1: 472215424
+      finalboss-boxing-crouch-light_10: 92372642
+      finalboss-boxing-crouch-light_11: -237147580
+      finalboss-boxing-crouch-light_12: -668124190
+      finalboss-boxing-crouch-light_13: 1508869503
+      finalboss-boxing-crouch-light_14: -1405232636
+      finalboss-boxing-crouch-light_15: 1580146691
+      finalboss-boxing-crouch-light_16: -712714878
+      finalboss-boxing-crouch-light_17: 50970094
+      finalboss-boxing-crouch-light_18: 1728517189
+      finalboss-boxing-crouch-light_19: 1407645669
+      finalboss-boxing-crouch-light_2: 705570288
+      finalboss-boxing-crouch-light_3: 1577587630
+      finalboss-boxing-crouch-light_4: 163348240
+      finalboss-boxing-crouch-light_5: -570272509
+      finalboss-boxing-crouch-light_6: -762446963
+      finalboss-boxing-crouch-light_7: -2016359592
+      finalboss-boxing-crouch-light_8: -1619892455
+      finalboss-boxing-crouch-light_9: -547852727
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

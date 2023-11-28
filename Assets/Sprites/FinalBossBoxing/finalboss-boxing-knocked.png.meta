@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,458 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1917
+        width: 67
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e587e382fd92b4d4284d830f366c5488
+      internalID: -1730150792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1898
+        width: 70
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201b79567f6c78a489661ff7afb13134
+      internalID: -1504353625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1881
+        width: 75
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acb2bd17d81ff04f9590f73954d9246
+      internalID: 2088981406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_3
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1866
+        width: 77
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4b6fe40b234824b9492bfd34c93234
+      internalID: 1348454226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_4
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1851
+        width: 75
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7503ec66150697845889988b5c187cc2
+      internalID: 1787882702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_5
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1853
+        width: 76
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b0390f0aab8b84fa84f0651b6fc9b0
+      internalID: -1293558151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_6
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1855
+        width: 77
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78bf1adee229174396470eebcc990ed
+      internalID: -1603515267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_7
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1857
+        width: 77
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e695ee9b456800408fb0fcbaa270a92
+      internalID: 2029311603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1603
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ceaef755575d74bba22df8216f57a4
+      internalID: 402364357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1605
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136d07f2c08f9f04384dcb3c455e5ed4
+      internalID: 205196146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_10
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1599
+        width: 88
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0941fbcc31fe754593252969d62904e
+      internalID: -853520654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_11
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1594
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fabcc2006250f49b1b694a6d09b590
+      internalID: 1318218630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_12
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1591
+        width: 108
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2234b1db5c9eaf541a028c1925ad25e3
+      internalID: -1793192072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_13
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1589
+        width: 113
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be933e49d72ece74798ae5b62b33632f
+      internalID: -803823509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_14
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1587
+        width: 116
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddb5dbe12f1d0749a014d367490d86f
+      internalID: 290648998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_15
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 1585
+        width: 119
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ed4ffe73ed79948b01b52292989403
+      internalID: 984747176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1329
+        width: 122
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f929d02ab7414d458abe9910a6343a8
+      internalID: -1271275208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_17
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1330
+        width: 125
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3712b7fd6f0c44b8d2c5a03294ec7b
+      internalID: -1046214195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_18
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1331
+        width: 126
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b5e201c776ea44d98f6e9c211b1697
+      internalID: 1237666454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-boxing-knocked_19
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1321
+        width: 125
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a1a3a4c54d78a4f88b25b022e60b41
+      internalID: -131515389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c9bc39f144552d844bbe2fb2d17e1292
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-boxing-knocked_0: -1730150792
+      finalboss-boxing-knocked_1: -1504353625
+      finalboss-boxing-knocked_10: -853520654
+      finalboss-boxing-knocked_11: 1318218630
+      finalboss-boxing-knocked_12: -1793192072
+      finalboss-boxing-knocked_13: -803823509
+      finalboss-boxing-knocked_14: 290648998
+      finalboss-boxing-knocked_15: 984747176
+      finalboss-boxing-knocked_16: -1271275208
+      finalboss-boxing-knocked_17: -1046214195
+      finalboss-boxing-knocked_18: 1237666454
+      finalboss-boxing-knocked_19: -131515389
+      finalboss-boxing-knocked_2: 2088981406
+      finalboss-boxing-knocked_3: 1348454226
+      finalboss-boxing-knocked_4: 1787882702
+      finalboss-boxing-knocked_5: -1293558151
+      finalboss-boxing-knocked_6: -1603515267
+      finalboss-boxing-knocked_7: 2029311603
+      finalboss-boxing-knocked_8: 402364357
+      finalboss-boxing-knocked_9: 205196146
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
