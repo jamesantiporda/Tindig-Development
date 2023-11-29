@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: f99b78aff91575a49abd8052ee4a014c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1911
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5160d40422b4095468c15d3531b1308d
+      internalID: 236087118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1910
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24370451949f25a4a956d952e2dee844
+      internalID: 1542536871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1910
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bd2a293cf69364b91625faa79784c9
+      internalID: 2096151810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_3
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1909
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7359af8c0e4c24e8efecd7e50666f9
+      internalID: -2046919909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1908
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f0c99a2ca6d1b489bd57e640b1a86d
+      internalID: 786678962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_5
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1908
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fe53a4ed19e634cbe7e60531048dd9
+      internalID: 259980252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_6
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1908
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeab7b1f452dc9d4cb56a7cd128bae16
+      internalID: -867188037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_7
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1907
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f687fddba07541a41a9332c3ad9d61fc
+      internalID: -40940930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1651
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3367bdc0f1e135469aa4637707c0d8c
+      internalID: -863953194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_9
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1651
+        width: 73
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c104b084f78f059479a9ba4b13f9d87c
+      internalID: -1216147887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1651
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3275ba33969643479fd843cc470857b
+      internalID: -533346952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_11
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1651
+        width: 73
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1993b363ff3a9c149928fa37a01306b3
+      internalID: 810231629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1652
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e37b11a749ace4ea146a517d91a0d5
+      internalID: -1926188681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1652
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0aa9cb54909104aae6b75458b2e79c
+      internalID: -64347967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1652
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaf39e1e04e88f44a75680f5863f1e6
+      internalID: 1290538163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1653
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c628112641a2c5f4797b57cda013ac4f
+      internalID: 919070169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1397
+        width: 75
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313498bf8a67b7146a85faab2e3f50bc
+      internalID: -1215854701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1398
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83927483619c89a4dbcce4e47e0e8f80
+      internalID: -925332696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_18
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1398
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eeb5b453eab23747b200a22dbfb35cd
+      internalID: 1678980808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_19
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1399
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab70e2dec8fe40498b8a242314eef6e
+      internalID: -609532660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_20
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1399
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7506384c1cea049952b206ee0286d7
+      internalID: -569287036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_21
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1399
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d46c294ff098944cb4cffdd1fc8a42d
+      internalID: -1013381079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1399
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d217f7020e554d4f8fea1a9a83f8291
+      internalID: -1816865005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1399
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be87b6c5e4c68cc43ac1ee753d1b3ca8
+      internalID: 233416421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1143
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8da11cc66a8ff43878813f7acf1829
+      internalID: 29851036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_25
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1143
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fd28e2056cb1f4f8ff652ae0ea4fed
+      internalID: 2085259571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_26
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1143
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3c9cf9ba0364448a5a5a10840b3ee6
+      internalID: 1659357872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_27
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1143
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dffadc3ab944294db5375fa5dadb7ea
+      internalID: -635237935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1143
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa5f0290369d094bbc6585d80010b9c
+      internalID: 1931891196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-idle_29
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1143
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e081105b49f01d042b1c571b7f299f94
+      internalID: 1607146911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b7d670151a45a1040a0aa8ddeed474ce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      finalboss-arnis-crouch-idle_0: 236087118
+      finalboss-arnis-crouch-idle_1: 1542536871
+      finalboss-arnis-crouch-idle_10: -533346952
+      finalboss-arnis-crouch-idle_11: 810231629
+      finalboss-arnis-crouch-idle_12: -1926188681
+      finalboss-arnis-crouch-idle_13: -64347967
+      finalboss-arnis-crouch-idle_14: 1290538163
+      finalboss-arnis-crouch-idle_15: 919070169
+      finalboss-arnis-crouch-idle_16: -1215854701
+      finalboss-arnis-crouch-idle_17: -925332696
+      finalboss-arnis-crouch-idle_18: 1678980808
+      finalboss-arnis-crouch-idle_19: -609532660
+      finalboss-arnis-crouch-idle_2: 2096151810
+      finalboss-arnis-crouch-idle_20: -569287036
+      finalboss-arnis-crouch-idle_21: -1013381079
+      finalboss-arnis-crouch-idle_22: -1816865005
+      finalboss-arnis-crouch-idle_23: 233416421
+      finalboss-arnis-crouch-idle_24: 29851036
+      finalboss-arnis-crouch-idle_25: 2085259571
+      finalboss-arnis-crouch-idle_26: 1659357872
+      finalboss-arnis-crouch-idle_27: -635237935
+      finalboss-arnis-crouch-idle_28: 1931891196
+      finalboss-arnis-crouch-idle_29: 1607146911
+      finalboss-arnis-crouch-idle_3: -2046919909
+      finalboss-arnis-crouch-idle_4: 786678962
+      finalboss-arnis-crouch-idle_5: 259980252
+      finalboss-arnis-crouch-idle_6: -867188037
+      finalboss-arnis-crouch-idle_7: -40940930
+      finalboss-arnis-crouch-idle_8: -863953194
+      finalboss-arnis-crouch-idle_9: -1216147887
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
