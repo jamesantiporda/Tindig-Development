@@ -345,6 +345,11 @@ public class SpriteToPlayer : MonoBehaviour
         hitPoint = newHitPoint;
     }
 
+    public GameObject ReturnHitPoint()
+    {
+        return hitPoint;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if ((playerNumber == 1 && collision.gameObject.tag == "Player2Attack") && !iFrame || (playerNumber == 2 && collision.gameObject.tag == "Player1Attack") && !iFrame)

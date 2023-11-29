@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
@@ -14,6 +15,7 @@ public class PlayerCombat : MonoBehaviour
     public KeyCode specialInput = KeyCode.M;
 
     public bool isMC = false;
+    public bool isFinalBoss = false;
 
     // Style Switching Input
     public KeyCode mcInput = KeyCode.W;
@@ -25,6 +27,8 @@ public class PlayerCombat : MonoBehaviour
     // Styles
     public GameObject mcSprite, boxingSprite, sikaranSprite, arnisSprite;
     public GameObject mcHitPoint, boxingHitPoint, sikaranHitPoint, arnisHitPoint;
+    private GameObject[] styleHitPoints = new GameObject[4];
+    private GameObject activeHitPoint;
     private SpriteRenderer mcRenderer, boxingRenderer, sikaranRenderer, arnisRenderer;
     private GameObject currentSprite;
     private Vector3 mcSpriteSize, boxingSpriteSize, sikaranSpriteSize, arnisSpriteSize;
@@ -44,6 +48,7 @@ public class PlayerCombat : MonoBehaviour
     private string previousAttack = "";
     private int sameAttackCounter = 0;
 
+
     // Accept Input
     private bool acceptInput;
 
@@ -59,6 +64,10 @@ public class PlayerCombat : MonoBehaviour
     public bool easy = false, medium = true, hard = false, mahoraga = false;
 
     private int difficulty;
+
+    private bool cpuStyleSwitchOnCooldown = false;
+
+    private int cpuStyleSwitchInput = 0;
 
     //
 
@@ -77,7 +86,7 @@ public class PlayerCombat : MonoBehaviour
         sikaranSpriteSize = sikaranSprite.transform.localScale;
         arnisSpriteSize = arnisSprite.transform.localScale;
 
-        if (isMC)
+        if (isMC || isFinalBoss)
         {
             mcRenderer.enabled = true;
             boxingRenderer.enabled = false;
@@ -140,7 +149,19 @@ public class PlayerCombat : MonoBehaviour
             arnisUnlocked = false;
         }
 
+        if (isFinalBoss)
+        {
+            boxingUnlocked = true;
+            sikaranUnlocked = true;
+            arnisUnlocked = true;
+        }
 
+        styleHitPoints[0] = mcHitPoint;
+        styleHitPoints[1] = boxingHitPoint;
+        styleHitPoints[2] = sikaranHitPoint;
+        styleHitPoints[3] = arnisHitPoint;
+
+        activeHitPoint = styleHitPoints[0];
     }
 
     // Update is called once per frame
@@ -173,10 +194,16 @@ public class PlayerCombat : MonoBehaviour
                 Special();
             }
 
-            if(Input.GetKey(shiftStyleInput) && isMC && canAttack && canSwitch)
+            if((Input.GetKey(shiftStyleInput) && isMC && canAttack && canSwitch) || isCPU && cpuStyleSwitchInput > 0)
             {
-                if(Input.GetKeyDown(mcInput) && currentSprite != mcSprite)
+                if((Input.GetKeyDown(mcInput) && currentSprite != mcSprite))
                 {
+                    if(isCPU)
+                    {
+                        StartCoroutine(CPUStyleSwitchCooldown());
+                        cpuStyleSwitchInput = 0;
+                    }
+
                     StartCoroutine(StyleSwitchCooldown());
 
                     //shift into mc
@@ -187,11 +214,19 @@ public class PlayerCombat : MonoBehaviour
                     EnableSprite(currentSprite);
                     animator = currentSprite.GetComponent<Animator>();
                     movement.ChangeStyle(currentSprite);
+                    activeHitPoint = mcHitPoint;
                     player2Combat.ChangeHitPoint(mcHitPoint);
+                    currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
                 }
 
-                if(Input.GetKeyDown(boxingInput) && currentSprite != boxingSprite && boxingUnlocked)
+                if((Input.GetKeyDown(boxingInput) && currentSprite != boxingSprite && boxingUnlocked) || isCPU && cpuStyleSwitchInput == 1)
                 {
+                    if (isCPU)
+                    {
+                        StartCoroutine(CPUStyleSwitchCooldown());
+                        cpuStyleSwitchInput = 0;
+                    }
+
                     StartCoroutine(StyleSwitchCooldown());
 
                     //shift into boxer
@@ -201,11 +236,19 @@ public class PlayerCombat : MonoBehaviour
                     EnableSprite(currentSprite);
                     animator = currentSprite.GetComponent<Animator>();
                     movement.ChangeStyle(currentSprite);
+                    activeHitPoint = boxingHitPoint;
                     player2Combat.ChangeHitPoint(boxingHitPoint);
+                    currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
                 }
 
-                if(Input.GetKeyDown(sikaranInput) && currentSprite != sikaranSprite && sikaranUnlocked)
+                if((Input.GetKeyDown(sikaranInput) && currentSprite != sikaranSprite && sikaranUnlocked) || isCPU && cpuStyleSwitchInput == 2)
                 {
+                    if (isCPU)
+                    {
+                        StartCoroutine(CPUStyleSwitchCooldown());
+                        cpuStyleSwitchInput = 0;
+                    }
+
                     StartCoroutine(StyleSwitchCooldown());
 
                     //shift into sikaran
@@ -216,11 +259,19 @@ public class PlayerCombat : MonoBehaviour
                     EnableSprite(currentSprite);
                     animator = currentSprite.GetComponent<Animator>();
                     movement.ChangeStyle(currentSprite);
+                    activeHitPoint = sikaranHitPoint;
                     player2Combat.ChangeHitPoint(sikaranHitPoint);
+                    currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
                 }
 
-                if(Input.GetKeyDown(arnisInput) && currentSprite != arnisSprite && arnisUnlocked)
+                if((Input.GetKeyDown(arnisInput) && currentSprite != arnisSprite && arnisUnlocked) || isCPU && cpuStyleSwitchInput == 3)
                 {
+                    if (isCPU)
+                    {
+                        StartCoroutine(CPUStyleSwitchCooldown());
+                        cpuStyleSwitchInput = 0;
+                    }
+
                     StartCoroutine(StyleSwitchCooldown());
 
                     //shift into arnis
@@ -231,7 +282,9 @@ public class PlayerCombat : MonoBehaviour
                     EnableSprite(currentSprite);
                     animator = currentSprite.GetComponent<Animator>();
                     movement.ChangeStyle(currentSprite);
+                    activeHitPoint = arnisHitPoint;
                     player2Combat.ChangeHitPoint(arnisHitPoint);
+                    currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
                 }
             }
 
@@ -470,6 +523,11 @@ public class PlayerCombat : MonoBehaviour
         return currentSprite;
     }
 
+    public GameObject ReturnActiveHitPoint()
+    {
+        return activeHitPoint;
+    }
+
     public void SetIsCPU(bool makeCPU)
     {
         isCPU = makeCPU;
@@ -477,6 +535,11 @@ public class PlayerCombat : MonoBehaviour
 
     IEnumerator AttackPick()
     {
+        if(!cpuStyleSwitchOnCooldown && isFinalBoss)
+        {
+            cpuStyleSwitchInput = ReturnRandomInt(0, 4);
+        }
+
         isAttacking = true;
 
         float attackWait = UnityEngine.Random.Range(waitMin, waitMax);
@@ -503,6 +566,15 @@ public class PlayerCombat : MonoBehaviour
         yield return new WaitForSeconds(attackWait);
 
         isAttacking = false;
+    }
+
+    private IEnumerator CPUStyleSwitchCooldown()
+    {
+        cpuStyleSwitchOnCooldown = true;
+
+        yield return new WaitForSeconds(5.0f);
+
+        cpuStyleSwitchOnCooldown = false;
     }
 
     private IEnumerator StyleSwitchCooldown()
