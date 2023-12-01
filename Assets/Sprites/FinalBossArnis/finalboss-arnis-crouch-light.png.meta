@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,832 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1910
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595db2dffe39e234d9da617a46c00967
+      internalID: 948519899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1911
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603f106126285e4428b2c396d5c41ab9
+      internalID: -625673221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_2
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1907
+        width: 95
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6857c1614fcfce47a5158c1e416b85e
+      internalID: 1507887219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_3
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1908
+        width: 134
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444efa9bfda17b24fb18d46485fa59c6
+      internalID: 1050464008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_4
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1908
+        width: 165
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb114de84bd1dc4b8752ff86dc2a205
+      internalID: 629973206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_5
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1908
+        width: 136
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c67d9992b0e4c42aff6c3aede1c946
+      internalID: 1499163789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_6
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1908
+        width: 96
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d6dd5a77adad3478a010355091248d
+      internalID: -1036032544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_7
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1909
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f173ae8cb415e846aebe3c4cd4aba13
+      internalID: -1834235415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1653
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49c1e1928b8e484b87ba758c1c41a48
+      internalID: -2027368622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1653
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a9f695407e82d4e8a78556eac5f506
+      internalID: 1227434626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_10
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1650
+        width: 87
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034a7bc2217335a4db688514d3203ab2
+      internalID: 1432523302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_11
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1651
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff30dbff270249c4a9cbeea701865a8f
+      internalID: -1369545029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_12
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1651
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf454fb40871d14ebbc79852a3c94ad
+      internalID: -1169061536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_13
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1647
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb250410d6e3e6c488a25ad4b3cce722
+      internalID: -1666891827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_14
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 1652
+        width: 143
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb23f30f1d28d4147bbf908e80556e46
+      internalID: 743390177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_15
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1647
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae24ed6ea206ebb45ae70a98847785ec
+      internalID: -855553567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1400
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36e89b80f9290944b7963efca1fd23a
+      internalID: 1950772007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1391
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb692b2b2cf7d347890cf720846f847
+      internalID: -1200649356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_18
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1390
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688681c650713d846b90decedcb62a38
+      internalID: -477316760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_19
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1394
+        width: 158
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354ff14b2b1af1d40b89e0a687a46709
+      internalID: -1811368635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_20
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1394
+        width: 145
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6feb9162c3f88498402256371a3f1d
+      internalID: 1220739659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_21
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1394
+        width: 113
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c18638c2fe75d4480060794d305eed
+      internalID: -2059537062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_22
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1394
+        width: 95
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5229ff2cf614e764aa9b0098e2382e51
+      internalID: 144599618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_23
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1395
+        width: 100
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3347d1bba0ff78449d040632106c461
+      internalID: 1479269038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1139
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c74024b6fdef44cad2c22b0554a537
+      internalID: 856645697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_25
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1139
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518de475822b1d3478842c78a68bafd5
+      internalID: 1832109968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_26
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1139
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136f73a35941de147a6c9ad922063aaa
+      internalID: -1879884159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_27
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1139
+        width: 103
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d495023b66240ed458480e6657781a76
+      internalID: -1847877765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_28
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1158
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c9c73674891834fb70484f55c04da0
+      internalID: 1092417202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_29
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1140
+        width: 148
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd692fc2de4e3ca4b9d3b55356643764
+      internalID: 16335228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_30
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1158
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709d7f6a3e3a9e74ebbf137d6dc32df0
+      internalID: -1539026952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_31
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1140
+        width: 158
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a0fb3551a384e4b97ee28f71d94d9f
+      internalID: 115463463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_32
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1142
+        width: 156
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4f2f39687475d46be2464fd2be6b17
+      internalID: 52820033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_33
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1141
+        width: 150
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec184ae1853294478818014567e0a91
+      internalID: -1444502149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 886
+        width: 121
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6034c077673ff4b8e41c355530be2e
+      internalID: 1696828905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_35
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 887
+        width: 81
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7372b0f51ba21744187cfdcf6c8e1f83
+      internalID: -670141999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-crouch-light_36
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 886
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4927bb7005361408d5104cd4b2e8c1
+      internalID: -1649871113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ca0a5b12567feef45837dbbbf0745f83
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-arnis-crouch-light_0: 948519899
+      finalboss-arnis-crouch-light_1: -625673221
+      finalboss-arnis-crouch-light_10: 1432523302
+      finalboss-arnis-crouch-light_11: -1369545029
+      finalboss-arnis-crouch-light_12: -1169061536
+      finalboss-arnis-crouch-light_13: -1666891827
+      finalboss-arnis-crouch-light_14: 743390177
+      finalboss-arnis-crouch-light_15: -855553567
+      finalboss-arnis-crouch-light_16: 1950772007
+      finalboss-arnis-crouch-light_17: -1200649356
+      finalboss-arnis-crouch-light_18: -477316760
+      finalboss-arnis-crouch-light_19: -1811368635
+      finalboss-arnis-crouch-light_2: 1507887219
+      finalboss-arnis-crouch-light_20: 1220739659
+      finalboss-arnis-crouch-light_21: -2059537062
+      finalboss-arnis-crouch-light_22: 144599618
+      finalboss-arnis-crouch-light_23: 1479269038
+      finalboss-arnis-crouch-light_24: 856645697
+      finalboss-arnis-crouch-light_25: 1832109968
+      finalboss-arnis-crouch-light_26: -1879884159
+      finalboss-arnis-crouch-light_27: -1847877765
+      finalboss-arnis-crouch-light_28: 1092417202
+      finalboss-arnis-crouch-light_29: 16335228
+      finalboss-arnis-crouch-light_3: 1050464008
+      finalboss-arnis-crouch-light_30: -1539026952
+      finalboss-arnis-crouch-light_31: 115463463
+      finalboss-arnis-crouch-light_32: 52820033
+      finalboss-arnis-crouch-light_33: -1444502149
+      finalboss-arnis-crouch-light_34: 1696828905
+      finalboss-arnis-crouch-light_35: -670141999
+      finalboss-arnis-crouch-light_36: -1649871113
+      finalboss-arnis-crouch-light_4: 629973206
+      finalboss-arnis-crouch-light_5: 1499163789
+      finalboss-arnis-crouch-light_6: -1036032544
+      finalboss-arnis-crouch-light_7: -1834235415
+      finalboss-arnis-crouch-light_8: -2027368622
+      finalboss-arnis-crouch-light_9: 1227434626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

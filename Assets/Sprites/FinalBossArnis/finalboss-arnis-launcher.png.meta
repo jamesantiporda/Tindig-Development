@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,590 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1910
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88aa2a9bf54ee840b601990e040e49b
+      internalID: -1054228772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1910
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8606f816c4fda4c93cd5764e2cec9f
+      internalID: 1202113238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1910
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70df62a93f878e44bbd5ba2f93101835
+      internalID: -1572711250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_3
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1910
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbae3369c4a50f64bbfb5a5fe2ec3870
+      internalID: 2057759633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_4
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1911
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eacb5dab3b7f64fbd0cd067572c805
+      internalID: -1499614324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_5
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1911
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b993268a2140a4099a600c6ecb90d5
+      internalID: -1118605594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_6
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1911
+        width: 95
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452eacf758f26774e9dcffeedded45c4
+      internalID: 1388410090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_7
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1911
+        width: 104
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ce150b702653c4f9d98a82af13291b
+      internalID: 1583623383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1655
+        width: 144
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd8f1865ec5e61489d5a3f8037f95af
+      internalID: -2097166890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1655
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c46526134700e42ad96fe022f8d063
+      internalID: -583209387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_10
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1646
+        width: 162
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8371bf34c5ae647918b4972a9f2af5
+      internalID: -188477464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_11
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1636
+        width: 171
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e442a4edd610cb4cbfcd8fcd438bb27
+      internalID: -105492394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_12
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1628
+        width: 151
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee4ec13508394a4385b9f531a8eb7ab
+      internalID: 35045403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_13
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1622
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501e0e267f85c6c48ae1bc1deb693f99
+      internalID: 1775888800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_14
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1618
+        width: 63
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcdfd119e59ac2428d55a3ac7551988
+      internalID: -439015704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_15
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1629
+        width: 61
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a340870fcce78247afb5219a69febe6
+      internalID: -1221596174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1385
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f2b3368eab5a345aed76abdf5d026f
+      internalID: -33542604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1397
+        width: 59
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6d0481ec9d80e499b16d5932787f63
+      internalID: 1768804919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1409
+        width: 58
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af134e5eb43b3f34bb59962188aab8ba
+      internalID: -1807664242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_19
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1403
+        width: 58
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac47e1e5a54d9e545a7468905d1f9cce
+      internalID: -1083794004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_20
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1397
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd24348ede5d7543b8f8f15b63a73a6
+      internalID: -1842304658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_21
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1391
+        width: 68
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14a47a16f459c6409f14ad524830fe9
+      internalID: -942131176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_22
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1393
+        width: 63
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f761ca46b52a540a05f2d15ad118d8
+      internalID: 1748772580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_23
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1394
+        width: 57
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b0aeb302a52314aba8259d333af20b
+      internalID: 1649204190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1140
+        width: 52
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbe11002b5881440a768b87f4503a64
+      internalID: 755874005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-launcher_25
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1140
+        width: 52
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4010851494d4d241897ce1c13a65521
+      internalID: 999627428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4d47df39b5a207347bed70422345906f
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-arnis-launcher_0: -1054228772
+      finalboss-arnis-launcher_1: 1202113238
+      finalboss-arnis-launcher_10: -188477464
+      finalboss-arnis-launcher_11: -105492394
+      finalboss-arnis-launcher_12: 35045403
+      finalboss-arnis-launcher_13: 1775888800
+      finalboss-arnis-launcher_14: -439015704
+      finalboss-arnis-launcher_15: -1221596174
+      finalboss-arnis-launcher_16: -33542604
+      finalboss-arnis-launcher_17: 1768804919
+      finalboss-arnis-launcher_18: -1807664242
+      finalboss-arnis-launcher_19: -1083794004
+      finalboss-arnis-launcher_2: -1572711250
+      finalboss-arnis-launcher_20: -1842304658
+      finalboss-arnis-launcher_21: -942131176
+      finalboss-arnis-launcher_22: 1748772580
+      finalboss-arnis-launcher_23: 1649204190
+      finalboss-arnis-launcher_24: 755874005
+      finalboss-arnis-launcher_25: 999627428
+      finalboss-arnis-launcher_3: 2057759633
+      finalboss-arnis-launcher_4: -1499614324
+      finalboss-arnis-launcher_5: -1118605594
+      finalboss-arnis-launcher_6: 1388410090
+      finalboss-arnis-launcher_7: 1583623383
+      finalboss-arnis-launcher_8: -2097166890
+      finalboss-arnis-launcher_9: -583209387
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

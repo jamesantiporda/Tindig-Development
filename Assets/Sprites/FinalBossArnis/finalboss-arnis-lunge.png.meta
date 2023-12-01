@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,788 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1857
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c869fd375a8584847acba8215a8dd742
+      internalID: -981161985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1857
+        width: 52
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b2b3e56db502340965d675919ca3f6
+      internalID: 173971060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1857
+        width: 54
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506d96b32cf848347b654004c0f00d48
+      internalID: 164005852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1858
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa197a6196cc9d45b761d1f30cb9927
+      internalID: -657108372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_4
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1860
+        width: 56
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b821198ab5702654b90b0df4312e0824
+      internalID: 416064320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_5
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1852
+        width: 50
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53063f549de95346b3e6e379110346b
+      internalID: -1911606655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_6
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1851
+        width: 50
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8763284e42ece418b3201d1aa9af7e
+      internalID: 410196594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_7
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1857
+        width: 61
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b546c99c71ec1124eab288fd5879b230
+      internalID: 2127229067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1606
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144667a9c95e2434a88173555a5dff75
+      internalID: 1068362766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_9
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1607
+        width: 123
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fa1cfda167e71409317987ce0320a3
+      internalID: 1817148406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_10
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1606
+        width: 125
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1718b0005249243b5aaf26f97a4859
+      internalID: -795756485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_11
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1606
+        width: 91
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30514ed5855eff04dae7cac17f735dfd
+      internalID: -1908183375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_12
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1605
+        width: 77
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63db41946363fa14a9a80cda18d0fae9
+      internalID: 200067915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_13
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1605
+        width: 72
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b866e0906ffe3e843beaad379586ff39
+      internalID: 2086228295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_14
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1604
+        width: 88
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ada4c4e36f7c154ea1a7e995e855db3
+      internalID: -247466544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_15
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1604
+        width: 133
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4131bf62f14024a96ee89c980505ba
+      internalID: 2146966667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1348
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9bf45e9fc90f540a478a75677ce9b5
+      internalID: -1308057844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1348
+        width: 183
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6c6b0716fb18f438dceb35093b62a5
+      internalID: 938588379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_18
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1347
+        width: 183
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ba9cddef6a97e499ae2aff6f5cd0de
+      internalID: -1356477527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_19
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1347
+        width: 157
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439b5709b930ceb4bb24e511b0926abf
+      internalID: -1714394013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_20
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1351
+        width: 77
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e932f4b8ac2118443a1162eaf90981ae
+      internalID: 1436623596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_21
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1351
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac759b43f8c7f34c8241cb2c62f7df5
+      internalID: 112918907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_22
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1351
+        width: 82
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a676ec61a973a644939200322e93f05
+      internalID: -1479558297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_23
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 1351
+        width: 98
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c96594870be4d54a921ab7d8f6b598f
+      internalID: -1053823738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1095
+        width: 135
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5a1edbb0265524e8d117f3abca6ceb
+      internalID: 588105742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_25
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1095
+        width: 140
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7166a9130cdc468468be96d136ab8f22
+      internalID: -1347916106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_26
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1095
+        width: 123
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ef28ed83a3a9b4a837de00dde55d84
+      internalID: 1425533844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_27
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1095
+        width: 125
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aeffd88034e71e4ebc73bda3ca4d9c0
+      internalID: 96641112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_28
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1095
+        width: 132
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb51c3994cf4f364abd5a109c120efa8
+      internalID: 1413296225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_29
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1095
+        width: 137
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17fd8c49fea7af4b9ea4d9deed9a414
+      internalID: 1216794314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_30
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1091
+        width: 107
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8495ab4040a919848b98d1741d05bb95
+      internalID: 1703889893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_31
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1087
+        width: 110
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0ea3d1f76adaf489c9442e8954352d
+      internalID: 1441817618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_32
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 829
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a9782494822d646905978a941afa68
+      internalID: -952456862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 829
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f3eb38711eb7b43b47bf8ac926bd66
+      internalID: 1191767093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-lunge_34
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 833
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051a5121d810b4b4da59a8c8ae589119
+      internalID: 1150704430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0eace12cdd479fe4cac19104e0758ccc
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-arnis-lunge_0: -981161985
+      finalboss-arnis-lunge_1: 173971060
+      finalboss-arnis-lunge_10: -795756485
+      finalboss-arnis-lunge_11: -1908183375
+      finalboss-arnis-lunge_12: 200067915
+      finalboss-arnis-lunge_13: 2086228295
+      finalboss-arnis-lunge_14: -247466544
+      finalboss-arnis-lunge_15: 2146966667
+      finalboss-arnis-lunge_16: -1308057844
+      finalboss-arnis-lunge_17: 938588379
+      finalboss-arnis-lunge_18: -1356477527
+      finalboss-arnis-lunge_19: -1714394013
+      finalboss-arnis-lunge_2: 164005852
+      finalboss-arnis-lunge_20: 1436623596
+      finalboss-arnis-lunge_21: 112918907
+      finalboss-arnis-lunge_22: -1479558297
+      finalboss-arnis-lunge_23: -1053823738
+      finalboss-arnis-lunge_24: 588105742
+      finalboss-arnis-lunge_25: -1347916106
+      finalboss-arnis-lunge_26: 1425533844
+      finalboss-arnis-lunge_27: 96641112
+      finalboss-arnis-lunge_28: 1413296225
+      finalboss-arnis-lunge_29: 1216794314
+      finalboss-arnis-lunge_3: -657108372
+      finalboss-arnis-lunge_30: 1703889893
+      finalboss-arnis-lunge_31: 1441817618
+      finalboss-arnis-lunge_32: -952456862
+      finalboss-arnis-lunge_33: 1191767093
+      finalboss-arnis-lunge_34: 1150704430
+      finalboss-arnis-lunge_4: 416064320
+      finalboss-arnis-lunge_5: -1911606655
+      finalboss-arnis-lunge_6: 410196594
+      finalboss-arnis-lunge_7: 2127229067
+      finalboss-arnis-lunge_8: 1068362766
+      finalboss-arnis-lunge_9: 1817148406
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

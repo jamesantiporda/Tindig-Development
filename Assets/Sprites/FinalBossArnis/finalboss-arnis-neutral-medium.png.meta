@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,964 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1908
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e3529984c699b40a09c2354b1ddab9
+      internalID: -231508118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_1
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1894
+        width: 51
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdbae6e5e20ec94ba5829cabc5e9f6a
+      internalID: 1561509259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1880
+        width: 50
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587f527fa3da1574ca6b2d6c6f7d955b
+      internalID: 2055206529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_3
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1867
+        width: 47
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5f689b8eaabfe4fbbd1d78357dcc98
+      internalID: 250538651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_4
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1854
+        width: 49
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f817a775efc3294eb7114f91d4a6294
+      internalID: 923191459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_5
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1854
+        width: 51
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bc427b6df2b6541b5dcb5217baf2e5
+      internalID: -529636814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_6
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1853
+        width: 66
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebde76ce5edc48b46ae17a4f44d93110
+      internalID: 1432537737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_7
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1853
+        width: 63
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa1f4de557cff44ebb59fbe77b5f2cf
+      internalID: -413945891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_8
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1598
+        width: 71
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3c9ac3f2d4a9744b26cced7b5f1fb0
+      internalID: 1178160281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1598
+        width: 85
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826461eb71f5c8a4c80ce570cfd1ebe8
+      internalID: -513987473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_10
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1598
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae9b7ac21cd5bf419bfd90b25b651db
+      internalID: -361704996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_11
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1598
+        width: 159
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfe848b84ecbd743bf4cb917167fb10
+      internalID: -1572419857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_12
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1598
+        width: 143
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cc5c69e8a93ca4da23ad6af539277d
+      internalID: -352357420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_13
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1598
+        width: 116
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13b8f53ed392464b9a37b08efda77c9
+      internalID: 1295651296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_14
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1598
+        width: 86
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb89e7e0d8c1084891df7ebd2a19a6d
+      internalID: -1497663580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_15
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1598
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fe47914b4d6f549b28c29d2c9790e3
+      internalID: 1825834209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1342
+        width: 76
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760dd17af97cab843bc8d4860b9026b2
+      internalID: 866713355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1342
+        width: 61
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be61cac63096af246ad10159de1030c1
+      internalID: 1479600383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_18
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1342
+        width: 51
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7db08732623ac468e6f58f7de691bf
+      internalID: 411238590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_19
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1343
+        width: 48
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c85c0f361531746abe52cf8dadd7a1
+      internalID: -781865456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_20
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1342
+        width: 58
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ccedf1e059f02449e0c61e6d1b840c
+      internalID: -746766619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_21
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1341
+        width: 66
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c067895c0bfcc4d905f14986d17fc7
+      internalID: -346813202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_22
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1341
+        width: 146
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ef6d2010b5e89409bb9828271689dd
+      internalID: 1328826054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_23
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1341
+        width: 127
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19fd994e45523544a2bc481d3b220d8
+      internalID: 700132894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1085
+        width: 99
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fd0716495102640adf9505266d46b4
+      internalID: -807938273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_25
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1085
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0768e370912c26249adf7e5588cbb0c0
+      internalID: -1549992700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_26
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1085
+        width: 134
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdad13e63eb776e4f9d273ad3dc891e1
+      internalID: -971047617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_27
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1085
+        width: 153
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c409814a7bd9645b98f47f9e30e6da
+      internalID: 114259165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_28
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1085
+        width: 157
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1916c69092cd8f4685d021871f84731
+      internalID: 2145464251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_29
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1085
+        width: 151
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23f3952da0bcb842b8ec7c56b255437
+      internalID: -171978046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_30
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1085
+        width: 133
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9309830772b67114fba8b08619e82118
+      internalID: -1889341264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_31
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1085
+        width: 127
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ae7f6ac92e50841b85e9c7196ecc41
+      internalID: -508628261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_32
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 829
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e7aba83d3e0db42a4df782d3209991
+      internalID: -1807229808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_33
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 829
+        width: 166
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9485d2d1ff3f7241a074519544d3dd6
+      internalID: -1954680626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_34
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 829
+        width: 158
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7d1b7a1bcc3074cbf4d337365738d7
+      internalID: -408664703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_35
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 830
+        width: 140
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b410d874ffd8b504faa92fa3aa04c17e
+      internalID: 179212793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_36
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 831
+        width: 121
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3186aa8d6ec4374b8a30b7ed67810f9
+      internalID: 1053455299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_37
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 832
+        width: 95
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8014ec0cf375d4698a95c4d9dc0c29
+      internalID: 312270764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_38
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 842
+        width: 101
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf62c10feb10f1943bb82e36085e91de
+      internalID: 2067009062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_39
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 852
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6272d19cb47ee904383eee4855ef5605
+      internalID: 1365452719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 607
+        width: 61
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277ae92b03b8bf2438cde37934463893
+      internalID: -823010626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 617
+        width: 57
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1699f661e5c4fd4899573de991ea2cb
+      internalID: 1232525786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-neutral-medium_42
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 628
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ac628d968696b4c8e7c2d739f1cca7
+      internalID: -1680840344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e5e6ea36e33938c4b96f18039bff9078
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-arnis-neutral-medium_0: -231508118
+      finalboss-arnis-neutral-medium_1: 1561509259
+      finalboss-arnis-neutral-medium_10: -361704996
+      finalboss-arnis-neutral-medium_11: -1572419857
+      finalboss-arnis-neutral-medium_12: -352357420
+      finalboss-arnis-neutral-medium_13: 1295651296
+      finalboss-arnis-neutral-medium_14: -1497663580
+      finalboss-arnis-neutral-medium_15: 1825834209
+      finalboss-arnis-neutral-medium_16: 866713355
+      finalboss-arnis-neutral-medium_17: 1479600383
+      finalboss-arnis-neutral-medium_18: 411238590
+      finalboss-arnis-neutral-medium_19: -781865456
+      finalboss-arnis-neutral-medium_2: 2055206529
+      finalboss-arnis-neutral-medium_20: -746766619
+      finalboss-arnis-neutral-medium_21: -346813202
+      finalboss-arnis-neutral-medium_22: 1328826054
+      finalboss-arnis-neutral-medium_23: 700132894
+      finalboss-arnis-neutral-medium_24: -807938273
+      finalboss-arnis-neutral-medium_25: -1549992700
+      finalboss-arnis-neutral-medium_26: -971047617
+      finalboss-arnis-neutral-medium_27: 114259165
+      finalboss-arnis-neutral-medium_28: 2145464251
+      finalboss-arnis-neutral-medium_29: -171978046
+      finalboss-arnis-neutral-medium_3: 250538651
+      finalboss-arnis-neutral-medium_30: -1889341264
+      finalboss-arnis-neutral-medium_31: -508628261
+      finalboss-arnis-neutral-medium_32: -1807229808
+      finalboss-arnis-neutral-medium_33: -1954680626
+      finalboss-arnis-neutral-medium_34: -408664703
+      finalboss-arnis-neutral-medium_35: 179212793
+      finalboss-arnis-neutral-medium_36: 1053455299
+      finalboss-arnis-neutral-medium_37: 312270764
+      finalboss-arnis-neutral-medium_38: 2067009062
+      finalboss-arnis-neutral-medium_39: 1365452719
+      finalboss-arnis-neutral-medium_4: 923191459
+      finalboss-arnis-neutral-medium_40: -823010626
+      finalboss-arnis-neutral-medium_41: 1232525786
+      finalboss-arnis-neutral-medium_42: -1680840344
+      finalboss-arnis-neutral-medium_5: -529636814
+      finalboss-arnis-neutral-medium_6: 1432537737
+      finalboss-arnis-neutral-medium_7: -413945891
+      finalboss-arnis-neutral-medium_8: 1178160281
+      finalboss-arnis-neutral-medium_9: -513987473
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

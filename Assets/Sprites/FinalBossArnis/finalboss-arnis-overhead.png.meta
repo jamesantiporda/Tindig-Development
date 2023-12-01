@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,590 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1908
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c4e860cd49af44ba1d5fc998092a06
+      internalID: -1691381658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1895
+        width: 62
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbcc6a78a777264884673e0340ff355
+      internalID: -667818752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1890
+        width: 76
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1a476b0d413be418badb23a3bd0ee3
+      internalID: -988693090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_3
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1883
+        width: 92
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb533dd2f9f4c84982263ef85136aa3
+      internalID: -1885043477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_4
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1875
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6a6ab96f778634bbb332fd5ebe9709
+      internalID: 180970076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1875
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b341d3c04989f5a4984751664e665b6e
+      internalID: 2121456970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_6
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1875
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e7db119e11d524db5295f1ad150506
+      internalID: -276055202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_7
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1875
+        width: 111
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7f535927600ed4aacf284c1f41cacf
+      internalID: 563483838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1618
+        width: 129
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfe8ea52d157ae4c9fdebdc9963f66a
+      internalID: 1559310999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1617
+        width: 104
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67abf9de0ee0cf44f8eda8e3eb9a48fe
+      internalID: 847597131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_10
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1616
+        width: 85
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8c81f0f8868dc4497adf4d72ec4703
+      internalID: 710960899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_11
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1616
+        width: 91
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33697d7381d1e84991762217a4dbfce
+      internalID: 1631496757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_12
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1616
+        width: 150
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d03cd37122aba41ae426ced990fd3b
+      internalID: 2139889085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_13
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1615
+        width: 184
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58c8869190a2ba46adff5713c1dd4d6
+      internalID: -728187024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_14
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1615
+        width: 151
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549cc0b0122e91648becad06f49f7e86
+      internalID: 1013604215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_15
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1619
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7713e1b4eecd34083e843f70eca574
+      internalID: -2090207869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1367
+        width: 67
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52f772e67da6bd438420aaf884fee66
+      internalID: -1834008106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1373
+        width: 58
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afcd3b74d1cd1e4d9244fccd66fd919
+      internalID: 1795516925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1382
+        width: 52
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a4d34172fc314bad460f636ccbee2
+      internalID: 409811478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_19
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1396
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6b3060d9a161c4ba12218c7a797fbf
+      internalID: 527004502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_20
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1396
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83e2d0ef6950c54b8eacb4c6279806e
+      internalID: 1386623817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_21
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1396
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504ff38b7e6cc224195c9689d5b9d3d7
+      internalID: -626996818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_22
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1396
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5f7639865e86d4e8f6fa96305305b9
+      internalID: -873647090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_23
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1396
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505396f231295e840bc15b5a379eda63
+      internalID: -522351071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1140
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f3b41948a937b488e2f0d9730f6acb
+      internalID: -513663752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-overhead_25
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1140
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec059c1819262554f85d3cf4f3c43e83
+      internalID: 1308329243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: db38771563c301545bf6363c902a82a4
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-arnis-overhead_0: -1691381658
+      finalboss-arnis-overhead_1: -667818752
+      finalboss-arnis-overhead_10: 710960899
+      finalboss-arnis-overhead_11: 1631496757
+      finalboss-arnis-overhead_12: 2139889085
+      finalboss-arnis-overhead_13: -728187024
+      finalboss-arnis-overhead_14: 1013604215
+      finalboss-arnis-overhead_15: -2090207869
+      finalboss-arnis-overhead_16: -1834008106
+      finalboss-arnis-overhead_17: 1795516925
+      finalboss-arnis-overhead_18: 409811478
+      finalboss-arnis-overhead_19: 527004502
+      finalboss-arnis-overhead_2: -988693090
+      finalboss-arnis-overhead_20: 1386623817
+      finalboss-arnis-overhead_21: -626996818
+      finalboss-arnis-overhead_22: -873647090
+      finalboss-arnis-overhead_23: -522351071
+      finalboss-arnis-overhead_24: -513663752
+      finalboss-arnis-overhead_25: 1308329243
+      finalboss-arnis-overhead_3: -1885043477
+      finalboss-arnis-overhead_4: 180970076
+      finalboss-arnis-overhead_5: 2121456970
+      finalboss-arnis-overhead_6: -276055202
+      finalboss-arnis-overhead_7: 563483838
+      finalboss-arnis-overhead_8: 1559310999
+      finalboss-arnis-overhead_9: 847597131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

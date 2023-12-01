@@ -1346,7 +1346,6 @@ GameObject:
   - component: {fileID: 150757529}
   - component: {fileID: 150757532}
   - component: {fileID: 150757531}
-  - component: {fileID: 150757530}
   m_Layer: 9
   m_Name: Ridge (14)
   m_TagString: Untagged
@@ -1369,27 +1368,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &150757530
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150757528}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &150757531
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1701,13 +1679,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1494834639}
     m_Modifications:
     - target: {fileID: 3189556887263911104, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08484849
+      objectReference: {fileID: 0}
+    - target: {fileID: 3189556887263911104, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.072727
       objectReference: {fileID: 0}
     - target: {fileID: 3984785734900977482, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 95e89efc3f699254a8d9b7888955df2f, type: 2}
+      objectReference: {fileID: 9100000, guid: 3875646f22cebd44baf039aa23710a90, type: 2}
     - target: {fileID: 4247505351848270916, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1754,11 +1736,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4818801243835224332, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.67
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 4818801243835224332, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.16
+      value: 1.19
       objectReference: {fileID: 0}
     - target: {fileID: 4876506371859855942, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Layer
@@ -1793,17 +1775,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7347712579504768447, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7347712579504768447, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_FlipX
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1707743991, guid: d77cc273018870e419c3004b0d371d1c, type: 3}
+      objectReference: {fileID: 1505744076, guid: 40eadd864050c0344b90cd691a7628d5, type: 3}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1858,8 +1844,8 @@ MonoBehaviour:
   player2movement: {fileID: 733206918}
   hitEffect: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
   hitPoint: {fileID: 733206915}
-  isCPU: 0
-  isBoxer: 1
+  isCPU: 1
+  isBoxer: 0
   easy: 0
   medium: 0
   hard: 1
@@ -2552,7 +2538,6 @@ GameObject:
   - component: {fileID: 254967762}
   - component: {fileID: 254967765}
   - component: {fileID: 254967764}
-  - component: {fileID: 254967763}
   m_Layer: 9
   m_Name: Ridge (12)
   m_TagString: Untagged
@@ -2575,27 +2560,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &254967763
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254967761}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &254967764
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5309,7 +5273,6 @@ GameObject:
   - component: {fileID: 538758585}
   - component: {fileID: 538758588}
   - component: {fileID: 538758587}
-  - component: {fileID: 538758586}
   m_Layer: 9
   m_Name: Ridge (9)
   m_TagString: Untagged
@@ -5332,27 +5295,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &538758586
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538758584}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &538758587
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6160,7 +6102,6 @@ GameObject:
   - component: {fileID: 588506005}
   - component: {fileID: 588506008}
   - component: {fileID: 588506007}
-  - component: {fileID: 588506006}
   m_Layer: 9
   m_Name: Ridge (4)
   m_TagString: Untagged
@@ -6183,27 +6124,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &588506006
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 588506004}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &588506007
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6595,33 +6515,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArnisSprite
       objectReference: {fileID: 0}
+    - target: {fileID: 755766789146924378, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1169293858241037341, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1169293858241037341, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.9858491
       objectReference: {fileID: 0}
     - target: {fileID: 1169293858241037341, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.9858491
       objectReference: {fileID: 0}
     - target: {fileID: 1169293858241037341, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1169293858241037341, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2775572473268463904, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3875646f22cebd44baf039aa23710a90, type: 2}
     - target: {fileID: 3316183941915975621, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: hard
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3316183941915975621, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: isCPU
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3316183941915975621, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: medium
@@ -7701,7 +7629,6 @@ GameObject:
   - component: {fileID: 728369646}
   - component: {fileID: 728369649}
   - component: {fileID: 728369648}
-  - component: {fileID: 728369647}
   m_Layer: 9
   m_Name: Ridge (13)
   m_TagString: Untagged
@@ -7724,27 +7651,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &728369647
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 728369645}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &728369648
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9515,7 +9421,6 @@ GameObject:
   - component: {fileID: 889848778}
   - component: {fileID: 889848781}
   - component: {fileID: 889848780}
-  - component: {fileID: 889848779}
   m_Layer: 9
   m_Name: Ridge (2)
   m_TagString: Untagged
@@ -9538,27 +9443,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &889848779
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889848777}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &889848780
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10870,7 +10754,6 @@ GameObject:
   - component: {fileID: 996799598}
   - component: {fileID: 996799601}
   - component: {fileID: 996799600}
-  - component: {fileID: 996799599}
   m_Layer: 9
   m_Name: Ridge (7)
   m_TagString: Untagged
@@ -10893,27 +10776,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &996799599
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996799597}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &996799600
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11059,7 +10921,6 @@ GameObject:
   - component: {fileID: 1009503687}
   - component: {fileID: 1009503690}
   - component: {fileID: 1009503689}
-  - component: {fileID: 1009503688}
   m_Layer: 9
   m_Name: Ridge (6)
   m_TagString: Untagged
@@ -11082,27 +10943,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1009503688
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1009503686}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1009503689
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11240,7 +11080,6 @@ GameObject:
   - component: {fileID: 1035470993}
   - component: {fileID: 1035470996}
   - component: {fileID: 1035470995}
-  - component: {fileID: 1035470994}
   m_Layer: 9
   m_Name: Ridge (10)
   m_TagString: Untagged
@@ -11263,27 +11102,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &1035470994
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035470992}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1035470995
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15747,7 +15565,6 @@ GameObject:
   - component: {fileID: 1432454207}
   - component: {fileID: 1432454210}
   - component: {fileID: 1432454209}
-  - component: {fileID: 1432454208}
   m_Layer: 9
   m_Name: Ridge (15)
   m_TagString: Untagged
@@ -15770,27 +15587,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &1432454208
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432454206}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1432454209
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16104,7 +15900,6 @@ GameObject:
   - component: {fileID: 1454066302}
   - component: {fileID: 1454066305}
   - component: {fileID: 1454066304}
-  - component: {fileID: 1454066303}
   m_Layer: 9
   m_Name: Ridge (11)
   m_TagString: Untagged
@@ -16127,27 +15922,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &1454066303
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1454066301}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1454066304
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16332,7 +16106,6 @@ GameObject:
   - component: {fileID: 1470996744}
   - component: {fileID: 1470996747}
   - component: {fileID: 1470996746}
-  - component: {fileID: 1470996745}
   m_Layer: 9
   m_Name: Ridge (3)
   m_TagString: Untagged
@@ -16355,27 +16128,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1470996745
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470996743}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1470996746
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16689,7 +16441,6 @@ GameObject:
   - component: {fileID: 1476072441}
   - component: {fileID: 1476072444}
   - component: {fileID: 1476072443}
-  - component: {fileID: 1476072442}
   m_Layer: 9
   m_Name: Ridge
   m_TagString: Untagged
@@ -16712,27 +16463,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1476072442
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476072440}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1476072443
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17129,9 +16859,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494834635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 2, y: 1.107, z: 0}
+  m_LocalScale: {x: 1.12, y: 1.12, z: 1.12}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 182878658}
   - {fileID: 1510789792}
@@ -17227,7 +16957,7 @@ MonoBehaviour:
   enemy: {fileID: 733206921}
   sprite: {fileID: 182878659}
   startPosition: {x: 2, y: 1, z: 0}
-  isCPU: 0
+  isCPU: 1
   easy: 0
   medium: 0
   hard: 1
@@ -17267,7 +16997,7 @@ MonoBehaviour:
   arnisHitPoint: {fileID: 625809334}
   animator: {fileID: 182878663}
   player2Combat: {fileID: 733206917}
-  isCPU: 0
+  isCPU: 1
   isTutorial: 0
   easy: 0
   medium: 0
@@ -17443,7 +17173,7 @@ MonoBehaviour:
   player2movement: {fileID: 733206918}
   hitEffect: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
   hitPoint: {fileID: 733206915}
-  isCPU: 0
+  isCPU: 1
   isBoxer: 1
   easy: 0
   medium: 0
@@ -19126,7 +18856,6 @@ GameObject:
   - component: {fileID: 1658991808}
   - component: {fileID: 1658991811}
   - component: {fileID: 1658991810}
-  - component: {fileID: 1658991809}
   m_Layer: 9
   m_Name: Ridge (1)
   m_TagString: Untagged
@@ -19149,27 +18878,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1658991809
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658991807}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1658991810
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19231,7 +18939,6 @@ GameObject:
   - component: {fileID: 1660384302}
   - component: {fileID: 1660384305}
   - component: {fileID: 1660384304}
-  - component: {fileID: 1660384303}
   m_Layer: 9
   m_Name: Ridge (8)
   m_TagString: Untagged
@@ -19254,27 +18961,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1660384303
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660384301}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1660384304
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22203,8 +21889,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1494834639}
     m_Modifications:
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
+      propertyPath: hard
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: isCPU
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: player
@@ -22214,6 +21904,10 @@ PrefabInstance:
       propertyPath: hitPoint
       value: 
       objectReference: {fileID: 733206915}
+    - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
+      propertyPath: mahoraga
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4973146822897889300, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: playerNumber
       value: 2
@@ -22233,6 +21927,10 @@ PrefabInstance:
     - target: {fileID: 5364137590761762908, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Name
       value: SikaranSprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 5364137590761762908, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6010759432644478787, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_RootOrder
@@ -22333,7 +22031,7 @@ PrefabInstance:
     - target: {fileID: 7374911961728909003, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 0fc335ad1cf2b7240a56a8f9d9f60b6f, type: 2}
+      objectReference: {fileID: 9100000, guid: f51a255ee91bbe3438dafba4c4d345f5, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23912,7 +23610,6 @@ GameObject:
   - component: {fileID: 2057086711}
   - component: {fileID: 2057086714}
   - component: {fileID: 2057086713}
-  - component: {fileID: 2057086712}
   m_Layer: 9
   m_Name: Ridge (5)
   m_TagString: Untagged
@@ -23935,27 +23632,6 @@ Transform:
   m_Father: {fileID: 2006788738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &2057086712
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057086710}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2057086713
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24357,6 +24033,10 @@ PrefabInstance:
     - target: {fileID: 7347712579504768447, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7347712579504768447, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7347712579504768447, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_TagString

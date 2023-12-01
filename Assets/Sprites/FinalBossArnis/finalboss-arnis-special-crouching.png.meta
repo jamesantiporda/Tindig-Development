@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,700 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1910
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27ba3421c4692444907a65df657d33a
+      internalID: 2112335512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1912
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076c044456563fa46aa75936f4e6cafa
+      internalID: 249827140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1910
+        width: 94
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6fb6543f168c84c92a33fc8a434a1d
+      internalID: 895884032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_3
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1912
+        width: 140
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cb28901aedd304381cc46f495c7b93
+      internalID: -592691935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_4
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1909
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ed2e3cdc291a14e89d49f2b326f360
+      internalID: -1113135809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_5
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1909
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60e27d6f8671e349a501384b965cb35
+      internalID: -1392515587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_6
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1909
+        width: 97
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d53f6ccc35a95409242f10cfd7c7da
+      internalID: 945888842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_7
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1909
+        width: 98
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d119952bdf29df4f8f5803d67aff51f
+      internalID: -664005252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1653
+        width: 134
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e92509a655ceb4c8b323fe8dea5f97
+      internalID: 1133476684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1653
+        width: 177
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9370d9b91bf7d5140be1057eaa18fc68
+      internalID: 769205326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_10
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1653
+        width: 97
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76558093d9413dc498f91b47aba9c3a4
+      internalID: 93005313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_11
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1653
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed22f82dac8277345acb226afbc3583a
+      internalID: -1320774310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_12
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1652
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ab9186057f20d478a0f59f28a7a16e
+      internalID: 1626179955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_13
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1652
+        width: 131
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4e82c4ca49b214e84e6a4f9d5134f8
+      internalID: -1554692264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_14
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1652
+        width: 144
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5051aef094c604e86200d42c9e09b4
+      internalID: 876875353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_15
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1652
+        width: 129
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d24e7206a257db47be00364dda32a54
+      internalID: 746307665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1396
+        width: 107
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5954bddea0e14cd4da534c5d90e161a4
+      internalID: 490210499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1396
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e4146df5b728745a685b9cd03d8324
+      internalID: -920923521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_18
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1396
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d956f8a826e404391327427a4367b0
+      internalID: -964964804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_19
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1396
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a030b8a9cc937764e8b8b268e9455b75
+      internalID: -442237306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_20
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1396
+        width: 93
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da85034906f9cd4f949bd8dc3eed3ff
+      internalID: -136379966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_21
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1397
+        width: 95
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabad92907f1d8c479ab7129452bd01c
+      internalID: 1431714100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_22
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1397
+        width: 95
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e347f602ae74d04d9642840cd7bb704
+      internalID: 357332305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_23
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1397
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271111ebcda98d0479682ffce70bfdc0
+      internalID: -1291054325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1140
+        width: 170
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd72fc4ebd474884793be64ce1c43a61
+      internalID: 1165485081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_25
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1140
+        width: 170
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f65a67642afa344926e814b2f6777d
+      internalID: -246513222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_26
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1143
+        width: 148
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2340e5434bacce4b8b1bbbc5120d4f1
+      internalID: 135787616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_27
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1142
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68705429c8c2cff49aa59f93d12fc74f
+      internalID: 481164490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_28
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1143
+        width: 90
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbbbe83138953b4db8fd3fd3ed90d83
+      internalID: -1938643552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_29
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1144
+        width: 84
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18632cd1507878a4faaaf948814b82f5
+      internalID: 2112749443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalboss-arnis-special-crouching_30
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1142
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb6a270d679134478a4c9abb9d95d89
+      internalID: -1970970696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1c15bfd6e26146e44a9627e03ded1802
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      finalboss-arnis-special-crouching_0: 2112335512
+      finalboss-arnis-special-crouching_1: 249827140
+      finalboss-arnis-special-crouching_10: 93005313
+      finalboss-arnis-special-crouching_11: -1320774310
+      finalboss-arnis-special-crouching_12: 1626179955
+      finalboss-arnis-special-crouching_13: -1554692264
+      finalboss-arnis-special-crouching_14: 876875353
+      finalboss-arnis-special-crouching_15: 746307665
+      finalboss-arnis-special-crouching_16: 490210499
+      finalboss-arnis-special-crouching_17: -920923521
+      finalboss-arnis-special-crouching_18: -964964804
+      finalboss-arnis-special-crouching_19: -442237306
+      finalboss-arnis-special-crouching_2: 895884032
+      finalboss-arnis-special-crouching_20: -136379966
+      finalboss-arnis-special-crouching_21: 1431714100
+      finalboss-arnis-special-crouching_22: 357332305
+      finalboss-arnis-special-crouching_23: -1291054325
+      finalboss-arnis-special-crouching_24: 1165485081
+      finalboss-arnis-special-crouching_25: -246513222
+      finalboss-arnis-special-crouching_26: 135787616
+      finalboss-arnis-special-crouching_27: 481164490
+      finalboss-arnis-special-crouching_28: -1938643552
+      finalboss-arnis-special-crouching_29: 2112749443
+      finalboss-arnis-special-crouching_3: -592691935
+      finalboss-arnis-special-crouching_30: -1970970696
+      finalboss-arnis-special-crouching_4: -1113135809
+      finalboss-arnis-special-crouching_5: -1392515587
+      finalboss-arnis-special-crouching_6: 945888842
+      finalboss-arnis-special-crouching_7: -664005252
+      finalboss-arnis-special-crouching_8: 1133476684
+      finalboss-arnis-special-crouching_9: 769205326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
