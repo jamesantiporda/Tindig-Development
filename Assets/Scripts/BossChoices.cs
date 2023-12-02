@@ -29,9 +29,9 @@ public class BossChoices : MonoBehaviour
 
             stageNumber += 1;
 
-            if(stageNumber >= 3)
+            if(stageNumber >= 4)
             {
-                stageNumber = 3;
+                stageNumber = 4;
             }
         }
 
@@ -64,6 +64,11 @@ public class BossChoices : MonoBehaviour
             {
                 Debug.Log("LOAD");
                 SceneManager.LoadScene("ArnisBoss");
+            }
+            else if(stageNumber == 4)
+            {
+                Debug.Log("LOAD");
+                SceneManager.LoadScene("FinalBoss");
             }
         }
 

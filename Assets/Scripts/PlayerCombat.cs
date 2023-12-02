@@ -544,7 +544,7 @@ public class PlayerCombat : MonoBehaviour
 
         float attackWait = UnityEngine.Random.Range(waitMin, waitMax);
 
-        randomInt = ReturnRandomInt(0, 4);
+        randomInt = ReturnRandomInt(0, 5);
 
         if (randomInt == 0)
         {
@@ -561,6 +561,10 @@ public class PlayerCombat : MonoBehaviour
         else if (randomInt == 3)
         {
             OverheadAttack();
+        }
+        else if (randomInt == 4)
+        {
+            Special();
         }
 
         yield return new WaitForSeconds(attackWait);
