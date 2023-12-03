@@ -34,6 +34,7 @@ public class PlayerCombat : MonoBehaviour
     private Vector3 mcSpriteSize, boxingSpriteSize, sikaranSpriteSize, arnisSpriteSize;
     private bool canSwitch = true;
     private bool boxingUnlocked = false, sikaranUnlocked = false, arnisUnlocked = false;
+    public GameObject styleIcons;
 
     public Animator animator;
     public PlayerCombat player2Combat;
@@ -122,26 +123,29 @@ public class PlayerCombat : MonoBehaviour
             waitMax = 1.25f;
         }
 
-        if(PlayerPrefs.HasKey("Boxing"))
+        if(PlayerPrefs.HasKey("Boxing") && isMC)
         {
             boxingUnlocked = true;
+            styleIcons.transform.GetChild(1).GetComponent<SpriteRenderer>().color = Color.white;
         }
         else
         {
             boxingUnlocked = false;
         }
         
-        if(PlayerPrefs.HasKey("Sikaran"))
+        if(PlayerPrefs.HasKey("Sikaran") && isMC)
         {
             sikaranUnlocked = true;
+            styleIcons.transform.GetChild(2).GetComponent<SpriteRenderer>().color = Color.white;
         }
         else
         {
             sikaranUnlocked = false;
         }
 
-        if (PlayerPrefs.HasKey("Arnis"))
+        if (PlayerPrefs.HasKey("Arnis") && isMC)
         {
+            styleIcons.transform.GetChild(3).GetComponent<SpriteRenderer>().color = Color.white;
             arnisUnlocked = true;
         }
         else
@@ -196,6 +200,11 @@ public class PlayerCombat : MonoBehaviour
 
             if((Input.GetKey(shiftStyleInput) && isMC && canAttack && canSwitch) || isCPU && cpuStyleSwitchInput > 0)
             {
+                if(!isFinalBoss)
+                {
+                    styleIcons.SetActive(true);
+                }
+
                 if((Input.GetKeyDown(mcInput) && currentSprite != mcSprite))
                 {
                     if(isCPU)
@@ -219,7 +228,7 @@ public class PlayerCombat : MonoBehaviour
                     currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
                 }
 
-                if((Input.GetKeyDown(boxingInput) && currentSprite != boxingSprite && boxingUnlocked) || isCPU && cpuStyleSwitchInput == 1)
+                if((Input.GetKeyDown(boxingInput) && currentSprite != boxingSprite && boxingUnlocked) || isCPU && cpuStyleSwitchInput == 1 && currentSprite != boxingSprite)
                 {
                     if (isCPU)
                     {
@@ -241,7 +250,7 @@ public class PlayerCombat : MonoBehaviour
                     currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
                 }
 
-                if((Input.GetKeyDown(sikaranInput) && currentSprite != sikaranSprite && sikaranUnlocked) || isCPU && cpuStyleSwitchInput == 2)
+                if((Input.GetKeyDown(sikaranInput) && currentSprite != sikaranSprite && sikaranUnlocked) || isCPU && cpuStyleSwitchInput == 2 && currentSprite != sikaranSprite)
                 {
                     if (isCPU)
                     {
@@ -264,7 +273,7 @@ public class PlayerCombat : MonoBehaviour
                     currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
                 }
 
-                if((Input.GetKeyDown(arnisInput) && currentSprite != arnisSprite && arnisUnlocked) || isCPU && cpuStyleSwitchInput == 3)
+                if((Input.GetKeyDown(arnisInput) && currentSprite != arnisSprite && arnisUnlocked) || isCPU && cpuStyleSwitchInput == 3 && currentSprite != arnisSprite)
                 {
                     if (isCPU)
                     {
@@ -286,6 +295,10 @@ public class PlayerCombat : MonoBehaviour
                     player2Combat.ChangeHitPoint(arnisHitPoint);
                     currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
                 }
+            }
+            else
+            {
+                styleIcons.SetActive(false);
             }
 
             // AI Behavior

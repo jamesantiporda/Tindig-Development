@@ -49,4 +49,11 @@ public class TitleScreen : MonoBehaviour
         Application.Quit();
         Debug.Log("Game is exiting");
     }
+
+    public void ResetStyles()
+    {
+        PlayerPrefs.DeleteKey("Boxing");
+        PlayerPrefs.DeleteKey("Sikaran");
+        PlayerPrefs.DeleteKey("Arnis");
+    }
 }

@@ -263,11 +263,13 @@ public class MatchManager : MonoBehaviour
             {
                 PlayerPrefs.SetString("Boxing", "unlocked");
             }
-            else if(isSikaranBoss)
+            
+            if(isSikaranBoss)
             {
                 PlayerPrefs.SetString("Sikaran", "unlocked");
             }
-            else if(isArnisBoss)
+
+            if(isArnisBoss)
             {
                 PlayerPrefs.SetString("Arnis", "unlocked");
             }
