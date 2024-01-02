@@ -395,11 +395,11 @@ public class SpriteToPlayer : MonoBehaviour
                                 Blocked();
                             }
 
-                            randomInt = ReturnRandomInt(0, 3);
-                            if (randomInt <= 1 && isBoxer)
-                            {
-                                anim.SetTrigger("Counter2");
-                            }
+                            //randomInt = ReturnRandomInt(0, 3);
+                            //if (randomInt <= 1 && isBoxer)
+                            //{
+                            //    anim.SetTrigger("Counter2");
+                            //}
                         }
          
                         return;

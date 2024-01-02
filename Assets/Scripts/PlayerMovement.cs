@@ -672,5 +672,9 @@ public class PlayerMovement : MonoBehaviour
                 collisionRb.velocity = new Vector2(-3, collisionRb.velocity.y);
             }
         }
+        else
+        {
+            sliding = false;
+        }
     }
 }
