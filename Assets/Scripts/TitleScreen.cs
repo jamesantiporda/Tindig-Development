@@ -29,6 +29,11 @@ public class TitleScreen : MonoBehaviour
         }
     }
 
+    public void CharacterSelect()
+    {
+        SceneManager.LoadScene("CharacterSelect");
+    }
+
     public void StageSelect()
     {
         SceneManager.LoadScene("StageSelect");
