@@ -62,23 +62,9 @@ public class MapSelect : MonoBehaviour
 
         }
 
-        switch (selectionNumber)
-        {
-            case 0:
-                SceneManager.LoadScene("BoxingMap");
-                break;
-            case 1:
-                SceneManager.LoadScene("AceMap");
-                break;
-            case 2:
-                SceneManager.LoadScene("BeachMap");
-                break;
-            case 3:
-                SceneManager.LoadScene("LunetaMap");
-                break;
-            default:
-                Debug.Log("Error! Not in Choices");
-                break;
-        }
+        PlayerPrefs.SetInt("Map", selectionNumber);
+
+        
+        SceneManager.LoadScene("LunetaMap");
     }
 }

@@ -501,6 +501,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void ChangeHitPoint(GameObject hitPoint)
     {
+        Debug.Log("Player: " + playerNumber);
         currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(hitPoint);
     }
 
@@ -606,5 +607,16 @@ public class PlayerCombat : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         canSwitch = true;
+    }
+
+    public void SetSprite(GameObject newSprite, GameObject newHitPoint)
+    {
+        //Set Sprite
+        Debug.Log("Setting Sprite");
+        currentSprite = newSprite;
+        animator = currentSprite.GetComponent<Animator>();
+        activeHitPoint = newHitPoint;
+        player2Combat.ChangeHitPoint(activeHitPoint);
+        currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
     }
 }

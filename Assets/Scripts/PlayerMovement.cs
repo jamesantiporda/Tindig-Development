@@ -649,6 +649,12 @@ public class PlayerMovement : MonoBehaviour
         anim = sprite.GetComponent<Animator>();
     }
 
+    public void SetSprite(GameObject newSprite)
+    {
+        sprite = newSprite;
+        anim = newSprite.GetComponent<Animator>();
+    }
+
     public void SetIsCPU(bool makeCPU)
     {
         isCPU = makeCPU;

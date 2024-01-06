@@ -340,6 +340,12 @@ public class MatchManager : MonoBehaviour
         SceneManager.LoadScene("StageSelect");
     }
 
+    public void  ReturnToCharacterSelect()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("CharacterSelect");
+    }
+
     public void RestartMatch()
     {
         Time.timeScale = 1.0f;
