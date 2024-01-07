@@ -2,15 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealthBarScript : MonoBehaviour
 {
 
     public Slider slider, redSlider;
 
-    private float damageTimer = 0.0f, redSliderCooldown = 0.5f;
+    private float damageTimer = 0.0f, redSliderCooldown = 0.75f;
 
     private bool regenHealth = false;
+
+    private int comboOfEnemy = 0;
+
+    public TMP_Text enemyCombo;
 
     public void SetMaxHealth(int health)
     {
@@ -23,6 +28,12 @@ public class HealthBarScript : MonoBehaviour
     public void SetHealth(int health)
     {
         damageTimer = 0.0f;
+
+        if(health < slider.value)
+        {
+            comboOfEnemy += 1;
+            enemyCombo.text = "" + comboOfEnemy;
+        }
         slider.value = health;
     }
 
@@ -42,6 +53,12 @@ public class HealthBarScript : MonoBehaviour
         if(regenHealth && damageTimer >= redSliderCooldown && slider.value < slider.maxValue)
         {
             slider.value += 1;
+        }
+
+        if(damageTimer >= redSliderCooldown)
+        {
+            comboOfEnemy = 0;
+            enemyCombo.text = "";
         }
     }
 

@@ -90,6 +90,10 @@ public class PlayerMovement : MonoBehaviour
     private int maxRandom;
     private int difficulty;
 
+    // Bug Fine Tuning
+    private float slidingEnableTimer = 0.0f;
+    private bool canSlide = true;
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
@@ -401,6 +405,7 @@ public class PlayerMovement : MonoBehaviour
             if (((Input.GetKeyDown(forwardInput) && !isCPU) || (aiJump && isCPU)) && isGrounded && !isCrouching && acceptInput && canMove)
             {
                 playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                StartCoroutine(SlidingEnableDisable());
                 anim.SetTrigger("Jump");
                 isGrounded = false;
             }
@@ -595,6 +600,15 @@ public class PlayerMovement : MonoBehaviour
         isWandering = false;
     }
 
+    public IEnumerator SlidingEnableDisable()
+    {
+        canSlide = false;
+
+        yield return new WaitForSeconds(0.5f);
+
+        canSlide = true;
+    }
+
     public IEnumerator Retreat()
     {
         int retreatTime = UnityEngine.Random.Range(1, 3);
@@ -664,18 +678,21 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlayerHitBox")
         {
-            Rigidbody collisionRb = collision.gameObject.transform.parent.GetComponent<Rigidbody>();
-            //Debug.Log("Standing on Head!~");
-            sliding = true;
-            if (isFacingRight)
+            if(canSlide)
             {
-                playerRb.velocity = new Vector2(-3, playerRb.velocity.y);
-                collisionRb.velocity = new Vector2(3, collisionRb.velocity.y);
-            }
-            else
-            {
-                playerRb.velocity = new Vector2(3, playerRb.velocity.y);
-                collisionRb.velocity = new Vector2(-3, collisionRb.velocity.y);
+                Rigidbody collisionRb = collision.gameObject.transform.parent.GetComponent<Rigidbody>();
+                //Debug.Log("Standing on Head!~");
+                sliding = true;
+                if (isFacingRight)
+                {
+                    playerRb.velocity = new Vector2(-3, playerRb.velocity.y);
+                    collisionRb.velocity = new Vector2(3, collisionRb.velocity.y);
+                }
+                else
+                {
+                    playerRb.velocity = new Vector2(3, playerRb.velocity.y);
+                    collisionRb.velocity = new Vector2(-3, collisionRb.velocity.y);
+                }
             }
         }
         else

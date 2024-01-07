@@ -619,4 +619,28 @@ public class PlayerCombat : MonoBehaviour
         player2Combat.ChangeHitPoint(activeHitPoint);
         currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
     }
+
+    public void SetDifficulty(int diff)
+    {
+        if (diff == 0)
+        {
+            waitMin = 3;
+            waitMax = 5;
+        }
+        else if (diff== 1)
+        {
+            waitMin = 1;
+            waitMax = 4;
+        }
+        else if (diff == 2)
+        {
+            waitMin = 0;
+            waitMax = 2;
+        }
+        else if (diff == 3)
+        {
+            waitMin = 0;
+            waitMax = 1.25f;
+        }
+    }
 }

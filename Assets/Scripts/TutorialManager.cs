@@ -322,6 +322,7 @@ public class TutorialManager : MonoBehaviour
             controls.text = "Walk Backwards - Normal Guard\nBlocks all except Crouch Attacks";
 
             enemyCombat.SetIsCPU(true);
+            enemyCombat.SetDifficulty(2);
             enemyMovement.SetIsCPU(true);
             enemyMovement.StopCrouching();
 
