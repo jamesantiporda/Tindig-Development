@@ -35,7 +35,7 @@ public class SpriteToPlayer : MonoBehaviour
 
     private int difficulty;
 
-    ////////////
+    public bool toggleLight = true, toggleMedium = true, toggleHeavy = true, toggleOverhead = true, toggleSpecial = true;
 
     // Start is called before the first frame update
     void Start()
@@ -73,6 +73,13 @@ public class SpriteToPlayer : MonoBehaviour
         }
 
         anim.SetBool("isCPU", isCPU);
+
+        combat.ToggleCanUseAttack(0, toggleLight);
+        combat.ToggleCanUseAttack(1, toggleMedium);
+        combat.ToggleCanUseAttack(2, toggleHeavy);
+        combat.ToggleCanUseAttack(3, toggleOverhead);
+        combat.ToggleCanUseAttack(4, toggleSpecial);
+
     }
 
     // Update is called once per frame
@@ -379,7 +386,7 @@ public class SpriteToPlayer : MonoBehaviour
                     if (randomInt <= 1 && combat.ReturnCanAttack() && movement.ReturnIsMoveable())
                     {
                         randomInt = ReturnRandomInt(0, 3);
-                        if (randomInt == 1 && isBoxer)
+                        if (randomInt == 1 && isBoxer && toggleSpecial)
                         {
                             anim.SetTrigger("Counter");
                             anim.SetTrigger("CounterHit");
@@ -408,7 +415,7 @@ public class SpriteToPlayer : MonoBehaviour
                     if (player2combat.ReturnSameAttackCounter() >= numberToPunish && combat.ReturnCanAttack() && movement.ReturnIsMoveable())
                     {
                         randomInt = ReturnRandomInt(0, 3);
-                        if (randomInt == 1 && isBoxer)
+                        if (randomInt == 1 && isBoxer && toggleSpecial)
                         {
                             anim.SetTrigger("Counter");
                             anim.SetTrigger("CounterHit");

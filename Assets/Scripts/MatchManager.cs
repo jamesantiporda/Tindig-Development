@@ -50,7 +50,11 @@ public class MatchManager : MonoBehaviour
 
     private bool isPaused = false;
 
-    public bool isBoxingBoss, isSikaranBoss, isArnisBoss;
+    public bool isBoxingBoss, isSikaranBoss, isArnisBoss, isGrunt;
+
+    public int gruntStyle = 0, gruntType = 0;
+
+    public bool unlocksNextFighters = false;
 
 
     // Start is called before the first frame update
@@ -262,16 +266,80 @@ public class MatchManager : MonoBehaviour
             if(isBoxingBoss)
             {
                 PlayerPrefs.SetString("Boxing", "unlocked");
+                if(unlocksNextFighters)
+                {
+                    PlayerPrefs.SetString("SikaranArea", "unlocked");
+                }
             }
             
             if(isSikaranBoss)
             {
                 PlayerPrefs.SetString("Sikaran", "unlocked");
+                if (unlocksNextFighters)
+                {
+                    PlayerPrefs.SetString("ArnisArea", "unlocked");
+                }
             }
 
             if(isArnisBoss)
             {
                 PlayerPrefs.SetString("Arnis", "unlocked");
+                if (unlocksNextFighters)
+                {
+                    PlayerPrefs.SetString("FinalBossArea", "unlocked");
+                }
+            }
+
+            if(isGrunt)
+            {
+                switch(gruntStyle)
+                {
+                    case 0:
+                        if(gruntType == 0)
+                        {
+                            PlayerPrefs.SetString("BoxingLight", "unlocked");
+                        }
+                        else if(gruntType == 1)
+                        {
+                            PlayerPrefs.SetString("BoxingMedium", "unlocked");
+                        }
+                        else if(gruntType == 2)
+                        {
+                            PlayerPrefs.SetString("Boxing", "unlocked");
+                        }
+                        break;
+                    case 1:
+                        if (gruntType == 0)
+                        {
+                            PlayerPrefs.SetString("SikaranLight", "unlocked");
+                        }
+                        else if (gruntType == 1)
+                        {
+                            PlayerPrefs.SetString("SikaranMedium", "unlocked");
+                        }
+                        else if (gruntType == 2)
+                        {
+                            PlayerPrefs.SetString("Sikaran", "unlocked");
+                        }
+                        break;
+                    case 2:
+                        if (gruntType == 0)
+                        {
+                            PlayerPrefs.SetString("ArnisLight", "unlocked");
+                        }
+                        else if (gruntType == 1)
+                        {
+                            PlayerPrefs.SetString("ArnisMedium", "unlocked");
+                        }
+                        else if (gruntType == 2)
+                        {
+                            PlayerPrefs.SetString("Arnis", "unlocked");
+                        }
+                        break;
+                    default:
+                        Debug.Log("Not a valid gruntStyle");
+                        break;
+                }
             }
 
             MatchEnd();

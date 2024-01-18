@@ -4435,6 +4435,10 @@ MonoBehaviour:
   isBoxingBoss: 0
   isSikaranBoss: 0
   isArnisBoss: 1
+  isGrunt: 0
+  gruntStyle: 0
+  gruntType: 0
+  unlocksNextFighters: 1
 --- !u!4 &1481186392
 Transform:
   m_ObjectHideFlags: 0
@@ -4693,6 +4697,9 @@ MonoBehaviour:
   animator: {fileID: 1510789789}
   player2Combat: {fileID: 733206917}
   isCPU: 1
+  isLightGrunt: 0
+  isMediumGrunt: 0
+  isHeavyGrunt: 0
   isTutorial: 0
   easy: 0
   medium: 0
@@ -4874,6 +4881,11 @@ MonoBehaviour:
   medium: 0
   hard: 1
   mahoraga: 0
+  toggleLight: 1
+  toggleMedium: 1
+  toggleHeavy: 1
+  toggleOverhead: 1
+  toggleSpecial: 1
 --- !u!1 &1540890587
 GameObject:
   m_ObjectHideFlags: 0

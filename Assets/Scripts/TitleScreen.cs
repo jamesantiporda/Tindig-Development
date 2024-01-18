@@ -60,5 +60,9 @@ public class TitleScreen : MonoBehaviour
         PlayerPrefs.DeleteKey("Boxing");
         PlayerPrefs.DeleteKey("Sikaran");
         PlayerPrefs.DeleteKey("Arnis");
+        PlayerPrefs.DeleteKey("Stage");
+        PlayerPrefs.DeleteKey("SikaranArea");
+        PlayerPrefs.DeleteKey("ArnisArea");
+        PlayerPrefs.DeleteKey("FinalBossArea");
     }
 }

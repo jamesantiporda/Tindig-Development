@@ -52,9 +52,11 @@ public class PlayerCombat : MonoBehaviour
 
     // Accept Input
     private bool acceptInput;
+    private bool canLight = true, canMedium = true, canHeavy = true, canOverhead = true, canSpecial = true;
 
     // CPU AI
     public bool isCPU = false;
+    public bool isLightGrunt = false, isMediumGrunt = false, isHeavyGrunt = false;
     private int randomInt;
     private bool isAttacking = false;
     private bool punishLowBlock = false;
@@ -173,27 +175,27 @@ public class PlayerCombat : MonoBehaviour
     {
         if (acceptInput)
         {
-            if (Input.GetKeyDown(lightInput) && canAttack)
+            if (Input.GetKeyDown(lightInput) && canAttack && canLight)
             {
                 LightAttack();
             }
 
-            if (Input.GetKeyDown(mediumInput) && canAttack)
+            if (Input.GetKeyDown(mediumInput) && canAttack && canMedium)
             {
                 MediumAttack();
             }
 
-            if (Input.GetKeyDown(heavyInput) && canAttack)
+            if (Input.GetKeyDown(heavyInput) && canAttack && canHeavy)
             {
                 HeavyAttack();
             }
 
-            if (Input.GetKeyDown(overheadInput) && canAttack)
+            if (Input.GetKeyDown(overheadInput) && canAttack && canOverhead)
             {
                 OverheadAttack();
             }
 
-            if (Input.GetKeyDown(specialInput) && canAttack)
+            if (Input.GetKeyDown(specialInput) && canAttack && canSpecial)
             {
                 Special();
             }
@@ -560,23 +562,37 @@ public class PlayerCombat : MonoBehaviour
 
         randomInt = ReturnRandomInt(0, 5);
 
-        if (randomInt == 0)
+
+        //if(isLightGrunt)
+        //{
+        //    randomInt = 0;
+        //}
+        //else if (isMediumGrunt)
+        //{
+        //    randomInt = 1;
+        //}
+        //else if (isHeavyGrunt)
+        //{
+        //    randomInt = ReturnRandomInt(2, 5);
+        //}
+
+        if (randomInt == 0 && canLight)
         {
             LightAttack();
         }
-        else if (randomInt == 1)
+        else if (randomInt == 1 && canMedium)
         {
             MediumAttack();
         }
-        else if (randomInt == 2)
+        else if (randomInt == 2 && canHeavy)
         {
             HeavyAttack();
         }
-        else if (randomInt == 3)
+        else if (randomInt == 3 && canOverhead)
         {
             OverheadAttack();
         }
-        else if (randomInt == 4)
+        else if (randomInt == 4 && canSpecial)
         {
             Special();
         }
@@ -641,6 +657,31 @@ public class PlayerCombat : MonoBehaviour
         {
             waitMin = 0;
             waitMax = 1.25f;
+        }
+    }
+
+    public void ToggleCanUseAttack(int attackType, bool unlocked)
+    {
+        switch(attackType)
+        {
+            case 0:
+                canLight = unlocked;
+                break;
+            case 1:
+                canMedium = unlocked;
+                break;
+            case 2:
+                canHeavy = unlocked;
+                break;
+            case 3:
+                canOverhead = unlocked;
+                break;
+            case 4:
+                canSpecial = unlocked;
+                break;
+            default:
+                Debug.Log("Invalid attack type");
+                break;
         }
     }
 }

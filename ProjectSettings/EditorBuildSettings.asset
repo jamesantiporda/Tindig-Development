@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/StageSelect.unity
     guid: e8cbe451b39b79443bc392d505a6282f
   - enabled: 1
-    path: Assets/Scenes/ArnisBoss.unity
+    path: Assets/Scenes/ArnisLevels/ArnisBoss.unity
     guid: 00164a8a649c2a443ae5280ae1e8efad
   - enabled: 1
-    path: Assets/Scenes/BoxingBoss.unity
+    path: Assets/Scenes/BoxingLevels/BoxingBoss.unity
     guid: 901d5f8fdc39d8b40a03407fa309a4db
   - enabled: 1
-    path: Assets/Scenes/SikaranBoss.unity
+    path: Assets/Scenes/SikaranLevels/SikaranBoss.unity
     guid: 0d6d02729b6747240baf3fea1048aee8
   - enabled: 1
     path: Assets/Scenes/Training.unity
@@ -41,5 +41,23 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VersusMaps/LunetaMap.unity
     guid: 5a7af462bde2d10429d9c6dac0626039
+  - enabled: 1
+    path: Assets/Scenes/BoxingLevels/BoxingHeavy.unity
+    guid: 5f7079b13e4f888479abe5d69b6249c2
+  - enabled: 1
+    path: Assets/Scenes/BoxingLevels/BoxingLight.unity
+    guid: 95af9cdaa635a3a46b00474c96c344f5
+  - enabled: 1
+    path: Assets/Scenes/SikaranLevels/SikaranLight.unity
+    guid: 0a1b17f54ecf1bd4888227a994856cf1
+  - enabled: 1
+    path: Assets/Scenes/SikaranLevels/SikaranHeavy.unity
+    guid: 751c52cd5ef7e6343936b8e7409798cd
+  - enabled: 1
+    path: Assets/Scenes/ArnisLevels/ArnisLight.unity
+    guid: 63f62f0fedee60f4ba4bb0e7f710d22c
+  - enabled: 1
+    path: Assets/Scenes/ArnisLevels/ArnisHeavy.unity
+    guid: ed5a78faaf23f9148a51b9e004f625f5
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
