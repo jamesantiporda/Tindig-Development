@@ -1,0 +1,992 @@
+fileFormatVersion: 2
+guid: a21f34a382654c84dafcc2f2b792937e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mc-boxing-idle_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1917
+        width: 56
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3fa6c3914a7aa42ae83cfe737a5bf1
+      internalID: 515751851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1917
+        width: 55
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490e413074c2e7943aa09c54dcfa6e35
+      internalID: 1408273209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1917
+        width: 55
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a770aad51d2959b48bdc2d43ffb02c61
+      internalID: -503447348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_3
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1917
+        width: 54
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468452fe08870624682ba20a02396735
+      internalID: -2125172166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1917
+        width: 54
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa4c673be8f87042bd0c476f5b4dd6e
+      internalID: -1378681796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_5
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1917
+        width: 54
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21d25578c0d1234189b6e57ba2f4c4b
+      internalID: 1794026378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_6
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1917
+        width: 53
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfea9082eb312442bcbb14e6778a0d0
+      internalID: 1281144285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_7
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1917
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a8f30f58826624b83022a943fd50be
+      internalID: -132467919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1661
+        width: 52
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1660c05fb445a8c4f94e0c121aaf1c36
+      internalID: -1188700260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1660
+        width: 52
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8934ccdb0d3e14e8cb28147202b9d7
+      internalID: -2136130505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_10
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1660
+        width: 52
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0817c083af97ef846b46a8dc9c7e8389
+      internalID: 242859133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_11
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1661
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a606c8b74cc7ac40a750db5fd214a02
+      internalID: -978930432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1661
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062b890ae377e6943acfb63a97128dff
+      internalID: -128310952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1661
+        width: 54
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b698e78bbf14947b7af31b37e74d8f
+      internalID: -15511917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1661
+        width: 54
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddaa8315f72a5a44859f6463be52093
+      internalID: 1049147386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_15
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1661
+        width: 54
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004e956591abce749b6fb48b98f9957c
+      internalID: -1062642235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1405
+        width: 55
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c59e8a47394134d9278a792ad94fa6
+      internalID: 1410448467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1405
+        width: 55
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7502f300c864b0241b8ed0fbe6a3ec26
+      internalID: -1080688404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_18
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1405
+        width: 55
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad7b10a7685d2c479f1d3859ba4dae6
+      internalID: 1408357126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_19
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1405
+        width: 56
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1ea4a100de2dc4a88e93ef032ce9c8
+      internalID: 1050018902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_20
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1405
+        width: 55
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c40e8ef212b0ca43a4fd595518e67f7
+      internalID: -74991992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_21
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1405
+        width: 55
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ed913c52a4db942b7c49f881278082
+      internalID: 1322211394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1405
+        width: 54
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018c1d12b540aa54a92c339849eedabc
+      internalID: 1405975301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1405
+        width: 53
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2961618ab5e924746b9a8db76a55654d
+      internalID: -1885120023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1149
+        width: 53
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9838f7f7e91270e43b14c1372c0626e3
+      internalID: -11179794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1149
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ae27f4abca049488766843949b3026
+      internalID: -518867021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1149
+        width: 51
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07451f8709efe7b4d8ed35bb13334432
+      internalID: -1047079688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_27
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1149
+        width: 51
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3d1b5dd4b5d3747aae82f9594fe97d
+      internalID: 1113609971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1149
+        width: 50
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64faed27d9c6e7643a801b0d768a62fc
+      internalID: 48753827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_29
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1149
+        width: 50
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7433dc6edc523049b1a6ddf8f161814
+      internalID: 971186236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_30
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1149
+        width: 50
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbd9d547e10ca74d960cd123fece23c
+      internalID: -1635871553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_31
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1149
+        width: 51
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6912d79258dc8a408990c7d16ab9853
+      internalID: 349737252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 893
+        width: 51
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34514008eaf21543a3ca2e24b34cc03
+      internalID: -617735195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_33
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 893
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e383a30616ccc40bb117cf6c7c7ce8
+      internalID: 1894054907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 893
+        width: 53
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ae56f6bf06b154daaa71eca163d7f3
+      internalID: 474620751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_35
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 893
+        width: 53
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5e0dfd484c0d04fb20989eb192e237
+      internalID: 210481471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_36
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 893
+        width: 54
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115614f2d5f28124cbc6b843c0c0736c
+      internalID: -1823807616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_37
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 893
+        width: 55
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a7eb5903d21114fa65ff7117739b03
+      internalID: -633635585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_38
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 893
+        width: 55
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40acc662844eb3b469510b8a8c4f8b99
+      internalID: 98161626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-idle_39
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 893
+        width: 56
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ef2343c6c189c4cb12bf8b37b73fe7
+      internalID: -2137314383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a398905bedc19004dbc01054aa80a8a7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mc-boxing-idle_0: 515751851
+      mc-boxing-idle_1: 1408273209
+      mc-boxing-idle_10: 242859133
+      mc-boxing-idle_11: -978930432
+      mc-boxing-idle_12: -128310952
+      mc-boxing-idle_13: -15511917
+      mc-boxing-idle_14: 1049147386
+      mc-boxing-idle_15: -1062642235
+      mc-boxing-idle_16: 1410448467
+      mc-boxing-idle_17: -1080688404
+      mc-boxing-idle_18: 1408357126
+      mc-boxing-idle_19: 1050018902
+      mc-boxing-idle_2: -503447348
+      mc-boxing-idle_20: -74991992
+      mc-boxing-idle_21: 1322211394
+      mc-boxing-idle_22: 1405975301
+      mc-boxing-idle_23: -1885120023
+      mc-boxing-idle_24: -11179794
+      mc-boxing-idle_25: -518867021
+      mc-boxing-idle_26: -1047079688
+      mc-boxing-idle_27: 1113609971
+      mc-boxing-idle_28: 48753827
+      mc-boxing-idle_29: 971186236
+      mc-boxing-idle_3: -2125172166
+      mc-boxing-idle_30: -1635871553
+      mc-boxing-idle_31: 349737252
+      mc-boxing-idle_32: -617735195
+      mc-boxing-idle_33: 1894054907
+      mc-boxing-idle_34: 474620751
+      mc-boxing-idle_35: 210481471
+      mc-boxing-idle_36: -1823807616
+      mc-boxing-idle_37: -633635585
+      mc-boxing-idle_38: 98161626
+      mc-boxing-idle_39: -2137314383
+      mc-boxing-idle_4: -1378681796
+      mc-boxing-idle_5: 1794026378
+      mc-boxing-idle_6: 1281144285
+      mc-boxing-idle_7: -132467919
+      mc-boxing-idle_8: -1188700260
+      mc-boxing-idle_9: -2136130505
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

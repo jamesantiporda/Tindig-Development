@@ -1,0 +1,1124 @@
+fileFormatVersion: 2
+guid: b3ddbed74abbb5d46a69d83f23bcf58b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1917
+        width: 56
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2476fdeee9a5ba9448f052f1b153ce47
+      internalID: 1714139051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1916
+        width: 59
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a99226e036ccc4384aee7709c6fdc2
+      internalID: 544724033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1913
+        width: 66
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b52fbffeb886c44af338537bbf55f0
+      internalID: 345832132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1911
+        width: 72
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cafd7061d76fe84f89c2c3af00d1ca9
+      internalID: 1295775824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_4
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1912
+        width: 71
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68802bca61bdfa24e8d3d707991c185f
+      internalID: 1286242407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_5
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1912
+        width: 74
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370614ddfcf4a72438e07fb5f40a3840
+      internalID: 882662704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_6
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1913
+        width: 76
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cd17a6ddda750458d2823b4cae5212
+      internalID: -137108476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_7
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1913
+        width: 78
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a277f652e08d4c41999bfcadcae687a
+      internalID: 206486884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1657
+        width: 77
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cb505a8ba575846a045c8f0c228fc8
+      internalID: 397829179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1658
+        width: 73
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0e361db4d5bf14fa192084a1aae56b
+      internalID: -915542955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_10
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1658
+        width: 70
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f8abb8d8d5b1b4a8aaf61d2c376916
+      internalID: -1118018589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_11
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1659
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe0b03e67c2c0540b281fe7f418f1ab
+      internalID: -871632392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_12
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1659
+        width: 64
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cbcb4e0ae0a9d4d8aa0128f6911724
+      internalID: -1994133185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_13
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1660
+        width: 62
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e37b49515fa7d546aea1448f49a5570
+      internalID: -77310278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_14
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1660
+        width: 63
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90717dc46c80b824bb84c01ae0212735
+      internalID: -443709518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_15
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1660
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6b1e6446ef724409410f9d59e4abf5
+      internalID: -1848912400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1404
+        width: 94
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05ed2d5eb8b6ef4cab8fabf00663359
+      internalID: -1266253068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1404
+        width: 106
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc14da21c22d6f40a188b912128ebc8
+      internalID: -1787749931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_18
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1349
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4964971c8274d49810656fcef101a0
+      internalID: 129111107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_19
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1404
+        width: 109
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533dd268baa02a94db2028f379530336
+      internalID: -1772592460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_20
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1370
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eaeaaddb4c77c409b1679208c6310d
+      internalID: -1620062197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_21
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1365
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531fe2c5bd3a3874d99613f0a2f48c11
+      internalID: 837355737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_22
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1404
+        width: 106
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac15da9dbb2d5f04eb5f320b7c28adde
+      internalID: -878160488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_23
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1373
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8670e7663e0144f9231e092b9567fe
+      internalID: 526274663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_24
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1378
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e11abeaf984a640983600387ae304b
+      internalID: 528497427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_25
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1404
+        width: 105
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c4e22d53725884191689bf0a286164
+      internalID: 1070370751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_26
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1359
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254696dc93d04dc4d867dd56b4523c18
+      internalID: 2043310585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_27
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1404
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4266cf1c03a240b4f9c0d0942912a165
+      internalID: -506857315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_28
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1404
+        width: 99
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4737a53b444150145be26044a714b0ed
+      internalID: -1235569045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_29
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1404
+        width: 94
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb05c7a5ddd3f844a5853c2d97be0c2
+      internalID: -856880877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1148
+        width: 91
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957d195bf3a64a249addf979a3b05eab
+      internalID: -1543077595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_31
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1148
+        width: 87
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4578740ae6abb4aa85c4d2387f61e7
+      internalID: -1485612806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_32
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1147
+        width: 84
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54318346e7cbe2346b5d7f21f27e2fcc
+      internalID: -1101833938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_33
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1147
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9d128c43cb87842b9ab5dafc9570cd
+      internalID: -255547681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_34
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1147
+        width: 74
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a88c940052c7c49ad60e07f7415e19
+      internalID: -1776104954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_35
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1147
+        width: 70
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6e575d94f46824a8fae914b9db6bc4
+      internalID: -1219484193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_36
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1147
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769299c716e543743b247dd6cb4c80b6
+      internalID: -362302703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_37
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1147
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102a517d61402a743bcd7e565862bf0e
+      internalID: 199378553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_38
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 891
+        width: 67
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5fbb82b31dbb44aac13b933ce0f0ad
+      internalID: 1460492761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_39
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 892
+        width: 67
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa97bc6f72f9a94ea80f03f852c5da6
+      internalID: -1062404454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_40
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 892
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c6dadceaa0e804c9a8857c73165d61
+      internalID: -617145556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_41
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 892
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed85025cbbbf9241960ed37f6f7efeb
+      internalID: -1706740194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_42
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 893
+        width: 64
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f26c93696b587448115291ae7bfb0b
+      internalID: -1475054280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_43
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 893
+        width: 61
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebb1f73d88990e499c54c180d3ced83
+      internalID: 179654074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_44
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 893
+        width: 58
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623a7fb811d440e4c9284be63d321039
+      internalID: -1453412240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-neutral-heavy_45
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 893
+        width: 56
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff26e1ede881ab0489b6b0d6a65e1ef8
+      internalID: -1933613017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6a9aa380664ac6b4693b46540e3c93bf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mc-boxing-neutral-heavy_0: 1714139051
+      mc-boxing-neutral-heavy_1: 544724033
+      mc-boxing-neutral-heavy_10: -1118018589
+      mc-boxing-neutral-heavy_11: -871632392
+      mc-boxing-neutral-heavy_12: -1994133185
+      mc-boxing-neutral-heavy_13: -77310278
+      mc-boxing-neutral-heavy_14: -443709518
+      mc-boxing-neutral-heavy_15: -1848912400
+      mc-boxing-neutral-heavy_16: -1266253068
+      mc-boxing-neutral-heavy_17: -1787749931
+      mc-boxing-neutral-heavy_18: 129111107
+      mc-boxing-neutral-heavy_19: -1772592460
+      mc-boxing-neutral-heavy_2: 345832132
+      mc-boxing-neutral-heavy_20: -1620062197
+      mc-boxing-neutral-heavy_21: 837355737
+      mc-boxing-neutral-heavy_22: -878160488
+      mc-boxing-neutral-heavy_23: 526274663
+      mc-boxing-neutral-heavy_24: 528497427
+      mc-boxing-neutral-heavy_25: 1070370751
+      mc-boxing-neutral-heavy_26: 2043310585
+      mc-boxing-neutral-heavy_27: -506857315
+      mc-boxing-neutral-heavy_28: -1235569045
+      mc-boxing-neutral-heavy_29: -856880877
+      mc-boxing-neutral-heavy_3: 1295775824
+      mc-boxing-neutral-heavy_30: -1543077595
+      mc-boxing-neutral-heavy_31: -1485612806
+      mc-boxing-neutral-heavy_32: -1101833938
+      mc-boxing-neutral-heavy_33: -255547681
+      mc-boxing-neutral-heavy_34: -1776104954
+      mc-boxing-neutral-heavy_35: -1219484193
+      mc-boxing-neutral-heavy_36: -362302703
+      mc-boxing-neutral-heavy_37: 199378553
+      mc-boxing-neutral-heavy_38: 1460492761
+      mc-boxing-neutral-heavy_39: -1062404454
+      mc-boxing-neutral-heavy_4: 1286242407
+      mc-boxing-neutral-heavy_40: -617145556
+      mc-boxing-neutral-heavy_41: -1706740194
+      mc-boxing-neutral-heavy_42: -1475054280
+      mc-boxing-neutral-heavy_43: 179654074
+      mc-boxing-neutral-heavy_44: -1453412240
+      mc-boxing-neutral-heavy_45: -1933613017
+      mc-boxing-neutral-heavy_5: 882662704
+      mc-boxing-neutral-heavy_6: -137108476
+      mc-boxing-neutral-heavy_7: 206486884
+      mc-boxing-neutral-heavy_8: 397829179
+      mc-boxing-neutral-heavy_9: -915542955
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

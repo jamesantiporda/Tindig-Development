@@ -1,0 +1,992 @@
+fileFormatVersion: 2
+guid: a7eaa3751144af649b36c110f3fc6ba0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1915
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d891fec0fdcc78740a61dbac3e600cd3
+      internalID: -2006297051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1915
+        width: 81
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e4d822a634f9f499adab2b64ef3d21
+      internalID: -1937334565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_2
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1915
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec015c120036ffd48a3c43136bbde6d7
+      internalID: 1714461160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_3
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1915
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b304c2d3141c5ba41a85a4957f8fcd2a
+      internalID: 983534508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1914
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ec85acb4cbecc4c9013565d1c5cb6a
+      internalID: 1615994294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_5
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1913
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06140dcd46541746990d16af880312c
+      internalID: -605140433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_6
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1912
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0775764d52b45e74ebff543fd1f2895d
+      internalID: -1221340290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_7
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1912
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f967c473d658f4c96a026313626d35
+      internalID: -1221781877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1655
+        width: 81
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b89a3285e381e46975e197b1797d0a
+      internalID: -381845788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1654
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68124f56ec429264a994fdc50362d6fe
+      internalID: -1599123998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_10
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1655
+        width: 81
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3a492c8b89765489dce738afad76eb
+      internalID: 802063340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_11
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1655
+        width: 81
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88b76e8e8d99964882406d4c6e5dd05
+      internalID: 854895868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1656
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c2f0ac6ddcc9646b7fe516e28860e9
+      internalID: 1909282131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1657
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398ce11c081ce2c4a8542005e16ee7d0
+      internalID: 46977683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1657
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52ded87b1b036b48b7e0a85a45a4eff
+      internalID: 1910941213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_15
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1658
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b1a623dac9e84fb95a2da8a185fe7
+      internalID: -2084626918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1403
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0b28937922c9a41ac71e807b3a6921
+      internalID: 260265165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1403
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d61ac22164a3645bea8bcd848afb7f
+      internalID: -1300497484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_18
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1403
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efbd74ae0b3b2f468cb40d768d1b8ca
+      internalID: 766277671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_19
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1403
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445b9397ac63503458e54eeabab962b0
+      internalID: 1385945580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_20
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1403
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3cc0547f158f841ac25dd6225c6537
+      internalID: 596238948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_21
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1403
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed3ab32343528c4fa16bec292335b8b
+      internalID: 1466164701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1403
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abe8c083a5c88643a0aa63320b2a7d5
+      internalID: -290678370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1402
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6158e347c814f4845a0ed8eda52dee6b
+      internalID: 1229479769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1145
+        width: 81
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65165547aad30140ab16885a4648bd3
+      internalID: 1185774073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_25
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1145
+        width: 81
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960398258f02d97498b5504c473e1c6f
+      internalID: -1077083084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_26
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1144
+        width: 81
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944ef5be4b1ac2c40bb11ddc6986a1c9
+      internalID: -284727153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_27
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1143
+        width: 81
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc38b53a41e73940b65237125623fdb
+      internalID: 2113202166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1143
+        width: 81
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a278fd464f8dac4ab6586cb58e28a65
+      internalID: 1126104788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_29
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1143
+        width: 81
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c3780b8bf0ba140a3a497c370ec8e3
+      internalID: -1475303135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_30
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1143
+        width: 81
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdceb69600654e4b9df1951c393e701
+      internalID: -938892297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_31
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1143
+        width: 81
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592a01e96def05a42bb950916f6b53e8
+      internalID: -1367761565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_32
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 888
+        width: 81
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a9d507c8464be45b179bdd75adbd3f
+      internalID: -217694122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_33
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 889
+        width: 81
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b045396d219af042ac865cac867452b
+      internalID: -1453688237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_34
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 889
+        width: 81
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d402d4b35ebfdb45b9b5ccecc1a9468
+      internalID: -1262886737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_35
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 890
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34c8a957ecbbdd438bff9754ad1a1ac
+      internalID: -328045249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_36
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 891
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3ab01e1541dea4c851d2aaa1ee7602
+      internalID: -1954121345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_37
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 891
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbc3db72a9b45a4d9f874ac220a0f82
+      internalID: -1941142527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_38
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 891
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe03512b05356d947b5b7a1f7b430b67
+      internalID: 224256087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-idle_39
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 891
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb2b9f895e43d34f80337d7a68c5984
+      internalID: 1238354146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a083b28c5b689794cb8ba507a8059a27
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mc-boxing-crouch-idle_0: -2006297051
+      mc-boxing-crouch-idle_1: -1937334565
+      mc-boxing-crouch-idle_10: 802063340
+      mc-boxing-crouch-idle_11: 854895868
+      mc-boxing-crouch-idle_12: 1909282131
+      mc-boxing-crouch-idle_13: 46977683
+      mc-boxing-crouch-idle_14: 1910941213
+      mc-boxing-crouch-idle_15: -2084626918
+      mc-boxing-crouch-idle_16: 260265165
+      mc-boxing-crouch-idle_17: -1300497484
+      mc-boxing-crouch-idle_18: 766277671
+      mc-boxing-crouch-idle_19: 1385945580
+      mc-boxing-crouch-idle_2: 1714461160
+      mc-boxing-crouch-idle_20: 596238948
+      mc-boxing-crouch-idle_21: 1466164701
+      mc-boxing-crouch-idle_22: -290678370
+      mc-boxing-crouch-idle_23: 1229479769
+      mc-boxing-crouch-idle_24: 1185774073
+      mc-boxing-crouch-idle_25: -1077083084
+      mc-boxing-crouch-idle_26: -284727153
+      mc-boxing-crouch-idle_27: 2113202166
+      mc-boxing-crouch-idle_28: 1126104788
+      mc-boxing-crouch-idle_29: -1475303135
+      mc-boxing-crouch-idle_3: 983534508
+      mc-boxing-crouch-idle_30: -938892297
+      mc-boxing-crouch-idle_31: -1367761565
+      mc-boxing-crouch-idle_32: -217694122
+      mc-boxing-crouch-idle_33: -1453688237
+      mc-boxing-crouch-idle_34: -1262886737
+      mc-boxing-crouch-idle_35: -328045249
+      mc-boxing-crouch-idle_36: -1954121345
+      mc-boxing-crouch-idle_37: -1941142527
+      mc-boxing-crouch-idle_38: 224256087
+      mc-boxing-crouch-idle_39: 1238354146
+      mc-boxing-crouch-idle_4: 1615994294
+      mc-boxing-crouch-idle_5: -605140433
+      mc-boxing-crouch-idle_6: -1221340290
+      mc-boxing-crouch-idle_7: -1221781877
+      mc-boxing-crouch-idle_8: -381845788
+      mc-boxing-crouch-idle_9: -1599123998
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
