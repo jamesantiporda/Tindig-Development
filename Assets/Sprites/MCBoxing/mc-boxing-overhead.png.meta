@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,700 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-boxing-overhead_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1917
+        width: 56
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f21bba54d21a342b4af951f58e425e
+      internalID: 113984464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1916
+        width: 60
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f445816e7d7451b4386621363299eaaa
+      internalID: 93919416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1916
+        width: 66
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e123d8d81f6a36843b1047e1f81e5693
+      internalID: -530323369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_3
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1915
+        width: 70
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c80dddaa334a3d40bee7060bd1248b6
+      internalID: -1253847924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_4
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1915
+        width: 71
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b54d58fd9fca543a9af99deb3635e5
+      internalID: -2078092803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_5
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1916
+        width: 73
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fea6566921fd7a4c8764d2af48be288
+      internalID: -91896793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_6
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1914
+        width: 74
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d461b223e49da354c9699bde18813f0e
+      internalID: -881163078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_7
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1912
+        width: 72
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac65db18f0dcc9a499d2bc1779fd72af
+      internalID: 116823975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1655
+        width: 71
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ab085594f4268438d796e24d60c960
+      internalID: -2022563026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_9
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1653
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a786f7586bafbf94eac215345581bf62
+      internalID: 143623943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_10
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1775
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f28b00dba1f44e4a8253f17ea5ea452
+      internalID: -1895542763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_11
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1656
+        width: 70
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cc119c5cc7912419159ffbaf8781ec
+      internalID: -276853986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_12
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1664
+        width: 71
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba83e541cd02494d9b94ffbd03898b5
+      internalID: 267815084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_13
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1670
+        width: 75
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0198e97178f7554da8f46b9b10545cc
+      internalID: 585111973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_14
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1659
+        width: 67
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abdc337e9a50fd4bb2a14ef164c2144
+      internalID: 1840847554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_15
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1677
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9861902378c4af7469e9023a4026ee01
+      internalID: 1363615272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_16
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1675
+        width: 72
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f81e36d4f4e8dc41b4638f69ecd440c
+      internalID: 1534401662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_17
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1417
+        width: 71
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd55cbc2ba49af47a6cfd0622adbb3c
+      internalID: -2034034791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_18
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1415
+        width: 69
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca257b257af15b4692a09e3928fb6fb
+      internalID: -695191178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_19
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1413
+        width: 66
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e716e9d2a0316c4449e94ef9778d3d64
+      internalID: 1979699135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_20
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1412
+        width: 64
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcae7a23e4fbead4ba35c56321caeb62
+      internalID: -1438182142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_21
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1410
+        width: 62
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799d7e455aaa7d844b0bcc37540e5269
+      internalID: 885830367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_22
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1409
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551896d8debdc1541b5b87d88c9080fe
+      internalID: 491054033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_23
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1408
+        width: 62
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a8c7ba2222a8048a8e0a5f243fe8d7
+      internalID: 1865767998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_24
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1407
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677b4522dc1f1804e8719f965d0670b5
+      internalID: -1226254960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_25
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1151
+        width: 64
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01e1d5cfe5c8664fb197de61e0577a8
+      internalID: -1980284346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_26
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1150
+        width: 63
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b17f7363420be4a84d0458bb395e2f
+      internalID: 1250017026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_27
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1150
+        width: 62
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e7009ceb0b22c47be3f402360b5f6b
+      internalID: 1064250703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_28
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1149
+        width: 60
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3ba9a59b108c24d8e6b05fb395e900
+      internalID: 1241079179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_29
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1149
+        width: 58
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e26113ca5b4414f876b004df219e57
+      internalID: -981576493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-overhead_30
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1149
+        width: 56
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e91ce05ff80d84449fb572f109d7536
+      internalID: -2081536012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3436a6ebdff45c14680b8377fe0b47a4
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-boxing-overhead_0: 113984464
+      mc-boxing-overhead_1: 93919416
+      mc-boxing-overhead_10: -1895542763
+      mc-boxing-overhead_11: -276853986
+      mc-boxing-overhead_12: 267815084
+      mc-boxing-overhead_13: 585111973
+      mc-boxing-overhead_14: 1840847554
+      mc-boxing-overhead_15: 1363615272
+      mc-boxing-overhead_16: 1534401662
+      mc-boxing-overhead_17: -2034034791
+      mc-boxing-overhead_18: -695191178
+      mc-boxing-overhead_19: 1979699135
+      mc-boxing-overhead_2: -530323369
+      mc-boxing-overhead_20: -1438182142
+      mc-boxing-overhead_21: 885830367
+      mc-boxing-overhead_22: 491054033
+      mc-boxing-overhead_23: 1865767998
+      mc-boxing-overhead_24: -1226254960
+      mc-boxing-overhead_25: -1980284346
+      mc-boxing-overhead_26: 1250017026
+      mc-boxing-overhead_27: 1064250703
+      mc-boxing-overhead_28: 1241079179
+      mc-boxing-overhead_29: -981576493
+      mc-boxing-overhead_3: -1253847924
+      mc-boxing-overhead_30: -2081536012
+      mc-boxing-overhead_4: -2078092803
+      mc-boxing-overhead_5: -91896793
+      mc-boxing-overhead_6: -881163078
+      mc-boxing-overhead_7: 116823975
+      mc-boxing-overhead_8: -2022563026
+      mc-boxing-overhead_9: 143623943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

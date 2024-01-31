@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,766 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_0
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 2004
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9105e5c4cd7955d43ba5e16a05f6856d
+      internalID: -601930578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_1
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1987
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c717885947a4a0c4f94cb3a3248184cd
+      internalID: 1097963353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_2
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 1981
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39e580e8e1927d43833ae341b74683a
+      internalID: 346160919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_3
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1962
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb6f875812e8aa4dbe16a07d178b482
+      internalID: -773389879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1887
+        width: 57
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838f2423801d8942bd0b002bbe7b1fb
+      internalID: -784050161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1887
+        width: 64
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c633ce2f2d11650438708d3bfe49fde2
+      internalID: -1693869506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_6
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1887
+        width: 66
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5841fd139af8de4d89ef41fccea48da
+      internalID: 849716389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_7
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1887
+        width: 57
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eb50fe8a4825943b6c424d0ce6030d
+      internalID: -1099456184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_8
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1887
+        width: 47
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47a0ea32d5a2fa488da6b0e91d64867
+      internalID: 286403976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_9
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1887
+        width: 57
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d226dd8ec0377b04fb4e21e24dfdf1e6
+      internalID: -1700041998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_10
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1888
+        width: 67
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69ac704931306a40a4dfb52aadf1862
+      internalID: -2124679475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_11
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1888
+        width: 77
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d73ed835d54064e8a37c8ac6f7a002
+      internalID: -1967827570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_12
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1955
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a246401942cd8478d7996094e29a0d
+      internalID: -1504321393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1633
+        width: 86
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2b41def3004bf479bc65b0266b82a8
+      internalID: 722648644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1598
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ffcc666838d0746b856bc706fc8434
+      internalID: -858315123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_15
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1633
+        width: 89
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696f3e9afbccaee4d806ba62b884c302
+      internalID: -1340415573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_16
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1600
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03d2079dd80c484b92ff9a3eb9d4966
+      internalID: -1326699370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_17
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1633
+        width: 89
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f725025bbfa3646aa6c410c953033d
+      internalID: 131400520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_18
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1605
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec04ad54d229ba340bf833f6340bb0bf
+      internalID: -1085545440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_19
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1633
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a7c47b81d3e484292d83943ff60f3e
+      internalID: -1556194895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_20
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1591
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1272d504ce873479152865be910dfe
+      internalID: -269066651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_21
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1633
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a817f4e7ebf0a4ba725b47f0704b76
+      internalID: 1502008641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_22
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1593
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ae1e6f0fcd0f444a4a4e0ae18866b6
+      internalID: -1806771769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_23
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1633
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4cfe44399b7e54c8e527153681fde5
+      internalID: 2024503024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_24
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1614
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28880bede58ca334a97c0fdfa3cf1860
+      internalID: -537207380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_25
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1633
+        width: 91
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c960a145dbfcfd84da4a19085d8c45bf
+      internalID: 1422194597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_26
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1603
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0055fd1bc83394a870968e41a588c6
+      internalID: -22126596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_27
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1633
+        width: 86
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912e85dd6c8f70245b02a009748c530c
+      internalID: 331616173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_28
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1597
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9381d6394144842900931bfa080e50
+      internalID: 1314962854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_29
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1376
+        width: 81
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de4ab3d9ca32ed4eb93d438d437ded5
+      internalID: 1387653554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1341
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32358c1172f95ae4a81025154feb8bc9
+      internalID: 600000918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_31
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1376
+        width: 72
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fa061a99395284489a619092aa6ecb
+      internalID: -829429041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_32
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1375
+        width: 64
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c99c63ab335834bb70f7c3cc2c6ab1
+      internalID: 2112168584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-jump-light_33
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1375
+        width: 57
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e841040b709ae4e931ec4405b7581d
+      internalID: -909169834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f470e4faa4a237942b84ac8e6625a411
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-boxing-jump-light_0: -601930578
+      mc-boxing-jump-light_1: 1097963353
+      mc-boxing-jump-light_10: -2124679475
+      mc-boxing-jump-light_11: -1967827570
+      mc-boxing-jump-light_12: -1504321393
+      mc-boxing-jump-light_13: 722648644
+      mc-boxing-jump-light_14: -858315123
+      mc-boxing-jump-light_15: -1340415573
+      mc-boxing-jump-light_16: -1326699370
+      mc-boxing-jump-light_17: 131400520
+      mc-boxing-jump-light_18: -1085545440
+      mc-boxing-jump-light_19: -1556194895
+      mc-boxing-jump-light_2: 346160919
+      mc-boxing-jump-light_20: -269066651
+      mc-boxing-jump-light_21: 1502008641
+      mc-boxing-jump-light_22: -1806771769
+      mc-boxing-jump-light_23: 2024503024
+      mc-boxing-jump-light_24: -537207380
+      mc-boxing-jump-light_25: 1422194597
+      mc-boxing-jump-light_26: -22126596
+      mc-boxing-jump-light_27: 331616173
+      mc-boxing-jump-light_28: 1314962854
+      mc-boxing-jump-light_29: 1387653554
+      mc-boxing-jump-light_3: -773389879
+      mc-boxing-jump-light_30: 600000918
+      mc-boxing-jump-light_31: -829429041
+      mc-boxing-jump-light_32: 2112168584
+      mc-boxing-jump-light_33: -909169834
+      mc-boxing-jump-light_4: -784050161
+      mc-boxing-jump-light_5: -1693869506
+      mc-boxing-jump-light_6: 849716389
+      mc-boxing-jump-light_7: -1099456184
+      mc-boxing-jump-light_8: 286403976
+      mc-boxing-jump-light_9: -1700041998
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

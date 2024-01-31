@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,634 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-boxing-sweep_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1915
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290fd0072accf4c448acd2c8618da938
+      internalID: -811560790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1915
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c8af1c350c288478bea0fbd07745cb
+      internalID: -807208603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1915
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fa449e7e2f4254ea2449c844cc1362
+      internalID: -287396006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_3
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1914
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99472e59f82cf048b7765ab3d3c9a56
+      internalID: -882626746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_4
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1913
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60298668506a474f944954acadee58d
+      internalID: 1865883619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_5
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1913
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11157b6017a9fc479368b8796809941
+      internalID: -1214561511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_6
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1913
+        width: 91
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd205beee4655e4b805ef0621866f97
+      internalID: -647005491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_7
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1913
+        width: 105
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3423d0faad8d842bfb7a44f45436fb
+      internalID: -263325283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1658
+        width: 119
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d5feb989b00d24cad8441600e1bb45
+      internalID: 871217314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1619
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0426e10158dda0048aec40c02181ade3
+      internalID: 957491847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1657
+        width: 121
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f62a34a81a5ca4b83e498c63c1c740
+      internalID: 279679854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1630
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5916f4e0860684f90efce7360cd311
+      internalID: -1168642388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_12
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1620
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846a7f4b3effe46439458bc90cad732f
+      internalID: 1346264556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_13
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1657
+        width: 116
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd385ed13c0edd44fb53259d448bd1d5
+      internalID: -1193395731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_14
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1658
+        width: 113
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb7f87f7096939498fad0a01a80d80e
+      internalID: -356024187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_15
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1657
+        width: 109
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17c216b597cd464cb588fb0ec05e2ef
+      internalID: -908880459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_16
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1656
+        width: 104
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6f44dc4d02f7c48bca51343e31129d
+      internalID: -344706853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_17
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1655
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef7ace89ce4b994e851b6645f3a0c2b
+      internalID: 428153904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_18
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1655
+        width: 95
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c167baaeaa45042a32b813504bdae4
+      internalID: 1853061391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1399
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59151b71678a736428991ab2f4cdac03
+      internalID: 557411882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1399
+        width: 87
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72ae053087d9f74fb298cab329152d4
+      internalID: 537075602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_21
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1399
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c0a7c020626a64896addaa24b05aae
+      internalID: 1138349737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_22
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1400
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de3ebfd17a10e642b6e805c1ec39b77
+      internalID: -1010679556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_23
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1401
+        width: 82
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d1118b03446e642b86b5f86fbe245e
+      internalID: -1528039457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_24
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1402
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9333dbc85491c044ea0d2f0de4a70587
+      internalID: 228651768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_25
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1403
+        width: 78
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd14c919ef48ca44abe99acd819e477e
+      internalID: 45411765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_26
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1403
+        width: 77
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcd7f9b0c54c7f46a3ae53cabeb5aed
+      internalID: 1373377415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-sweep_27
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1147
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ca1e34fc5fe394eb2a8f731cfa3cd9
+      internalID: 1071858084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2c3b0ce6262f4b9489c09bd3023e2404
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-boxing-sweep_0: -811560790
+      mc-boxing-sweep_1: -807208603
+      mc-boxing-sweep_10: 279679854
+      mc-boxing-sweep_11: -1168642388
+      mc-boxing-sweep_12: 1346264556
+      mc-boxing-sweep_13: -1193395731
+      mc-boxing-sweep_14: -356024187
+      mc-boxing-sweep_15: -908880459
+      mc-boxing-sweep_16: -344706853
+      mc-boxing-sweep_17: 428153904
+      mc-boxing-sweep_18: 1853061391
+      mc-boxing-sweep_19: 557411882
+      mc-boxing-sweep_2: -287396006
+      mc-boxing-sweep_20: 537075602
+      mc-boxing-sweep_21: 1138349737
+      mc-boxing-sweep_22: -1010679556
+      mc-boxing-sweep_23: -1528039457
+      mc-boxing-sweep_24: 228651768
+      mc-boxing-sweep_25: 45411765
+      mc-boxing-sweep_26: 1373377415
+      mc-boxing-sweep_27: 1071858084
+      mc-boxing-sweep_3: -882626746
+      mc-boxing-sweep_4: 1865883619
+      mc-boxing-sweep_5: -1214561511
+      mc-boxing-sweep_6: -647005491
+      mc-boxing-sweep_7: -263325283
+      mc-boxing-sweep_8: 871217314
+      mc-boxing-sweep_9: 957491847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

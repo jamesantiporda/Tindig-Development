@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,744 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1918
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760215d9d06c1cb4dbafaa751dcd75e4
+      internalID: -293695242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1918
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe58fbd6d9d4d404fa9a3d5dc9ad06ec
+      internalID: -1629901335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1917
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197868b7b82102941941668eca9fe10c
+      internalID: -845541713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_3
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1916
+        width: 78
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dabfd1db3be6f549be616c761fae1a7
+      internalID: 1141492855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_4
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1915
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7af08a1d047b47ac651d87e0ebb16
+      internalID: -883013498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_5
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1915
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fbe9d703c99e547832d444e55de40b
+      internalID: -501044428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_6
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1914
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f802e3b38020a0545b61f225337efd8b
+      internalID: -1175397631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_7
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1914
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5581e177fd09530448d3001efcfcf6e2
+      internalID: -1639596731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1658
+        width: 103
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e9a30edbbc57a4faada02583cb6cfd
+      internalID: -2127187314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1620
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3ceb455de2b7a44975d46f849ccdaf
+      internalID: 392027476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_10
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1658
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15764df612e410a47bf929bac88cb1ae
+      internalID: 837667315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_11
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1627
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8558f4cce28b74f97e378cfd9010b0
+      internalID: 79529278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_12
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1658
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8957848eea2d864f9c26db955e294d9
+      internalID: 466882017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_13
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1618
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11e75f351e688e4c8287e45235459c1
+      internalID: -212006887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_14
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1659
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1caeb6cd0de6274ba24068e11827285
+      internalID: -1771664228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_15
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1619
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a34e10afea5b743b6cbb6e438e4ec8
+      internalID: -842729876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_16
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1658
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8423f1b0976674cbd8ac6ac9a602d5
+      internalID: 1713007107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_17
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1582
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d88a0aba5fa60f4aab4e0cd4eb0430c
+      internalID: -1686704369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_18
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1658
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d2471dd0c040c4bae642fabc90a9dd
+      internalID: -113279670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_19
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1623
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15e50196b0bedd469fb72fa9f47257d
+      internalID: -604837784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_20
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1658
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edddc1ad9593f2e46bd5c13b446e27e1
+      internalID: 1751664293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_21
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1632
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da55cf21f78244448476ec1ae4a9d01
+      internalID: -1909994572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_22
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1656
+        width: 110
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a431e6a4b1c3c504ca95e0f4591fa622
+      internalID: -1635113472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_23
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1617
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afa1f83710ab9048bb97cfe377cd342
+      internalID: -1653734436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_24
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1399
+        width: 105
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff10f05abf198984f836d7a33fb83746
+      internalID: -1860831160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1398
+        width: 102
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dc70e67fbdd374192f265aac3cae2b
+      internalID: 417131718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1398
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e28069a0da68d342879ce81cafa231d
+      internalID: -14948130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_27
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1398
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f29cf79e41bce04ea046bcda4951f15
+      internalID: -1641289489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_28
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1399
+        width: 86
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70427f0a19c38a04ebe98f7764dad23a
+      internalID: 1696868106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_29
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1401
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f4a648f344bbd4781362f7cd293b5d
+      internalID: 1082332451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_30
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1404
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa0664b7599ed6429f208ed23d8203c
+      internalID: -498063711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_31
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1406
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9dda3cc6774a846bb060e2b0bdcd43
+      internalID: 530549895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-medium_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1150
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4224034e33fcf914e9e2a32e45697a01
+      internalID: 904499125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 289c044e35b8f234ab0f7e4f0d0d4869
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-boxing-crouch-medium_0: -293695242
+      mc-boxing-crouch-medium_1: -1629901335
+      mc-boxing-crouch-medium_10: 837667315
+      mc-boxing-crouch-medium_11: 79529278
+      mc-boxing-crouch-medium_12: 466882017
+      mc-boxing-crouch-medium_13: -212006887
+      mc-boxing-crouch-medium_14: -1771664228
+      mc-boxing-crouch-medium_15: -842729876
+      mc-boxing-crouch-medium_16: 1713007107
+      mc-boxing-crouch-medium_17: -1686704369
+      mc-boxing-crouch-medium_18: -113279670
+      mc-boxing-crouch-medium_19: -604837784
+      mc-boxing-crouch-medium_2: -845541713
+      mc-boxing-crouch-medium_20: 1751664293
+      mc-boxing-crouch-medium_21: -1909994572
+      mc-boxing-crouch-medium_22: -1635113472
+      mc-boxing-crouch-medium_23: -1653734436
+      mc-boxing-crouch-medium_24: -1860831160
+      mc-boxing-crouch-medium_25: 417131718
+      mc-boxing-crouch-medium_26: -14948130
+      mc-boxing-crouch-medium_27: -1641289489
+      mc-boxing-crouch-medium_28: 1696868106
+      mc-boxing-crouch-medium_29: 1082332451
+      mc-boxing-crouch-medium_3: 1141492855
+      mc-boxing-crouch-medium_30: -498063711
+      mc-boxing-crouch-medium_31: 530549895
+      mc-boxing-crouch-medium_32: 904499125
+      mc-boxing-crouch-medium_4: -883013498
+      mc-boxing-crouch-medium_5: -501044428
+      mc-boxing-crouch-medium_6: -1175397631
+      mc-boxing-crouch-medium_7: -1639596731
+      mc-boxing-crouch-medium_8: -2127187314
+      mc-boxing-crouch-medium_9: 392027476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

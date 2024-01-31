@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,1008 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-boxing-lunge_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1917
+        width: 69
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e18d1e34b50d49468e97ff264179036
+      internalID: -1927471801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1914
+        width: 69
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b5c5837b9f5dc4d85f17a880d83ee5
+      internalID: 638900997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1911
+        width: 69
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21f7bcc39a0b9e4aa26b3f201e349ec
+      internalID: -1965683256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1910
+        width: 74
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6826d1a36736aa5459e2350c5a48d76d
+      internalID: 1239129676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_4
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1912
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ffc71950688e94cb48737e344528cf
+      internalID: 536127519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_5
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1912
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e3a01b099cade45b174f5775d99042
+      internalID: 362746823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_6
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1913
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487041f244f45c94f8cc044081d13741
+      internalID: 43468075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_7
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1913
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1103f058a4236244a434f153e6c031f
+      internalID: -878208525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1658
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4107ee0a66c9665409ca210e0554df41
+      internalID: -1745724622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1658
+        width: 104
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56078acde8531241b1cfede00bd1b2d
+      internalID: -1155744085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_10
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1658
+        width: 101
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb4d89f8f06a5343a48b99a4d15abb9
+      internalID: -2080409089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_11
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1659
+        width: 99
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52406c16bd083bc4b8ecfebede642d60
+      internalID: 981957576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_12
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1660
+        width: 95
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f59bfb9cfc76849a432b4c79e8fe92
+      internalID: 689674559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_13
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1660
+        width: 91
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9c10097f1d3a540903c8f2ae6253c0
+      internalID: 334354965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_14
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1661
+        width: 88
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbab57591238caf408b0ed5b45d211cb
+      internalID: -11646495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_15
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1661
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0e564f9b75acd449ef0ea8c589eee2
+      internalID: 1188957074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1406
+        width: 83
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990ec07917c820c4d825fd8497ab24e2
+      internalID: 2082076908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_17
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1407
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782b1db74fc684d4ca8d0d8b221537ce
+      internalID: -1559098847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_18
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1408
+        width: 79
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e752d53b6d1ddd3478791d0537310a70
+      internalID: 639845880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_19
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1409
+        width: 76
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5d03391e432f8479837e6538feee5e
+      internalID: -2062161228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_20
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1407
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab13094579b509418ddda210bc9f50a
+      internalID: 1957567011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_21
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1406
+        width: 77
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b150be39bddb1b46a9961baff59ec50
+      internalID: 431865225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_22
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1405
+        width: 74
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4db164e4aee7146bcc4ca476dfda18
+      internalID: 1531883184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_23
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1405
+        width: 72
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2e496e283f89e45b03fdd557a94f30
+      internalID: -1409764485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_24
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1150
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30827eddb45a25c408c1dc2f41f4cbba
+      internalID: -1945597608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_25
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1148
+        width: 97
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba3d3b917a42ba429826cfd6ed3d535
+      internalID: 1971209194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_26
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1150
+        width: 119
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8512026713485d540baf4c4b6abccc0f
+      internalID: -1788831257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_27
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1154
+        width: 138
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ac5dd04eb279144877b2da362ec948
+      internalID: 2024994523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_28
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1111
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a415e132ff40a4481618d0ec4aec32
+      internalID: -1960510114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_29
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1160
+        width: 148
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda46e33f67d719408e7de14826d57ed
+      internalID: 1170043539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1128
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1785c1471039c48911a5cb0bb9eece
+      internalID: 66988330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_31
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1102
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fad093bea4eba47a711c30e2b0eb71
+      internalID: 973786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_32
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1169
+        width: 150
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678270a367ed145438ee6906ce1e2ad9
+      internalID: 1615638531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_33
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1127
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41676db040bebe14ca690d54ff223b1e
+      internalID: -422776765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_34
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1104
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd9dec01d1023145b4f74029d2cf165
+      internalID: 1641245134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_35
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1159
+        width: 138
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd2b2ecc0adf13439ebea0453b0abca
+      internalID: 1841505079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_36
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1152
+        width: 121
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3beda7acc8c6148b5a04ea35fda12e
+      internalID: 630287298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_37
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 893
+        width: 104
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330c1abd6be50db49b5c50b1ee02129c
+      internalID: -1408370966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_38
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 893
+        width: 88
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19668a51e3d68d9489fb9f9f80f26547
+      internalID: -1665449573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_39
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 891
+        width: 70
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f76c16cfac06845b646a4365b59375
+      internalID: -924627247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_40
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 891
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888b5d3c81b85f64b80458060b7763fe
+      internalID: 1745484111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_41
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 892
+        width: 67
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c16f88e9f8319d40b8bd59bff3349eb
+      internalID: -528770181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_42
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 892
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e29ae1669015b49bdf9952b0e99c85
+      internalID: -155199332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_43
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 893
+        width: 61
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7378d6d32c177c4e80067ce5c3fd477
+      internalID: -1200696253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-lunge_44
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 893
+        width: 56
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e451e00b509ac684b91f8bdbfca5cc64
+      internalID: 1731137555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 78fc378a0f7d7214f9db4078cbd48cff
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-boxing-lunge_0: -1927471801
+      mc-boxing-lunge_1: 638900997
+      mc-boxing-lunge_10: -2080409089
+      mc-boxing-lunge_11: 981957576
+      mc-boxing-lunge_12: 689674559
+      mc-boxing-lunge_13: 334354965
+      mc-boxing-lunge_14: -11646495
+      mc-boxing-lunge_15: 1188957074
+      mc-boxing-lunge_16: 2082076908
+      mc-boxing-lunge_17: -1559098847
+      mc-boxing-lunge_18: 639845880
+      mc-boxing-lunge_19: -2062161228
+      mc-boxing-lunge_2: -1965683256
+      mc-boxing-lunge_20: 1957567011
+      mc-boxing-lunge_21: 431865225
+      mc-boxing-lunge_22: 1531883184
+      mc-boxing-lunge_23: -1409764485
+      mc-boxing-lunge_24: -1945597608
+      mc-boxing-lunge_25: 1971209194
+      mc-boxing-lunge_26: -1788831257
+      mc-boxing-lunge_27: 2024994523
+      mc-boxing-lunge_28: -1960510114
+      mc-boxing-lunge_29: 1170043539
+      mc-boxing-lunge_3: 1239129676
+      mc-boxing-lunge_30: 66988330
+      mc-boxing-lunge_31: 973786
+      mc-boxing-lunge_32: 1615638531
+      mc-boxing-lunge_33: -422776765
+      mc-boxing-lunge_34: 1641245134
+      mc-boxing-lunge_35: 1841505079
+      mc-boxing-lunge_36: 630287298
+      mc-boxing-lunge_37: -1408370966
+      mc-boxing-lunge_38: -1665449573
+      mc-boxing-lunge_39: -924627247
+      mc-boxing-lunge_4: 536127519
+      mc-boxing-lunge_40: 1745484111
+      mc-boxing-lunge_41: -528770181
+      mc-boxing-lunge_42: -155199332
+      mc-boxing-lunge_43: -1200696253
+      mc-boxing-lunge_44: 1731137555
+      mc-boxing-lunge_5: 362746823
+      mc-boxing-lunge_6: 43468075
+      mc-boxing-lunge_7: -878208525
+      mc-boxing-lunge_8: -1745724622
+      mc-boxing-lunge_9: -1155744085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

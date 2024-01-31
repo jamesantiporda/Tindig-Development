@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,458 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1918
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066856def151f7a4db059cdf300ad30d
+      internalID: -1838191243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1918
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f947ac184ad576442b5e8f430544279b
+      internalID: 831592309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1918
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053887a50a5a83f42a74e05279df756e
+      internalID: 813021629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_3
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1916
+        width: 103
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f973f2de2b8694499ec26bb5f272c6
+      internalID: 525968938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_4
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1914
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2894adf1919fc46805f033db5fb214
+      internalID: 898152775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_5
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1914
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebad6e820db665343bf5977dcdfa8a74
+      internalID: 1014476469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_6
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1914
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625faba8bc67f3143b8f01eaf9e31f3c
+      internalID: -1241417419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_7
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1914
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21c4e2adaa6173488ffeb1e4fff3e3d
+      internalID: 1871819288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1658
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db8740592de6fa48a473b2ecfe812a5
+      internalID: 1553089194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1658
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9845dad3d586f2d4d96dab60a9362258
+      internalID: -382739317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_10
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1658
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237fe70aedf1d7f409b938b9db30fea4
+      internalID: 889492857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_11
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1658
+        width: 107
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c80c93d9959ac14698fa012d0188344
+      internalID: -1731868112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_12
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1658
+        width: 103
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea47005ba4614a44a0875f66d12d2e1
+      internalID: -261068203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_13
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1658
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025117e5949d6a144a5d91bc01875086
+      internalID: 1162778285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_14
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1658
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bc8d30fa1141d4faed119ab40f93ed
+      internalID: 1549065018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_15
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1659
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c800e9f324109b64e88bf346820e1c77
+      internalID: 866421888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1405
+        width: 87
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6433e0d81f51754f890b9090d22ffa5
+      internalID: 1305637476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1406
+        width: 81
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c515100843e82c8408041c9c46a9ac72
+      internalID: 1819797692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_18
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1406
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e9c9046c8753942bc0b454489e1d07
+      internalID: 1245473180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-boxing-crouch-light_19
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1406
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18d769f7a54b2d4dae1099d166a0761
+      internalID: 2014524315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9aa7fb2335d54c74d839e540ea38b3d9
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-boxing-crouch-light_0: -1838191243
+      mc-boxing-crouch-light_1: 831592309
+      mc-boxing-crouch-light_10: 889492857
+      mc-boxing-crouch-light_11: -1731868112
+      mc-boxing-crouch-light_12: -261068203
+      mc-boxing-crouch-light_13: 1162778285
+      mc-boxing-crouch-light_14: 1549065018
+      mc-boxing-crouch-light_15: 866421888
+      mc-boxing-crouch-light_16: 1305637476
+      mc-boxing-crouch-light_17: 1819797692
+      mc-boxing-crouch-light_18: 1245473180
+      mc-boxing-crouch-light_19: 2014524315
+      mc-boxing-crouch-light_2: 813021629
+      mc-boxing-crouch-light_3: 525968938
+      mc-boxing-crouch-light_4: 898152775
+      mc-boxing-crouch-light_5: 1014476469
+      mc-boxing-crouch-light_6: -1241417419
+      mc-boxing-crouch-light_7: 1871819288
+      mc-boxing-crouch-light_8: 1553089194
+      mc-boxing-crouch-light_9: -382739317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
