@@ -205,6 +205,7 @@ MonoBehaviour:
   overheadInput: 105
   specialInput: 109
   isMC: 1
+  isFinalBoss: 0
   mcInput: 119
   boxingInput: 100
   sikaranInput: 115
@@ -218,9 +219,14 @@ MonoBehaviour:
   boxingHitPoint: {fileID: 2156666404530165652}
   sikaranHitPoint: {fileID: 4453952506168354288}
   arnisHitPoint: {fileID: 4107799446352293774}
+  styleIcons: {fileID: 0}
   animator: {fileID: 8446320551633434379}
   player2Combat: {fileID: 0}
   isCPU: 0
+  isLightGrunt: 0
+  isMediumGrunt: 0
+  isHeavyGrunt: 0
+  isTutorial: 0
   easy: 0
   medium: 0
   hard: 0
@@ -313,16 +319,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1169293858241037341, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: m_Color.g
-      value: 0.03058815
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1169293858241037341, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1169293858241037341, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2775572473268463904, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 48a5818015cb8ac4c9ab1a717b15143b, type: 2}
     - target: {fileID: 3316183941915975621, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: player
       value: 
@@ -590,15 +600,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6025130597586546489, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6025130597586546489, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6025130597586546489, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Color.r
-      value: 0.8679245
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6025130597586546489, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Enabled
@@ -608,6 +618,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7374911961728909003, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 14180cd6f7044ac46a3cb44ee68b827c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -722,15 +736,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6025130597586546489, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6025130597586546489, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6025130597586546489, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Color.r
-      value: 0.8679245
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6025130597586546489, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Enabled
@@ -740,6 +754,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7374911961728909003, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a03c1647b02da1d4d86566887ab39514, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -3384,7 +3384,7 @@ PrefabInstance:
     - target: {fileID: 3646356053614241698, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 0fc335ad1cf2b7240a56a8f9d9f60b6f, type: 2}
+      objectReference: {fileID: 9100000, guid: 14180cd6f7044ac46a3cb44ee68b827c, type: 2}
     - target: {fileID: 3796096698182206135, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: hitPoint
       value: 
@@ -6291,6 +6291,7 @@ MonoBehaviour:
   isGrunt: 0
   gruntStyle: 0
   gruntType: 0
+  unlocksNextFighters: 0
 --- !u!4 &1481186392
 Transform:
   m_ObjectHideFlags: 0

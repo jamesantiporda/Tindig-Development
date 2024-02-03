@@ -1014,6 +1014,11 @@ MonoBehaviour:
   medium: 0
   hard: 1
   mahoraga: 0
+  toggleLight: 1
+  toggleMedium: 1
+  toggleHeavy: 1
+  toggleOverhead: 1
+  toggleSpecial: 1
 --- !u!95 &182878663 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3984785734900977482, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
@@ -1975,7 +1980,7 @@ PrefabInstance:
     - target: {fileID: 2775572473268463904, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 1daf3d4800384a64ca346144c3c50ddd, type: 2}
+      objectReference: {fileID: 9100000, guid: 48a5818015cb8ac4c9ab1a717b15143b, type: 2}
     - target: {fileID: 3316183941915975621, guid: 8dc449686eb42dd409f0d32d00e4bfaa, type: 3}
       propertyPath: hard
       value: 1
@@ -4625,6 +4630,10 @@ MonoBehaviour:
   isBoxingBoss: 1
   isSikaranBoss: 1
   isArnisBoss: 1
+  isGrunt: 0
+  gruntStyle: 0
+  gruntType: 0
+  unlocksNextFighters: 0
 --- !u!4 &1481186392
 Transform:
   m_ObjectHideFlags: 0
@@ -4884,6 +4893,9 @@ MonoBehaviour:
   animator: {fileID: 182878663}
   player2Combat: {fileID: 7392941544967835218}
   isCPU: 0
+  isLightGrunt: 0
+  isMediumGrunt: 0
+  isHeavyGrunt: 0
   isTutorial: 0
   easy: 0
   medium: 0
@@ -4981,6 +4993,11 @@ MonoBehaviour:
   medium: 0
   hard: 1
   mahoraga: 0
+  toggleLight: 1
+  toggleMedium: 1
+  toggleHeavy: 1
+  toggleOverhead: 1
+  toggleSpecial: 1
 --- !u!1 &1564619402
 GameObject:
   m_ObjectHideFlags: 0
@@ -6215,7 +6232,7 @@ PrefabInstance:
     - target: {fileID: 7374911961728909003, guid: f4063f1138cb56d479ddd532f0a9f5fc, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 0fc335ad1cf2b7240a56a8f9d9f60b6f, type: 2}
+      objectReference: {fileID: 9100000, guid: 14180cd6f7044ac46a3cb44ee68b827c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6648,7 +6665,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -661489462, guid: 4e09571c483837642839180de015bac5, type: 3}
-  m_Color: {r: 0.8666667, g: 0.79237133, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -6795,6 +6812,11 @@ MonoBehaviour:
   medium: 0
   hard: 0
   mahoraga: 1
+  toggleLight: 1
+  toggleMedium: 1
+  toggleHeavy: 1
+  toggleOverhead: 1
+  toggleSpecial: 1
 --- !u!50 &1312958116722386726
 Rigidbody2D:
   serializedVersion: 4
@@ -6832,7 +6854,7 @@ Animator:
   m_GameObject: {fileID: 4508704591228011219}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2307f1cb0f5de9f408a2662f71ff4540, type: 2}
+  m_Controller: {fileID: 9100000, guid: a03c1647b02da1d4d86566887ab39514, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7102,7 +7124,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 680814649, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
-  m_Color: {r: 0, g: 0.03058815, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -7212,6 +7234,11 @@ MonoBehaviour:
   medium: 1
   hard: 0
   mahoraga: 0
+  toggleLight: 1
+  toggleMedium: 1
+  toggleHeavy: 1
+  toggleOverhead: 1
+  toggleSpecial: 1
 --- !u!212 &2789101509637218371
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7306,7 +7333,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1849669146, guid: a51e9dc8b5aaa2844a5b49790f6bcd24, type: 3}
-  m_Color: {r: 0.8679245, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7401,7 +7428,7 @@ Animator:
   m_GameObject: {fileID: 555223414133188474}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1daf3d4800384a64ca346144c3c50ddd, type: 2}
+  m_Controller: {fileID: 9100000, guid: 48a5818015cb8ac4c9ab1a717b15143b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7428,7 +7455,7 @@ PrefabInstance:
     - target: {fileID: 3984785734900977482, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 2307f1cb0f5de9f408a2662f71ff4540, type: 2}
+      objectReference: {fileID: 9100000, guid: a03c1647b02da1d4d86566887ab39514, type: 2}
     - target: {fileID: 4247505351848270916, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -7614,6 +7641,11 @@ MonoBehaviour:
   medium: 0
   hard: 0
   mahoraga: 1
+  toggleLight: 1
+  toggleMedium: 1
+  toggleHeavy: 1
+  toggleOverhead: 1
+  toggleSpecial: 1
 --- !u!95 &3646356053273509408
 Animator:
   serializedVersion: 7
@@ -7624,7 +7656,7 @@ Animator:
   m_GameObject: {fileID: 2212314632221864119}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0fc335ad1cf2b7240a56a8f9d9f60b6f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 14180cd6f7044ac46a3cb44ee68b827c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7706,6 +7738,11 @@ MonoBehaviour:
   medium: 1
   hard: 0
   mahoraga: 0
+  toggleLight: 1
+  toggleMedium: 1
+  toggleHeavy: 1
+  toggleOverhead: 1
+  toggleSpecial: 1
 --- !u!61 &3865170371569798104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8574,6 +8611,9 @@ MonoBehaviour:
   animator: {fileID: 8446320551991111305}
   player2Combat: {fileID: 1494834646}
   isCPU: 0
+  isLightGrunt: 0
+  isMediumGrunt: 0
+  isHeavyGrunt: 0
   isTutorial: 0
   easy: 0
   medium: 0
