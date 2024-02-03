@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,964 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1917
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156524fd76f692a45a803ad688825f95
+      internalID: -222974429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1915
+        width: 65
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f75effe62c4d6a46bd51c121ce85822
+      internalID: 302192796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1914
+        width: 66
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca48b6d80776fc47ac0057e2fdfee12
+      internalID: 392869346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1915
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caccd449bd5dfd947991b3dd1a5cf3c2
+      internalID: -1695096163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_4
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1918
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7a4fcfa5d6ff64093e2cd69a1405ff
+      internalID: 687940993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1915
+        width: 61
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57741dfed920944c842115a60b35967
+      internalID: 1661134029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_6
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1916
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9a470110070cc41b9b5bb08514e4e7
+      internalID: 941276844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_7
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1914
+        width: 66
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4353d32488a26cd4a965eaa770933a26
+      internalID: 1260739433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1659
+        width: 65
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b774c1ea495a3254081c9f356af79072
+      internalID: 737129541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1661
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0a22344e4858f4a8ce6b57c5ecf63a
+      internalID: 2126156721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_10
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1659
+        width: 129
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48151f4e258b1d438bc47dc4d493034
+      internalID: 1227863847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_11
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1659
+        width: 150
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6ef2a273c4c4840afe147fdf40ac13
+      internalID: 1246912134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_12
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1659
+        width: 142
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86636a2ce2e04114db8a79c4e326108f
+      internalID: -1649231671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_13
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1658
+        width: 117
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a3a9fd7ba1f6d48a8851a74a58e99a
+      internalID: -665760346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_14
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1647
+        width: 91
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9489e98c51035fb448e600b9627861ba
+      internalID: -412194574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_15
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1660
+        width: 100
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2689f6f07113b43843e78267224415
+      internalID: 223782256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_16
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1403
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a86f9303363f442872a8c53be948ec
+      internalID: 880804311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1403
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adebc76289e67e14681d7ee5c29b1d56
+      internalID: 1959990424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_18
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1404
+        width: 68
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd626541223c263418ba81a92410f6cc
+      internalID: 2068429060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1406
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104cecfb84ee2dc4da58010586dcf3db
+      internalID: 1013618772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_20
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1403
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcbc0f7701b56d4aa6b2a1bd9dd5b48
+      internalID: 2132120879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_21
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1405
+        width: 69
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b9c231acfbba4e87a5fbe0d7defc0
+      internalID: 1701215802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_22
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 1405
+        width: 149
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1876ffd3759fd5044b02494f101372cb
+      internalID: -280395025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_23
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1405
+        width: 131
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0fe73ccc670f841920f287e935ce39
+      internalID: 1766561198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1149
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e80ae06a5bd8041b89094832a803b4
+      internalID: -1270740422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_25
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1149
+        width: 123
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0b0d900bc40e54697b42b68bb6fd48
+      internalID: 801030390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_26
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1149
+        width: 134
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed135afa8b2a2847890c65b0db4b446
+      internalID: 1047578471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_27
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1149
+        width: 155
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36b5d9cc1674774cabba487e69ff7ee
+      internalID: 349826413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_28
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1149
+        width: 162
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf77936ccdf0ae46a236459884778f4
+      internalID: -2053558906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_29
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1148
+        width: 139
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7a14f3243cd724c940fdfa5b2f45cc
+      internalID: -347433114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_30
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1149
+        width: 126
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d388571fe3f984408faa940f2f4edfd
+      internalID: -1739908404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_31
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1149
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e901007487868e146bddc92ca039259a
+      internalID: 1643236506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_32
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 893
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442aafeb903e0b74fb767f3f1175ea49
+      internalID: 502176575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_33
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 891
+        width: 158
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abce188f0ff87eb4abf5b1eb5c22dc71
+      internalID: -979114395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_34
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 892
+        width: 155
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6da549d3166c145ab80afaa0b374a1
+      internalID: -753212356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_35
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 892
+        width: 138
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8277471a6def01046b7273f584808da6
+      internalID: 437723256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_36
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 892
+        width: 111
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163fd20f49b24194bac956d3a34fb7c5
+      internalID: -124449780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_37
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 893
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca389f4aa3dde24993fb40d9bbad50c
+      internalID: 369176810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_38
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 891
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1debf651628e6c48adfdb12c9b64317
+      internalID: 2060446895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_39
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 891
+        width: 69
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4602189d7394246ba78db0665a4317
+      internalID: 1589557486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_40
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 635
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d056337e2b7da5a4ea9f77213550cbbb
+      internalID: -699602450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_41
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 637
+        width: 71
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a545625e637908e40bd40def4226fecd
+      internalID: 534676144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-crouch-medium_42
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 637
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0652f68c67909d9478b1aa1768604f10
+      internalID: -159933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9962c9e9915954043adad9302b2e745a
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-crouch-medium_0: -222974429
+      mc-arnis-crouch-medium_1: 302192796
+      mc-arnis-crouch-medium_10: 1227863847
+      mc-arnis-crouch-medium_11: 1246912134
+      mc-arnis-crouch-medium_12: -1649231671
+      mc-arnis-crouch-medium_13: -665760346
+      mc-arnis-crouch-medium_14: -412194574
+      mc-arnis-crouch-medium_15: 223782256
+      mc-arnis-crouch-medium_16: 880804311
+      mc-arnis-crouch-medium_17: 1959990424
+      mc-arnis-crouch-medium_18: 2068429060
+      mc-arnis-crouch-medium_19: 1013618772
+      mc-arnis-crouch-medium_2: 392869346
+      mc-arnis-crouch-medium_20: 2132120879
+      mc-arnis-crouch-medium_21: 1701215802
+      mc-arnis-crouch-medium_22: -280395025
+      mc-arnis-crouch-medium_23: 1766561198
+      mc-arnis-crouch-medium_24: -1270740422
+      mc-arnis-crouch-medium_25: 801030390
+      mc-arnis-crouch-medium_26: 1047578471
+      mc-arnis-crouch-medium_27: 349826413
+      mc-arnis-crouch-medium_28: -2053558906
+      mc-arnis-crouch-medium_29: -347433114
+      mc-arnis-crouch-medium_3: -1695096163
+      mc-arnis-crouch-medium_30: -1739908404
+      mc-arnis-crouch-medium_31: 1643236506
+      mc-arnis-crouch-medium_32: 502176575
+      mc-arnis-crouch-medium_33: -979114395
+      mc-arnis-crouch-medium_34: -753212356
+      mc-arnis-crouch-medium_35: 437723256
+      mc-arnis-crouch-medium_36: -124449780
+      mc-arnis-crouch-medium_37: 369176810
+      mc-arnis-crouch-medium_38: 2060446895
+      mc-arnis-crouch-medium_39: 1589557486
+      mc-arnis-crouch-medium_4: 687940993
+      mc-arnis-crouch-medium_40: -699602450
+      mc-arnis-crouch-medium_41: 534676144
+      mc-arnis-crouch-medium_42: -159933
+      mc-arnis-crouch-medium_5: 1661134029
+      mc-arnis-crouch-medium_6: 941276844
+      mc-arnis-crouch-medium_7: 1260739433
+      mc-arnis-crouch-medium_8: 737129541
+      mc-arnis-crouch-medium_9: 2126156721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

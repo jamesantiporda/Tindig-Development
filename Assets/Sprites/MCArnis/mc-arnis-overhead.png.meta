@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,590 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-overhead_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1917
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8ae96640ebadb43b4302302fca4383
+      internalID: 597783311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1904
+        width: 50
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d960ea00ce59d8b4ab0374ea47986e0b
+      internalID: 258269531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_2
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1898
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cea5348c58b5b499442939a6ef926a
+      internalID: 947884958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_3
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1891
+        width: 63
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de91f400df803434fbf1e427a3595819
+      internalID: 1214396453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_4
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1882
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b7b9c1ddb2f63448957eae71e391eb
+      internalID: 1728801799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_5
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1882
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f808dd119a3d45b49a6ce2e6bf331810
+      internalID: -2015128268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_6
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1882
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdc90faf5d18aa4cb2b584da6ef3b3f
+      internalID: -1754507538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_7
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1882
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7162f3e3d6b56834ead137d8d415af0b
+      internalID: -546664083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1625
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf97ab02ff2fea94a9d5f6d8296f8084
+      internalID: 306323712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_9
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1627
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cda8dc1f80e30247ae682e0f97e8eeb
+      internalID: 913571389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_10
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1624
+        width: 56
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d733e582387f114b8bbf456fc9d4a95
+      internalID: 1351257683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_11
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1624
+        width: 74
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3d6922610fdbe4a8c9f55e41c75e98
+      internalID: -313112257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_12
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1624
+        width: 153
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a959ac81902b321478d01e47901b7cdd
+      internalID: -1992944847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_13
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1623
+        width: 197
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab189b8c68e7091499cda26c7f10e053
+      internalID: 637866158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_14
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1623
+        width: 155
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba2e4376dfc6a46a9e5b39f6041e4c
+      internalID: -2051381127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_15
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1628
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a12bea64299624fbc25f09051de421
+      internalID: -1589426190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1376
+        width: 66
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6906d2d2b604db7458a83dc2811af3b0
+      internalID: -353523204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1382
+        width: 54
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9237a196eb0b1194db66343a9dd0193f
+      internalID: 1977185331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1391
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffc69966e03ecb47a0fa583a9ba113f
+      internalID: 931461918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_19
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e51038aceb187748bb99126d6bc4d54
+      internalID: 1352094982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_20
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8919b2f51a1b35e48a4ca548e4c64bd2
+      internalID: -1399095225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_21
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a188beaba7b1246a5ba990915062b1
+      internalID: 1282768149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_22
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d13112953cb684c94957f6ac847aae
+      internalID: 592453827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_23
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502e95176d5f2ab4986426703c5b324a
+      internalID: 2043655289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1149
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d2cd135bcc0d41ba79e39e6ef029a
+      internalID: -1164143167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-overhead_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1149
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd5ed2d3dfefb9478b4465c8cb7dd30
+      internalID: 224964805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4cb781e67637f7844b12bb42f8fc85e2
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-overhead_0: 597783311
+      mc-arnis-overhead_1: 258269531
+      mc-arnis-overhead_10: 1351257683
+      mc-arnis-overhead_11: -313112257
+      mc-arnis-overhead_12: -1992944847
+      mc-arnis-overhead_13: 637866158
+      mc-arnis-overhead_14: -2051381127
+      mc-arnis-overhead_15: -1589426190
+      mc-arnis-overhead_16: -353523204
+      mc-arnis-overhead_17: 1977185331
+      mc-arnis-overhead_18: 931461918
+      mc-arnis-overhead_19: 1352094982
+      mc-arnis-overhead_2: 947884958
+      mc-arnis-overhead_20: -1399095225
+      mc-arnis-overhead_21: 1282768149
+      mc-arnis-overhead_22: 592453827
+      mc-arnis-overhead_23: 2043655289
+      mc-arnis-overhead_24: -1164143167
+      mc-arnis-overhead_25: 224964805
+      mc-arnis-overhead_3: 1214396453
+      mc-arnis-overhead_4: 1728801799
+      mc-arnis-overhead_5: -2015128268
+      mc-arnis-overhead_6: -1754507538
+      mc-arnis-overhead_7: -546664083
+      mc-arnis-overhead_8: 306323712
+      mc-arnis-overhead_9: 913571389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

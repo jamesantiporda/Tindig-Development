@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-hit_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1917
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0441d61818795554889ede844ace2c63
+      internalID: -1860249819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-hit_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1917
+        width: 53
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd44d1c79f8b8cc4daa8cab08c470411
+      internalID: 1654660673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-hit_2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1917
+        width: 57
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce38d70be9af3a44a960b8286e7363b6
+      internalID: 423326726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-hit_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1917
+        width: 60
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bec8f768427fd54fb1aae7059fd1348
+      internalID: -1747366329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-hit_4
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1918
+        width: 68
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69397536bea171445a56de4cf23f8927
+      internalID: 1636044011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-hit_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1918
+        width: 62
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc71b448cd18118499739b1e92f1e300
+      internalID: 1917017323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-hit_6
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1917
+        width: 58
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861d6cef8a5505045807c771664b1b89
+      internalID: 198271303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-hit_7
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1917
+        width: 56
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3124172e4ae39ed41890fe80133327e9
+      internalID: -1993885681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-hit_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1661
+        width: 53
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92b86f64e6916a45a93507a3ea2ce27
+      internalID: -643893903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-hit_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1661
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8a1bdad9ddc0540a3958b0a0efffaf
+      internalID: 67031100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9a691c7c31a00aa429820f73fa88b43e
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-hit_0: -1860249819
+      mc-arnis-hit_1: 1654660673
+      mc-arnis-hit_2: 423326726
+      mc-arnis-hit_3: -1747366329
+      mc-arnis-hit_4: 1636044011
+      mc-arnis-hit_5: 1917017323
+      mc-arnis-hit_6: 198271303
+      mc-arnis-hit_7: -1993885681
+      mc-arnis-hit_8: -643893903
+      mc-arnis-hit_9: 67031100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

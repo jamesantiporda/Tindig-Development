@@ -3076,6 +3076,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3120248343888364162, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 48a5818015cb8ac4c9ab1a717b15143b, type: 2}
     - target: {fileID: 3595903197740145433, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: hitPoint
       value: 
@@ -6105,7 +6109,7 @@ MonoBehaviour:
   ko: {fileID: 689541519}
   timeup: {fileID: 771335971}
   pauseScreen: {fileID: 1263525628}
-  winScreen: {fileID: 0}
+  winScreen: {fileID: 2021501343}
   winnerText: {fileID: 2021501345}
   Player1: {fileID: 733206921}
   Player2: {fileID: 1494834635}

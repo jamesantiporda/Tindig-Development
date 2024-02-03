@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,480 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-dash_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1917
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bf0a05252c6184da85162e31fd0686
+      internalID: 1380703049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1920
+        width: 56
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e19a5a2994a704087268cb04925053
+      internalID: -202370932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1925
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e630251d72df50a43982ff4531bd5192
+      internalID: 33932293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1932
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25245f3985c44d439f0cd4cf49a06f5
+      internalID: 1057855221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_4
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1941
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0c551802d8505439ba82d80db2688d
+      internalID: 1650815733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_5
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1934
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1ab9060a94cd24990922967b8bf81a
+      internalID: 1749641407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_6
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1927
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe90a99a91b28344b377eed1d656e91
+      internalID: 2041679228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_7
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1922
+        width: 63
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c101f8dbc6ce9e84d918b075ee074697
+      internalID: 752117143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1663
+        width: 55
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e12258ad036fa145b80b1d5e01e58b1
+      internalID: -687391938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1661
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc535c5272e9aa744affd5f58be0752a
+      internalID: 1274981572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_10
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1661
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659d6bcff9809a44da27da7cba72c4fb
+      internalID: 518357451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_11
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1661
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc0bd1de03a7f54a9822ed2a110bf63
+      internalID: -1902821747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1661
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7428310a3f6139c428cf8f4ebea32661
+      internalID: -1272580823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_13
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1661
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7534209abc2cf4291edaed92cae463
+      internalID: 249846479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_14
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1661
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9525b48414c62408986d5d8ab8c1dd
+      internalID: 1346686506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_15
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1661
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50031849f7ebc1e4c800e38abc410cff
+      internalID: 1694037225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_16
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcbc35415e5e66479a77170ed43f870
+      internalID: -1410394424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6ee680bfb2f9d408b2c8cbf286446b
+      internalID: 934923962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_18
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c645b8dd94a9243bdd96de40c618c5
+      internalID: -1756563369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_19
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52a7b1d88c98a74e8f8dd51c3fb5ae2
+      internalID: 1904937252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-dash_20
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2fd519cf7702d48bf757c2d2e02455
+      internalID: -106620502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9a37f9c03ef1a1540b5982dd08a609cf
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-dash_0: 1380703049
+      mc-arnis-dash_1: -202370932
+      mc-arnis-dash_10: 518357451
+      mc-arnis-dash_11: -1902821747
+      mc-arnis-dash_12: -1272580823
+      mc-arnis-dash_13: 249846479
+      mc-arnis-dash_14: 1346686506
+      mc-arnis-dash_15: 1694037225
+      mc-arnis-dash_16: -1410394424
+      mc-arnis-dash_17: 934923962
+      mc-arnis-dash_18: -1756563369
+      mc-arnis-dash_19: 1904937252
+      mc-arnis-dash_2: 33932293
+      mc-arnis-dash_20: -106620502
+      mc-arnis-dash_3: 1057855221
+      mc-arnis-dash_4: 1650815733
+      mc-arnis-dash_5: 1749641407
+      mc-arnis-dash_6: 2041679228
+      mc-arnis-dash_7: 752117143
+      mc-arnis-dash_8: -687391938
+      mc-arnis-dash_9: 1274981572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

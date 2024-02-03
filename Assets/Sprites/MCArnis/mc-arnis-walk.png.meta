@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,348 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-walk_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1917
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6763e62cfdbb44fb6e26c9c5fabbbd
+      internalID: 1618236098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1917
+        width: 54
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529e48b8029eca9418a682f0d1a70ae5
+      internalID: -733569855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1918
+        width: 54
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920da4ccb8606ed4ea45d4ad146b717f
+      internalID: 1459601225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1918
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc2580be7d392a4b870c6aad98a3aa8
+      internalID: -330740586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_4
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1918
+        width: 56
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63e89908b789d240bdc57404cbbee99
+      internalID: 2118950619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1918
+        width: 56
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8268730de48449240a88307c9319e2a0
+      internalID: 816455279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_6
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1919
+        width: 54
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bede7908b7651194198fbbe191020b70
+      internalID: -1501541112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_7
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1920
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7487e08bbd4f85541aa7bb36605ebfd1
+      internalID: 605351531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1666
+        width: 59
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d382054b71bbff4696fc5a572e1c1e8
+      internalID: -1128885847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_9
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1666
+        width: 63
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ad8b38f17cfb74abe679fb8c54dcd4
+      internalID: 107115695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_10
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1665
+        width: 60
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966a3e6b93db95140bec36d6eca3c4ec
+      internalID: 1416410898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_11
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1664
+        width: 58
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbc61b5882f6d84ea5350d901ef749f
+      internalID: 179325549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_12
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1663
+        width: 57
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daadc88a407554a429c1f4913f549960
+      internalID: 1621569740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_13
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1662
+        width: 54
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a238caea9501dd4e8e19a12e54cb6a5
+      internalID: -690363502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-walk_14
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1661
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76ea2afe5f0a62429db784284e6e0e3
+      internalID: -782844419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 78516e9c2eff4a4418dc764c3747f629
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-walk_0: 1618236098
+      mc-arnis-walk_1: -733569855
+      mc-arnis-walk_10: 1416410898
+      mc-arnis-walk_11: 179325549
+      mc-arnis-walk_12: 1621569740
+      mc-arnis-walk_13: -690363502
+      mc-arnis-walk_14: -782844419
+      mc-arnis-walk_2: 1459601225
+      mc-arnis-walk_3: -330740586
+      mc-arnis-walk_4: 2118950619
+      mc-arnis-walk_5: 816455279
+      mc-arnis-walk_6: -1501541112
+      mc-arnis-walk_7: 605351531
+      mc-arnis-walk_8: -1128885847
+      mc-arnis-walk_9: 107115695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

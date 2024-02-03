@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,678 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-idle_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1917
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efc478e22828d74f9fba62343a11bae
+      internalID: -1167651792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1917
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72e14e24c0eacf4ca9d1724b3804343
+      internalID: -1767372209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1917
+        width: 53
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbc0cc077ab5be4aa01d808f7f48925
+      internalID: 973243024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1917
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc912b7c9ed18294aa6d1aea505a2fb5
+      internalID: -1178548623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1917
+        width: 55
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3a52f4caeea5b40b3391f8fc0b1402
+      internalID: -378412477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1917
+        width: 56
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be989c9af39e9242a5ecadbc12fbca5
+      internalID: -660065991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_6
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1917
+        width: 57
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb02934e2678474fba28682295d1f3a
+      internalID: 1719390696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_7
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1917
+        width: 57
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a7493c58669bb489365ff494613281
+      internalID: -776742892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1661
+        width: 57
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0f8c0a46a2c5f4c8a33729902b8736
+      internalID: -1916234973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1661
+        width: 57
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0895f59c620c514a8c7be62a11cc158
+      internalID: -736870040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_10
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1661
+        width: 57
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10460b9f1cfc0143ab808bf071382fd
+      internalID: 1312610354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_11
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1661
+        width: 57
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d29967abd93ee2468f22bf8a2edd338
+      internalID: -316320300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1661
+        width: 57
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c117f43004679df488505e64dfc88972
+      internalID: -171796775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1661
+        width: 56
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8a8b8019b05f64e8a3ab84995fd3ba
+      internalID: -56943551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1661
+        width: 55
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b6af83db11f2d4e9f25fa1f3e464db
+      internalID: 866898617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_15
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1661
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b547617e1b56e9c499f420768f6d3c07
+      internalID: 1270584955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1405
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18371d5ea3640b4f96c5c77a4b44d07
+      internalID: 908088688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1405
+        width: 52
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d539be7ef325934eaef645bdd97129f
+      internalID: -1116482627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_18
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1405
+        width: 51
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8056da56bd7c84c83760256f1cc3ad
+      internalID: 940711373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_19
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1405
+        width: 50
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5616a8b0101f34a9a087659b8f0db0
+      internalID: -720178507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_20
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1405
+        width: 51
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f9f7d2a98f4654a8ca87e0d7be13e7
+      internalID: -661954378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_21
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1405
+        width: 51
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e2924dee50db34986c2bc69c14280e
+      internalID: -761121816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_22
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1405
+        width: 51
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107fc88e44e3eb04390acd59577e9c30
+      internalID: -1557905253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb75af4b31bdd80429773861943ed7d2
+      internalID: -341840161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1149
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d79da907e2a99548a5c9a5320844dcf
+      internalID: -848668511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1149
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d44be0bb461094ebf56d42476e3bf4
+      internalID: -1151077103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_26
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1149
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bd3b79b2604b14781a00864cc8f623
+      internalID: -1440136068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_27
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1149
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03de1fe6f5b60d45be74f97efda4bcf
+      internalID: -1007987697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_28
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1149
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099aae0945a1da543ac4c99899e45af4
+      internalID: 1597486258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-idle_29
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1149
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7cb7eae8fdcb04b96d59957f101af9
+      internalID: 1223024001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1d14ef9b8e23fa04ab4de7842325f67c
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-idle_0: -1167651792
+      mc-arnis-idle_1: -1767372209
+      mc-arnis-idle_10: 1312610354
+      mc-arnis-idle_11: -316320300
+      mc-arnis-idle_12: -171796775
+      mc-arnis-idle_13: -56943551
+      mc-arnis-idle_14: 866898617
+      mc-arnis-idle_15: 1270584955
+      mc-arnis-idle_16: 908088688
+      mc-arnis-idle_17: -1116482627
+      mc-arnis-idle_18: 940711373
+      mc-arnis-idle_19: -720178507
+      mc-arnis-idle_2: 973243024
+      mc-arnis-idle_20: -661954378
+      mc-arnis-idle_21: -761121816
+      mc-arnis-idle_22: -1557905253
+      mc-arnis-idle_23: -341840161
+      mc-arnis-idle_24: -848668511
+      mc-arnis-idle_25: -1151077103
+      mc-arnis-idle_26: -1440136068
+      mc-arnis-idle_27: -1007987697
+      mc-arnis-idle_28: 1597486258
+      mc-arnis-idle_29: 1223024001
+      mc-arnis-idle_3: -1178548623
+      mc-arnis-idle_4: -378412477
+      mc-arnis-idle_5: -660065991
+      mc-arnis-idle_6: 1719390696
+      mc-arnis-idle_7: -776742892
+      mc-arnis-idle_8: -1916234973
+      mc-arnis-idle_9: -736870040
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

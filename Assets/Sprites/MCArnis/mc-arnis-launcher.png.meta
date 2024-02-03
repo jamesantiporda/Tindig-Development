@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,590 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-launcher_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1917
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cbd1b08cef2534eb6fd5df5ef45722
+      internalID: -1782453603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1917
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e135b336a64f84fa06991c75f78efa
+      internalID: -522205350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1917
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e219e24cd60aecb479173fbf6efab6f3
+      internalID: -1086692818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1915
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fe3321926a1bd418e75f3962a3a794
+      internalID: -1670892245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_4
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1917
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000b328e2667c3241a5d86b479ed6ce8
+      internalID: 1018864520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_5
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1917
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68fa379a11538645b6ca2a2c800efa5
+      internalID: -1541288507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_6
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1917
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c3c1f8601f1104fb9f7437f3b6e26f
+      internalID: -451038891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_7
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1917
+        width: 92
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da7c7ae9d72d20488bdb88284d4deca
+      internalID: 855844356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1661
+        width: 147
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a0ac24a7e85e24f8e4da2879be9b38
+      internalID: -142023989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_9
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1661
+        width: 160
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489857303ac232f45afd7ad6c5a18eba
+      internalID: -118884630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_10
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1653
+        width: 177
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359084cdbbcc0f44b8032ee266ee83ac
+      internalID: -636333875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_11
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1644
+        width: 171
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b827468d52aebc54484257c92f92e2af
+      internalID: 542715164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_12
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1636
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81120faf2a95cf940ac4038d7ab1894c
+      internalID: -149997971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_13
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1630
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82757656fa62ceb4194c7b92b00763df
+      internalID: 100385129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_14
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1625
+        width: 61
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efff953ba1ca2cf4a8d68685f404b2f8
+      internalID: -1256526911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_15
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1637
+        width: 54
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d27bd54d8a0474fbd7b9990726dd4e
+      internalID: -1990233591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1393
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ec7e1b9b06c83418e6dfa2ab21928e
+      internalID: -176321454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1405
+        width: 51
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ac0f70873687841aec11e5800e9d48
+      internalID: -1073285127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_18
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1417
+        width: 50
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b81ff03219f1f42beea6cd8866ee92
+      internalID: 1448215569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_19
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1411
+        width: 48
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631865f731d83d64980c44040e998870
+      internalID: -294821088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_20
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1406
+        width: 60
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a65113cc5450fb48a7d412fdd1686a6
+      internalID: -103952220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_21
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1400
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9610dd7b0d083864cae7741e4796f0da
+      internalID: 1647363197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_22
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1399
+        width: 77
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38018b8fd5107dc4e97c9cf2b92211e4
+      internalID: 65376295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_23
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1401
+        width: 71
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14356305bd5bb9a4d8bc4bee38587a7d
+      internalID: -1643675788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1149
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2eaf08dd5426b49b1c908331ecc4e1
+      internalID: -1593906013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-launcher_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1149
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c844f9e30d9bd8e43a83c1533a4567a9
+      internalID: -934406192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cc721f0732031f34aaffa85e1d29f29f
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-launcher_0: -1782453603
+      mc-arnis-launcher_1: -522205350
+      mc-arnis-launcher_10: -636333875
+      mc-arnis-launcher_11: 542715164
+      mc-arnis-launcher_12: -149997971
+      mc-arnis-launcher_13: 100385129
+      mc-arnis-launcher_14: -1256526911
+      mc-arnis-launcher_15: -1990233591
+      mc-arnis-launcher_16: -176321454
+      mc-arnis-launcher_17: -1073285127
+      mc-arnis-launcher_18: 1448215569
+      mc-arnis-launcher_19: -294821088
+      mc-arnis-launcher_2: -1086692818
+      mc-arnis-launcher_20: -103952220
+      mc-arnis-launcher_21: 1647363197
+      mc-arnis-launcher_22: 65376295
+      mc-arnis-launcher_23: -1643675788
+      mc-arnis-launcher_24: -1593906013
+      mc-arnis-launcher_25: -934406192
+      mc-arnis-launcher_3: -1670892245
+      mc-arnis-launcher_4: 1018864520
+      mc-arnis-launcher_5: -1541288507
+      mc-arnis-launcher_6: -451038891
+      mc-arnis-launcher_7: 855844356
+      mc-arnis-launcher_8: -142023989
+      mc-arnis-launcher_9: -118884630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

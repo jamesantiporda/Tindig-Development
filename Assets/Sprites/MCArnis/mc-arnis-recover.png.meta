@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,458 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-recover_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1920
+        width: 110
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60831217e9018f41920bb6f76205b8c
+      internalID: 376918519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1920
+        width: 109
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf777c58aee2024e947e5aaadaa34df
+      internalID: -1353011693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1919
+        width: 107
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ad117494d4b7e428e3303f5b423d44
+      internalID: 2000847474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1919
+        width: 102
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54781040733e7447987b28cc9ae17b3
+      internalID: 465197411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_4
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1918
+        width: 101
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4259e12593cfd1a4e829a35c26c1af14
+      internalID: -1766749255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_5
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1919
+        width: 99
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a777c0adbbed645b1830d81ff4f75b
+      internalID: 1811602181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_6
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1921
+        width: 97
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ffa5d09acebea4f87edcd064a4740b
+      internalID: 674648502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_7
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1922
+        width: 93
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576bd9deee881c148a18dea8977711df
+      internalID: 1855293446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1666
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808a8e5043393a04792255c4c868bb66
+      internalID: -829936397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1666
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5370744859a5274db5f3b789ef441b9
+      internalID: -1358531869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1663
+        width: 81
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f70e921ef82544c906ac22f919b73a
+      internalID: 290956190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_11
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1661
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b27a94bfd6390147b1d024caef5f8ae
+      internalID: -810702472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_12
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1659
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe59b58487890e498c595ec1e99567b
+      internalID: -795658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_13
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1659
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec63ffb3872b0784ebcf8dfb8c105559
+      internalID: 1010901408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_14
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1659
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f55df283fc50e44a90f910dcea0d1d5
+      internalID: -1581592163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_15
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1660
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14adaf74ecde5e4d96ac844293b1036
+      internalID: 958754089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1405
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aff24f9a573814da035d109d6df736
+      internalID: -1643055908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1405
+        width: 59
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826bd4a8e59d3004fb7334f644ea8b3b
+      internalID: -1084401751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_18
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1405
+        width: 56
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f566551cfc791824298d9771791c3fe3
+      internalID: 1777872881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-recover_19
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d78df4e9ba8ed043b5e71f8cd6ea767
+      internalID: -2134598862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5d6fdd9d069d701418d9b67188cdf4ce
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-recover_0: 376918519
+      mc-arnis-recover_1: -1353011693
+      mc-arnis-recover_10: 290956190
+      mc-arnis-recover_11: -810702472
+      mc-arnis-recover_12: -795658
+      mc-arnis-recover_13: 1010901408
+      mc-arnis-recover_14: -1581592163
+      mc-arnis-recover_15: 958754089
+      mc-arnis-recover_16: -1643055908
+      mc-arnis-recover_17: -1084401751
+      mc-arnis-recover_18: 1777872881
+      mc-arnis-recover_19: -2134598862
+      mc-arnis-recover_2: 2000847474
+      mc-arnis-recover_3: 465197411
+      mc-arnis-recover_4: -1766749255
+      mc-arnis-recover_5: 1811602181
+      mc-arnis-recover_6: 674648502
+      mc-arnis-recover_7: 1855293446
+      mc-arnis-recover_8: -829936397
+      mc-arnis-recover_9: -1358531869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

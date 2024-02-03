@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,788 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1917
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eb631c6d8e2ef4682f27caeca793e3
+      internalID: 1416025513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1915
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ad410b9552f2544a757793ac55cd3b
+      internalID: 2136012671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_2
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1915
+        width: 83
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b68b338d8a9a14189dbfece8e72bf8
+      internalID: 1763355240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1916
+        width: 101
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c527378f6d6b60f4b85d5f7805ff5ffa
+      internalID: 239178677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_4
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1918
+        width: 149
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c5331b060a12e458d0fc39032bf200
+      internalID: 1140594231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_5
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1918
+        width: 122
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbd0def23485894ba6c01c5f0510063
+      internalID: 743292210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_6
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1918
+        width: 72
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1bb86700e10ce4b8cbe9cfa75aab10
+      internalID: 1550720415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_7
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1918
+        width: 63
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcd58f2b961b1649865a7e23cd8908f
+      internalID: 1049642887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1662
+        width: 59
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b36536391609334c84ea6e21f1d8243
+      internalID: -457049015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1661
+        width: 56
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0b97af1283e48478c28719f2fd93e1
+      internalID: -13259505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_10
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1661
+        width: 65
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ccb72d0f712394cbe28a0772d0bfb5
+      internalID: 1048604354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_11
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1661
+        width: 62
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b42f772884ee14da504eb209ef7457
+      internalID: 420716495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_12
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1661
+        width: 62
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fa83c20b7bea1409a60e8b4ecfd95f
+      internalID: -929006942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_13
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1661
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d692c5133c8ee48a0ad8ba6f5d7f38
+      internalID: -1532109789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_14
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1661
+        width: 144
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9550cf46c489e9499b3f34a56a17a85
+      internalID: 1313645767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_15
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1661
+        width: 92
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50f6b8f2b04e0e47b0e0abcb8826818
+      internalID: 1258742381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1405
+        width: 70
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e3957407ca18f47b32979131fc3f05
+      internalID: 36057314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1405
+        width: 92
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd089e973e6421344a4d3524e01ee982
+      internalID: 252190709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_18
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1404
+        width: 134
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b273f2a9371b245ac62a04bcdadd27
+      internalID: -423056606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_19
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1404
+        width: 164
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9249dcae62038cb449552f3732a9ca0b
+      internalID: -438078588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_20
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1404
+        width: 146
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ec4d7926272404999669caf2d4032e
+      internalID: -1427905332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_21
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1404
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cd14005714f7a4ab2320ee4186b3d2
+      internalID: -1098189141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_22
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1404
+        width: 86
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5319bf1c8f13e524b9853cecc0ff0e13
+      internalID: 757176154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_23
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1404
+        width: 93
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d86c00fbb4a4474189552317f4d313e
+      internalID: -1733723843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_24
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1148
+        width: 109
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd69388c45b1e644e89cada05491c044
+      internalID: -480268130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_25
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1148
+        width: 84
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f2ddde1dc7f1e419406118833e028c
+      internalID: 427746010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_26
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1148
+        width: 78
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619f1ff2d71cc4b46a6331373a65d439
+      internalID: 1265403534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_27
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1148
+        width: 119
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c96f4ef39e128409e3cfff35d58501
+      internalID: -1067658599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_28
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1148
+        width: 152
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b4f1d34f82e334b899c8ffc5f53651
+      internalID: -1404819615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_29
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1148
+        width: 155
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fa31ee3eb6bca47b9f9b65ad761cd7
+      internalID: 478043816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_30
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1148
+        width: 151
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8b3bc34eea0e545bc13852e34b5f4b
+      internalID: -183615624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_31
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1147
+        width: 137
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1376022f70b13c94cb1792f1f8eaad8d
+      internalID: 532320313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 891
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9728bcbf676c294cbcefbce0f361f2f
+      internalID: -523686875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_33
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 892
+        width: 62
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe62349586532c4096f6e7f6cd7b143
+      internalID: 236182268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-neutral-light_34
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 893
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf8fb673e396ab4f913852a3bbd3425
+      internalID: -977293723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b8901d0852f9be24680c864f19b3f005
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-neutral-light_0: 1416025513
+      mc-arnis-neutral-light_1: 2136012671
+      mc-arnis-neutral-light_10: 1048604354
+      mc-arnis-neutral-light_11: 420716495
+      mc-arnis-neutral-light_12: -929006942
+      mc-arnis-neutral-light_13: -1532109789
+      mc-arnis-neutral-light_14: 1313645767
+      mc-arnis-neutral-light_15: 1258742381
+      mc-arnis-neutral-light_16: 36057314
+      mc-arnis-neutral-light_17: 252190709
+      mc-arnis-neutral-light_18: -423056606
+      mc-arnis-neutral-light_19: -438078588
+      mc-arnis-neutral-light_2: 1763355240
+      mc-arnis-neutral-light_20: -1427905332
+      mc-arnis-neutral-light_21: -1098189141
+      mc-arnis-neutral-light_22: 757176154
+      mc-arnis-neutral-light_23: -1733723843
+      mc-arnis-neutral-light_24: -480268130
+      mc-arnis-neutral-light_25: 427746010
+      mc-arnis-neutral-light_26: 1265403534
+      mc-arnis-neutral-light_27: -1067658599
+      mc-arnis-neutral-light_28: -1404819615
+      mc-arnis-neutral-light_29: 478043816
+      mc-arnis-neutral-light_3: 239178677
+      mc-arnis-neutral-light_30: -183615624
+      mc-arnis-neutral-light_31: 532320313
+      mc-arnis-neutral-light_32: -523686875
+      mc-arnis-neutral-light_33: 236182268
+      mc-arnis-neutral-light_34: -977293723
+      mc-arnis-neutral-light_4: 1140594231
+      mc-arnis-neutral-light_5: 743292210
+      mc-arnis-neutral-light_6: 1550720415
+      mc-arnis-neutral-light_7: 1049642887
+      mc-arnis-neutral-light_8: -457049015
+      mc-arnis-neutral-light_9: -13259505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

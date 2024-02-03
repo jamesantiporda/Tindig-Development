@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,898 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-sweep_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1917
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c038dc756412104c9cae222c2066387
+      internalID: 1007256802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1911
+        width: 62
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fc12b9f3bd16e48a5a1a94faa6ea02
+      internalID: -521885821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1910
+        width: 86
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa04ff567027e949b9ce69e0c0bdc12
+      internalID: -761626050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_3
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1915
+        width: 111
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233aed5371f8df143b8b269e7fc0303d
+      internalID: 1130239925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_4
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1845
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f074fc4a3da4efd4fac16a183739700c
+      internalID: -2146735872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1923
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9efe7436cad1d4c8bcbeb5bc8bcb3c
+      internalID: 182437550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_6
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1863
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a41feff48e8d74cb1876332751a686
+      internalID: 1467107523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_7
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1923
+        width: 129
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dbbc6a009d3e04db0cb493f53f98a9
+      internalID: -737770072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_8
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1865
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99afe539525511409727bf34cc4a521
+      internalID: 507987566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_9
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 1923
+        width: 148
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb0ce3553033fe4fb8432496979905e
+      internalID: 659982321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_10
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1874
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197c6e1cc04e01a40a0e81eb9db39b14
+      internalID: -292729920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_11
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1923
+        width: 156
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ca90d5b708a254894da18c7d9dbe3a
+      internalID: 1467778385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_12
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 1887
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5eb39f311c5a1449723d29b956e8fe
+      internalID: -1717711666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1667
+        width: 157
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c465e6c764b1b479180f0d5474e771
+      internalID: 1797877875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1622
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144b9bc4438a44541b845b736d786ed9
+      internalID: 1496170578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_15
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1667
+        width: 148
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c76b25dbbf77f4380ffe2f75ace689
+      internalID: -2026416396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_16
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1624
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a06e892f156e9b49b9afedcc149629f
+      internalID: 1448188584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_17
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1667
+        width: 139
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa438a460c2d934383a74c11a9125c7
+      internalID: 1108052763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_18
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1615
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1628821d452c0df46b86c835a118be5a
+      internalID: -388495315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_19
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1667
+        width: 117
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc00dd45e1ccd6468ee10a086955822
+      internalID: -1963585562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_20
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1625
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c385b33f68dc949939eadee0d2e1c0
+      internalID: -369084553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_21
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1667
+        width: 101
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e28cadde0885bb45b3c1879efdbffe7
+      internalID: -1301976844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_22
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1634
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e20d37e13793ad4881a9cb327983a4c
+      internalID: 979995686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_23
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1667
+        width: 95
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeff26a643b52746a15bc5edbbe4e6c
+      internalID: 77561321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_24
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1631
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58da32d41c5806418068f30eb5e667f
+      internalID: -1793613546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_25
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1667
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bc26005e257274ebe5bbe1cc8c8a88
+      internalID: -1702652958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_26
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1642
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d528a33dd54b23d4580666bd292e3f15
+      internalID: 1936117583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_27
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1660
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219e61c97db01ba40ab7063c20d640ca
+      internalID: 1737747303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_28
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1623
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4471c685d2192c843a7b22130df4e444
+      internalID: 837616318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_29
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1399
+        width: 89
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf4d496099eb44459e00ef3ddac3797
+      internalID: -1988431972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1364
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee50aff3d2eeb6f4ea78baa0809e0ca9
+      internalID: 1748479253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_31
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1398
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9ccb6b39de3204e8d8a67ac81b5025
+      internalID: 1753038923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_32
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1400
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d194f4a98fd4246b713aef2ed68f73
+      internalID: -244000003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_33
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1405
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66f2ed9c333ac145ad697b9e30b37e1
+      internalID: 869425664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_34
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1405
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3547284b6e13944891a17c7dcf7651
+      internalID: -1320813913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_35
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1405
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad849c509a869c45b5aa951dff6fe68
+      internalID: 1477636656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_36
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1405
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ab64b1373cb1047bd17ec11fae0f2e
+      internalID: 1100874588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_37
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1405
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d876f360047cb0d47930668533eea0af
+      internalID: 552375017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_38
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1149
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbe4c895d1db384dac7082d7844cd1c
+      internalID: -1825934623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-sweep_39
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1149
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec8202cfddb0d14e93886662c08a51b
+      internalID: 1488917747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3073196436a8537458648f3b4ddd480e
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-sweep_0: 1007256802
+      mc-arnis-sweep_1: -521885821
+      mc-arnis-sweep_10: -292729920
+      mc-arnis-sweep_11: 1467778385
+      mc-arnis-sweep_12: -1717711666
+      mc-arnis-sweep_13: 1797877875
+      mc-arnis-sweep_14: 1496170578
+      mc-arnis-sweep_15: -2026416396
+      mc-arnis-sweep_16: 1448188584
+      mc-arnis-sweep_17: 1108052763
+      mc-arnis-sweep_18: -388495315
+      mc-arnis-sweep_19: -1963585562
+      mc-arnis-sweep_2: -761626050
+      mc-arnis-sweep_20: -369084553
+      mc-arnis-sweep_21: -1301976844
+      mc-arnis-sweep_22: 979995686
+      mc-arnis-sweep_23: 77561321
+      mc-arnis-sweep_24: -1793613546
+      mc-arnis-sweep_25: -1702652958
+      mc-arnis-sweep_26: 1936117583
+      mc-arnis-sweep_27: 1737747303
+      mc-arnis-sweep_28: 837616318
+      mc-arnis-sweep_29: -1988431972
+      mc-arnis-sweep_3: 1130239925
+      mc-arnis-sweep_30: 1748479253
+      mc-arnis-sweep_31: 1753038923
+      mc-arnis-sweep_32: -244000003
+      mc-arnis-sweep_33: 869425664
+      mc-arnis-sweep_34: -1320813913
+      mc-arnis-sweep_35: 1477636656
+      mc-arnis-sweep_36: 1100874588
+      mc-arnis-sweep_37: 552375017
+      mc-arnis-sweep_38: -1825934623
+      mc-arnis-sweep_39: 1488917747
+      mc-arnis-sweep_4: -2146735872
+      mc-arnis-sweep_5: 182437550
+      mc-arnis-sweep_6: 1467107523
+      mc-arnis-sweep_7: -737770072
+      mc-arnis-sweep_8: 507987566
+      mc-arnis-sweep_9: 659982321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

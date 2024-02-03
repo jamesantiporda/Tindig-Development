@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -93,18 +93,458 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mc-arnis-block_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1917
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a47912e54ea6b74d93bcfa4a59e918c
+      internalID: 1715061658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1917
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0ede08a4f745d41b7957844a1a6ba0
+      internalID: 2011963832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1917
+        width: 67
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01057b96a7222eb41ae50f35e0e66543
+      internalID: -2004090455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1917
+        width: 71
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a20a47334dfef44382624c79fa10969
+      internalID: -568804068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_4
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1917
+        width: 72
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969a560d76b324145ae29a5b64b8df02
+      internalID: -1046208987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_5
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1917
+        width: 73
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890031166614cfb48bb63755d8cc097d
+      internalID: -974738837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_6
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1917
+        width: 73
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddbd55c07bb2ce41a4cb7eb2f56082a
+      internalID: 198970594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_7
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1917
+        width: 74
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710fde14d71daa14e8868d5037db54d5
+      internalID: -626943901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1661
+        width: 74
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7533f194bcf1e034fae08b2f5256cd16
+      internalID: -61407898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_9
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1661
+        width: 78
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393dcb22972543a488f0ffd25c4a91ab
+      internalID: 698487139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_10
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1661
+        width: 78
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d335c3cde4e7d864c932cc4b1a54b027
+      internalID: 53204906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_11
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1661
+        width: 77
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c110be61cb6c4f4e9b54a6a0392dc78
+      internalID: -1304631809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_12
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1661
+        width: 77
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280a305410c0c994b88cd82299b9af3e
+      internalID: -471509411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_13
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1661
+        width: 77
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b8e15a9aa01e2489e2a5676c774571
+      internalID: 430922896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_14
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1661
+        width: 77
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a462468af9f9549882503b15b7d173
+      internalID: 1993659269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_15
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1661
+        width: 72
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf32bec2bb44a60439f24e219bc66d52
+      internalID: -1016465470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1405
+        width: 72
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a7d58060e94fd4fa3e02abf0f9c605
+      internalID: 1990717209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_17
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1405
+        width: 71
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684ecdeb0e18d3d4f8ef49c106ee1c0d
+      internalID: -1995313691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1405
+        width: 63
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce32d42d05327eb4283b245819c39c26
+      internalID: -863169865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc-arnis-block_19
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1405
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe50f6229fa310946aa90c3deefe6d4f
+      internalID: -1778037430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 137737741b0d2bf4980c6e317b8fba85
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mc-arnis-block_0: 1715061658
+      mc-arnis-block_1: 2011963832
+      mc-arnis-block_10: 53204906
+      mc-arnis-block_11: -1304631809
+      mc-arnis-block_12: -471509411
+      mc-arnis-block_13: 430922896
+      mc-arnis-block_14: 1993659269
+      mc-arnis-block_15: -1016465470
+      mc-arnis-block_16: 1990717209
+      mc-arnis-block_17: -1995313691
+      mc-arnis-block_18: -863169865
+      mc-arnis-block_19: -1778037430
+      mc-arnis-block_2: -2004090455
+      mc-arnis-block_3: -568804068
+      mc-arnis-block_4: -1046208987
+      mc-arnis-block_5: -974738837
+      mc-arnis-block_6: 198970594
+      mc-arnis-block_7: -626943901
+      mc-arnis-block_8: -61407898
+      mc-arnis-block_9: 698487139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
