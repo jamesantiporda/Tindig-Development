@@ -474,7 +474,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void ResetAttackType()
     {
-        attackType = attackType;
+        attackType = "";
     }
     public void AcceptInput()
     {

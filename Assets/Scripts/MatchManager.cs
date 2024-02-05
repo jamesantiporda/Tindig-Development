@@ -266,7 +266,8 @@ public class MatchManager : MonoBehaviour
             if(isBoxingBoss)
             {
                 PlayerPrefs.SetString("Boxing", "unlocked");
-                if(unlocksNextFighters)
+                PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+                if (unlocksNextFighters)
                 {
                     PlayerPrefs.SetString("SikaranArea", "unlocked");
                 }
@@ -275,6 +276,7 @@ public class MatchManager : MonoBehaviour
             if(isSikaranBoss)
             {
                 PlayerPrefs.SetString("Sikaran", "unlocked");
+                PlayerPrefs.SetInt("NewStyleUnlocked", 1);
                 if (unlocksNextFighters)
                 {
                     PlayerPrefs.SetString("ArnisArea", "unlocked");
@@ -284,6 +286,7 @@ public class MatchManager : MonoBehaviour
             if(isArnisBoss)
             {
                 PlayerPrefs.SetString("Arnis", "unlocked");
+                PlayerPrefs.SetInt("NewStyleUnlocked", 1);
                 if (unlocksNextFighters)
                 {
                     PlayerPrefs.SetString("FinalBossArea", "unlocked");
@@ -306,6 +309,7 @@ public class MatchManager : MonoBehaviour
                         else if(gruntType == 2)
                         {
                             PlayerPrefs.SetString("Boxing", "unlocked");
+                            PlayerPrefs.SetInt("NewStyleUnlocked", 1);
                         }
                         break;
                     case 1:
@@ -320,6 +324,7 @@ public class MatchManager : MonoBehaviour
                         else if (gruntType == 2)
                         {
                             PlayerPrefs.SetString("Sikaran", "unlocked");
+                            PlayerPrefs.SetInt("NewStyleUnlocked", 1);
                         }
                         break;
                     case 2:
@@ -334,6 +339,7 @@ public class MatchManager : MonoBehaviour
                         else if (gruntType == 2)
                         {
                             PlayerPrefs.SetString("Arnis", "unlocked");
+                            PlayerPrefs.SetInt("NewStyleUnlocked", 1);
                         }
                         break;
                     default:

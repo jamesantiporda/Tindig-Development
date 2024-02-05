@@ -69,13 +69,13 @@ public class PlayerMovement : MonoBehaviour
     private bool aiLeft = false;
     private bool aiCrouch = false;
     private bool aiJump = false;
-    private bool aiSprint = false;
-    private bool aiBackdash = false;
+    //private bool aiSprint = false;
+    //private bool aiBackdash = false;
 
     // AI Behavior
     private bool isApproaching;
     private bool isRetreating = false, retreatDeciding = false;
-    private bool react = false;
+    //private bool react = false;
     private int randomInt = 0;
     private float randomFloat = 0.0f;
 
