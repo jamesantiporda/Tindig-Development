@@ -94,6 +94,13 @@ public class PlayerMovement : MonoBehaviour
     private float slidingEnableTimer = 0.0f;
     private bool canSlide = true;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
@@ -404,6 +411,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (((Input.GetKeyDown(forwardInput) && !isCPU) || (aiJump && isCPU)) && isGrounded && !isCrouching && acceptInput && canMove)
             {
+                audioManager.PlaySFX(2);
                 playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
                 StartCoroutine(SlidingEnableDisable());
                 anim.SetTrigger("Jump");

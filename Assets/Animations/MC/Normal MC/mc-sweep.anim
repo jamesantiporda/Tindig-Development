@@ -1111,18 +1111,18 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0
-    functionName: SetPlayerAttackDamage
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 65
-    messageOptions: 0
-  - time: 0
     functionName: SetAttackIsSweep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 1
+    messageOptions: 0
+  - time: 0
+    functionName: SetPlayerAttackDamage
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 65
     messageOptions: 0
   - time: 0
     functionName: SetAttackIsCrouchAttack
@@ -1131,12 +1131,40 @@ AnimationClip:
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
+  - time: 0.083333336
+    functionName: PlayAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 8
+    messageOptions: 0
+  - time: 0.33333334
+    functionName: PlayAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 5
+    messageOptions: 0
+  - time: 0.5
+    functionName: PlayAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.6666667
     functionName: MakePlayerAble
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: PlayAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 6
     messageOptions: 0
   - time: 0.6666667
     functionName: SetAttackIsSweep

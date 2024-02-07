@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpriteToPlayer : MonoBehaviour
@@ -36,6 +37,15 @@ public class SpriteToPlayer : MonoBehaviour
     private int difficulty;
 
     public bool toggleLight = true, toggleMedium = true, toggleHeavy = true, toggleOverhead = true, toggleSpecial = true;
+
+    // Audio Stuff
+
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -270,6 +280,26 @@ public class SpriteToPlayer : MonoBehaviour
         player2combat.SetCanAttack(true);
         playerHealth.TakeDamage(player2combat.ReturnAttackDamage());
         Instantiate(hitEffect, new Vector3(hitPoint.transform.position.x, player.transform.position.y + hitPoint.transform.localPosition.y, player.transform.position.z), Quaternion.identity);
+        switch (player2combat.ReturnAttackType())
+        {
+            case "Light":
+                audioManager.PlayAudioClip(audioManager.lightHit);
+                break;
+            case "Medium":
+                audioManager.PlayAudioClip(audioManager.mediumHit);
+                break;
+            case "Heavy":
+                audioManager.PlayAudioClip(audioManager.heavyHit);
+                break;
+            case "Overhead":
+                audioManager.PlayAudioClip(audioManager.heavyHit);
+                break;
+            case "Special":
+                audioManager.PlayAudioClip(audioManager.mediumHit);
+                break;
+            default:
+                break;
+        }
         MakePlayerUnmoveable();
         MakePlayerUnable();
 
@@ -355,6 +385,12 @@ public class SpriteToPlayer : MonoBehaviour
     public GameObject ReturnHitPoint()
     {
         return hitPoint;
+    }
+
+    // For Audio Control
+    public void PlayAudio(int audioID)
+    {
+        audioManager.PlaySFX(audioID);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

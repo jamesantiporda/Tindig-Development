@@ -1169,6 +1169,13 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
+    functionName: SetAttackIsSweep
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
     functionName: SetPlayerAttackDamage
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -1176,7 +1183,7 @@ AnimationClip:
     intParameter: 10
     messageOptions: 0
   - time: 0
-    functionName: SetAttackIsSweep
+    functionName: SetAttackIsLauncher
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -1189,12 +1196,33 @@ AnimationClip:
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 0
-    functionName: SetAttackIsLauncher
+  - time: 0.083333336
+    functionName: PlayAudio
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 0
+    intParameter: 8
+    messageOptions: 0
+  - time: 0.5
+    functionName: PlayAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 7
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: PlayAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 3
+    messageOptions: 0
+  - time: 1
+    functionName: PlayAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 2
     messageOptions: 0
   - time: 1.3333334
     functionName: MakePlayerAble
