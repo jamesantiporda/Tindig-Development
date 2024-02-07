@@ -17,7 +17,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        if(RCT)
+        if(RCT && (health<1000))
         {
             health += 1;
         }

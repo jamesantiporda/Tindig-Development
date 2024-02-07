@@ -34,7 +34,7 @@ public class AudioManager : MonoBehaviour
         audioClips[4] = mcBalisong;
         audioClips[5] = mcFirecracker;
         audioClips[6] = mcFirecrackerPop;
-        audioClips[7] = heavyHit;
+        audioClips[7] = mediumHit;
         audioClips[8] = mcZipper;
 
         musicSource.clip = bgm;

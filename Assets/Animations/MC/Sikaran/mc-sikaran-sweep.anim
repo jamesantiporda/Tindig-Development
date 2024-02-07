@@ -1209,15 +1209,29 @@ AnimationClip:
     floatParameter: 0
     intParameter: 100
     messageOptions: 0
+  - time: 0.41666666
+    functionName: PlayAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 2
+    messageOptions: 0
+  - time: 0.75
+    functionName: PlayAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 2
+    messageOptions: 0
   - time: 1.3333334
-    functionName: MakePlayerAble
+    functionName: SetAttackIsSweep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 1.3333334
-    functionName: SetAttackIsSweep
+    functionName: MakePlayerAble
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
