@@ -760,14 +760,21 @@ AnimationClip:
     intParameter: 70
     messageOptions: 0
   - time: 0
+    functionName: SetAttackIsCrouchAttack
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 0
     functionName: SetAttackIsLauncher
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0
-    functionName: SetAttackIsCrouchAttack
+  - time: 0.5833333
+    functionName: PlayAudio
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

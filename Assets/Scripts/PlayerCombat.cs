@@ -72,8 +72,6 @@ public class PlayerCombat : MonoBehaviour
 
     private int cpuStyleSwitchInput = 0;
 
-    //
-
     void Start()
     {
         movement = GetComponent<PlayerMovement>();

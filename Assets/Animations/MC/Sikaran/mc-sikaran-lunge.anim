@@ -1008,14 +1008,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: SetAttackIsLauncher
+    functionName: SetAttackIsSweep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0
-    functionName: SetAttackIsSweep
+    functionName: SetAttackIsLauncher
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -1051,6 +1051,13 @@ AnimationClip:
     messageOptions: 0
   - time: 1.9166666
     functionName: ResetAttackType
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2
+    functionName: PlayFootstep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -459,6 +459,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            if(!isGrounded)
+            {
+                audioManager.PlayFootstep();
+            }
             isGrounded = true;
         }
     }
@@ -561,6 +565,7 @@ public class PlayerMovement : MonoBehaviour
         canDash = false;
         isDashing = true;
         anim.SetTrigger("Backdash");
+        audioManager.PlayAudioClip(audioManager.dash);
         if (isFacingRight)
         {
             playerRb.velocity = new Vector2(-1f * dashingPower, 0f);

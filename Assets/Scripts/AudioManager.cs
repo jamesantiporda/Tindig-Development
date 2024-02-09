@@ -15,13 +15,29 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip lightWoosh, mediumWoosh, heavyWoosh;
 
+    public AudioClip block, parry;
+
     [Header("---------MC Clips-----------")]
     public AudioClip mcBalisong;
     public AudioClip mcFirecracker;
     public AudioClip mcFirecrackerPop;
     public AudioClip mcZipper;
 
+    [Header("---------Footsteps---------")]
+    public AudioClip normalFootstep0;
+    public AudioClip normalFootstep1;
+    public AudioClip sandFootstep0;
+    public AudioClip sandFootstep1;
+    public AudioClip sandFootstep2;
+    public AudioClip sandFootstep3;
+    public AudioClip dash;
+
+    public int groundType = 0;
+
     AudioClip[] audioClips;
+
+    AudioClip[] normalFootsteps;
+    AudioClip[] sandFootsteps;
 
     private void Start()
     {
@@ -37,6 +53,18 @@ public class AudioManager : MonoBehaviour
         audioClips[7] = mediumHit;
         audioClips[8] = mcZipper;
 
+        normalFootsteps = new AudioClip[2];
+
+        normalFootsteps[0] = normalFootstep0;
+        normalFootsteps[1] = normalFootstep1;
+
+        sandFootsteps = new AudioClip[4];
+
+        sandFootsteps[0] = sandFootstep0;
+        sandFootsteps[1] = sandFootstep1;
+        sandFootsteps[2] = sandFootstep2;
+        sandFootsteps[3] = sandFootstep3;
+
         musicSource.clip = bgm;
         musicSource.Play();
     }
@@ -49,5 +77,21 @@ public class AudioManager : MonoBehaviour
     public void PlayAudioClip(AudioClip audioClip)
     {
         SFXSource.PlayOneShot(audioClip);
+    }
+
+    public void PlayFootstep()
+    {
+        if(groundType == 0)
+        {
+            //int randomInt = Random.Range(0, 2);
+
+            SFXSource.PlayOneShot(normalFootsteps[0]);
+        }
+        else if(groundType == 1)
+        {
+            int randomInt = Random.Range(0, 4);
+
+            SFXSource.PlayOneShot(sandFootsteps[randomInt]);
+        }
     }
 }

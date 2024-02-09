@@ -819,6 +819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 140463443}
   redSlider: {fileID: 1056866027}
+  enemyCombo: {fileID: 0}
 --- !u!114 &140463443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4309,6 +4310,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &998166421
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2266902318644884758, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266902318644884758, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0110056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9284401
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.2890277
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737420202579293986, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349604412686562708, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: bgm
+      value: 
+      objectReference: {fileID: 8300000, guid: 4fe0f467be96ce14ba03c0c7f073869d, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
 --- !u!1 &1001302973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4576,6 +4646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 1042971105}
   redSlider: {fileID: 1564619404}
+  enemyCombo: {fileID: 0}
 --- !u!1 &1050603689
 GameObject:
   m_ObjectHideFlags: 0
@@ -5780,9 +5851,19 @@ MonoBehaviour:
   winner: {fileID: 2021501343}
   ko: {fileID: 689541519}
   timeup: {fileID: 771335971}
+  pauseScreen: {fileID: 0}
+  winScreen: {fileID: 0}
   winnerText: {fileID: 2021501345}
   Player1: {fileID: 2049316868}
   Player2: {fileID: 1494834635}
+  isTraining: 0
+  isBoxingBoss: 0
+  isSikaranBoss: 0
+  isArnisBoss: 0
+  isGrunt: 0
+  gruntStyle: 0
+  gruntType: 0
+  unlocksNextFighters: 0
 --- !u!4 &1481186392
 Transform:
   m_ObjectHideFlags: 0
@@ -5990,6 +6071,8 @@ MonoBehaviour:
   backwardInput: 274
   leftInput: 276
   rightInput: 275
+  shiftStyleInput: 304
+  isMC: 0
   originalSpeed: 5
   jumpForce: 13
   anim: {fileID: 2071538130901148575}
@@ -6013,13 +6096,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29d9b130f7a551c48ac5aa7906fe7b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNumber: 0
   lightInput: 260
   mediumInput: 261
   heavyInput: 262
   overheadInput: 264
   specialInput: 258
+  isMC: 0
+  isFinalBoss: 0
+  mcInput: 119
+  boxingInput: 100
+  sikaranInput: 115
+  arnisInput: 97
+  shiftStyleInput: 304
+  mcSprite: {fileID: 0}
+  boxingSprite: {fileID: 0}
+  sikaranSprite: {fileID: 0}
+  arnisSprite: {fileID: 0}
+  mcHitPoint: {fileID: 0}
+  boxingHitPoint: {fileID: 0}
+  sikaranHitPoint: {fileID: 0}
+  arnisHitPoint: {fileID: 0}
+  styleIcons: {fileID: 0}
   animator: {fileID: 2071538130901148575}
+  player2Combat: {fileID: 0}
   isCPU: 0
+  isLightGrunt: 0
+  isMediumGrunt: 0
+  isHeavyGrunt: 0
+  isTutorial: 0
   easy: 0
   medium: 0
   hard: 1
@@ -7673,6 +7778,8 @@ MonoBehaviour:
   backwardInput: 115
   leftInput: 97
   rightInput: 100
+  shiftStyleInput: 304
+  isMC: 0
   originalSpeed: 5
   jumpForce: 13
   anim: {fileID: 1734933644}
@@ -7709,13 +7816,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29d9b130f7a551c48ac5aa7906fe7b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNumber: 0
   lightInput: 106
   mediumInput: 107
   heavyInput: 108
   overheadInput: 105
   specialInput: 109
+  isMC: 0
+  isFinalBoss: 0
+  mcInput: 119
+  boxingInput: 100
+  sikaranInput: 115
+  arnisInput: 97
+  shiftStyleInput: 304
+  mcSprite: {fileID: 0}
+  boxingSprite: {fileID: 0}
+  sikaranSprite: {fileID: 0}
+  arnisSprite: {fileID: 0}
+  mcHitPoint: {fileID: 0}
+  boxingHitPoint: {fileID: 0}
+  sikaranHitPoint: {fileID: 0}
+  arnisHitPoint: {fileID: 0}
+  styleIcons: {fileID: 0}
   animator: {fileID: 1734933644}
+  player2Combat: {fileID: 0}
   isCPU: 0
+  isLightGrunt: 0
+  isMediumGrunt: 0
+  isHeavyGrunt: 0
+  isTutorial: 0
   easy: 0
   medium: 0
   hard: 0

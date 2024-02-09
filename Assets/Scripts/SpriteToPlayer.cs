@@ -41,6 +41,7 @@ public class SpriteToPlayer : MonoBehaviour
     // Audio Stuff
 
     AudioManager audioManager;
+    public bool sandGround = false;
 
     private void Awake()
     {
@@ -289,6 +290,7 @@ public class SpriteToPlayer : MonoBehaviour
                 audioManager.PlayAudioClip(audioManager.mediumHit);
                 break;
             case "Heavy":
+                FindObjectOfType<HitStop>().Stop(0.1f);
                 audioManager.PlayAudioClip(audioManager.heavyHit);
                 break;
             case "Overhead":
@@ -308,12 +310,12 @@ public class SpriteToPlayer : MonoBehaviour
         {
             movement.Launch(launchForce, 0.20f);
             anim.SetTrigger("Launched");
-            //FindObjectOfType<HitStop>().Stop(0.1f);
+            FindObjectOfType<HitStop>().Stop(0.1f);
         }
         else if(player2combat.ReturnIsSweep())
         {
             anim.SetTrigger("Launched");
-            //FindObjectOfType<HitStop>().Stop(0.1f);
+            FindObjectOfType<HitStop>().Stop(0.1f);
         }
         else
         {
@@ -339,6 +341,15 @@ public class SpriteToPlayer : MonoBehaviour
     private void Blocked()
     {
         //Blocking code
+        if(blockingTime <= 0.25)
+        {
+            audioManager.PlayAudioClip(audioManager.parry);
+            FindObjectOfType<HitStop>().Stop(0.1f);
+        }
+        else
+        {
+            audioManager.PlayAudioClip(audioManager.block);
+        }
         SetIFrameOn();
         anim.SetTrigger("Blocked");
         MakePlayerUnmoveable();
@@ -348,6 +359,15 @@ public class SpriteToPlayer : MonoBehaviour
     private void LowBlocked()
     {
         //Blocking code
+        if (lowBlockingTime <= 0.25)
+        {
+            audioManager.PlayAudioClip(audioManager.parry);
+            FindObjectOfType<HitStop>().Stop(0.1f);
+        }
+        else
+        {
+            audioManager.PlayAudioClip(audioManager.block);
+        }
         SetIFrameOn();
         anim.SetTrigger("LowBlocked");
         MakePlayerUnmoveable();
@@ -391,6 +411,11 @@ public class SpriteToPlayer : MonoBehaviour
     public void PlayAudio(int audioID)
     {
         audioManager.PlaySFX(audioID);
+    }
+
+    public void PlayFootstep()
+    {
+        audioManager.PlayFootstep();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
