@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3477996650103138628}
   m_Layer: 0
   m_Name: SFX
-  m_TagString: Untagged
+  m_TagString: SFX
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,7 +41,7 @@ AudioSource:
   m_GameObject: {fileID: 1263398198724100972}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7963033051038866532, guid: 190a29d5980b537429cac8284bb6ed2d, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.3
@@ -174,6 +174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6038d79f596f5d548bff8ebdd01895dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  masterSlider: {fileID: 0}
+  musicSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
   musicSource: {fileID: 1762954428639807310}
   SFXSource: {fileID: 3477996650103138628}
   bgm: {fileID: 8300000, guid: b9ca0ccf53f69eb4fb4502c2e642ae26, type: 3}
@@ -196,6 +199,7 @@ MonoBehaviour:
   sandFootstep2: {fileID: 8300000, guid: 98df983a9030d5646a0d5bb868df09f2, type: 3}
   sandFootstep3: {fileID: 8300000, guid: 39694c93ca63af546bd9ea563d8c0d2e, type: 3}
   dash: {fileID: 8300000, guid: 9abdfc8193d90744e84cd6f2fbf1fd05, type: 3}
+  mixer: {fileID: 24100000, guid: 190a29d5980b537429cac8284bb6ed2d, type: 2}
   groundType: 0
 --- !u!1 &4071767364672023064
 GameObject:
@@ -209,7 +213,7 @@ GameObject:
   - component: {fileID: 1762954428639807310}
   m_Layer: 0
   m_Name: Music
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -238,7 +242,7 @@ AudioSource:
   m_GameObject: {fileID: 4071767364672023064}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6222995335568595844, guid: 190a29d5980b537429cac8284bb6ed2d, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.199

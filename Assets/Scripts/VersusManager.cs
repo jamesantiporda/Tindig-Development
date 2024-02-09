@@ -23,9 +23,13 @@ public class VersusManager : MonoBehaviour
 
     public GameObject boxingStage, aceStage, beachStage, lunetaStage;
 
+    private AudioManager audioManager;
+
     // Start is called before the first frame update
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
         player1Character = PlayerPrefs.GetInt("P1");
         player2Character = PlayerPrefs.GetInt("P2");
 
@@ -42,6 +46,7 @@ public class VersusManager : MonoBehaviour
                 break;
             case 2:
                 beachStage.SetActive(true);
+                audioManager.groundType = 1;
                 break;
             case 3:
                 lunetaStage.SetActive(true);

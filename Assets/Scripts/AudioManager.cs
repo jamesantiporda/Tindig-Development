@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
@@ -31,6 +34,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip sandFootstep2;
     public AudioClip sandFootstep3;
     public AudioClip dash;
+
+    [SerializeField] AudioMixer mixer;
 
     public int groundType = 0;
 
@@ -94,4 +99,51 @@ public class AudioManager : MonoBehaviour
             SFXSource.PlayOneShot(sandFootsteps[randomInt]);
         }
     }
+
+    public void SetMasterVolume(float value)
+    {
+        Debug.Log("Master: " + value);
+        SetVolume("MasterVolume", value);
+    }
+
+    public void SetMusicVolume(float value)
+    {
+        Debug.Log("Music: " + value);
+        SetVolume("MusicVolume", value);
+    }
+
+    public void SetSfxVolume(float value)
+    {
+        Debug.Log("SFX: " + value);
+        SetVolume("SFXVolume", value);
+    }
+
+    public void SetVolume(string parameter, float value)
+    {
+        mixer.SetFloat(parameter, value);
+    }
+
+    //public void SliderChange(string type)
+    //{
+        //Debug.Log("Updated");
+    //    if (type == "master")
+    //    {
+    //        SetMasterVolume(masterSlider.value);
+    //    }
+    //    else if (type == "music")
+    //    {
+    //        SetMusicVolume(musicSlider.value);
+    //    }
+    //    else if (type == "sfx")
+    //    {
+    //        SetSfxVolume(sfxSlider.value);
+    //    }
+    //}
+
+    //private void Update()
+    //{
+    //    SetMasterVolume(masterSlider.value);
+    //    SetMusicVolume(musicSlider.value);
+    //    SetSfxVolume(sfxSlider.value);
+    //}
 }

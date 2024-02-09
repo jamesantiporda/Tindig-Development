@@ -13,6 +13,8 @@ public class MapSelect : MonoBehaviour
 
     private int selectionNumber;
 
+    public LoadingScene loadingScreenManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -65,6 +67,6 @@ public class MapSelect : MonoBehaviour
         PlayerPrefs.SetInt("Map", selectionNumber);
 
         
-        SceneManager.LoadScene("LunetaMap");
+        loadingScreenManager.LoadScene("LunetaMap");
     }
 }

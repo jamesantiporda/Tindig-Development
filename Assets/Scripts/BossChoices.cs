@@ -14,9 +14,26 @@ public class BossChoices : MonoBehaviour
 
     private bool sikaranAreaUnlocked, arnisAreaUnlocked, finalBossUnlocked;
 
+    private string[] stages;
+
+    public LoadingScene loadSceneManager;
+
     // Start is called before the first frame update
     void Start()
     {
+        stages = new string[11];
+
+        stages[1] = "BoxingLight";
+        stages[2] = "BoxingHeavy";
+        stages[3] = "BoxingBoss";
+        stages[4] = "SikaranLight";
+        stages[5] = "SikaranHeavy";
+        stages[6] = "SikaranBoss";
+        stages[7] = "ArnisLight";
+        stages[8] = "ArnisHeavy";
+        stages[9] = "ArnisBoss";
+        stages[10] = "FinalBoss";
+
         bossChoicesAnim = gameObject.GetComponent<Animator>();
         fadeToBlack.SetActive(false);
 
@@ -131,39 +148,7 @@ public class BossChoices : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && selection.activeSelf)
         {
-            switch(stageNumber)
-            {
-                case 1:
-                    SceneManager.LoadScene("BoxingLight");
-                    break;
-                case 2:
-                    SceneManager.LoadScene("BoxingHeavy");
-                    break;
-                case 3:
-                    SceneManager.LoadScene("BoxingBoss");
-                    break;
-                case 4:
-                    SceneManager.LoadScene("SikaranLight");
-                    break;
-                case 5:
-                    SceneManager.LoadScene("SikaranHeavy");
-                    break;
-                case 6:
-                    SceneManager.LoadScene("SikaranBoss");
-                    break;
-                case 7:
-                    SceneManager.LoadScene("ArnisLight");
-                    break;
-                case 8:
-                    SceneManager.LoadScene("ArnisHeavy");
-                    break;
-                case 9:
-                    SceneManager.LoadScene("ArnisBoss");
-                    break;
-                case 10:
-                    SceneManager.LoadScene("FinalBoss");
-                    break;
-            }
+            StartCoroutine(LoadStage());
         }
 
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -187,6 +172,14 @@ public class BossChoices : MonoBehaviour
         fadeToBlack.SetActive(true);
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene("TitleScreen");
+    }
+
+    private IEnumerator LoadStage()
+    {
+        fadeToBlack.SetActive(true);
+        yield return new WaitForSeconds(1);
+        loadSceneManager.LoadScene(stages[stageNumber]);
+
     }
 
     public void SetStageNumber(int stage)

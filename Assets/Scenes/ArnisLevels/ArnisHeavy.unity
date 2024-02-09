@@ -1045,6 +1045,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 339205333}
     m_Modifications:
+    - target: {fileID: 92304444026011086, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 92304444026011086, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2004165353}
+    - target: {fileID: 92304444026011086, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetMusicVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512682326488610233, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512682326488610233, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2004165353}
+    - target: {fileID: 1512682326488610233, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSfxVolume
+      objectReference: {fileID: 0}
     - target: {fileID: 4035496701884737815, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1152,6 +1176,18 @@ PrefabInstance:
     - target: {fileID: 8784601931707215341, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902806302336784662, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902806302336784662, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2004165353}
+    - target: {fileID: 8902806302336784662, guid: 1bd3b6aead263ff4db3bca3e145d528e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetMasterVolume
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4993,6 +5029,7 @@ MonoBehaviour:
   toggleHeavy: 1
   toggleOverhead: 1
   toggleSpecial: 1
+  sandGround: 0
 --- !u!1 &1540890587
 GameObject:
   m_ObjectHideFlags: 0
@@ -6692,6 +6729,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+--- !u!114 &2004165353 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6349604412686562708, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+  m_PrefabInstance: {fileID: 2004165352}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6038d79f596f5d548bff8ebdd01895dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2006788737
 GameObject:
   m_ObjectHideFlags: 0
