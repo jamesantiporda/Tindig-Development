@@ -344,11 +344,13 @@ public class SpriteToPlayer : MonoBehaviour
         if(blockingTime <= 0.25)
         {
             audioManager.PlayAudioClip(audioManager.parry);
+            MakePlayerAble();
             FindObjectOfType<HitStop>().Stop(0.1f);
         }
         else
         {
             audioManager.PlayAudioClip(audioManager.block);
+            playerHealth.TakeDamage(player2combat.ReturnAttackDamage()/10);
         }
         SetIFrameOn();
         anim.SetTrigger("Blocked");
@@ -362,11 +364,13 @@ public class SpriteToPlayer : MonoBehaviour
         if (lowBlockingTime <= 0.25)
         {
             audioManager.PlayAudioClip(audioManager.parry);
+            MakePlayerAble();
             FindObjectOfType<HitStop>().Stop(0.1f);
         }
         else
         {
             audioManager.PlayAudioClip(audioManager.block);
+            playerHealth.TakeDamage(player2combat.ReturnAttackDamage() / 10);
         }
         SetIFrameOn();
         anim.SetTrigger("LowBlocked");
