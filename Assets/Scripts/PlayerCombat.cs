@@ -72,6 +72,13 @@ public class PlayerCombat : MonoBehaviour
 
     private int cpuStyleSwitchInput = 0;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         movement = GetComponent<PlayerMovement>();
@@ -202,6 +209,10 @@ public class PlayerCombat : MonoBehaviour
             {
                 if(!isFinalBoss)
                 {
+                    if(!styleIcons.activeSelf)
+                    {
+                        audioManager.PlayAudioClip(audioManager.menuOpen);
+                    }
                     styleIcons.SetActive(true);
                 }
 
@@ -298,6 +309,10 @@ public class PlayerCombat : MonoBehaviour
             }
             else
             {
+                if(styleIcons.activeSelf)
+                {
+                    audioManager.PlayAudioClip(audioManager.menuClose);
+                }
                 styleIcons.SetActive(false);
             }
 

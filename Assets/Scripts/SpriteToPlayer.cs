@@ -290,7 +290,7 @@ public class SpriteToPlayer : MonoBehaviour
                 audioManager.PlayAudioClip(audioManager.mediumHit);
                 break;
             case "Heavy":
-                FindObjectOfType<HitStop>().Stop(0.1f);
+                //FindObjectOfType<HitStop>().Stop(0.1f);
                 audioManager.PlayAudioClip(audioManager.heavyHit);
                 break;
             case "Overhead":
@@ -310,12 +310,12 @@ public class SpriteToPlayer : MonoBehaviour
         {
             movement.Launch(launchForce, 0.20f);
             anim.SetTrigger("Launched");
-            FindObjectOfType<HitStop>().Stop(0.1f);
+            //FindObjectOfType<HitStop>().Stop(0.1f);
         }
         else if(player2combat.ReturnIsSweep())
         {
             anim.SetTrigger("Launched");
-            FindObjectOfType<HitStop>().Stop(0.1f);
+            //FindObjectOfType<HitStop>().Stop(0.1f);
         }
         else
         {

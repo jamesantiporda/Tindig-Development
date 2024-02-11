@@ -174,9 +174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6038d79f596f5d548bff8ebdd01895dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterSlider: {fileID: 0}
-  musicSlider: {fileID: 0}
-  sfxSlider: {fileID: 0}
   musicSource: {fileID: 1762954428639807310}
   SFXSource: {fileID: 3477996650103138628}
   bgm: {fileID: 8300000, guid: b9ca0ccf53f69eb4fb4502c2e642ae26, type: 3}
@@ -188,6 +185,8 @@ MonoBehaviour:
   heavyWoosh: {fileID: 8300000, guid: 668bedad4b356e440a1d7dc7b9ed8312, type: 3}
   block: {fileID: 8300000, guid: dcd0fd7b945b7b748bbb71cd2e1681f9, type: 3}
   parry: {fileID: 8300000, guid: ef7a3ac1948ca224098991ead8cbbb9f, type: 3}
+  menuOpen: {fileID: 8300000, guid: 6a1f440b5a5ce634f9ec958fd4598f8e, type: 3}
+  menuClose: {fileID: 8300000, guid: 4d977b924c2f47a4f91d62402db0d769, type: 3}
   mcBalisong: {fileID: 8300000, guid: a79fc3fc53a178d47a4a2c824035a258, type: 3}
   mcFirecracker: {fileID: 8300000, guid: 553fa19179dc2a349aee53ef1519e962, type: 3}
   mcFirecrackerPop: {fileID: 8300000, guid: 70dd2e69c859cec45a38499c711d8a2d, type: 3}

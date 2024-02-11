@@ -20,6 +20,8 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip block, parry;
 
+    public AudioClip menuOpen, menuClose;
+
     [Header("---------MC Clips-----------")]
     public AudioClip mcBalisong;
     public AudioClip mcFirecracker;
