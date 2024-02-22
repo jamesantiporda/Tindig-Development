@@ -140,12 +140,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1762954428639807310, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762954428639807310, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: -6222995335568595844, guid: 190a29d5980b537429cac8284bb6ed2d, type: 2}
     - target: {fileID: 2266902318644884758, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
       propertyPath: m_Name
       value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477996650103138628, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
+      propertyPath: m_Volume
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3477996650103138628, guid: d80f44bb0108f4040ae0745e49b8e73f, type: 3}
       propertyPath: OutputAudioMixerGroup
