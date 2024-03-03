@@ -18,9 +18,18 @@ public class BossChoices : MonoBehaviour
 
     public LoadingScene loadSceneManager;
 
+    public GameObject firstTimeTip;
+
     // Start is called before the first frame update
     void Start()
     {
+        if(PlayerPrefs.HasKey("NotFirstTime"))
+        {
+            firstTimeTip.SetActive(false);
+        }
+
+        PlayerPrefs.SetInt("NotFirstTime", 1);
+
         stages = new string[11];
 
         stages[1] = "BoxingLight";
@@ -94,72 +103,75 @@ public class BossChoices : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
+        if(!firstTimeTip.activeSelf)
         {
-            if (stageNumber != 10)
+            if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
             {
-                DisableSelection();
-                bossChoicesAnim.SetTrigger("Right");
+                if (stageNumber != 10)
+                {
+                    DisableSelection();
+                    bossChoicesAnim.SetTrigger("Right");
+                }
+
+                //stageNumber += 1;
+
+                //if(stageNumber >= 4)
+                //{
+                //    stageNumber = 4;
+                //}
             }
 
-            //stageNumber += 1;
-
-            //if(stageNumber >= 4)
-            //{
-            //    stageNumber = 4;
-            //}
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
-        {
-            if(stageNumber != 0)
+            if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
             {
-                DisableSelection();
-                bossChoicesAnim.SetTrigger("Left");
+                if (stageNumber != 0)
+                {
+                    DisableSelection();
+                    bossChoicesAnim.SetTrigger("Left");
+                }
+
+                //stageNumber -= 1;
+
+                //if (stageNumber <= 1)
+                //{
+                //    stageNumber = 1;
+                //}
             }
 
-            //stageNumber -= 1;
+            if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+            {
+                DisableSelection();
+                bossChoicesAnim.SetTrigger("Up");
 
-            //if (stageNumber <= 1)
-            //{
-            //    stageNumber = 1;
-            //}
-        }
+                //stageNumber += 1;
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
-        {
-            DisableSelection();
-            bossChoicesAnim.SetTrigger("Up");
+                //if(stageNumber >= 4)
+                //{
+                //    stageNumber = 4;
+                //}
+            }
 
-            //stageNumber += 1;
+            if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
+            {
+                DisableSelection();
+                bossChoicesAnim.SetTrigger("Down");
 
-            //if(stageNumber >= 4)
-            //{
-            //    stageNumber = 4;
-            //}
-        }
+                //stageNumber -= 1;
 
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
-        {
-            DisableSelection();
-            bossChoicesAnim.SetTrigger("Down");
+                //if (stageNumber <= 1)
+                //{
+                //    stageNumber = 1;
+                //}
+            }
 
-            //stageNumber -= 1;
+            if (Input.GetKeyDown(KeyCode.Space) && selection.activeSelf && stageNumber != 0)
+            {
+                StartCoroutine(LoadStage());
+            }
 
-            //if (stageNumber <= 1)
-            //{
-            //    stageNumber = 1;
-            //}
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space) && selection.activeSelf && stageNumber != 0)
-        {
-            StartCoroutine(LoadStage());
-        }
-
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            StartCoroutine(ExitToTitle());
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                StartCoroutine(ExitToTitle());
+            }
         }
     }
 
