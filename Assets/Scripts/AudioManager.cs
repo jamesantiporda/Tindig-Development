@@ -47,6 +47,21 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
+        if(PlayerPrefs.HasKey("MasterVolume"))
+        {
+            SetMasterVolume(PlayerPrefs.GetFloat("MasterVolume"));
+        }
+
+        if (PlayerPrefs.HasKey("MusicVolume"))
+        {
+            SetMusicVolume(PlayerPrefs.GetFloat("MusicVolume"));
+        }
+
+        if (PlayerPrefs.HasKey("SFXVolume"))
+        {
+            SetSfxVolume(PlayerPrefs.GetFloat("SFXVolume"));
+        }
+
         audioClips = new AudioClip[9];
 
         audioClips[0] = lightWoosh;
@@ -105,18 +120,21 @@ public class AudioManager : MonoBehaviour
     {
         Debug.Log("Master: " + value);
         SetVolume("MasterVolume", value);
+        PlayerPrefs.SetFloat("MasterVolume", value);
     }
 
     public void SetMusicVolume(float value)
     {
         Debug.Log("Music: " + value);
         SetVolume("MusicVolume", value);
+        PlayerPrefs.SetFloat("MusicVolume", value);
     }
 
     public void SetSfxVolume(float value)
     {
         Debug.Log("SFX: " + value);
         SetVolume("SFXVolume", value);
+        PlayerPrefs.SetFloat("SFXVolume", value);
     }
 
     public void SetVolume(string parameter, float value)

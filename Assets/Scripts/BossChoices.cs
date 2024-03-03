@@ -96,8 +96,11 @@ public class BossChoices : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
-            DisableSelection();
-            bossChoicesAnim.SetTrigger("Right");
+            if (stageNumber != 10)
+            {
+                DisableSelection();
+                bossChoicesAnim.SetTrigger("Right");
+            }
 
             //stageNumber += 1;
 
@@ -109,8 +112,11 @@ public class BossChoices : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
-            DisableSelection();
-            bossChoicesAnim.SetTrigger("Left");
+            if(stageNumber != 0)
+            {
+                DisableSelection();
+                bossChoicesAnim.SetTrigger("Left");
+            }
 
             //stageNumber -= 1;
 
@@ -146,7 +152,7 @@ public class BossChoices : MonoBehaviour
             //}
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && selection.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Space) && selection.activeSelf && stageNumber != 0)
         {
             StartCoroutine(LoadStage());
         }
