@@ -3391,12 +3391,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 531168033597519440, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 531168033597519440, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_Color.g
-      value: 0.79237133
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 531168033597519440, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_Color.r
-      value: 0.8666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 551698666134347306, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_LocalScale.x
@@ -6446,7 +6450,7 @@ GameObject:
   - component: {fileID: 1494834642}
   - component: {fileID: 1494834644}
   m_Layer: 0
-  m_Name: Heavy Grunt
+  m_Name: Master of Panuntukan
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7904,7 +7908,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HEAVY BOXER GRUNT
+  m_text: Master of Panuntukan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4f3ab0d180c5a224094c6fe38d62aed0, type: 2}
   m_sharedMaterial: {fileID: 11952403947716806, guid: 4f3ab0d180c5a224094c6fe38d62aed0, type: 2}
@@ -8917,15 +8921,15 @@ PrefabInstance:
       objectReference: {fileID: -1849669146, guid: a51e9dc8b5aaa2844a5b49790f6bcd24, type: 3}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Color.b
-      value: 0.13968495
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Color.g
-      value: 0.13968495
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Color.r
-      value: 0.4056604
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -353,12 +353,12 @@ public class MatchManager : MonoBehaviour
 
         if (player2RoundsWon >= 1)
         {
-            player2round1.SetActive(true);
+            player2round2.SetActive(true);
         }
 
         if (player2RoundsWon >= 2)
         {
-            player2round2.SetActive(true);
+            player2round1.SetActive(true);
             winnerName = player2Name;
             MatchEnd();
         }
