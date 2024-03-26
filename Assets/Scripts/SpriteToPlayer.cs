@@ -411,6 +411,14 @@ public class SpriteToPlayer : MonoBehaviour
         return hitPoint;
     }
 
+    // Iframe
+    private IEnumerator IFramer()
+    {
+        SetIFrameOn();
+        yield return new WaitForSeconds(0.25f);
+        SetIFrameOff();
+    }
+
     // For Audio Control
     public void PlayAudio(int audioID)
     {
@@ -497,12 +505,16 @@ public class SpriteToPlayer : MonoBehaviour
                             }
                         }
 
+                        StartCoroutine(IFramer());
+
                         return;
                     }
                 }
                 Damaged();
                 timesDamaged += 1;
             }
+
+            StartCoroutine(IFramer());
         }
     }
 }
