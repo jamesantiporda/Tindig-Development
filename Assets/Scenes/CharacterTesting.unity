@@ -2986,6 +2986,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.74
       objectReference: {fileID: 0}
+    - target: {fileID: 551698666134347306, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.429
+      objectReference: {fileID: 0}
     - target: {fileID: 555223413720923896, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3082,10 +3086,18 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2848981533775408206, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.93
+      objectReference: {fileID: 0}
     - target: {fileID: 3120248343888364162, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 1daf3d4800384a64ca346144c3c50ddd, type: 2}
+    - target: {fileID: 3511446517049988858, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.06
+      objectReference: {fileID: 0}
     - target: {fileID: 3595903197740145433, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: hitPoint
       value: 
@@ -3125,6 +3137,10 @@ PrefabInstance:
     - target: {fileID: 3865170371178893914, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023725834502587006, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.041
       objectReference: {fileID: 0}
     - target: {fileID: 4433542811736915524, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_IsActive
@@ -6382,14 +6398,12 @@ MonoBehaviour:
   arnisInput: 97
   shiftStyleInput: 304
   mcSprite: {fileID: 1510789788}
-  boxingSprite: {fileID: 1510789788}
-  sikaranSprite: {fileID: 1510789788}
-  arnisSprite: {fileID: 1510789788}
   mcHitPoint: {fileID: 1950111773}
-  boxingHitPoint: {fileID: 1950111773}
-  sikaranHitPoint: {fileID: 1950111773}
-  arnisHitPoint: {fileID: 1950111773}
   styleIcons: {fileID: 110458468}
+  defaultController: {fileID: 0}
+  boxingController: {fileID: 0}
+  sikaranController: {fileID: 0}
+  arnisController: {fileID: 0}
   animator: {fileID: 1510789789}
   player2Combat: {fileID: 733206917}
   isCPU: 0
@@ -6401,6 +6415,7 @@ MonoBehaviour:
   medium: 1
   hard: 0
   mahoraga: 0
+  unlockAllStyles: 0
 --- !u!1 &1508375263
 GameObject:
   m_ObjectHideFlags: 0

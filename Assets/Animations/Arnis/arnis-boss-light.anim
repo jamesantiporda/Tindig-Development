@@ -370,13 +370,13 @@ AnimationClip:
       value: {fileID: 2056607059, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
     - time: 2.5
       value: {fileID: -1291904352, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
-    - time: 2.5833333
-      value: {fileID: -2081550618, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
     - time: 2.6666667
-      value: {fileID: 564571096, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
-    - time: 2.75
-      value: {fileID: 1107688108, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
+      value: {fileID: -2081550618, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
     - time: 2.8333333
+      value: {fileID: 564571096, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
+    - time: 3
+      value: {fileID: 1107688108, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
+    - time: 3.1666667
       value: {fileID: 1184087261, guid: 79b0369a7df41b84b9fcd5dca1e6bd91, type: 3}
     attribute: m_Sprite
     path: 
@@ -485,7 +485,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 2.9166665
+    m_StopTime: 3.25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -1194,18 +1194,18 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0
-    functionName: SetAttackIsSweep
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0
     functionName: SetPlayerAttackDamage
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 30
+    messageOptions: 0
+  - time: 0
+    functionName: SetAttackIsSweep
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 0
     functionName: SetAttackIsCrouchAttack
@@ -1242,14 +1242,14 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.8333333
+  - time: 3.1666667
     functionName: MakePlayerMoveable
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.8333333
+  - time: 3.1666667
     functionName: MakePlayerAble
     data: 
     objectReferenceParameter: {fileID: 0}
