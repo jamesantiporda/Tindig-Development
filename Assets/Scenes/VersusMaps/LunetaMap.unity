@@ -478,6 +478,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 170079185}
     - target: {fileID: 7144133046643781117, guid: 72b0a48e91248b84cb84dce8cfd02e44, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
+    - target: {fileID: 7144133046643781117, guid: 72b0a48e91248b84cb84dce8cfd02e44, type: 3}
       propertyPath: player2combat
       value: 
       objectReference: {fileID: 7392941544967835218}
@@ -5065,7 +5069,7 @@ GameObject:
   - component: {fileID: 1715514312}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Player1Attack
+  m_TagString: Player2Attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5767,7 +5771,7 @@ GameObject:
   - component: {fileID: 2015771049}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Player1Attack
+  m_TagString: Player2Attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

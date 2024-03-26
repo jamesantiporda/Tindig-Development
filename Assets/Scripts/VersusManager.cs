@@ -156,17 +156,17 @@ public class VersusManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(player1Character < 4 && player1Character > 0)
-        {
-            player1Combat.SetSprite(player1NotMC, p2HitPoint);
-            player1Movement.SetSprite(player1NotMC);
-        }
+        //if(player1Character < 4 && player1Character > 0)
+        //{
+        //    player1Combat.SetSprite(player1NotMC, p2HitPoint);
+        //    player1Movement.SetSprite(player1NotMC);
+        //}
 
-        if(player2Character < 4 && player2Character > 0)
-        {
-            player2Combat.SetSprite(player2NotMC, p2HitPoint);
-            player2Movement.SetSprite(player2NotMC);
-        }
+        //if(player2Character < 4 && player2Character > 0)
+        //{
+        //    player2Combat.SetSprite(player2NotMC, p2HitPoint);
+        //    player2Movement.SetSprite(player2NotMC);
+        //}
 
         gameObject.SetActive(false);
     }
