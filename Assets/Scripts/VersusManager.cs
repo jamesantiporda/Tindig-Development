@@ -73,17 +73,20 @@ public class VersusManager : MonoBehaviour
                 player1NotMC.SetActive(true);
                 player1CurrentSprite = p1DefaultSprite;
                 player1CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = boxingController;
+                player1CurrentSprite.transform.localScale = new Vector3(2, 2, 2);
                 break;
             case 2:
                 player1NotMC.SetActive(true);
                 player1CurrentSprite = p1DefaultSprite;
                 player1CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = sikaranController;
+                player1CurrentSprite.transform.localScale = new Vector3(2, 2, 2);
                 player1CurrentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 break;
             case 3:
                 player1NotMC.SetActive(true);
                 player1CurrentSprite = p1DefaultSprite;
                 player1CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = arnisController;
+                player1CurrentSprite.transform.localScale = new Vector3(2, 2, 2);
                 player1CurrentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 break;
             case 4:
@@ -113,17 +116,20 @@ public class VersusManager : MonoBehaviour
                 player2NotMC.SetActive(true);
                 player2CurrentSprite = p2DefaultSprite;
                 player2CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = boxingController;
+                player2CurrentSprite.transform.localScale = new Vector3(2, 2, 2);
                 break;
             case 2:
                 player2NotMC.SetActive(true);
                 player2CurrentSprite = p2DefaultSprite;
                 player2CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = sikaranController;
+                player2CurrentSprite.transform.localScale = new Vector3(2, 2, 2);
                 player2CurrentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 break;
             case 3:
                 player2NotMC.SetActive(true);
                 player2CurrentSprite = p2DefaultSprite;
                 player2CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = arnisController;
+                player2CurrentSprite.transform.localScale = new Vector3(2, 2, 2);
                 player2CurrentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 break;
             case 4:
