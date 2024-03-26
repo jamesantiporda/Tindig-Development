@@ -68,19 +68,19 @@ public class SpriteToPlayer : MonoBehaviour
         {
             crouchReactionTime = 3.0f;
             maxRandom = 7;
-            numberToPunish = 3;
+            numberToPunish = 4;
         }
         else if(difficulty == 2)
         {
             crouchReactionTime = 1.5f;
             maxRandom = 5;
-            numberToPunish = 2;
+            numberToPunish = 3;
         }
         else if(difficulty == 3)
         {
             crouchReactionTime = 1f;
-            maxRandom = 3;
-            numberToPunish = 2;
+            maxRandom = 4;
+            numberToPunish = 3;
         }
 
         anim.SetBool("isCPU", isCPU);
