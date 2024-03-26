@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class VersusManager : MonoBehaviour
 {
-    public GameObject player1MC, player2MC, player1NotMC, player2NotMC, p1HitPoint, p2HitPoint;
+    public GameObject player1NotMC, player2NotMC, p1HitPoint, p2HitPoint;
 
     public PlayerMovement player1Movement, player2Movement;
     public PlayerCombat player1Combat, player2Combat;
@@ -16,8 +16,6 @@ public class VersusManager : MonoBehaviour
     private GameObject player1CurrentSprite, player2CurrentSprite;
 
     public RuntimeAnimatorController boxingController, sikaranController, arnisController, finalbossBoxingController, finalbossSikaranController, finalBossArnisController;
-
-    public GameObject p1MCDefault, p1MCBoxing, p1MCSikaran, p1MCArnis, p2MCDefault, p2MCBoxing, p2MCSikaran, p2MCArnis;
 
     public GameObject p1DefaultSprite, p2DefaultSprite;
 
@@ -72,43 +70,38 @@ public class VersusManager : MonoBehaviour
         switch (player1Character)
         {
             case 1:
-                player1MC.SetActive(false);
                 player1NotMC.SetActive(true);
-                player1CurrentSprite = player1NotMC;
+                player1CurrentSprite = p1DefaultSprite;
                 player1CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = boxingController;
                 break;
             case 2:
-                player1MC.SetActive(false);
                 player1NotMC.SetActive(true);
-                player1CurrentSprite = player1NotMC;
+                player1CurrentSprite = p1DefaultSprite;
                 player1CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = sikaranController;
                 player1CurrentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 break;
             case 3:
-                player1MC.SetActive(false);
                 player1NotMC.SetActive(true);
-                player1CurrentSprite = player1NotMC;
+                player1CurrentSprite = p1DefaultSprite;
                 player1CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = arnisController;
                 player1CurrentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 break;
             case 4:
                 Debug.Log("FinalBoss");
                 player1CurrentSprite = p1DefaultSprite;
+                player1CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = finalbossBoxingController;
                 player1CurrentSprite.transform.localScale = new Vector3(2, 2, 2);
-                p1MCDefault.GetComponent<Animator>().runtimeAnimatorController = finalbossBoxingController;
-                p1MCBoxing.GetComponent<Animator>().runtimeAnimatorController = finalbossBoxingController;
-                p1MCSikaran.GetComponent<Animator>().runtimeAnimatorController = finalbossSikaranController;
-                p1MCArnis.GetComponent<Animator>().runtimeAnimatorController = finalBossArnisController;
-                p1MCDefault.GetComponent<SpriteRenderer>().color = Color.white;
-                p1MCBoxing.GetComponent<SpriteRenderer>().color = Color.white;
-                p1MCSikaran.GetComponent<SpriteRenderer>().color = Color.white;
-                p1MCArnis.GetComponent<SpriteRenderer>().color = Color.white;
+                player1Combat.defaultController = finalbossBoxingController;
+                player1Combat.boxingController = finalbossBoxingController;
+                player1Combat.sikaranController = finalbossSikaranController;
+                player1Combat.arnisController = finalBossArnisController;
                 player1Movement.isMC = true;
                 player1Combat.isMC = true;
                 break;
             default:
                 Debug.Log("MC");
                 player1CurrentSprite = p1DefaultSprite;
+                player1CurrentSprite.transform.localScale = new Vector3(1.59f, 1.59f, 1.59f);
                 player1Movement.isMC = true;
                 player1Combat.isMC = true;
                 break;
@@ -117,39 +110,38 @@ public class VersusManager : MonoBehaviour
         switch (player2Character)
         {
             case 1:
-                player2MC.SetActive(false);
                 player2NotMC.SetActive(true);
-                player2CurrentSprite = player2NotMC;
+                player2CurrentSprite = p2DefaultSprite;
                 player2CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = boxingController;
                 break;
             case 2:
-                player2MC.SetActive(false);
                 player2NotMC.SetActive(true);
-                player2CurrentSprite = player2NotMC;
+                player2CurrentSprite = p2DefaultSprite;
                 player2CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = sikaranController;
                 player2CurrentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 break;
             case 3:
-                player2MC.SetActive(false);
                 player2NotMC.SetActive(true);
-                player2CurrentSprite = player2NotMC;
+                player2CurrentSprite = p2DefaultSprite;
                 player2CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = arnisController;
                 player2CurrentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 break;
             case 4:
                 Debug.Log("FinalBoss");
                 player2CurrentSprite = p2DefaultSprite;
+                player2CurrentSprite.GetComponent<Animator>().runtimeAnimatorController = finalbossBoxingController;
                 player2CurrentSprite.transform.localScale = new Vector3(2, 2, 2);
-                p2MCDefault.GetComponent<Animator>().runtimeAnimatorController = finalbossBoxingController;
-                p2MCBoxing.GetComponent<Animator>().runtimeAnimatorController = finalbossBoxingController;
-                p2MCSikaran.GetComponent<Animator>().runtimeAnimatorController = finalbossSikaranController;
-                p2MCArnis.GetComponent<Animator>().runtimeAnimatorController = finalBossArnisController;
+                player2Combat.defaultController = finalbossBoxingController;
+                player2Combat.boxingController = finalbossBoxingController;
+                player2Combat.sikaranController = finalbossSikaranController;
+                player2Combat.arnisController = finalBossArnisController;
                 player2Movement.isMC = true;
                 player2Combat.isMC = true;
                 break;
             default:
                 Debug.Log("MC");
                 player2CurrentSprite = p2DefaultSprite;
+                player2CurrentSprite.transform.localScale = new Vector3(1.59f, 1.59f, 1.59f);
                 player2Movement.isMC = true;
                 player2Combat.isMC = true;
                 break;

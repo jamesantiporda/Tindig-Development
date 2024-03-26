@@ -25,16 +25,16 @@ public class PlayerCombat : MonoBehaviour
     public KeyCode shiftStyleInput = KeyCode.LeftShift;
 
     // Styles
-    public GameObject mcSprite, boxingSprite, sikaranSprite, arnisSprite;
-    public GameObject mcHitPoint, boxingHitPoint, sikaranHitPoint, arnisHitPoint;
-    private GameObject[] styleHitPoints = new GameObject[4];
+    public GameObject mcSprite;
+    public GameObject mcHitPoint;
     private GameObject activeHitPoint;
-    private SpriteRenderer mcRenderer, boxingRenderer, sikaranRenderer, arnisRenderer;
     private GameObject currentSprite;
-    private Vector3 mcSpriteSize, boxingSpriteSize, sikaranSpriteSize, arnisSpriteSize;
     private bool canSwitch = true;
     private bool boxingUnlocked = false, sikaranUnlocked = false, arnisUnlocked = false;
     public GameObject styleIcons;
+
+    // Styles Version 2
+    public RuntimeAnimatorController defaultController, boxingController, sikaranController, arnisController;
 
     public Animator animator;
     public PlayerCombat player2Combat;
@@ -74,6 +74,9 @@ public class PlayerCombat : MonoBehaviour
 
     AudioManager audioManager;
 
+    // DEBUGGING
+    public bool unlockAllStyles = false;
+
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
@@ -83,28 +86,11 @@ public class PlayerCombat : MonoBehaviour
     {
         movement = GetComponent<PlayerMovement>();
 
-        mcRenderer = mcSprite.GetComponent<SpriteRenderer>();
         currentSprite = mcSprite;
-        boxingRenderer = boxingSprite.GetComponent<SpriteRenderer>();
-        sikaranRenderer = sikaranSprite.GetComponent<SpriteRenderer>();
-        arnisRenderer = arnisSprite.GetComponent<SpriteRenderer>();
-
-        mcSpriteSize = mcSprite.transform.localScale;
-        boxingSpriteSize = boxingSprite.transform.localScale;
-        sikaranSpriteSize = sikaranSprite.transform.localScale;
-        arnisSpriteSize = arnisSprite.transform.localScale;
 
         if (isMC || isFinalBoss)
         {
-            mcRenderer.enabled = true;
-            boxingRenderer.enabled = false;
-            sikaranRenderer.enabled = false;
-            arnisRenderer.enabled = false;
 
-            EnableSprite(mcSprite);
-            DisableSprite(boxingSprite);
-            DisableSprite(sikaranSprite);
-            DisableSprite(arnisSprite);
         }
 
         difficulty = PlayerPrefs.GetInt("Difficulty");
@@ -160,19 +146,12 @@ public class PlayerCombat : MonoBehaviour
             arnisUnlocked = false;
         }
 
-        if (isFinalBoss)
+        if (isFinalBoss || unlockAllStyles)
         {
             boxingUnlocked = true;
             sikaranUnlocked = true;
             arnisUnlocked = true;
         }
-
-        styleHitPoints[0] = mcHitPoint;
-        styleHitPoints[1] = boxingHitPoint;
-        styleHitPoints[2] = sikaranHitPoint;
-        styleHitPoints[3] = arnisHitPoint;
-
-        activeHitPoint = styleHitPoints[0];
     }
 
     // Update is called once per frame
@@ -216,7 +195,7 @@ public class PlayerCombat : MonoBehaviour
                     styleIcons.SetActive(true);
                 }
 
-                if((Input.GetKeyDown(mcInput) && currentSprite != mcSprite))
+                if((Input.GetKeyDown(mcInput) && animator.runtimeAnimatorController != defaultController))
                 {
                     if(isCPU)
                     {
@@ -228,18 +207,19 @@ public class PlayerCombat : MonoBehaviour
 
                     //shift into mc
                     Debug.Log("MC");
-                    boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
-                    DisableSprite(currentSprite);
-                    currentSprite = mcSprite;
-                    EnableSprite(currentSprite);
-                    animator = currentSprite.GetComponent<Animator>();
-                    movement.ChangeStyle(currentSprite);
-                    activeHitPoint = mcHitPoint;
-                    player2Combat.ChangeHitPoint(mcHitPoint);
-                    currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
+                    //boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
+                    //DisableSprite(currentSprite);
+                    //currentSprite = mcSprite;
+                    //EnableSprite(currentSprite);
+                    animator.runtimeAnimatorController = defaultController;
+                    currentSprite.GetComponent<SpriteRenderer>().flipX = false;
+                    //movement.ChangeStyle(currentSprite);
+                    //activeHitPoint = mcHitPoint;
+                    //player2Combat.ChangeHitPoint(mcHitPoint);
+                    //currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
                 }
 
-                if((Input.GetKeyDown(boxingInput) && currentSprite != boxingSprite && boxingUnlocked) || isCPU && cpuStyleSwitchInput == 1 && currentSprite != boxingSprite)
+                if((Input.GetKeyDown(boxingInput) && animator.runtimeAnimatorController != boxingController && boxingUnlocked) || isCPU && cpuStyleSwitchInput == 1 && animator.runtimeAnimatorController != boxingController)
                 {
                     if (isCPU)
                     {
@@ -251,17 +231,11 @@ public class PlayerCombat : MonoBehaviour
 
                     //shift into boxer
                     Debug.Log("Boxer");
-                    DisableSprite(currentSprite);
-                    currentSprite = boxingSprite;
-                    EnableSprite(currentSprite);
-                    animator = currentSprite.GetComponent<Animator>();
-                    movement.ChangeStyle(currentSprite);
-                    activeHitPoint = boxingHitPoint;
-                    player2Combat.ChangeHitPoint(boxingHitPoint);
-                    currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
+                    animator.runtimeAnimatorController = boxingController;
+                    currentSprite.GetComponent<SpriteRenderer>().flipX = false;
                 }
 
-                if((Input.GetKeyDown(sikaranInput) && currentSprite != sikaranSprite && sikaranUnlocked) || isCPU && cpuStyleSwitchInput == 2 && currentSprite != sikaranSprite)
+                if((Input.GetKeyDown(sikaranInput) && animator.runtimeAnimatorController != sikaranController && sikaranUnlocked) || isCPU && cpuStyleSwitchInput == 2 && animator.runtimeAnimatorController != sikaranController)
                 {
                     if (isCPU)
                     {
@@ -273,18 +247,11 @@ public class PlayerCombat : MonoBehaviour
 
                     //shift into sikaran
                     Debug.Log("Sikaran");
-                    boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
-                    DisableSprite(currentSprite);
-                    currentSprite = sikaranSprite;
-                    EnableSprite(currentSprite);
-                    animator = currentSprite.GetComponent<Animator>();
-                    movement.ChangeStyle(currentSprite);
-                    activeHitPoint = sikaranHitPoint;
-                    player2Combat.ChangeHitPoint(sikaranHitPoint);
-                    currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
+                    animator.runtimeAnimatorController = sikaranController;
+                    currentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 }
 
-                if((Input.GetKeyDown(arnisInput) && currentSprite != arnisSprite && arnisUnlocked) || isCPU && cpuStyleSwitchInput == 3 && currentSprite != arnisSprite)
+                if((Input.GetKeyDown(arnisInput) && animator.runtimeAnimatorController != arnisController && arnisUnlocked) || isCPU && cpuStyleSwitchInput == 3 && animator.runtimeAnimatorController != arnisController)
                 {
                     if (isCPU)
                     {
@@ -296,15 +263,8 @@ public class PlayerCombat : MonoBehaviour
 
                     //shift into arnis
                     Debug.Log("Arnis");
-                    boxingSprite.GetComponent<SpriteToPlayer>().SetIFrameOn();
-                    DisableSprite(currentSprite);
-                    currentSprite = arnisSprite;
-                    EnableSprite(currentSprite);
-                    animator = currentSprite.GetComponent<Animator>();
-                    movement.ChangeStyle(currentSprite);
-                    activeHitPoint = arnisHitPoint;
-                    player2Combat.ChangeHitPoint(arnisHitPoint);
-                    currentSprite.GetComponent<SpriteToPlayer>().ChangeHitPoint(player2Combat.ReturnActiveHitPoint());
+                    animator.runtimeAnimatorController = arnisController;
+                    currentSprite.GetComponent<SpriteRenderer>().flipX = true;
                 }
             }
             else

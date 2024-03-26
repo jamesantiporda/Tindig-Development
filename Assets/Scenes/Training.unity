@@ -1500,9 +1500,9 @@ MonoBehaviour:
   enemyMovement: {fileID: 1494834645}
   enemyCombat: {fileID: 1494834646}
   block: {fileID: 248943679}
-  block1: {fileID: 1542000791}
-  block2: {fileID: 1542000790}
-  block3: {fileID: 1542000789}
+  block1: {fileID: 0}
+  block2: {fileID: 0}
+  block3: {fileID: 0}
   tutorialPanel: {fileID: 1018860776}
   title: {fileID: 631172210}
   controls: {fileID: 697635130}
@@ -3146,6 +3146,10 @@ PrefabInstance:
       propertyPath: enemy
       value: 
       objectReference: {fileID: 1494834635}
+    - target: {fileID: 5930640865670018727, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: StyleIcons
       value: 
@@ -3155,9 +3159,53 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 310922379}
     - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: arnisSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: boxingSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: arnisHitPoint
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: player2Combat
       value: 
       objectReference: {fileID: 1494834646}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: sikaranSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: boxingHitPoint
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: arnisController
+      value: 
+      objectReference: {fileID: 9100000, guid: 48a5818015cb8ac4c9ab1a717b15143b, type: 2}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: sikaranHitPoint
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: unlockAllStyles
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: boxingController
+      value: 
+      objectReference: {fileID: 9100000, guid: a03c1647b02da1d4d86566887ab39514, type: 2}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: defaultController
+      value: 
+      objectReference: {fileID: 9100000, guid: 7e0e53030d0171147868b2e602e317df, type: 2}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: sikaranController
+      value: 
+      objectReference: {fileID: 9100000, guid: 14180cd6f7044ac46a3cb44ee68b827c, type: 2}
     - target: {fileID: 9214171306589112542, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3203,7 +3251,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2212314632663099701, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+    - {fileID: 555223413720923896, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+    - {fileID: 4508704591925369681, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9214171306589112542, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       insertIndex: -1
@@ -6374,14 +6425,12 @@ MonoBehaviour:
   arnisInput: 97
   shiftStyleInput: 304
   mcSprite: {fileID: 1510789788}
-  boxingSprite: {fileID: 1510789788}
-  sikaranSprite: {fileID: 1510789788}
-  arnisSprite: {fileID: 1510789788}
   mcHitPoint: {fileID: 1950111773}
-  boxingHitPoint: {fileID: 1950111773}
-  sikaranHitPoint: {fileID: 1950111773}
-  arnisHitPoint: {fileID: 1950111773}
   styleIcons: {fileID: 110458468}
+  defaultController: {fileID: 0}
+  boxingController: {fileID: 0}
+  sikaranController: {fileID: 0}
+  arnisController: {fileID: 0}
   animator: {fileID: 1510789789}
   player2Combat: {fileID: 733206917}
   isCPU: 0
@@ -6393,6 +6442,7 @@ MonoBehaviour:
   medium: 1
   hard: 0
   mahoraga: 0
+  unlockAllStyles: 0
 --- !u!1 &1508375263
 GameObject:
   m_ObjectHideFlags: 0
@@ -6597,21 +6647,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525196404}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1542000789 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8115322709960504792, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
-  m_PrefabInstance: {fileID: 733206914}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1542000790 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 350850325432101958, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
-  m_PrefabInstance: {fileID: 733206914}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1542000791 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5818353428601046972, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
-  m_PrefabInstance: {fileID: 733206914}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1564619402
 GameObject:
   m_ObjectHideFlags: 0

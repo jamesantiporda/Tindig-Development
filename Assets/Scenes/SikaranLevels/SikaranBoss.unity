@@ -2251,6 +2251,22 @@ PrefabInstance:
       propertyPath: player2Combat
       value: 
       objectReference: {fileID: 1494834646}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: arnisController
+      value: 
+      objectReference: {fileID: 9100000, guid: 48a5818015cb8ac4c9ab1a717b15143b, type: 2}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: boxingController
+      value: 
+      objectReference: {fileID: 9100000, guid: a03c1647b02da1d4d86566887ab39514, type: 2}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: defaultController
+      value: 
+      objectReference: {fileID: 9100000, guid: 7e0e53030d0171147868b2e602e317df, type: 2}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: sikaranController
+      value: 
+      objectReference: {fileID: 9100000, guid: 14180cd6f7044ac46a3cb44ee68b827c, type: 2}
     - target: {fileID: 9214171306589112542, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2296,7 +2312,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2212314632663099701, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+    - {fileID: 555223413720923896, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+    - {fileID: 4508704591925369681, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9214171306589112542, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       insertIndex: -1
@@ -5329,14 +5348,12 @@ MonoBehaviour:
   arnisInput: 97
   shiftStyleInput: 304
   mcSprite: {fileID: 1510789788}
-  boxingSprite: {fileID: 1510789788}
-  sikaranSprite: {fileID: 1510789788}
-  arnisSprite: {fileID: 1510789788}
   mcHitPoint: {fileID: 1950111773}
-  boxingHitPoint: {fileID: 1950111773}
-  sikaranHitPoint: {fileID: 1950111773}
-  arnisHitPoint: {fileID: 1950111773}
   styleIcons: {fileID: 1225942128}
+  defaultController: {fileID: 0}
+  boxingController: {fileID: 0}
+  sikaranController: {fileID: 0}
+  arnisController: {fileID: 0}
   animator: {fileID: 1510789789}
   player2Combat: {fileID: 733206917}
   isCPU: 1
@@ -5348,6 +5365,7 @@ MonoBehaviour:
   medium: 0
   hard: 1
   mahoraga: 0
+  unlockAllStyles: 0
 --- !u!1 &1498590647
 GameObject:
   m_ObjectHideFlags: 0
