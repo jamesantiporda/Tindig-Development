@@ -559,11 +559,13 @@ public class PlayerMovement : MonoBehaviour
         return isSprinting;
     }
 
-
+    
     private IEnumerator BackDash()
     {
         canDash = false;
         isDashing = true;
+        GetComponent<PlayerCombat>().DenyInput();
+        acceptInput = false;
         anim.SetTrigger("Backdash");
         audioManager.PlayAudioClip(audioManager.dash);
         if (isFacingRight)
@@ -578,6 +580,8 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+        GetComponent<PlayerCombat>().AcceptInput();
+        acceptInput = true;
     }
 
     private IEnumerator ReturnRandomFloat(float min, float max)
