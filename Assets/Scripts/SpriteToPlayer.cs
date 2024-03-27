@@ -23,6 +23,8 @@ public class SpriteToPlayer : MonoBehaviour
     private bool isBlocking = false, isLowBlocking = false, lowBlocked, blocked, iFrame;
     private float blockingTime = 0f, lowBlockingTime = 0f;
 
+    private bool isCountering = false;
+
     /// CPU AI /
     public bool isCPU = false, isBoxer = false;
     public bool easy = false, medium = true, hard = false, mahoraga = false;
@@ -308,7 +310,7 @@ public class SpriteToPlayer : MonoBehaviour
         // Check if attack is a launching attack
         if (player2combat.ReturnIsLauncher())
         {
-            movement.Launch(launchForce, 0.20f);
+            movement.Launch(launchForce, 0.0f);
             anim.SetTrigger("Launched");
             //FindObjectOfType<HitStop>().Stop(0.1f);
         }
@@ -378,6 +380,13 @@ public class SpriteToPlayer : MonoBehaviour
         MakePlayerUnable();
     }
 
+    private void Counter()
+    {
+        StartCoroutine(IFramer());
+        anim.SetTrigger("CounterHit");
+        Debug.Log("Counter!");
+    }
+
     private int ReturnRandomInt(int min, int max)
     {
         return UnityEngine.Random.Range(min, max);
@@ -411,6 +420,16 @@ public class SpriteToPlayer : MonoBehaviour
         return hitPoint;
     }
 
+    public void EnableCountering()
+    {
+        isCountering = true;
+    }
+
+    public void DisableCountering()
+    {
+        isCountering = false;
+    }
+
     // Iframe
     private IEnumerator IFramer()
     {
@@ -436,6 +455,13 @@ public class SpriteToPlayer : MonoBehaviour
         {
             lowBlocked = isLowBlocking && player2combat.ReturnAttackType() != "Overhead";
             blocked = !player2combat.ReturnIsCrouchAttack() && isBlocking && !isLowBlocking;
+
+            // If Countered
+            if(isCountering)
+            {
+                Counter();
+                return;
+            }
 
             //If the GameObject's name matches the one you suggest, output this message in the console
             if (blocked)

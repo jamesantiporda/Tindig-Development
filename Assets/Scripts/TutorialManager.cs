@@ -387,7 +387,7 @@ public class TutorialManager : MonoBehaviour
             }
         }
 
-        Debug.Log(tutorialStage);
+        //Debug.Log(tutorialStage);
     }
 
     public void StartTutorial()
