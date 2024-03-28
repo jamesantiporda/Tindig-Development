@@ -19,14 +19,18 @@ public class PlayerHealth : MonoBehaviour
     {
         if(RCT && (health<1000))
         {
-            health += 1;
+            health = (int) healthBar.ReturnSliderValue();
         }
     }
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
-        healthBar.SetHealth(health);
+        if(health >= 0)
+        {
+            health -= damage / (1 + healthBar.ReturnCombo());
+            Debug.Log("DAMAGE: " + damage / (1 + healthBar.ReturnCombo()));
+            healthBar.SetHealth(health);
+        }
     }
 
     public int ReturnHealth()

@@ -9,7 +9,7 @@ public class HealthBarScript : MonoBehaviour
 
     public Slider slider, redSlider;
 
-    private float damageTimer = 0.0f, redSliderCooldown = 0.75f;
+    private float damageTimer = 0.0f, redSliderCooldown = 1.0f;
 
     private bool regenHealth = false;
 
@@ -29,11 +29,8 @@ public class HealthBarScript : MonoBehaviour
     {
         damageTimer = 0.0f;
 
-        if(health < slider.value)
-        {
-            comboOfEnemy += 1;
-            enemyCombo.text = "" + comboOfEnemy;
-        }
+        comboOfEnemy += 1;
+        enemyCombo.text = "" + comboOfEnemy;
         slider.value = health;
     }
 
@@ -50,7 +47,7 @@ public class HealthBarScript : MonoBehaviour
             redSlider.value = slider.value;
         }
 
-        if(regenHealth && damageTimer >= redSliderCooldown && slider.value < slider.maxValue)
+        if(regenHealth && damageTimer >= redSliderCooldown && slider.value < slider.maxValue && comboOfEnemy == 0)
         {
             slider.value += 1;
         }
@@ -65,5 +62,15 @@ public class HealthBarScript : MonoBehaviour
     public void SetHealthRegen(bool regen)
     {
         regenHealth = regen;
+    }
+
+    public int ReturnCombo()
+    {
+        return comboOfEnemy;
+    }
+
+    public float ReturnSliderValue()
+    {
+        return slider.value;
     }
 }

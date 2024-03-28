@@ -337,7 +337,7 @@ public class SpriteToPlayer : MonoBehaviour
             }
             else
             {
-                movement.Launch(20.0f, 0.0f);
+                movement.Launch(17.5f, 0.2f);
                 anim.SetTrigger("Launched");
             }
         }
