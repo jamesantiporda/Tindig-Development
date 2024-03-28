@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using System;
 
 public class SpriteToPlayer : MonoBehaviour
 {
+    public static event Action perfectGuard;
+
     public int playerNumber = 1;
 
     public GameObject player;
@@ -346,6 +349,7 @@ public class SpriteToPlayer : MonoBehaviour
         if(blockingTime <= 0.25)
         {
             audioManager.PlayAudioClip(audioManager.parry);
+            perfectGuard?.Invoke();
             MakePlayerAble();
             FindObjectOfType<HitStop>().Stop(0.1f);
         }
@@ -366,13 +370,14 @@ public class SpriteToPlayer : MonoBehaviour
         if (lowBlockingTime <= 0.25)
         {
             audioManager.PlayAudioClip(audioManager.parry);
+            perfectGuard?.Invoke();
             MakePlayerAble();
             FindObjectOfType<HitStop>().Stop(0.1f);
         }
         else
         {
             audioManager.PlayAudioClip(audioManager.block);
-            playerHealth.TakeDamage(player2combat.ReturnAttackDamage() / 10);
+            playerHealth.TakeDamage(player2combat.ReturnAttackDamage() / 3);
         }
         SetIFrameOn();
         anim.SetTrigger("LowBlocked");

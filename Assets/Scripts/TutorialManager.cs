@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class TutorialManager : MonoBehaviour
     public TMP_Text title, controls, moreTimes;
     private Animator playerAnimator;
     public Animator successAnimator;
+    public SpriteToPlayer player1Sprite;
 
     private int tutorialStage = -1;
     private int success = 0;
@@ -22,7 +24,7 @@ public class TutorialManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -386,8 +388,31 @@ public class TutorialManager : MonoBehaviour
             }
         }
 
-        // Crouch Attacks
+        // Perfect Guard
         if (tutorialStage == 17)
+        {
+            SpriteToPlayer.perfectGuard += PerfectGuardSuccess;
+
+            title.text = "Perfect Guarding";
+            controls.text = "Start Guarding as an attack lands\nBlocked Attack does no chip damage";
+            moreTimes.text = 3 - success + " more time(s)";
+
+            enemyCombat.SetIsCPU(true);
+            enemyCombat.SetDifficulty(3);
+            enemyMovement.SetIsCPU(true);
+
+            if (success >= 3)
+            {
+                SpriteToPlayer.perfectGuard -= PerfectGuardSuccess;
+                success = 0;
+                enemyCombat.SetIsCPU(false);
+                enemyMovement.SetIsCPU(false);
+                tutorialStage = 18;
+            }
+        }
+
+        // Style Switching
+        if (tutorialStage == 18)
         {
             title.text = "Style Switching";
             controls.text = "SHIFT + W/A/S/D - Switch Styles\nRequires unlocking Styles";
@@ -402,7 +427,7 @@ public class TutorialManager : MonoBehaviour
             if (success >= 4)
             {
                 success = 0;
-                tutorialStage = 18;
+                tutorialStage = 19;
                 tutorialPanel.SetActive(false);
             }
         }
@@ -423,6 +448,12 @@ public class TutorialManager : MonoBehaviour
         tutorialStage -= 1;
     }
 
+    public void ForwardOneStep()
+    {
+        success = 0;
+        tutorialStage += 1;
+    }
+
     private IEnumerator BlockCheckCooldown()
     {
         blockCooldown = true;
@@ -430,5 +461,15 @@ public class TutorialManager : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         blockCooldown = false;
+    }
+
+    private void PerfectGuardSuccess()
+    {
+        if (!blockCooldown)
+        {
+            success += 1;
+            successAnimator.SetTrigger("Success");
+            StartCoroutine(BlockCheckCooldown());
+        }
     }
 }
