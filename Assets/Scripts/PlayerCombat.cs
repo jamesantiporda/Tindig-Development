@@ -657,4 +657,11 @@ public class PlayerCombat : MonoBehaviour
                 break;
         }
     }
+
+    // To be used in tutorial
+    public IEnumerator ForceMediumAttack()
+    {
+        MediumAttack();
+        yield return new WaitForSeconds(1.0f);
+    }
 }

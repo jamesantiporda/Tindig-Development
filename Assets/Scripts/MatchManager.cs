@@ -97,6 +97,7 @@ public class MatchManager : MonoBehaviour
         {
             player1Health.RegenHealth();
             player2Health.RegenHealth();
+            player2Combat.SetDifficulty(3);
         }
     }
 

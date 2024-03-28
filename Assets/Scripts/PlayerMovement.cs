@@ -717,4 +717,14 @@ public class PlayerMovement : MonoBehaviour
             sliding = false;
         }
     }
+
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.gameObject.tag == "PlayerHitBox")
+        {
+            Rigidbody collisionRb = collision.gameObject.transform.parent.GetComponent<Rigidbody>();
+            playerRb.velocity = new Vector2(0f, playerRb.velocity.y);
+            collisionRb.velocity = new Vector2(0f, collisionRb.velocity.y);
+        }
+    }
 }

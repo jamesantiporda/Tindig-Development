@@ -9,9 +9,9 @@ public class TutorialManager : MonoBehaviour
     public PlayerMovement playerMovement;
     public PlayerMovement enemyMovement;
     public PlayerCombat enemyCombat;
-    public GameObject block, block1, block2, block3;
+    public GameObject block;
     public GameObject tutorialPanel;
-    public TMP_Text title, controls;
+    public TMP_Text title, controls, moreTimes;
     private Animator playerAnimator;
     public Animator successAnimator;
 
@@ -33,6 +33,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "movement";
             controls.text = "A - LEFT, D - RIGHT";
+            moreTimes.text = 5 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
             {
@@ -52,6 +53,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "jumping";
             controls.text = "W - jump";
+            moreTimes.text = 3 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.W))
             {
@@ -71,6 +73,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "crouching";
             controls.text = "S - crouch";
+            moreTimes.text = 3 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.S))
             {
@@ -90,6 +93,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Sprinting";
             controls.text = "Forward X2 then Hold";
+            moreTimes.text = 3 - success + " more time(s)";
 
             if (playerMovement.ReturnIsSprinting() && !blockCooldown)
             {
@@ -110,6 +114,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Back Dashing";
             controls.text = "Backward X2";
+            moreTimes.text = 3 - success + " more time(s)";
 
             if (playerMovement.ReturnIsDashing() && !blockCooldown)
             {
@@ -130,6 +135,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Attacks";
             controls.text = "J - Light Attack\nLow Damage, Fast Attack";
+            moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.J))
             {
@@ -149,6 +155,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Attacks";
             controls.text = "K - Medium Attack\nMedium damage, Medium Speed";
+            moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.K))
             {
@@ -168,6 +175,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Attacks";
             controls.text = "L - Heavy Attack\nHigh damage, Slow Attack";
+            moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.L))
             {
@@ -187,6 +195,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Attacks";
             controls.text = "I - Overhead Attack\nHigh Damage, Goes through Low Guard";
+            moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.I))
             {
@@ -206,6 +215,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Attacks";
             controls.text = "M - Special Attack\nAttack Unique to Fighting Style";
+            moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.M))
             {
@@ -225,6 +235,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Lunge Attacks";
             controls.text = "Forward + L (Heavy) - \nHigh Damage and Propels Player Forward";
+            moreTimes.text = 4 - success + " more time(s)";
 
             if (playerMovement.ReturnDirection() == 6 && Input.GetKeyDown(KeyCode.L))
             {
@@ -244,6 +255,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Low Attacks";
             controls.text = "Crouch + J/K/L/I/M - Low Attack\n(Goes through normal Guard)";
+            moreTimes.text = 10 - success + " more time(s)";
 
             if (Input.GetKey(KeyCode.S) && (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.L) || Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.M)))
             {
@@ -263,6 +275,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Launcher";
             controls.text = "Crouch + L (Heavy)\nLaunches opponent";
+            moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKey(KeyCode.S) && Input.GetKeyDown(KeyCode.L))
             {
@@ -282,6 +295,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Sweep";
             controls.text = "Crouch + Forward + L (Heavy)\nKnocks Down opponent";
+            moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKey(KeyCode.S) && playerMovement.ReturnDirection() == 6 && Input.GetKeyDown(KeyCode.L))
             {
@@ -301,6 +315,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Jump Attacks";
             controls.text = "Jump + J/K/L/I/M - Jump Attack";
+            moreTimes.text = 10 - success + " more time(s)";
 
             if (!playerMovement.ReturnIsGrounded() && (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.L) || Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.M)))
             {
@@ -320,13 +335,14 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Guarding";
             controls.text = "Walk Backwards - Normal Guard\nBlocks all except Crouch Attacks";
+            moreTimes.text = 3 - success + " more time(s)";
 
             enemyCombat.SetIsCPU(true);
-            enemyCombat.SetDifficulty(2);
+            enemyCombat.SetDifficulty(3);
             enemyMovement.SetIsCPU(true);
             enemyMovement.StopCrouching();
 
-            if ((block.activeSelf || block1.activeSelf || block2.activeSelf || block3.activeSelf) && !blockCooldown)
+            if ((block.activeSelf) && !blockCooldown)
             {
                 success += 1;
                 successAnimator.SetTrigger("Success");
@@ -345,12 +361,15 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Low Guarding";
             controls.text = "Crouch + Backwards - Low Guard\nBlocks all except Overhead Attacks";
+            moreTimes.text = 3 - success + " more time(s)";
 
             enemyCombat.SetIsCPU(true);
+            enemyCombat.SetDifficulty(3);
             enemyMovement.SetWithinAttackRange(true);
             enemyMovement.StartCrouching();
+            StartCoroutine(enemyCombat.ForceMediumAttack());
 
-            if ((block.activeSelf || block1.activeSelf || block2.activeSelf || block3.activeSelf) && !blockCooldown && playerMovement.ReturnIsCrouching())
+            if ((block.activeSelf) && !blockCooldown && playerMovement.ReturnIsCrouching())
             {
                 success += 1;
                 successAnimator.SetTrigger("Success");
@@ -372,6 +391,7 @@ public class TutorialManager : MonoBehaviour
         {
             title.text = "Style Switching";
             controls.text = "SHIFT + W/A/S/D - Switch Styles\nRequires unlocking Styles";
+            moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D)))
             {
