@@ -1592,7 +1592,7 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 30
+    intParameter: 150
     messageOptions: 0
   - time: 0
     functionName: SetAttackIsCrouchAttack
@@ -1620,14 +1620,21 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 2
+    intParameter: 3
     messageOptions: 0
   - time: 0.5
     functionName: PlayAudio
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 3
+    intParameter: 2
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: TriggerVolleyball
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 0.6666667
     functionName: MakePlayerMoveable

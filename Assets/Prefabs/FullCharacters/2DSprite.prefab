@@ -375,6 +375,7 @@ MonoBehaviour:
   player: {fileID: 0}
   player2combat: {fileID: 0}
   player2movement: {fileID: 0}
+  volleyballPrefab: {fileID: 8128651747252930589, guid: ca6c02acc038a0e4984eec65158c69f0, type: 3}
   hitEffect: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
   hitPoint: {fileID: 0}
   isCPU: 1
@@ -383,6 +384,12 @@ MonoBehaviour:
   medium: 0
   hard: 1
   mahoraga: 0
+  toggleLight: 1
+  toggleMedium: 1
+  toggleHeavy: 1
+  toggleOverhead: 1
+  toggleSpecial: 1
+  sandGround: 0
 --- !u!61 &6120326901452586209
 BoxCollider2D:
   m_ObjectHideFlags: 0

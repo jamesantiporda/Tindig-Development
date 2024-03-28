@@ -14,6 +14,8 @@ public class SpriteToPlayer : MonoBehaviour
     public PlayerCombat player2combat;
     public PlayerMovement player2movement;
 
+    public GameObject volleyballPrefab;
+
     private PlayerMovement movement;
     private PlayerCombat combat;
     private PlayerHealth playerHealth;
@@ -280,6 +282,11 @@ public class SpriteToPlayer : MonoBehaviour
         isCPU = makeCPU;
     }
 
+    public bool ReturnSpriteIsMC()
+    {
+        return combat.ReturnIsMC();
+    }
+
     private void Damaged()
     {
         player2movement.changeMoveState(true);
@@ -443,6 +450,21 @@ public class SpriteToPlayer : MonoBehaviour
         SetIFrameOff();
     }
 
+    public void TriggerVolleyball()
+    {
+        var childTransforms = transform.GetComponentsInChildren<Transform>();
+        if (childTransforms.Length > 0)
+        {
+            foreach (var childTransform in childTransforms)
+            {
+                if (childTransform.name == "Circle")
+                {
+                    Instantiate(volleyballPrefab, new Vector3(childTransform.position.x, 0.2f, player.transform.position.z), Quaternion.identity);
+                }
+            }
+        }
+    }
+
     // For Audio Control
     public void PlayAudio(int audioID)
     {
@@ -544,6 +566,16 @@ public class SpriteToPlayer : MonoBehaviour
             }
 
             StartCoroutine(IFramer());
+        }
+
+        if(collision.gameObject.tag == "Volleyball")
+        {
+            if (combat.ReturnIsMC() && combat.ReturnVolleyballTimer() >= 1.0f && combat.ReturnVolleyballAmmo() < 1)
+            {
+                combat.AddVolleyball();
+                Destroy(collision.gameObject);
+                Debug.Log("picked up ball");
+            }
         }
     }
 }

@@ -314,13 +314,21 @@ MonoBehaviour:
   player: {fileID: 0}
   player2combat: {fileID: 0}
   player2movement: {fileID: 0}
+  volleyballPrefab: {fileID: 8128651747252930589, guid: ca6c02acc038a0e4984eec65158c69f0, type: 3}
   hitEffect: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
   hitPoint: {fileID: 0}
   isCPU: 0
+  isBoxer: 0
   easy: 0
   medium: 1
   hard: 0
   mahoraga: 0
+  toggleLight: 1
+  toggleMedium: 1
+  toggleHeavy: 1
+  toggleOverhead: 1
+  toggleSpecial: 1
+  sandGround: 0
 --- !u!95 &8831460759164546854
 Animator:
   serializedVersion: 7
@@ -589,6 +597,7 @@ GameObject:
   - component: {fileID: 8425273657871731788}
   - component: {fileID: 9210222150647249138}
   - component: {fileID: 1535803730256374051}
+  - component: {fileID: 8398937224149221076}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Player1Attack
@@ -699,3 +708,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000011920929}
   m_Radius: 0.080000006
+--- !u!114 &8398937224149221076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8326904174283053995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31dd522bec7a14418c1814b85901763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volleyballPrefab: {fileID: 8128651747252930589, guid: ca6c02acc038a0e4984eec65158c69f0, type: 3}

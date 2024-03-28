@@ -49,6 +49,9 @@ public class PlayerCombat : MonoBehaviour
     private string previousAttack = "";
     private int sameAttackCounter = 0;
 
+    private int volleyballAmmo = 1;
+    private float volleyballTimer = 0.0f;
+
 
     // Accept Input
     private bool acceptInput;
@@ -157,6 +160,11 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(volleyballAmmo <= 0)
+        {
+            volleyballTimer += Time.deltaTime;
+        }
+
         if (acceptInput)
         {
             if (Input.GetKeyDown(lightInput) && canAttack && canLight)
@@ -176,7 +184,14 @@ public class PlayerCombat : MonoBehaviour
 
             if (Input.GetKeyDown(overheadInput) && canAttack && canOverhead)
             {
-                OverheadAttack();
+                if(isMC && volleyballAmmo <= 0)
+                {
+                    
+                }
+                else
+                {
+                    OverheadAttack();
+                }
             }
 
             if (Input.GetKeyDown(specialInput) && canAttack && canSpecial)
@@ -364,6 +379,12 @@ public class PlayerCombat : MonoBehaviour
         movement.changeMoveState(false);
         canAttack = false;
         animator.SetTrigger("OverheadAttack");
+
+        if(isMC)
+        {
+            volleyballAmmo -= 1;
+            volleyballTimer = 0.0f;
+        }
     }
 
     void Special()
@@ -467,6 +488,21 @@ public class PlayerCombat : MonoBehaviour
     private float ReturnRandomFloat(int min, int max)
     {
         return UnityEngine.Random.Range(min, max);
+    }
+
+    public int ReturnVolleyballAmmo()
+    {
+        return volleyballAmmo;
+    }
+
+    public void AddVolleyball()
+    {
+        volleyballAmmo += 1;
+    }
+
+    public bool ReturnIsMC()
+    {
+        return isMC;
     }
 
     public void PunishLowBlock()
@@ -656,6 +692,11 @@ public class PlayerCombat : MonoBehaviour
                 Debug.Log("Invalid attack type");
                 break;
         }
+    }
+
+    public float ReturnVolleyballTimer()
+    {
+        return volleyballTimer;
     }
 
     // To be used in tutorial

@@ -670,6 +670,7 @@ GameObject:
   - component: {fileID: 257619292}
   - component: {fileID: 257619291}
   - component: {fileID: 257619290}
+  - component: {fileID: 257619294}
   m_Layer: 9
   m_Name: Plane
   m_TagString: Ground
@@ -764,6 +765,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &257619294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257619289}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &310922379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1331716257015624902, guid: 99381881149fe2e46b416cb27133c524, type: 3}
@@ -3345,6 +3367,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7e0e53030d0171147868b2e602e317df, type: 2}
+    - target: {fileID: 8950875899531035526, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9214171306589112542, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_RootOrder
       value: 2

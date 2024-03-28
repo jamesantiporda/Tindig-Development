@@ -412,6 +412,7 @@ public class PlayerMovement : MonoBehaviour
             if (((Input.GetKeyDown(forwardInput) && !isCPU) || (aiJump && isCPU)) && isGrounded && !isCrouching && acceptInput && canMove)
             {
                 audioManager.PlaySFX(2);
+                playerRb.velocity = new Vector3(0.0f, playerRb.velocity.y, playerRb.velocity.z);
                 playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
                 StartCoroutine(SlidingEnableDisable());
                 anim.SetTrigger("Jump");
