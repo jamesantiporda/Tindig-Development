@@ -1690,7 +1690,7 @@ PrefabInstance:
     - target: {fileID: 3984785734900977482, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 3875646f22cebd44baf039aa23710a90, type: 2}
+      objectReference: {fileID: 9100000, guid: 95e89efc3f699254a8d9b7888955df2f, type: 2}
     - target: {fileID: 4247505351848270916, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1785,7 +1785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7737839188595776637, guid: 1de3a6ce2003c384081d4f6f0838099b, type: 3}
       propertyPath: m_Sprite
@@ -8029,6 +8029,10 @@ PrefabInstance:
       propertyPath: sikaranController
       value: 
       objectReference: {fileID: 9100000, guid: 14180cd6f7044ac46a3cb44ee68b827c, type: 2}
+    - target: {fileID: 8446320551633434379, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a03c1647b02da1d4d86566887ab39514, type: 2}
     - target: {fileID: 9214171306589112542, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: m_RootOrder
       value: 2

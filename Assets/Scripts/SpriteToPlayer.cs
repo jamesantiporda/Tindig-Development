@@ -334,7 +334,7 @@ public class SpriteToPlayer : MonoBehaviour
             }
             else
             {
-                movement.Launch(6f, 0.20f);
+                movement.Launch(20.0f, 0.0f);
                 anim.SetTrigger("Launched");
             }
         }
@@ -487,8 +487,7 @@ public class SpriteToPlayer : MonoBehaviour
                         randomInt = ReturnRandomInt(0, 3);
                         if (randomInt == 1 && isBoxer && toggleSpecial)
                         {
-                            anim.SetTrigger("Counter");
-                            anim.SetTrigger("CounterHit");
+                            anim.SetTrigger("Special");
                         }
                         else
                         {
@@ -516,8 +515,7 @@ public class SpriteToPlayer : MonoBehaviour
                         randomInt = ReturnRandomInt(0, 3);
                         if (randomInt == 1 && isBoxer && toggleSpecial)
                         {
-                            anim.SetTrigger("Counter");
-                            anim.SetTrigger("CounterHit");
+                            anim.SetTrigger("Special");
                         }
                         else
                         {

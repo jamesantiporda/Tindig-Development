@@ -1026,10 +1026,24 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 200
+    intParameter: 100
     messageOptions: 0
   - time: 0
     functionName: SetAttackIsCrouchAttack
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: MakePlayerUnmoveable
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: MakePlayerUnable
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
