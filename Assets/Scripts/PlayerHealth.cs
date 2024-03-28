@@ -23,11 +23,11 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, int sameAttackCounter)
     {
         if(health >= 0)
         {
-            health -= damage / (1 + healthBar.ReturnCombo());
+            health -= damage / (1 + healthBar.ReturnCombo() + sameAttackCounter/2);
             Debug.Log("DAMAGE: " + damage / (1 + healthBar.ReturnCombo()));
             healthBar.SetHealth(health);
         }

@@ -136,7 +136,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 5)
         {
             title.text = "Attacks";
-            controls.text = "J - Light Attack\nLow Damage, Fast Attack";
+            controls.text = "J - Light Attack\nLow Damage, Fast Attack\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.J))
@@ -156,7 +156,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 6)
         {
             title.text = "Attacks";
-            controls.text = "K - Medium Attack\nMedium damage, Medium Speed";
+            controls.text = "K - Medium Attack\nMedium damage, Medium Speed\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.K))
@@ -176,7 +176,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 7)
         {
             title.text = "Attacks";
-            controls.text = "L - Heavy Attack\nHigh damage, Slow Attack";
+            controls.text = "L - Heavy Attack\nHigh damage, Slow Attack\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.L))
@@ -196,7 +196,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 8)
         {
             title.text = "Attacks";
-            controls.text = "I - Overhead Attack\nHigh Damage, Goes through Low Guard";
+            controls.text = "I - Overhead Attack\nHigh Damage, Goes through Low Guard\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.I))
@@ -216,7 +216,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 9)
         {
             title.text = "Attacks";
-            controls.text = "M - Special Attack\nAttack Unique to Fighting Style";
+            controls.text = "M - Special Attack\nAttack Unique to Fighting Style\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKeyDown(KeyCode.M))
@@ -236,7 +236,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 10)
         {
             title.text = "Lunge Attacks";
-            controls.text = "Forward + L (Heavy) - \nHigh Damage and Propels Player Forward";
+            controls.text = "Forward + L (Heavy) - \nHigh Damage and Propels Player Forward\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 4 - success + " more time(s)";
 
             if (playerMovement.ReturnDirection() == 6 && Input.GetKeyDown(KeyCode.L))
@@ -256,7 +256,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 11)
         {
             title.text = "Low Attacks";
-            controls.text = "Crouch + J/K/L/I/M - Low Attack\n(Goes through normal Guard)";
+            controls.text = "Crouch + J/K/L/I/M - Low Attack\n(Goes through normal Guard)\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 10 - success + " more time(s)";
 
             if (Input.GetKey(KeyCode.S) && (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.L) || Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.M)))
@@ -276,7 +276,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 12)
         {
             title.text = "Launcher";
-            controls.text = "Crouch + L (Heavy)\nLaunches opponent";
+            controls.text = "Crouch + L (Heavy)\nLaunches opponent\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKey(KeyCode.S) && Input.GetKeyDown(KeyCode.L))
@@ -296,7 +296,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 13)
         {
             title.text = "Sweep";
-            controls.text = "Crouch + Forward + L (Heavy)\nKnocks Down opponent";
+            controls.text = "Crouch + Forward + L (Heavy)\nKnocks Down opponent\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 4 - success + " more time(s)";
 
             if (Input.GetKey(KeyCode.S) && playerMovement.ReturnDirection() == 6 && Input.GetKeyDown(KeyCode.L))
@@ -316,7 +316,7 @@ public class TutorialManager : MonoBehaviour
         if (tutorialStage == 14)
         {
             title.text = "Jump Attacks";
-            controls.text = "Jump + J/K/L/I/M - Jump Attack";
+            controls.text = "Jump + J/K/L/I/M - Jump Attack\nTip: Attack Damage gets lower if same attack is used";
             moreTimes.text = 10 - success + " more time(s)";
 
             if (!playerMovement.ReturnIsGrounded() && (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.L) || Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.M)))

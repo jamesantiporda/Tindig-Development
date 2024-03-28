@@ -29,8 +29,12 @@ public class HealthBarScript : MonoBehaviour
     {
         damageTimer = 0.0f;
 
-        comboOfEnemy += 1;
-        enemyCombo.text = "" + comboOfEnemy;
+        if(health < slider.value)
+        {
+            comboOfEnemy += 1;
+            enemyCombo.text = "" + comboOfEnemy;
+        }
+
         slider.value = health;
     }
 

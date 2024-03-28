@@ -84,7 +84,7 @@ public class SpriteToPlayer : MonoBehaviour
         else if(difficulty == 3)
         {
             crouchReactionTime = 1f;
-            maxRandom = 4;
+            maxRandom = 3;
             numberToPunish = 3;
         }
 
@@ -284,7 +284,7 @@ public class SpriteToPlayer : MonoBehaviour
     {
         player2movement.changeMoveState(true);
         player2combat.SetCanAttack(true);
-        playerHealth.TakeDamage(player2combat.ReturnAttackDamage());
+        playerHealth.TakeDamage(player2combat.ReturnAttackDamage(), player2combat.ReturnSameAttackCounter());
         Instantiate(hitEffect, new Vector3(hitPoint.transform.position.x, player.transform.position.y + hitPoint.transform.localPosition.y, player.transform.position.z), Quaternion.identity);
         switch (player2combat.ReturnAttackType())
         {
@@ -356,7 +356,7 @@ public class SpriteToPlayer : MonoBehaviour
         else
         {
             audioManager.PlayAudioClip(audioManager.block);
-            playerHealth.TakeDamage(player2combat.ReturnAttackDamage()/10);
+            playerHealth.TakeDamage(player2combat.ReturnAttackDamage()/10, player2combat.ReturnSameAttackCounter());
         }
         SetIFrameOn();
         anim.SetTrigger("Blocked");
@@ -377,7 +377,7 @@ public class SpriteToPlayer : MonoBehaviour
         else
         {
             audioManager.PlayAudioClip(audioManager.block);
-            playerHealth.TakeDamage(player2combat.ReturnAttackDamage() / 3);
+            playerHealth.TakeDamage(player2combat.ReturnAttackDamage() / 3, player2combat.ReturnSameAttackCounter());
         }
         SetIFrameOn();
         anim.SetTrigger("LowBlocked");
