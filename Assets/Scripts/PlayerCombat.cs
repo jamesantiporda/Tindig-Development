@@ -526,6 +526,7 @@ public class PlayerCombat : MonoBehaviour
     {
         currentSprite.GetComponent<Animator>().SetBool("Dead", false);
         currentSprite.GetComponent<Animator>().SetTrigger("Reset");
+        volleyballAmmo = 1;
 
     }
 

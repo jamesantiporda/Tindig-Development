@@ -209,6 +209,14 @@ public class MatchManager : MonoBehaviour
         timer = 90;
         player1Health.ResetHealth();
         player2Health.ResetHealth();
+
+        var foundVolleyballs = FindObjectsOfType<Volleyball>();
+
+        foreach(var volleyball in foundVolleyballs)
+        {
+            Destroy(volleyball);
+        }
+
     }
 
     private void UpdateRounds(int player)

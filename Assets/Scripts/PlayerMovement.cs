@@ -267,7 +267,6 @@ public class PlayerMovement : MonoBehaviour
 
         //////////////////////////////////////
 
-
         // Get Player Horizontal Input
         if (isFacingRight)
         {
@@ -394,16 +393,18 @@ public class PlayerMovement : MonoBehaviour
 
         // horizontalInput = Input.GetAxisRaw("Horizontal");
 
-
-        // Move the Player Horizontally
-        if (!isCrouching && canMove)
+        if (canMove)
         {
-            horizontalMagnitude = speed * speedMultiplier * horizontalInput;
-            transform.Translate(Vector3.right * Time.deltaTime * horizontalMagnitude);
-        }
-        else
-        {
-            horizontalMagnitude = 0.0f;
+            // Move the Player Horizontally
+            if (!isCrouching)
+            {
+                horizontalMagnitude = speed * speedMultiplier * horizontalInput;
+                transform.Translate(Vector3.right * Time.deltaTime * horizontalMagnitude);
+            }
+            else
+            {
+                horizontalMagnitude = 0.0f;
+            }
         }
 
         // Jump Input
@@ -579,10 +580,11 @@ public class PlayerMovement : MonoBehaviour
         }
         yield return new WaitForSeconds(dashingTime);
         isDashing = false;
-        yield return new WaitForSeconds(dashingCooldown);
-        canDash = true;
         GetComponent<PlayerCombat>().AcceptInput();
         acceptInput = true;
+        canMove = true;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
 
     private IEnumerator ReturnRandomFloat(float min, float max)
