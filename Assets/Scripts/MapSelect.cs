@@ -53,6 +53,15 @@ public class MapSelect : MonoBehaviour
                 selectionNumber += 1;
             }
 
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                StartGame();
+            }
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                mapPanel.SetActive(false);
+            }
         }
     }
 

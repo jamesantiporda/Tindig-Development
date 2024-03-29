@@ -18,6 +18,8 @@ public class CharacterSelect : MonoBehaviour
     private GameObject[] icons;
     private int player1Selection, player2Selection;
 
+    private float mapSelectInactiveTime = 0.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -58,6 +60,8 @@ public class CharacterSelect : MonoBehaviour
     {
         if(!mapSelect.activeSelf)
         {
+            mapSelectInactiveTime += Time.deltaTime;
+
             // Clamp player select to mins and maxes
             if (player1Selection < 0)
             {
@@ -129,7 +133,7 @@ public class CharacterSelect : MonoBehaviour
                 player1Preview.SetActive(true);
             }
 
-            if (Input.GetKeyDown(KeyCode.Escape) && !mapSelect.activeSelf)
+            if (Input.GetKeyDown(KeyCode.Escape) && !mapSelect.activeSelf && mapSelectInactiveTime >= 0.2f)
             {
                 player1Ready.SetActive(false);
                 player1Preview.SetActive(false);
@@ -168,6 +172,10 @@ public class CharacterSelect : MonoBehaviour
                 player2Ready.SetActive(false);
                 player2Preview.SetActive(false);
             }
+        }
+        else
+        {
+            mapSelectInactiveTime = 0.0f;
         }
     }
 

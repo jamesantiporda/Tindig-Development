@@ -6789,6 +6789,7 @@ MonoBehaviour:
   player: {fileID: 1494834635}
   player2combat: {fileID: 733206917}
   player2movement: {fileID: 733206918}
+  volleyballPrefab: {fileID: 0}
   hitEffect: {fileID: 6315948374867840782, guid: 0fc5e8e123e283f44966c58b2668b1b4, type: 3}
   hitPoint: {fileID: 733206915}
   isCPU: 1
@@ -7071,6 +7072,10 @@ PrefabInstance:
     - target: {fileID: 2562205988911480760, guid: 896f6adbc3e320f469d01770d363ca5a, type: 3}
       propertyPath: m_Name
       value: WinScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2562205988911480760, guid: 896f6adbc3e320f469d01770d363ca5a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5455513508882669731, guid: 896f6adbc3e320f469d01770d363ca5a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
