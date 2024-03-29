@@ -184,7 +184,7 @@ public class PlayerCombat : MonoBehaviour
 
             if (Input.GetKeyDown(overheadInput) && canAttack && canOverhead)
             {
-                if(isMC && volleyballAmmo <= 0)
+                if(isMC && volleyballAmmo <= 0 && animator.runtimeAnimatorController == defaultController)
                 {
                     
                 }
@@ -380,7 +380,7 @@ public class PlayerCombat : MonoBehaviour
         canAttack = false;
         animator.SetTrigger("OverheadAttack");
 
-        if(isMC)
+        if(isMC && animator.runtimeAnimatorController == defaultController)
         {
             volleyballAmmo -= 1;
             volleyballTimer = 0.0f;

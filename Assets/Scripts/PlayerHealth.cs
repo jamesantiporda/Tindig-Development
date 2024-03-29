@@ -5,8 +5,10 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public HealthBarScript healthBar;
-    private int health;
+    private int health, attackDamage = 0;
     private bool RCT = false;
+
+    private float damageScaling = 1.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -25,10 +27,14 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage, int sameAttackCounter)
     {
-        if(health >= 0)
+        damageScaling = (float) (1 / (1 + (float) healthBar.ReturnCombo()/2 + ((float) sameAttackCounter) / 3));
+
+        attackDamage = damage / (1 + healthBar.ReturnCombo()/2 + sameAttackCounter / 3);
+
+        if (health >= 0)
         {
-            health -= damage / (1 + healthBar.ReturnCombo() + sameAttackCounter/2);
-            Debug.Log("DAMAGE: " + damage / (1 + healthBar.ReturnCombo()));
+            health -= attackDamage;
+            Debug.Log("DAMAGE: " + attackDamage);
             healthBar.SetHealth(health);
         }
     }
@@ -48,5 +54,15 @@ public class PlayerHealth : MonoBehaviour
     {
         RCT = true;
         healthBar.SetHealthRegen(true);
+    }
+
+    public int ReturnAttackDamage()
+    {
+        return attackDamage;
+    }
+
+    public float ReturnDamageScaling()
+    {
+        return damageScaling;
     }
 }

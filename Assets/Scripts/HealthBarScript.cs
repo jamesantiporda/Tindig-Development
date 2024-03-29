@@ -13,7 +13,7 @@ public class HealthBarScript : MonoBehaviour
 
     private bool regenHealth = false;
 
-    private int comboOfEnemy = 0;
+    private int comboOfEnemy = 0, comboDamage = 0, lastCombo = 0, lastComboDamage = 0;
 
     public TMP_Text enemyCombo;
 
@@ -32,7 +32,10 @@ public class HealthBarScript : MonoBehaviour
         if(health < slider.value)
         {
             comboOfEnemy += 1;
+            comboDamage += (int)slider.value - health;
             enemyCombo.text = "" + comboOfEnemy;
+            lastCombo = comboOfEnemy;
+            lastComboDamage = comboDamage;
         }
 
         slider.value = health;
@@ -53,12 +56,13 @@ public class HealthBarScript : MonoBehaviour
 
         if(regenHealth && damageTimer >= redSliderCooldown && slider.value < slider.maxValue && comboOfEnemy == 0)
         {
-            slider.value += 1;
+            slider.value += 5;
         }
 
         if(damageTimer >= redSliderCooldown)
         {
             comboOfEnemy = 0;
+            comboDamage = 0;
             enemyCombo.text = "";
         }
     }
@@ -71,6 +75,16 @@ public class HealthBarScript : MonoBehaviour
     public int ReturnCombo()
     {
         return comboOfEnemy;
+    }
+
+    public int ReturnLastCombo()
+    {
+        return lastCombo;
+    }
+
+    public int ReturnLastComboDamage()
+    {
+        return lastComboDamage;
     }
 
     public float ReturnSliderValue()
