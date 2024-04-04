@@ -230,10 +230,12 @@ public class MatchManager : MonoBehaviour
             }
             player1RoundsWon += 1;
 
-            if (player1RoundsWon < 2 && player2RoundsWon < 2)
-            {
-                ko.SetActive(true);
-            }
+            //if (player1RoundsWon < 2 && player2RoundsWon < 2)
+            //{
+            //    ko.SetActive(true);
+            //}
+
+            ko.SetActive(true);
         }
         else if(player == 2)
         {
@@ -243,10 +245,12 @@ public class MatchManager : MonoBehaviour
             }
             player2RoundsWon += 1;
 
-            if (player1RoundsWon < 2 && player2RoundsWon < 2)
-            {
-                ko.SetActive(true);
-            }
+            //if (player1RoundsWon < 2 && player2RoundsWon < 2)
+            //{
+            //    ko.SetActive(true);
+            //}
+
+            ko.SetActive(true);
         }
         else if(player == 0)
         {
@@ -274,8 +278,12 @@ public class MatchManager : MonoBehaviour
 
             if(isBoxingBoss)
             {
-                PlayerPrefs.SetString("Boxing", "unlocked");
-                PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+                if(!PlayerPrefs.HasKey("Boxing"))
+                {
+                    PlayerPrefs.SetString("Boxing", "unlocked");
+                    PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+                }
+
                 if (unlocksNextFighters)
                 {
                     PlayerPrefs.SetString("SikaranArea", "unlocked");
@@ -284,8 +292,12 @@ public class MatchManager : MonoBehaviour
             
             if(isSikaranBoss)
             {
-                PlayerPrefs.SetString("Sikaran", "unlocked");
-                PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+                if(!PlayerPrefs.HasKey("Sikaran"))
+                {
+                    PlayerPrefs.SetString("Sikaran", "unlocked");
+                    PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+                }
+                
                 if (unlocksNextFighters)
                 {
                     PlayerPrefs.SetString("ArnisArea", "unlocked");
@@ -294,8 +306,12 @@ public class MatchManager : MonoBehaviour
 
             if(isArnisBoss)
             {
-                PlayerPrefs.SetString("Arnis", "unlocked");
-                PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+                if(!PlayerPrefs.HasKey("Arnis"))
+                {
+                    PlayerPrefs.SetString("Arnis", "unlocked");
+                    PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+                }
+                
                 if (unlocksNextFighters)
                 {
                     PlayerPrefs.SetString("FinalBossArea", "unlocked");
@@ -393,7 +409,9 @@ public class MatchManager : MonoBehaviour
         Time.timeScale = 0.25f;
         matchEnded = true;
         winnerText.text = winnerName + " WINS!";
-        winner.SetActive(true);
+        StartCoroutine(HideRoundEndText());
+        // winner.SetActive(true);
+        StartCoroutine(ShowWinner());
         StartCoroutine(ShowWinScreen());
     }
 
@@ -438,7 +456,20 @@ public class MatchManager : MonoBehaviour
     private IEnumerator ShowWinScreen()
     {
         yield return new WaitForSecondsRealtime(5.0f);
-
+        Time.timeScale = 1.0f;
         winScreen.SetActive(true);
+    }
+
+    private IEnumerator ShowWinner()
+    {
+        yield return new WaitForSecondsRealtime(2.5f);
+        winner.SetActive(true);
+    }
+
+    private IEnumerator HideRoundEndText()
+    {
+        yield return new WaitForSecondsRealtime(2.5f);
+        ko.SetActive(false);
+        timeup.SetActive(false);
     }
 }

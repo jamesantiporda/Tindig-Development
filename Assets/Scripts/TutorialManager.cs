@@ -465,7 +465,7 @@ public class TutorialManager : MonoBehaviour
 
     private void PerfectGuardSuccess()
     {
-        if (!blockCooldown)
+        if (!blockCooldown && successAnimator != null)
         {
             success += 1;
             successAnimator.SetTrigger("Success");
