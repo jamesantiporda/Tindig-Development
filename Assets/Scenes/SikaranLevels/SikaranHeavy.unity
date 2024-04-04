@@ -5280,9 +5280,9 @@ MonoBehaviour:
   isBoxingBoss: 0
   isSikaranBoss: 1
   isArnisBoss: 0
-  isGrunt: 0
-  gruntStyle: 0
-  gruntType: 0
+  isGrunt: 1
+  gruntStyle: 1
+  gruntType: 2
   unlocksNextFighters: 0
 --- !u!4 &1481186392
 Transform:
@@ -5525,6 +5525,7 @@ MonoBehaviour:
   specialInput: 258
   isMC: 0
   isFinalBoss: 0
+  isCampaign: 1
   mcInput: 119
   boxingInput: 100
   sikaranInput: 115

@@ -287,6 +287,7 @@ public class MatchManager : MonoBehaviour
                 if (unlocksNextFighters)
                 {
                     PlayerPrefs.SetString("SikaranArea", "unlocked");
+                    PlayerPrefs.SetString("BoxingGrunt", "unlocked");
                 }
             }
             
@@ -301,6 +302,7 @@ public class MatchManager : MonoBehaviour
                 if (unlocksNextFighters)
                 {
                     PlayerPrefs.SetString("ArnisArea", "unlocked");
+                    PlayerPrefs.SetString("SikaranGrunt", "unlocked");
                 }
             }
 
@@ -315,6 +317,7 @@ public class MatchManager : MonoBehaviour
                 if (unlocksNextFighters)
                 {
                     PlayerPrefs.SetString("FinalBossArea", "unlocked");
+                    PlayerPrefs.SetString("ArnisGrunt", "unlocked");
                 }
             }
 
@@ -326,45 +329,82 @@ public class MatchManager : MonoBehaviour
                         if(gruntType == 0)
                         {
                             PlayerPrefs.SetString("BoxingLight", "unlocked");
+                            PlayerPrefs.SetString("BoxingGrunt", "unlocked");
+                            if (!PlayerPrefs.HasKey("BoxingGruntDamage1"))
+                            {
+                                AddToDamageModifier(0.10f);
+                                PlayerPrefs.SetString("BoxingGruntDamage1", "redeemed");
+                            }
                         }
                         else if(gruntType == 1)
                         {
                             PlayerPrefs.SetString("BoxingMedium", "unlocked");
+                            PlayerPrefs.SetString("BoxingGrunt", "unlocked");
                         }
                         else if(gruntType == 2)
                         {
                             PlayerPrefs.SetString("Boxing", "unlocked");
                             PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+                            if (!PlayerPrefs.HasKey("BoxingGruntDamage2"))
+                            {
+                                AddToDamageModifier(0.10f);
+                                PlayerPrefs.SetString("BoxingGruntDamage2", "redeemed");
+                            }
                         }
                         break;
                     case 1:
                         if (gruntType == 0)
                         {
                             PlayerPrefs.SetString("SikaranLight", "unlocked");
+                            PlayerPrefs.SetString("SikaranGrunt", "unlocked");
+                            if (!PlayerPrefs.HasKey("SikaranGruntDamage1"))
+                            {
+                                AddToDamageModifier(0.10f);
+                                PlayerPrefs.SetString("SikaranGruntDamage1", "redeemed");
+                            }
                         }
                         else if (gruntType == 1)
                         {
                             PlayerPrefs.SetString("SikaranMedium", "unlocked");
+                            PlayerPrefs.SetString("SikaranGrunt", "unlocked");
                         }
                         else if (gruntType == 2)
                         {
                             PlayerPrefs.SetString("Sikaran", "unlocked");
                             PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+                            if(!PlayerPrefs.HasKey("SikaranGruntDamage2"))
+                            {
+                                AddToDamageModifier(0.10f);
+                                PlayerPrefs.SetString("SikaranGruntDamage2", "redeemed");
+                            }
                         }
                         break;
                     case 2:
                         if (gruntType == 0)
                         {
                             PlayerPrefs.SetString("ArnisLight", "unlocked");
+                            PlayerPrefs.SetString("ArnisGrunt", "unlocked");
+                            if(!PlayerPrefs.HasKey("ArnisGruntDamage1"))
+                            {
+                                AddToDamageModifier(0.10f);
+                                PlayerPrefs.SetString("ArnisGruntDamage1", "redeemed");
+                            }
                         }
                         else if (gruntType == 1)
                         {
                             PlayerPrefs.SetString("ArnisMedium", "unlocked");
+                            PlayerPrefs.SetString("ArnisGrunt", "unlocked");
                         }
                         else if (gruntType == 2)
                         {
                             PlayerPrefs.SetString("Arnis", "unlocked");
                             PlayerPrefs.SetInt("NewStyleUnlocked", 1);
+
+                            if(!PlayerPrefs.HasKey("ArnisGruntDamage2"))
+                            {
+                                AddToDamageModifier(0.10f);
+                                PlayerPrefs.SetString("ArnisGruntDamage2", "redeemed");
+                            }
                         }
                         break;
                     default:
@@ -471,5 +511,17 @@ public class MatchManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(2.5f);
         ko.SetActive(false);
         timeup.SetActive(false);
+    }
+
+    private void AddToDamageModifier(float percentage)
+    {
+        if(!PlayerPrefs.HasKey("DamageModifier"))
+        {
+            PlayerPrefs.SetFloat("DamageModifier", 0.0f + percentage);
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("DamageModifier", PlayerPrefs.GetFloat("DamageModifier") + percentage);
+        }
     }
 }

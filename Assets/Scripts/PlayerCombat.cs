@@ -17,6 +17,8 @@ public class PlayerCombat : MonoBehaviour
     public bool isMC = false;
     public bool isFinalBoss = false;
 
+    public bool isCampaign = true;
+
     // Style Switching Input
     public KeyCode mcInput = KeyCode.W;
     public KeyCode boxingInput = KeyCode.D;
@@ -44,6 +46,7 @@ public class PlayerCombat : MonoBehaviour
 
     private bool isLauncher = false, isSweep = false, isCrouchAttack = false;
     private int attackDamage = 50;
+    private float damageModifier = 1.0f;
 
     private string attackType = "";
     private string previousAttack = "";
@@ -154,6 +157,15 @@ public class PlayerCombat : MonoBehaviour
             boxingUnlocked = true;
             sikaranUnlocked = true;
             arnisUnlocked = true;
+        }
+
+        if(isCampaign && isMC && PlayerPrefs.HasKey("DamageModifier"))
+        {
+            damageModifier = 1.0f + PlayerPrefs.GetFloat("DamageModifier");
+        }
+        else
+        {
+            damageModifier = 1.0f;
         }
     }
 
@@ -418,7 +430,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void SetAttackDamage(int damage)
     {
-        attackDamage = damage;
+        attackDamage = (int) (damage * damageModifier);
     }
 
     public int ReturnAttackDamage()

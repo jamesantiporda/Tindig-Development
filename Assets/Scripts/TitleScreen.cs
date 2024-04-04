@@ -65,5 +65,19 @@ public class TitleScreen : MonoBehaviour
         PlayerPrefs.DeleteKey("ArnisArea");
         PlayerPrefs.DeleteKey("FinalBossArea");
         PlayerPrefs.DeleteKey("NotFirstTime");
+
+        PlayerPrefs.DeleteKey("BoxingGrunt");
+        PlayerPrefs.DeleteKey("BoxingGruntDamage1");
+        PlayerPrefs.DeleteKey("BoxingGruntDamage2");
+
+        PlayerPrefs.DeleteKey("SikaranGrunt");
+        PlayerPrefs.DeleteKey("SikaranGruntDamage1");
+        PlayerPrefs.DeleteKey("SikaranGruntDamage2");
+
+        PlayerPrefs.DeleteKey("ArnisGrunt");
+        PlayerPrefs.DeleteKey("ArnisGruntDamage1");
+        PlayerPrefs.DeleteKey("ArnisGruntDamage2");
+
+        PlayerPrefs.DeleteKey("DamageModifier");
     }
 }

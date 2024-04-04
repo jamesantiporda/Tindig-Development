@@ -3315,6 +3315,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 310922379}
     - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
+      propertyPath: isCampaign
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392941544325175248, guid: ef72544bab2f5fd4e87b7916bf581394, type: 3}
       propertyPath: styleIcons
       value: 
       objectReference: {fileID: 310922379}
@@ -7964,6 +7968,7 @@ MonoBehaviour:
   specialInput: 258
   isMC: 0
   isFinalBoss: 0
+  isCampaign: 1
   mcInput: 119
   boxingInput: 100
   sikaranInput: 115

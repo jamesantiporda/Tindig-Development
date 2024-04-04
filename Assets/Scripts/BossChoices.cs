@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class BossChoices : MonoBehaviour
 {
     private Animator bossChoicesAnim;
 
-    public GameObject selection, fadeToBlack, sikaranLocks, arnisLocks, finalBossLocks;
+    public GameObject selection, fadeToBlack, sikaranLocks, arnisLocks, finalBossLocks, boxingGruntLocks, sikaranGruntLocks, arnisGruntLocks;
 
     private int stageNumber = 0;
 
@@ -19,6 +20,8 @@ public class BossChoices : MonoBehaviour
     public LoadingScene loadSceneManager;
 
     public GameObject firstTimeTip;
+
+    public TMP_Text damagePercentText;
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +55,18 @@ public class BossChoices : MonoBehaviour
             bossChoicesAnim.SetInteger("StageToLoad", PlayerPrefs.GetInt("Stage"));
         }
 
+        if(PlayerPrefs.HasKey("BoxingGrunt"))
+        {
+            if(PlayerPrefs.GetString("BoxingGrunt") == "unlocked")
+            {
+                boxingGruntLocks.SetActive(false);
+            }
+            else
+            {
+                boxingGruntLocks.SetActive(true);
+            }
+        }
+
         if(PlayerPrefs.HasKey("SikaranArea"))
         {
             if(PlayerPrefs.GetString("SikaranArea") == "unlocked")
@@ -62,6 +77,18 @@ public class BossChoices : MonoBehaviour
             else
             {
                 sikaranLocks.SetActive(true);
+            }
+        }
+
+        if (PlayerPrefs.HasKey("SikaranGrunt"))
+        {
+            if (PlayerPrefs.GetString("SikaranGrunt") == "unlocked")
+            {
+                sikaranGruntLocks.SetActive(false);
+            }
+            else
+            {
+                sikaranGruntLocks.SetActive(true);
             }
         }
 
@@ -78,6 +105,18 @@ public class BossChoices : MonoBehaviour
             }
         }
 
+        if (PlayerPrefs.HasKey("ArnisGrunt"))
+        {
+            if (PlayerPrefs.GetString("ArnisGrunt") == "unlocked")
+            {
+                arnisGruntLocks.SetActive(false);
+            }
+            else
+            {
+                arnisGruntLocks.SetActive(true);
+            }
+        }
+
         if (PlayerPrefs.HasKey("FinalBossArea"))
         {
             if (PlayerPrefs.GetString("FinalBossArea") == "unlocked")
@@ -91,6 +130,16 @@ public class BossChoices : MonoBehaviour
             }
         }
 
+        if(PlayerPrefs.HasKey("DamageModifier"))
+        {
+            float damagePercent = PlayerPrefs.GetFloat("DamageModifier") * 100;
+            damagePercentText.text = damagePercent.ToString("F0") + "%";
+        }
+        else
+        {
+            damagePercentText.text = "0%";
+        }
+
         sikaranAreaUnlocked = !sikaranLocks.activeSelf;
         arnisAreaUnlocked = !arnisLocks.activeSelf;
         finalBossUnlocked = !finalBossLocks.activeSelf;
@@ -98,6 +147,9 @@ public class BossChoices : MonoBehaviour
         bossChoicesAnim.SetBool("sikaranArea", sikaranAreaUnlocked);
         bossChoicesAnim.SetBool("arnisArea", arnisAreaUnlocked);
         bossChoicesAnim.SetBool("finalBoss", finalBossUnlocked);
+        bossChoicesAnim.SetBool("boxingGrunt", !boxingGruntLocks.activeSelf);
+        bossChoicesAnim.SetBool("sikaranGrunt", !sikaranGruntLocks.activeSelf);
+        bossChoicesAnim.SetBool("arnisGrunt", !arnisGruntLocks.activeSelf);
     }
 
     // Update is called once per frame
