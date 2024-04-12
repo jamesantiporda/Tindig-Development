@@ -119,5 +119,15 @@ public class DialogueManager : MonoBehaviour
             SceneManager.LoadScene("StageSelect");
         }
 
+        if (sceneName == "SikaranWinDialogue")
+        {
+            SceneManager.LoadScene("StageSelect");
+        }
+
+        if (sceneName == "ArnisWinDialogue")
+        {
+            SceneManager.LoadScene("StageSelect");
+        }
+
     }
 }
