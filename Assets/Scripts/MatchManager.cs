@@ -497,7 +497,26 @@ public class MatchManager : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(5.0f);
         Time.timeScale = 1.0f;
-        winScreen.SetActive(true);
+        //winScreen.SetActive(true);
+        if (SceneManager.GetActiveScene().name == "BoxingBoss")
+        {
+            SceneManager.LoadScene("BoxerWinDialogue");
+        }
+
+        if (SceneManager.GetActiveScene().name == "SikaranBoss")
+        {
+            SceneManager.LoadScene("SikaranWinDialogue");
+        }
+
+        if (SceneManager.GetActiveScene().name == "ArnisBoss")
+        {
+            SceneManager.LoadScene("ArnisWinDialogue");
+        }
+
+        if (SceneManager.GetActiveScene().name == "FinalBoss")
+        {
+            SceneManager.LoadScene("FinalBossWinDialogue");
+        }
     }
 
     private IEnumerator ShowWinner()

@@ -35,15 +35,15 @@ public class BossChoices : MonoBehaviour
 
         stages = new string[11];
 
-        stages[1] = "BoxingLight";
-        stages[2] = "BoxingHeavy";
-        stages[3] = "BoxingBoss";
-        stages[4] = "SikaranLight";
-        stages[5] = "SikaranHeavy";
-        stages[6] = "SikaranBoss";
-        stages[7] = "ArnisLight";
-        stages[8] = "ArnisHeavy";
-        stages[9] = "ArnisBoss";
+        stages[1] = "BoxerLightDialogue";
+        stages[2] = "BoxerHeavyDialogue";
+        stages[3] = "BoxerBossDialogue";
+        stages[4] = "SikaranLightDialogue";
+        stages[5] = "SikaranHeavyDialogue";
+        stages[6] = "SikaranBossDialogue";
+        stages[7] = "ArnisLightDialogue";
+        stages[8] = "ArnisHeavyDialogue";
+        stages[9] = "ArnisBossDialogue";
         stages[10] = "FinalBoss";
 
         bossChoicesAnim = gameObject.GetComponent<Animator>();

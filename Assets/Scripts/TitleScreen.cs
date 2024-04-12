@@ -16,6 +16,7 @@ public class TitleScreen : MonoBehaviour
         {
             PlayerPrefs.SetInt("Difficulty", 1);
         }
+
     }
 
     // Update is called once per frame
