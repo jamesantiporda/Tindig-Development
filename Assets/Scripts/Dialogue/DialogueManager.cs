@@ -78,6 +78,11 @@ public class DialogueManager : MonoBehaviour
             SceneManager.LoadScene("BoxingBoss");
         }
 
+        if (sceneName == "BoxerLoseDialogue")
+        {
+            SceneManager.LoadScene("StageSelect");
+        }
+
         // sikaran dialogue scenes
 
         if (sceneName == "SikaranLightDialogue")
@@ -95,6 +100,11 @@ public class DialogueManager : MonoBehaviour
             SceneManager.LoadScene("SikaranBoss");
         }
 
+        if (sceneName == "SikaranLoseDialogue")
+        {
+            SceneManager.LoadScene("StageSelect");
+        }
+
         // arnis dialogue scenes
 
         if (sceneName == "ArnisLightDialogue")
@@ -110,6 +120,11 @@ public class DialogueManager : MonoBehaviour
         if (sceneName == "ArnisBossDialogue")
         {
             SceneManager.LoadScene("ArnisBoss");
+        }
+
+        if (sceneName == "ArnisLoseDialogue")
+        {
+            SceneManager.LoadScene("StageSelect");
         }
 
         // win dialogue scenes
