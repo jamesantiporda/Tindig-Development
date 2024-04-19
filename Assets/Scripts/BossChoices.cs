@@ -35,6 +35,8 @@ public class BossChoices : MonoBehaviour
 
         stages = new string[11];
 
+
+        stages[0] = "TindigIntro";
         stages[1] = "BoxerLightDialogue";
         stages[2] = "BoxerHeavyDialogue";
         stages[3] = "BoxerBossDialogue";
@@ -44,7 +46,7 @@ public class BossChoices : MonoBehaviour
         stages[7] = "ArnisLightDialogue";
         stages[8] = "ArnisHeavyDialogue";
         stages[9] = "ArnisBossDialogue";
-        stages[10] = "FinalBoss";
+        stages[10] = "FinalBossIntro";
 
         bossChoicesAnim = gameObject.GetComponent<Animator>();
         fadeToBlack.SetActive(false);
@@ -215,7 +217,7 @@ public class BossChoices : MonoBehaviour
                 //}
             }
 
-            if (Input.GetKeyDown(KeyCode.Space) && selection.activeSelf && stageNumber != 0)
+            if (Input.GetKeyDown(KeyCode.Space) && selection.activeSelf)
             {
                 StartCoroutine(LoadStage());
             }

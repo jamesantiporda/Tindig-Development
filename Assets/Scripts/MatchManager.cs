@@ -498,6 +498,11 @@ public class MatchManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(5.0f);
         Time.timeScale = 1.0f;
         //winScreen.SetActive(true);
+        if(!isArnisBoss && !isBoxingBoss && !isSikaranBoss)
+        {
+            winScreen.SetActive(true);
+        }
+
         if (SceneManager.GetActiveScene().name == "BoxingBoss")
         {
             SceneManager.LoadScene("BoxerWinDialogue");
@@ -515,7 +520,7 @@ public class MatchManager : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "FinalBoss")
         {
-            SceneManager.LoadScene("FinalBossWinDialogue");
+            SceneManager.LoadScene("FinalBossOutro");
         }
     }
 

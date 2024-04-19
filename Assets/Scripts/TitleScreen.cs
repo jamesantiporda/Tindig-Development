@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TitleScreen : MonoBehaviour
 {
-    public GameObject pressAnyButton, choicePanel;
+    public GameObject pressAnyButton, choicePanel, fadeToBlack;
 
     private bool choicesVisible = false;
 
@@ -37,6 +37,13 @@ public class TitleScreen : MonoBehaviour
 
     public void StageSelect()
     {
+        StartCoroutine(ToStageSelect());
+    }
+
+    private IEnumerator ToStageSelect()
+    {
+        fadeToBlack.SetActive(true);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene("StageSelect");
     }
 

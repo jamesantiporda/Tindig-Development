@@ -15,8 +15,11 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> sentences;
 
+    private LoadingScene loadingScreenManager;
+
     void Start()
     {
+        loadingScreenManager = FindObjectOfType<LoadingScene>();
         scene = SceneManager.GetActiveScene();
         sceneName = scene.name;
         sentences = new Queue<string>();
@@ -65,84 +68,98 @@ public class DialogueManager : MonoBehaviour
 
         if (sceneName == "BoxerLightDialogue")
         {
-            SceneManager.LoadScene("BoxingLight");
+            loadingScreenManager.LoadScene("BoxingLight");
         }
 
         if(sceneName ==  "BoxerHeavyDialogue")
         {
-            SceneManager.LoadScene("BoxingHeavy");
+            loadingScreenManager.LoadScene("BoxingHeavy");
         }
 
         if (sceneName == "BoxerBossDialogue")
         {
-            SceneManager.LoadScene("BoxingBoss");
+            loadingScreenManager.LoadScene("BoxingBoss");
         }
 
         if (sceneName == "BoxerLoseDialogue")
         {
-            SceneManager.LoadScene("StageSelect");
+            loadingScreenManager.LoadScene("StageSelect");
         }
 
         // sikaran dialogue scenes
 
         if (sceneName == "SikaranLightDialogue")
         {
-            SceneManager.LoadScene("SikaranLight");
+            loadingScreenManager.LoadScene("SikaranLight");
         }
 
         if (sceneName == "SikaranHeavyDialogue")
         {
-            SceneManager.LoadScene("SikaranHeavy");
+            loadingScreenManager.LoadScene("SikaranHeavy");
         }
 
         if (sceneName == "SikaranBossDialogue")
         {
-            SceneManager.LoadScene("SikaranBoss");
+            loadingScreenManager.LoadScene("SikaranBoss");
         }
 
         if (sceneName == "SikaranLoseDialogue")
         {
-            SceneManager.LoadScene("StageSelect");
+            loadingScreenManager.LoadScene("StageSelect");
         }
 
         // arnis dialogue scenes
 
         if (sceneName == "ArnisLightDialogue")
         {
-            SceneManager.LoadScene("ArnisLight");
+            loadingScreenManager.LoadScene("ArnisLight");
         }
 
         if (sceneName == "ArnisHeavyDialogue")
         {
-            SceneManager.LoadScene("ArnisHeavy");
+            loadingScreenManager.LoadScene("ArnisHeavy");
         }
 
         if (sceneName == "ArnisBossDialogue")
         {
-            SceneManager.LoadScene("ArnisBoss");
+            loadingScreenManager.LoadScene("ArnisBoss");
         }
 
         if (sceneName == "ArnisLoseDialogue")
         {
-            SceneManager.LoadScene("StageSelect");
+            loadingScreenManager.LoadScene("StageSelect");
         }
 
         // win dialogue scenes
 
         if (sceneName == "BoxerWinDialogue")
         {
-            SceneManager.LoadScene("StageSelect");
+            loadingScreenManager.LoadScene("StageSelect");
         }
 
         if (sceneName == "SikaranWinDialogue")
         {
-            SceneManager.LoadScene("StageSelect");
+            loadingScreenManager.LoadScene("StageSelect");
         }
 
         if (sceneName == "ArnisWinDialogue")
         {
-            SceneManager.LoadScene("StageSelect");
+            loadingScreenManager.LoadScene("StageSelect");
         }
 
+        if (sceneName == "TindigIntro")
+        {
+            loadingScreenManager.LoadScene("StageSelect");
+        }
+
+        if (sceneName == "FinalBossIntro")
+        {
+            loadingScreenManager.LoadScene("FinalBoss");
+        }
+
+        if (sceneName == "FinalBossOutro")
+        {
+            loadingScreenManager.LoadScene("StageSelect");
+        }
     }
 }

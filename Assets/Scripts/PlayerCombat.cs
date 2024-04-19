@@ -582,7 +582,23 @@ public class PlayerCombat : MonoBehaviour
 
         float attackWait = UnityEngine.Random.Range(waitMin, waitMax);
 
-        randomInt = ReturnRandomInt(0, 5);
+        if(canLight && !canHeavy)
+        {
+            randomInt = ReturnRandomInt(0, 3);
+
+            if(randomInt == 2)
+            {
+                randomInt = 3;
+            }
+        }
+        else if(canHeavy && !canLight)
+        {
+            randomInt = ReturnRandomInt(2, 5);
+        }
+        else
+        {
+            randomInt = ReturnRandomInt(0, 5);
+        }
 
 
         //if(isLightGrunt)
