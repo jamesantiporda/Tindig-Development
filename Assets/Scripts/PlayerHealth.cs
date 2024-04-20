@@ -29,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
     {
         damageScaling = (float) (1 / (1 + (float) healthBar.ReturnCombo()/2 + ((float) sameAttackCounter) / 3));
 
-        attackDamage = damage / (1 + healthBar.ReturnCombo()/2 + sameAttackCounter / 3);
+        attackDamage = damage / (1 + healthBar.ReturnCombo()/10 + sameAttackCounter / 3);
 
         if (health >= 0)
         {
