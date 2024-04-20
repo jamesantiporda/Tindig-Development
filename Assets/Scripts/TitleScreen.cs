@@ -6,7 +6,7 @@ using TMPro;
 
 public class TitleScreen : MonoBehaviour
 {
-    public GameObject pressAnyButton, choicePanel, fadeToBlack, settingsPanel;
+    public GameObject pressAnyButton, choicePanel, fadeToBlack, settingsPanel, splashTitle;
 
     private bool choicesVisible = false;
 
@@ -27,6 +27,7 @@ public class TitleScreen : MonoBehaviour
         {
             choicesVisible = true;
             pressAnyButton.SetActive(false);
+            splashTitle.SetActive(false);
             choicePanel.SetActive(true);
         }
     }
