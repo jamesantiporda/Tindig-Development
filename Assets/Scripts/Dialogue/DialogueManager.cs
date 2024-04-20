@@ -159,7 +159,7 @@ public class DialogueManager : MonoBehaviour
 
         if (sceneName == "FinalBossOutro")
         {
-            loadingScreenManager.LoadScene("StageSelect");
+            loadingScreenManager.LoadScene("TitleScreen");
         }
     }
 }

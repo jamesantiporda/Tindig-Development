@@ -545,6 +545,10 @@ public class MatchManager : MonoBehaviour
             {
                 SceneManager.LoadScene("FinalBossOutro");
             }
+            else
+            {
+                winScreen.SetActive(true);
+            }
         }
     }
 
