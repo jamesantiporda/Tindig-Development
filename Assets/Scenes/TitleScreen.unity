@@ -1174,6 +1174,7 @@ MonoBehaviour:
   pressAnyButton: {fileID: 282330322}
   choicePanel: {fileID: 1938508599}
   fadeToBlack: {fileID: 1929951392}
+  settingsPanel: {fileID: 966617795}
 --- !u!4 &908086360
 Transform:
   m_ObjectHideFlags: 0
@@ -1198,6 +1199,11 @@ GameObject:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9213442180643753552, guid: 61e0f35bda6307b48a54ce5fa84aaf58, type: 3}
   m_PrefabInstance: {fileID: 1127240066360237376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &966617795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 638743533337649895, guid: 1e34f5164116e79458877d297abc46d3, type: 3}
+  m_PrefabInstance: {fileID: 2378959548215574121}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &980458100
 GameObject:
@@ -1329,7 +1335,7 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 0
+  - 0.1
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
@@ -2632,6 +2638,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993707279}
   m_CullTransparentMesh: 1
+--- !u!1001 &2001061478
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2747036003900450964, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_Name
+      value: VideoManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 866.7074
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 591.7529
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.83795166
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924554934541677519, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752780914350090472, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: video
+      value: 
+      objectReference: {fileID: 986907311}
+    - target: {fileID: 8752780914350090472, guid: 29aff753c6747f644954971c420a390c, type: 3}
+      propertyPath: defaultVolume
+      value: 0.025
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 29aff753c6747f644954971c420a390c, type: 3}
 --- !u!1 &2048144249
 GameObject:
   m_ObjectHideFlags: 0
