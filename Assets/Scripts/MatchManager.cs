@@ -498,29 +498,53 @@ public class MatchManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(5.0f);
         Time.timeScale = 1.0f;
         //winScreen.SetActive(true);
-        if(!isArnisBoss && !isBoxingBoss && !isSikaranBoss)
+        if((!isArnisBoss && !isBoxingBoss && !isSikaranBoss))
         {
             winScreen.SetActive(true);
         }
 
         if (SceneManager.GetActiveScene().name == "BoxingBoss")
         {
-            SceneManager.LoadScene("BoxerWinDialogue");
+            if(winnerName == player1Name)
+            {
+                SceneManager.LoadScene("BoxerWinDialogue");
+            }
+            else
+            {
+                SceneManager.LoadScene("BoxerLoseDialogue");
+            }
         }
 
         if (SceneManager.GetActiveScene().name == "SikaranBoss")
         {
-            SceneManager.LoadScene("SikaranWinDialogue");
+            if (winnerName == player1Name)
+            {
+                SceneManager.LoadScene("SikaranWinDialogue");
+            }
+            else
+            {
+                SceneManager.LoadScene("SikaranLoseDialogue");
+            }
         }
 
         if (SceneManager.GetActiveScene().name == "ArnisBoss")
         {
-            SceneManager.LoadScene("ArnisWinDialogue");
+            if (winnerName == player1Name)
+            {
+                SceneManager.LoadScene("ArnisWinDialogue");
+            }
+            else
+            {
+                SceneManager.LoadScene("ArnisLoseDialogue");
+            }
         }
 
         if (SceneManager.GetActiveScene().name == "FinalBoss")
         {
-            SceneManager.LoadScene("FinalBossOutro");
+            if (winnerName == player1Name)
+            {
+                SceneManager.LoadScene("FinalBossOutro");
+            }
         }
     }
 
