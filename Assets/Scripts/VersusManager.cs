@@ -105,6 +105,7 @@ public class VersusManager : MonoBehaviour
                 Debug.Log("MC");
                 player1CurrentSprite = p1DefaultSprite;
                 player1CurrentSprite.transform.localScale = new Vector3(1.59f, 1.59f, 1.59f);
+                //player1CurrentSprite.transform.localPosition = new Vector3(player1CurrentSprite.transform.localPosition.x, player1CurrentSprite.transform.localPosition.y - 0.5f, player1CurrentSprite.transform.localPosition.z);
                 player1Movement.isMC = true;
                 player1Combat.isMC = true;
                 break;
@@ -148,6 +149,7 @@ public class VersusManager : MonoBehaviour
                 Debug.Log("MC");
                 player2CurrentSprite = p2DefaultSprite;
                 player2CurrentSprite.transform.localScale = new Vector3(1.59f, 1.59f, 1.59f);
+                //player2CurrentSprite.transform.localPosition = new Vector3(player2CurrentSprite.transform.localPosition.x, player2CurrentSprite.transform.localPosition.y - 0.5f, player2CurrentSprite.transform.localPosition.z);
                 player2Movement.isMC = true;
                 player2Combat.isMC = true;
                 break;

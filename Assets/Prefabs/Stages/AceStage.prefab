@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7878276047144461735}
   m_Layer: 9
   m_Name: Right Wall (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 5958198147175764330}
   m_Layer: 9
   m_Name: Left Wall (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1077,7 +1077,7 @@ Transform:
   - {fileID: 4857176775447688064}
   - {fileID: 7584716614020437379}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4738764780485893652
 GameObject:
